@@ -1,0 +1,4 @@
+[
+  {"id": "example-gs", "active": false, "label": "EXAMPLE: Warriors become 3+ pt dogs",
+   "team": "Warriors", "field": "spread", "op": ">=", "value": 3}
+]
