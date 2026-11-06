@@ -1,5 +1,16 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:20 PT · 🏥 NBA injury update**  
+Tyrese Proctor (Cleveland Cavaliers): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 15:20 PT · ⚡ NCAAB news (RotoWire)**  
+Robbie Avila: Eligibility still a problem, out vs. Mizzou  
+Avila (not injury related) is out for Tuesday's game against Missouri, according to Stu on SLU.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Missouri Tigers  
+→ Check the line NOW before it moves.
+
 **2026-11-06 15:15 PT · 🏥 NBA injury update**  
 Adem Bona (Philadelphia 76ers): Day-To-Day → Out — Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.  
 Kyrie Irving (Dallas Mavericks): Day-To-Day → removed from report (likely available)  

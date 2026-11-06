@@ -544,6 +544,16 @@
    "at": "2026-11-06 15:15 PT",
    "body": "Adem Bona (Philadelphia 76ers): Day-To-Day \u2192 Out \u2014 Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.\nKyrie Irving (Dallas Mavericks): Day-To-Day \u2192 removed from report (likely available)\nSanti Aldama (Dallas Mavericks): Out \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 15:20 PT",
+   "body": "Robbie Avila: Eligibility still a problem, out vs. Mizzou\nAvila (not injury related) is out for Tuesday's game against Missouri, according to Stu on SLU.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Missouri Tigers\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAB news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 15:20 PT",
+   "body": "Tyrese Proctor (Cleveland Cavaliers): Day-To-Day \u2192 removed from report (likely available)",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1817,7 +1827,6 @@
    "Cleveland Cavaliers|Jarrett Allen": "Day-To-Day \u00a6 Allen (knee) is questionable for Friday's game against Philadelphia.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Peyton Watson": "Day-To-Day \u00a6 Watson (hamstring) is questionable for Friday's game against the 76ers.",
-   "Cleveland Cavaliers|Tyrese Proctor": "Day-To-Day \u00a6 Proctor (ankle) is questionable to play in Friday's game against the 76ers.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
    "Dallas Mavericks|Max Christie": "Day-To-Day \u00a6 Christie (hip) is probable for Friday's game against the Jazz.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
@@ -1997,7 +2006,7 @@
    "Carolina Panthers|AJ Dillon": "Active",
    "Carolina Panthers|Akayleb Evans": "Injured Reserve \u00a6 Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official ",
    "Carolina Panthers|Bobby Brown III": "Active \u00a6 Brown (hand) practiced fully Wednesday.",
-   "Carolina Panthers|Bobby Okereke": "Questionable \u00a6 Okereke (foot) did not practice Thursday, Steve Reed of the Associated Press reports.",
+   "Carolina Panthers|Bobby Okereke": "Out \u00a6 out",
    "Carolina Panthers|Brady Christensen": "Injured Reserve \u00a6 Christensen (hamstring) was a full participant at the Panthers' practice Thursday, Steve Reed of the Associate",
    "Carolina Panthers|Bryce Young": "Active \u00a6 Panthers coach Dave Canales said Friday that Young (ankle) is ready for Sunday's game against Denver after a \"",
    "Carolina Panthers|Brycen Tremayne": "Active \u00a6 Tremayne finished with an 11-yard reception on his lone target in Thursday's 27-19 loss to the Packers.",
@@ -2009,14 +2018,14 @@
    "Carolina Panthers|Devin Lloyd": "Active \u00a6 Lloyd posted four tackles in Sunday's loss to the Buccaneers.",
    "Carolina Panthers|Haynes King": "Active",
    "Carolina Panthers|Ja'Tavion Sanders": "Active",
-   "Carolina Panthers|Jaelan Phillips": "Questionable \u00a6 Panthers head coach Dave Canales said Monday that Phillips (hamstring) is trending in the right direction and ",
+   "Carolina Panthers|Jaelan Phillips": "Out \u00a6 out",
    "Carolina Panthers|Jalen Coker": "Active \u00a6 Coker secured two of five targets for 37 yards and a touchdown in the Panthers' 27-19 loss to the Packers on T",
    "Carolina Panthers|John Metchie III": "Active \u00a6 Metchie recorded three receptions for 14 yards on three targets in Thursday's 27-19 loss to the Packers.",
    "Carolina Panthers|Jonathon Brooks": "Injured Reserve \u00a6 Brooks (core) was seen working off to the side during the Panthers' unofficial practice Tuesday, Joe Person of",
    "Carolina Panthers|Ryan Fitzgerald": "Active \u00a6 Fitzgerald made both field-goal attempts and converted his only extra-point try in Thursday's 27-19 loss to Gr",
    "Carolina Panthers|Tetairoa McMillan": "Active \u00a6 McMillan brought in six of 11 targets for 57 yards in the Panthers' 27-19 loss to the Packers on Thursday.",
-   "Carolina Panthers|Torricelli Simpkins III": "Active \u00a6 Simpkins (ankle) was a full participant at the Panthers' practice Thursday, Steve Reed of the Associated Press",
-   "Carolina Panthers|Will Lee III": "Out \u00a6 out",
+   "Carolina Panthers|Torricelli Simpkins III": "Questionable \u00a6 questionable",
+   "Carolina Panthers|Will Lee III": "Out \u00a6 Lee (hamstring) did not practice Thursday, Steve Reed of the Associated Press reports.",
    "Carolina Panthers|Xavier Legette": "Injured Reserve \u00a6 Panthers head coach Dave Canales said Monday that Legette (knee) will \"potentially\" be designated for return f",
    "Carolina Panthers|Zakee Wheatley": "Active \u00a6 Wheatley recorded seven total tackles (four solo) and an interception during Thursday night's 27-19 loss to th",
    "Chicago Bears|Braxton Jones": "Injured Reserve \u00a6 Jones (knee) is out for the rest of the season, Brad Biggs of the Chicago Tribune reports.",
@@ -2573,7 +2582,7 @@
    "San Francisco 49ers|Brandon Aiyuk": "Out \u00a6 Aiyuk's effort to secure his release by reporting to the 49ers' facility Friday could be complicated by roughl",
    "San Francisco 49ers|Brock Purdy": "Active \u00a6 Purdy completed 27 of 40 passes for 288 yards with one touchdown and two interceptions and added two carries f",
    "San Francisco 49ers|Christian Kirk": "Out \u00a6 Kirk (knee) will miss Sunday's game against Las Vegas and may need surgery for a meniscus injury, David Lombar",
-   "San Francisco 49ers|Christian McCaffrey": "Active \u00a6 McCaffrey (hamstring) took part in the open portion of Friday's practice, Nick Wagoner of ESPN reports.",
+   "San Francisco 49ers|Christian McCaffrey": "Active \u00a6 McCaffrey (hamstring) doesn't have a designation for Sunday's game versus the Raiders, Nick Wagoner of ESPN.co",
    "San Francisco 49ers|De'Zhaun Stribling": "Injured Reserve \u00a6 Stribling (ankle) was spotted Monday walking without crutches or a brace on his lower leg, Matt Barrows of The",
    "San Francisco 49ers|Deebo Samuel Sr.": "Out \u00a6 Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com repo",
    "San Francisco 49ers|Demarcus Robinson": "Injured Reserve \u00a6 Robinson (ankle) practiced on a limited basis Thursday.",
@@ -2597,14 +2606,14 @@
    "Seattle Seahawks|AJ Barner": "Active \u00a6 Barner brought in two of five targets for 23 yards in the Seahawks' 34-17 loss to the Bears on Monday night.",
    "Seattle Seahawks|Anthony Bradford": "Active",
    "Seattle Seahawks|Beau Stephens": "Active",
-   "Seattle Seahawks|Brandon Pili": "Questionable \u00a6 Pili (back) is inactive for Monday night's game against the Bears, John Boyle of the Seahawks' official site r",
+   "Seattle Seahawks|Brandon Pili": "Out \u00a6 out",
    "Seattle Seahawks|Charles Cross": "Questionable \u00a6 Cross (ankle) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site r",
    "Seattle Seahawks|Connor O'Toole": "Questionable \u00a6 questionable",
    "Seattle Seahawks|Cooper Kupp": "Active \u00a6 Kupp caught one of three targets for a seven-yard touchdown Monday in a loss to the Bears.",
-   "Seattle Seahawks|Derick Hall": "Questionable \u00a6 questionable",
+   "Seattle Seahawks|Derick Hall": "Active",
    "Seattle Seahawks|Drew Lock": "Active \u00a6 Lock (right elbow) doesn't have a designation for Sunday's contest against the Cardinals, John Boyle of the Se",
    "Seattle Seahawks|Emanuel Wilson": "Active \u00a6 Wilson played just seven snaps -- all on special teams -- in Monday's 34-17 loss to the Bears.",
-   "Seattle Seahawks|Ernest Jones IV": "Questionable \u00a6 Jones (ankle) was a limited participant at the Seahawks' practice Thursday, John Boyle of the team's official ",
+   "Seattle Seahawks|Ernest Jones IV": "Active \u00a6 Jones (ankle) was a limited participant at the Seahawks' practice Thursday, John Boyle of the team's official ",
    "Seattle Seahawks|George Holani": "Active \u00a6 Holani carried once for nine yards and failed to haul in his lone target in Monday's 34-17 loss to the Bears. ",
    "Seattle Seahawks|Jadarian Price": "Active \u00a6 Price rushed 10 times for 29 yards and brought in two of four targets for eight yards in the Seahawks' 34-17 l",
    "Seattle Seahawks|Jalen Milroe": "Active \u00a6 Milroe will get added reps at practice ahead of Sunday's matchup with the Cardinals, Gregg Bell of Sports Radi",
@@ -2616,7 +2625,7 @@
    "Seattle Seahawks|Rashid Shaheed": "Out \u00a6 Shaheed (knee) is listed as out for Sunday's game against the Cardinals, Gregg Bell of 933 KJR reports.",
    "Seattle Seahawks|Sam Darnold": "Out \u00a6 Darnold (quadriceps), who has been ruled out for Sunday's game against the Cardinals, is considered week-to-we",
    "Seattle Seahawks|Tory Horton": "Active \u00a6 Horton recorded three receptions for 26 yards on six targets in Monday's 34-17 loss to the Bears.",
-   "Seattle Seahawks|Uchenna Nwosu": "Questionable \u00a6 Nwosu (ankle) is inactive for Monday's clash with the Bears, John Boyle of the Seahawks' official site reports",
+   "Seattle Seahawks|Uchenna Nwosu": "Out \u00a6 out",
    "Seattle Seahawks|Velus Jones Jr.": "Questionable \u00a6 questionable",
    "Seattle Seahawks|Zach Charbonnet": "Active \u00a6 Charbonnet (knee) rushed six times for 23 yards and brought in three of four targets for six yards in the Seah",
    "Tampa Bay Buccaneers|Alex Anzalone": "Active \u00a6 Anzalone recorded six total tackles (three solo) and two interceptions in Sunday's 16-0 win over the Falcons.",
@@ -2696,7 +2705,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:15:12.953868-08:00",
+ "last_run": "2026-11-06T15:20:12.686777-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3208,7 +3217,9 @@
   "50402469",
   "50402485",
   "50402514",
-  "50402579"
+  "50402579",
+  "50402614",
+  "50402615"
  ],
  "props": {
   "T103": {
@@ -3239,6 +3250,7 @@
   "cbb164568",
   "cbb164570",
   "cbb164571",
+  "cbb164575",
   "cfb238565",
   "cfb238566",
   "cfb238567",
