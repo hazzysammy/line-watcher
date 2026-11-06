@@ -1,5 +1,46 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 06:36 PT · 🌦 Weather game**  
+CFB Temple Owls @ Navy Midshipmen (Sat 12:30 PM PT)  
+Navy-Marine Corps Memorial Stadium — 💨 wind 13 mph (gusts 33)  
+Total 54.5 · NAVY -7.5  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
+**2026-11-06 06:36 PT · ⚡ NFL news (RotoWire)**  
+Brian Robinson: Ruled out for Sunday's game  
+Robinson (hamstring) has been ruled out for Sunday's game against the Bengals, Tori McElhaney of the Falcons' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 06:36 PT · 📰 SOCCER news**  
+Tuchel: Palmer misses too many opportunities to impress  
+Tuchel: Palmer misses too many opportunities to impress  
+Plays within 36h: Chelsea  
+→ Check the line NOW before it moves.
+
+**2026-11-06 06:36 PT · 📰 SOCCER news**  
+Man United's Carlos Baleba set for long injury absence with hamstring issue  
+Manchester United boss Michael Carrick has confirmed Carlos Baleba is set for a lengthy spell on the sidelines after suffering a hamstring injury against Roma.  
+Plays within 36h: AS Roma, Leeds United  
+→ Check the line NOW before it moves.
+
+**2026-11-06 06:36 PT · 📰 NBA news**  
+Doc Rivers: Giannis 'didn't want to be the bad guy' when seeking Bucks exit  
+Former Bucks coach Doc Rivers says Giannis Antetokounmpo "didn't want to be the bad guy" when he was trying to seek a trade out of Milwaukee last season.  
+Plays within 36h: Milwaukee Bucks  
+→ Check the line NOW before it moves.
+
+**2026-11-06 06:36 PT · 📈 Line move**  
+CBB Wagner Seahawks @ Miami Hurricanes (Fri 6:00 PM PT)  
+Spread MIA -31.5 → -38.5  
+(first seen: MIA -31.5, O/U 146.5)
+
+**2026-11-06 06:36 PT · 📈 Line move**  
+CBB Northeastern Huskies @ Virginia Cavaliers (Fri 2:00 PM PT)  
+Total 159.5 → 162.5  
+(first seen: UVA -33.5, O/U 159.5)
+
 **2026-11-06 05:43 PT · 📈 Line move**  
 CBB UConn Huskies @ Michigan Wolverines (Fri 5:00 PM PT)  
 Total 144.5 → 141.5  
