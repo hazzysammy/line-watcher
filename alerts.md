@@ -1,5 +1,21 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:03 PT · 🏥 NFL injury update**  
+🚨⭐ Christian McCaffrey (San Francisco 49ers): Questionable → Active  
+🚨⭐ Deebo Samuel Sr. (San Francisco 49ers): Questionable → Out — Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com repo  
+🚨⭐ Mike Evans (San Francisco 49ers): Questionable → Out — Evans (Achilles) didn't participate in the portion of Friday's practice open to the media, Nick Wagoner of ESP
+
+**2026-11-06 14:03 PT · 🏥 NBA injury update**  
+Josh Hart (New York Knicks): Day-To-Day → Out — Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.
+
+**2026-11-06 14:03 PT · ⚡ NBA news (RotoWire)**  
+Josh Hart: Ruled out for Saturday  
+Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Cleveland Cavaliers, New York Knicks  
+→ Check the line NOW before it moves.
+
 **2026-11-06 13:38 PT · 🏥 NBA injury update**  
 De'Andre Hunter (Sacramento Kings): NEW → Day-To-Day — Hunter is questionable for Friday against the Spurs due to an illness.  
 Noah Clowney (Brooklyn Nets): Day-To-Day → removed from report (likely available)  
