@@ -1,5 +1,76 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 11:29 PT · 🏥 NBA injury update**  
+Kyrie Irving (Dallas Mavericks): NEW → Day-To-Day — Irving (illness) is probable for Friday's game against Utah.
+
+**2026-11-06 11:29 PT · ⚡ NCAAF news (RotoWire)**  
+Maddux Madsen: Ruled out for Saturday  
+Madsen will miss Saturday's game at Colorado State due to a minor knee injury, Pete Thamel of ESPN reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Colorado Buffaloes, Colorado State Rams  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · ⚡ NCAAF news (RotoWire)**  
+Max Cutforth: Set to start Saturday  
+Cutforth will start Saturday against Colorado State, according to Pete Thamel of ESPN.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Colorado Buffaloes, Colorado State Rams  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · ⚡ NCAAB news (RotoWire)**  
+Vyctorius Miller: Not playing Saturday  
+Miller (hand) will not play this Saturday against Maryland, Jon Rothstein of CBS Sports reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Maryland Terrapins  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · ⚡ NFL news (RotoWire)**  
+TreVeyon Henderson: Won't play Sunday against Green Bay  
+Henderson (illness) won't play Sunday against the Packers, Evan Lazar of the Patriots' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · ⚡ NFL news (RotoWire)**  
+Rhamondre Stevenson: Set for expanded workload again in Week 9  
+With TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle an expanded workload Sunday against the Packers, Mark Daniels of MassLive.com reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · ⚡ NBA news (RotoWire)**  
+Kyrie Irving: Added to injury report  
+Irving (illness) is probable for Friday's game against Utah.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Dallas Mavericks, Utah Jazz  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · 📰 NCAAF news**  
+Sources: QB Maddux Madsen out vs. Rams, Boise State targets return next week  
+Boise State quarterback Maddux Madsen (knee) will not play at Colorado State, with the Broncos expecting him to return next week, sources told ESPN. Max Cutforth is set to start in Madsen's place.  
+Plays within 36h: Boise State Broncos, Colorado State Rams  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · 📰 NCAAF news**  
+Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers  
+Wisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN.  
+Plays within 36h: Wisconsin Badgers  
+→ Check the line NOW before it moves.
+
+**2026-11-06 11:29 PT · 📈 Line move**  
+BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
+Total 4.5 → 3.5  
+(first seen: M05 +1.5, O/U 4.5)
+
+**2026-11-06 11:29 PT · 📈 Line move**  
+NBA San Antonio Spurs @ Sacramento Kings (Fri 7:00 PM PT)  
+Spread SAC +15.5 → +17.5  
+(first seen: SAC +15.5, O/U 229.5)
+
 **2026-11-06 10:31 PT · 🏥 NBA injury update**  
 Dennis Schroder (Charlotte Hornets): Day-To-Day → Out — Schroder (thigh) is out for Friday's game versus Boston.  
 Moussa Diabate (Charlotte Hornets): Day-To-Day → Out — Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official i  

@@ -274,6 +274,61 @@
    "at": "2026-11-06 10:31 PT",
    "body": "Dennis Schroder (Charlotte Hornets): Day-To-Day \u2192 Out \u2014 Schroder (thigh) is out for Friday's game versus Boston.\nMoussa Diabate (Charlotte Hornets): Day-To-Day \u2192 Out \u2014 Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official i\nTerrence Shannon Jr. (Minnesota Timberwolves): Day-To-Day \u2192 Out \u2014 Shannon (hip) has been ruled out for Friday's game against New Orleans.\nJakob Poeltl (Toronto Raptors): NEW \u2192 Day-To-Day \u2014 Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.\nImmanuel Quickley (Toronto Raptors): NEW \u2192 Day-To-Day \u2014 Quickley (hamstring) is questionable for Friday against the Bucks.\nTrey Murphy III (New Orleans Pelicans): Day-To-Day \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "NBA San Antonio Spurs @ Sacramento Kings (Fri 7:00 PM PT)\nSpread SAC +15.5 \u2192 +17.5\n(first seen: SAC +15.5, O/U 229.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)\nTotal 4.5 \u2192 3.5\n(first seen: M05 +1.5, O/U 4.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Source: Wisconsin to start freshman QB Ryan Hopkins vs. Rutgers\nWisconsin freshman quarterback Ryan Hopkins is expected to get his first start against Rutgers on Saturday, replacing Colton Joseph, a source confirmed to ESPN.\nPlays within 36h: Wisconsin Badgers\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAF news"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Sources: QB Maddux Madsen out vs. Rams, Boise State targets return next week\nBoise State quarterback Maddux Madsen (knee) will not play at Colorado State, with the Broncos expecting him to return next week, sources told ESPN. Max Cutforth is set to start in Madsen's place.\nPlays within 36h: Boise State Broncos, Colorado State Rams\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAF news"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Kyrie Irving: Added to injury report\nIrving (illness) is probable for Friday's game against Utah.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Dallas Mavericks, Utah Jazz\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Rhamondre Stevenson: Set for expanded workload again in Week 9\nWith TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle an expanded workload Sunday against the Packers, Mark Daniels of MassLive.com reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "TreVeyon Henderson: Won't play Sunday against Green Bay\nHenderson (illness) won't play Sunday against the Packers, Evan Lazar of the Patriots' official site reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Vyctorius Miller: Not playing Saturday\nMiller (hand) will not play this Saturday against Maryland, Jon Rothstein of CBS Sports reports.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Maryland Terrapins\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAB news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Max Cutforth: Set to start Saturday\nCutforth will start Saturday against Colorado State, according to Pete Thamel of ESPN.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Colorado Buffaloes, Colorado State Rams\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Maddux Madsen: Ruled out for Saturday\nMadsen will miss Saturday's game at Colorado State due to a minor knee injury, Pete Thamel of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Colorado Buffaloes, Colorado State Rams\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 11:29 PT",
+   "body": "Kyrie Irving (Dallas Mavericks): NEW \u2192 Day-To-Day \u2014 Irving (illness) is probable for Friday's game against Utah.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -845,7 +900,7 @@
     "total": 4.5
    },
    "spread_home": 1.5,
-   "total": 4.5
+   "total": 3.5
   },
   "401884743": {
    "date": "2026-11-07T17:30Z",
@@ -1084,7 +1139,7 @@
     "spread_home": 15.5,
     "total": 229.5
    },
-   "spread_home": 15.5,
+   "spread_home": 17.5,
    "total": 229.5
   },
   "401909772": {
@@ -1284,6 +1339,10 @@
    40.58526,
    -105.08442
   ],
+  "Gainesville, FL": [
+   29.65163,
+   -82.32483
+  ],
   "Greenville, NC": [
    35.61266,
    -77.36635
@@ -1311,6 +1370,10 @@
   "Lafayette, LA": [
    30.22409,
    -92.01984
+  ],
+  "Las Cruces, NM": [
+   32.31232,
+   -106.77834
   ],
   "Lawrence, KS": [
    38.97167,
@@ -1488,12 +1551,13 @@
    "Charlotte Hornets|Moussa Diabate": "Out \u00a6 Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official i",
    "Chicago Bulls|Jalen Smith": "Day-To-Day \u00a6 Smith (hand) won't return to Wednesday's game against the Knicks.",
    "Chicago Bulls|Nic Claxton": "Out \u00a6 Head coach Tiago Splittler said Friday that Claxton (hamstring) is expected to make his season debut Sunday ag",
-   "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins (undisclosed) exited to the locker room in the fourth quarter of Wednesday's 135-105 loss to the Knick",
+   "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "Cleveland Cavaliers|Jarrett Allen": "Day-To-Day \u00a6 Allen (knee) is questionable for Friday's game against Philadelphia.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Peyton Watson": "Day-To-Day \u00a6 Watson (hamstring) is questionable for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Tyrese Proctor": "Day-To-Day \u00a6 Proctor (ankle) is questionable to play in Friday's game against the 76ers.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
+   "Dallas Mavericks|Kyrie Irving": "Day-To-Day \u00a6 Irving (illness) is probable for Friday's game against Utah.",
    "Dallas Mavericks|Max Christie": "Day-To-Day \u00a6 Christie (hip) is probable for Friday's game against the Jazz.",
    "Dallas Mavericks|Santi Aldama": "Out \u00a6 Aldama (knee) is probable to suit up for Friday's game against the Jazz.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
@@ -1581,9 +1645,9 @@
    "Arizona Cardinals|Harrison Wallace III": "Active \u00a6 The Cardinals signed Wallace from the practice squad to the active roster Tuesday.",
    "Arizona Cardinals|Isaiah Adams": "Injured Reserve \u00a6 Adams (ankle) was a limited participant at the Cardinals' practice Thursday, Darren Urban of the team's offici",
    "Arizona Cardinals|James Conner": "Injured Reserve \u00a6 Cardinals head coach Mike LaFleur said Tuesday that Conner (foot) won't return from IR this week, Darren Urban",
-   "Arizona Cardinals|Jayden Williams": "Out \u00a6 out",
+   "Arizona Cardinals|Jayden Williams": "Out \u00a6 Williams (knee) did not participate at Arizona's practice Thursday, Darren Urban of the Cardinals' official si",
    "Arizona Cardinals|Jeremiyah Love": "Injured Reserve \u00a6 Arizona placed Love (ankle) on injured reserve Tuesday, Darren Urban of the Cardinals' official site reports.",
-   "Arizona Cardinals|Jon Gaines II": "Out \u00a6 out",
+   "Arizona Cardinals|Jon Gaines II": "Out \u00a6 Gaines (ankle) did not participate at the Cardinals' practice Thursday, Darren Urban of the team's official si",
    "Arizona Cardinals|Kendrick Bourne": "Injured Reserve \u00a6 Arizona placed Bourne (tibia) on injured reserve Tuesday, Darren Urban of the Cardinals' official site reports",
    "Arizona Cardinals|Max Melton": "Questionable \u00a6 questionable",
    "Arizona Cardinals|Michael Wilson": "Questionable \u00a6 Wilson (rest/ribs) was a limited practice participant Thursday, Darren Urban of the Cardinals' official site r",
@@ -1623,6 +1687,7 @@
    "Baltimore Ravens|Aeneas Peebles": "Out \u00a6 inactive",
    "Baltimore Ravens|Austin Reed": "Active \u00a6 Reed was signed off the practice squad to the 53-man roster ahead of Thursday's game against Jacksonville.",
    "Baltimore Ravens|Derrick Henry": "Active \u00a6 Henry rushed 17 times for 57 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night. He also complet",
+   "Baltimore Ravens|Devontez Walker": "Active \u00a6 Walker didn't garner a target in Thursday night's 33-10 loss to the Jaguars.",
    "Baltimore Ravens|Elijah Sarratt": "Out \u00a6 inactive",
    "Baltimore Ravens|Emery Jones Jr.": "Out \u00a6 inactive",
    "Baltimore Ravens|Jacoby Brissett": "Active \u00a6 The Ravens acquired Brissett and a 2027 fifth-round pick from the Cardinals on Friday in exchange for a 2027 f",
@@ -1631,12 +1696,11 @@
    "Baltimore Ravens|Joe Fagnano": "Active \u00a6 Fagnano completed 10 of 18 passes for 60 yards with no touchdowns and two interceptions while adding three rus",
    "Baltimore Ravens|John Jenkins": "Active",
    "Baltimore Ravens|John Simpson": "Active",
-   "Baltimore Ravens|Josh Cuevas": "Active \u00a6 Cuevas caught one of two targets for 15 yards during Sunday's 36-10 loss at Buffalo.",
+   "Baltimore Ravens|Josh Cuevas": "Active \u00a6 Cuevas didn't garner a target in Thursday night's 33-10 loss to the Jaguars.",
    "Baltimore Ravens|Justice Hill": "Active \u00a6 Hill rushed nine times for 85 yards and a touchdown and brought in all three targets for seven yards in the Ra",
    "Baltimore Ravens|Kedon Slovis": "Out \u00a6 Slovis (coach's decision) is inactive for Thursday's game against Jacksonville but will serve as the team's em",
    "Baltimore Ravens|Kyle Hamilton": "Questionable \u00a6 Hamilton (hip) has been ruled out for the remainder of Thursday night's contest against the Jaguars.",
    "Baltimore Ravens|Lamar Jackson": "Injured Reserve \u00a6 The Ravens have officially placed Jackson (thumb) on injured reserve.",
-   "Baltimore Ravens|Malaki Starks": "Active \u00a6 Starks finished Sunday's loss to Buffalo with 10 tackles (five solo).",
    "Baltimore Ravens|Mark Andrews": "Active \u00a6 Andrews secured both targets for 19 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night.",
    "Baltimore Ravens|Nate Wiggins": "Out \u00a6 Wiggins (illness) is inactive for Thursday's game versus the Jaguars.",
    "Baltimore Ravens|Rashod Bateman": "Active \u00a6 Bateman caught one of two targets for six yards in Thursday night's 33-10 loss to the Jaguars.",
@@ -1765,7 +1829,7 @@
    "Cleveland Browns|Parker Brailsford": "Active",
    "Cleveland Browns|Quincy Williams": "Questionable \u00a6 Williams (hamstring) was a limited participant in Thursday's practice, Zac Jackson of The Athletic reports.",
    "Cleveland Browns|Quinshon Judkins": "Active \u00a6 Judkins rushed 11 times for 25 yards and brought in both targets for 24 yards in the Browns' 27-6 loss to the ",
-   "Cleveland Browns|Shedeur Sanders": "Active \u00a6 Sanders will start at quarterback Sunday against the Saints, Scott Petrak reports.",
+   "Cleveland Browns|Shedeur Sanders": "Active \u00a6 Sanders will start at quarterback Sunday against the Saints, Scott Petrak of the Elyria Chronicle-Telegram rep",
    "Cleveland Browns|Taylen Green": "Active",
    "Cleveland Browns|Tylan Wallace": "Active \u00a6 Wallace recorded a three-yard reception on his lone target in Sunday's 27-6 loss to the Steelers.",
    "Dallas Cowboys|Brandon Aubrey": "Active \u00a6 Aubrey made three of his four field-goal attempts and all three PATs in the Cowboys' 33-30 overtime loss to th",
@@ -1934,12 +1998,12 @@
    "Jacksonville Jaguars|Ezra Cleveland": "Active",
    "Jacksonville Jaguars|Foyesade Oluokun": "Active \u00a6 Oluokun recorded nine total tackles (five solo), including 1.0 sacks, during Sunday's 42-7 win against the Col",
    "Jacksonville Jaguars|Jakobi Meyers": "Active \u00a6 Meyers brought in four of six targets for 65 yards in the Jaguars' 33-10 win over the Ravens on Thursday night",
-   "Jacksonville Jaguars|Jamal Hill": "Active",
    "Jacksonville Jaguars|Jarrian Jones": "Active",
    "Jacksonville Jaguars|Josh Cameron": "Active \u00a6 Cameron caught his only target for six yards in Thursday night's 33-10 victory over the Ravens.",
+   "Jacksonville Jaguars|Nate Boerkircher": "Active \u00a6 Boerkircher hauled in two of three targets for 61 yards in Thursday night's 33-10 win over Baltimore.",
    "Jacksonville Jaguars|Parker Washington": "Active \u00a6 Washington secured two of seven targets for 61 yards and a touchdown in the Jaguars' 33-10 win over the Ravens",
    "Jacksonville Jaguars|Rayuan Lane III": "Active \u00a6 Lane recorded four total tackles (one solo) and three passes defensed, including a pick-six, during Sunday's 4",
-   "Jacksonville Jaguars|Travis Hunter": "Active \u00a6 Hunter caught his only target for minus-one yard and lost a fumble in Thursday night's 33-10 win over the Rave",
+   "Jacksonville Jaguars|Travis Hunter": "Active \u00a6 Hunter caught his only target for minus-1 yard and lost a fumble in Thursday night's 33-10 win over the Ravens",
    "Jacksonville Jaguars|Travon Walker": "Active \u00a6 Walker (ribs) is available for Thursday's game against Baltimore.",
    "Jacksonville Jaguars|Trevor Lawrence": "Active \u00a6 Lawrence completed 16 of 26 passes for 242 yards with a touchdown and no interceptions while rushing once for ",
    "Jacksonville Jaguars|Wesley Williams": "Out \u00a6 inactive",
@@ -1955,14 +2019,14 @@
    "Kansas City Chiefs|Jaylon Moore": "Active \u00a6 Moore (concussion) does not carry an injury designation into Sunday's game against the Broncos.",
    "Kansas City Chiefs|Kenneth Walker III": "Active \u00a6 Walker carried the ball 21 times for 69 yards and caught four of five targets for 15 yards in Sunday's 28-24 l",
    "Kansas City Chiefs|L'Jarius Sneed": "Injured Reserve \u00a6 The Chiefs placed Sneed (knee) on injured reserve Saturday.",
-   "Kansas City Chiefs|Mansoor Delane": "Questionable \u00a6 questionable",
+   "Kansas City Chiefs|Mansoor Delane": "Out \u00a6 out",
    "Kansas City Chiefs|Nick Bolton": "Active \u00a6 Bolton registered 11 tackles (six solo) during the Chiefs' 20-3 loss to the Seahawks on Sunday.",
    "Kansas City Chiefs|Nikko Remigio": "Active \u00a6 Remigio (hip) was a full participant at the Chiefs' practice Thursday.",
    "Kansas City Chiefs|Noah Gray": "Active \u00a6 Gray caught both of his targets for 15 yards and a touchdown in Sunday's 28-24 loss to the Broncos.",
    "Kansas City Chiefs|Nohl Williams": "Active \u00a6 Williams finished Sunday's 20-3 loss to the Seahawks with 10 tackles (four solo) and one interception.",
    "Kansas City Chiefs|Omarr Norman-Lott": "Out \u00a6 The Chiefs designated Norman-Lott (knee) to return from injured reserve Wednesday.",
    "Kansas City Chiefs|Patrick Mahomes": "Active \u00a6 Mahomes completed 30 of 41 passes for 321 yards and three touchdowns in Sunday's 28-24 loss to the Broncos. He",
-   "Kansas City Chiefs|Peter Woods": "Questionable \u00a6 Woods (neck) has been ruled out for the rest of Sunday's contest against the Broncos.",
+   "Kansas City Chiefs|Peter Woods": "Out \u00a6 out",
    "Kansas City Chiefs|R Mason Thomas": "Active",
    "Kansas City Chiefs|Rashee Rice": "Active \u00a6 Rice (hamstring/knee) practiced without limitations Thursday.",
    "Kansas City Chiefs|Travis Kelce": "Active \u00a6 Kelce (ankle) was a full participant in Wednesday's practice.",
@@ -2039,7 +2103,7 @@
    "Los Angeles Rams|Quentin Lake": "Active \u00a6 Lake recorded seven total tackles (two solo) and two passes defensed, including an interception, during Sunday",
    "Los Angeles Rams|Ronnie Rivers": "Injured Reserve \u00a6 Rivers (calf) was designated to return from injured reserve Wednesday, Greg Beacham of the Associated Press re",
    "Los Angeles Rams|Steve Avila": "Active",
-   "Los Angeles Rams|Terrance Ferguson": "Injured Reserve \u00a6 Ferguson (ankle) was a limited practice participant Thursday, Greg Beacham of the Associated Press reports.",
+   "Los Angeles Rams|Terrance Ferguson": "Injured Reserve \u00a6 Head coach Sean McVay said Friday that Ferguson (ankle) is expected to play in Sunday's game at Washington, Sa",
    "Los Angeles Rams|Trent McDuffie": "Questionable \u00a6 McDuffie (back) did not participate at the Rams' practice Wednesday, Sarah Barshop of ESPN.com reports.",
    "Los Angeles Rams|Ty Simpson": "Active",
    "Los Angeles Rams|Tyler Higbee": "Active \u00a6 Higbee caught one of two targets for 14 yards against the Chargers in Sunday's 24-9 victory.",
@@ -2116,20 +2180,20 @@
    "New England Patriots|Marcus Bryant": "Active \u00a6 Bryant (ankle) was activated from injured reserve by the Patriots on Tuesday.",
    "New England Patriots|Marcus Jones": "Questionable \u00a6 questionable",
    "New England Patriots|Morgan Moses": "Questionable \u00a6 questionable",
-   "New England Patriots|Rhamondre Stevenson": "Active \u00a6 Stevenson carried the ball 19 times for 82 yards and caught all three of his targets for eight yards in Sunday",
-   "New England Patriots|TreVeyon Henderson": "Out \u00a6 In a statement posted to social media on Friday, Henderson -- who hasn't practiced since last Wednesday -- not",
+   "New England Patriots|Rhamondre Stevenson": "Active \u00a6 With TreVeyon Henderson (illness) ruled out for Week 9, Stevenson is set to handle an expanded workload Sunday",
+   "New England Patriots|TreVeyon Henderson": "Out \u00a6 In a statement posted to social media Friday, Henderson -- who hasn't practiced since last Wednesday -- noted ",
    "New Orleans Saints|Alvin Kamara": "Questionable \u00a6 Kamara (rest/back) returned to practice Thursday, Nick Underhill of NewOrleans.Football reports.",
    "New Orleans Saints|Asim Richards": "Questionable \u00a6 questionable",
    "New Orleans Saints|Barion Brown": "Active \u00a6 Brown hauled in all three targets for 57 yards during Sunday's 16-10 loss to the Steelers.",
    "New Orleans Saints|Bryce Lance": "Active \u00a6 Lance reeled in all two targets for 12 yards during Sunday's 16-10 loss to Pittsburgh.",
-   "New Orleans Saints|CJ Donaldson": "Questionable \u00a6 Donaldson (shoulder/concussion) did not practice Thursday, Katherine Terrell of ESPN.com reports.",
+   "New Orleans Saints|CJ Donaldson": "Out \u00a6 Donaldson (shoulder/concussion) has been ruled out for Sunday's game against the Browns, Nick Underhill of New",
    "New Orleans Saints|Carl Granderson": "Active \u00a6 Granderson totaled four tackles, including 1.5 sacks, in Sunday's Week 7 loss to Pittsburgh.",
    "New Orleans Saints|Cesar Ruiz": "Active \u00a6 Ruiz (knee) was a full participant in Wednesday's practice.",
    "New Orleans Saints|Charlie Smyth": "Active \u00a6 Coach Kellen Moore announced Wednesday that Smyth will be the Saints' kicker in Week 9, Katherine Terrell of E",
    "New Orleans Saints|Devaughn Vele": "Active \u00a6 Vele caught all five of his targets for 54 yards and a touchdown in Sunday's 16-10 loss to the Steelers.",
    "New Orleans Saints|John Ridgeway III": "Active",
    "New Orleans Saints|Jonas Sanker": "Active \u00a6 Sanker posted nine tackles (seven solo) in Sunday's Week 7 loss to Pittsburgh.",
-   "New Orleans Saints|Jordyn Tyson": "Injured Reserve \u00a6 Tyson (hamstring) remained a limited participant at Thursday's practice, Katherine Terrell of ESPN.com reports",
+   "New Orleans Saints|Jordyn Tyson": "Injured Reserve \u00a6 Tyson (hamstring) is listed as questionable for Sunday's game against the Browns, Katherine Terrell of ESPN.co",
    "New Orleans Saints|Justin Reid": "Questionable \u00a6 Reid (concussion) was a full participant in New Orleans' practice Wednesday.",
    "New Orleans Saints|Juwan Johnson": "Active \u00a6 Johnson caught one of three targets for seven yards during Sunday's 16-10 loss to the Steelers.",
    "New Orleans Saints|Kelvin Banks Jr.": "Injured Reserve \u00a6 Banks (ankle) remained limited in Thursday's practice, Katherine Terrell of ESPN.com reports.",
@@ -2146,14 +2210,14 @@
    "New York Giants|Abdul Carter": "Active \u00a6 Carter (illness) returned to practice Thursday, Dan Duggan of The Athletic reports.",
    "New York Giants|Andrew Thomas": "Questionable \u00a6 Thomas (groin) was a limited participant at the Giants' practice Thursday.",
    "New York Giants|Arvell Reese": "Active \u00a6 Reese posted seven tackles (five solo), including 0.5 sacks, in Sunday's 27-21 overtime victory against the Te",
-   "New York Giants|Cam Skattebo": "Questionable \u00a6 Skattebo (hamstring) was in uniform but not participating at the start of Friday's practice, Jordan Raanan of ",
+   "New York Giants|Cam Skattebo": "Questionable \u00a6 Head coach John Harbaugh said Skattebo (hamstring) didn't practice Friday, but the Giants are \"keeping the doo",
    "New York Giants|Charlie Jones": "Questionable \u00a6 questionable",
    "New York Giants|Colton Hood": "Active \u00a6 Hood (illness) was a full participant in Thursday's practice.",
    "New York Giants|Darius Alexander": "Questionable \u00a6 questionable",
    "New York Giants|Darnell Mooney": "Active \u00a6 Mooney caught one of three targets for four yards and rushed once for three yards during Sunday's 27-21 overti",
    "New York Giants|Devin Singletary": "Active \u00a6 Singletary is expected to handle a bigger role out of the Giants' backfield after Tyrone Tracy (hamstring) was",
    "New York Giants|Dominic Zvada": "Active \u00a6 Head coach John Harbaugh reiterated Monday that he's confident in Zvada and said that the Giants have no plans",
-   "New York Giants|Greg Desrosiers Jr.": "Active \u00a6 The Giants signed Desrosiers off the Chargers' practice squad Tuesday, Dan Salomone of the Giants' official si",
+   "New York Giants|Greg Desrosiers Jr.": "Active \u00a6 Desrosiers could serve as a potential backup for the Giants on Sunday, Dan Duggan of The Athletic reports.",
    "New York Giants|Greg Newsome II": "Active \u00a6 Newsome (concussion) wasn't listed on the Giants' injury report Wednesday.",
    "New York Giants|Isaiah Likely": "Active \u00a6 Likely caught two of four targets for 12 yards in Sunday's 27-21 overtime win over the Texans.",
    "New York Giants|Jameis Winston": "Active \u00a6 Winston turned four carries into four yards and a touchdown during the Giants' 27-21 overtime win over the Tex",
@@ -2188,7 +2252,7 @@
    "New York Jets|Mason Taylor": "Active \u00a6 Taylor (back) was a full participant in Thursday's practice.",
    "New York Jets|Max Mitchell": "Injured Reserve \u00a6 The Jets placed Mitchell (concussion) on their injured reserve list Tuesday, Amanda Vogt of the team's officia",
    "New York Jets|Nahshon Wright": "Active",
-   "New York Jets|Omar Cooper Jr.": "Active \u00a6 Cooper did not garner a target during Sunday's 38-33 loss to the Raiders.",
+   "New York Jets|Omar Cooper Jr.": "Active \u00a6 Cooper and Adonai Mitchell will be the Jets' top wide receivers with Garrett Wilson (concussion) unavailable f",
    "New York Jets|T'Vondre Sweat": "Injured Reserve \u00a6 The Jets placed Sweat (knee) on injured reserve Saturday, Jeremy Fowler of ESPN.com reports.",
    "New York Jets|Tim Patrick": "Active",
    "New York Jets|Trevin Wallace": "Out \u00a6 out",
@@ -2370,7 +2434,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T10:31:10.192939-08:00",
+ "last_run": "2026-11-06T11:29:18.593397-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -2820,6 +2884,7 @@
   "50398344",
   "50398613",
   "50399035",
+  "50399074",
   "50399228",
   "50399242",
   "50399269",
@@ -2855,7 +2920,12 @@
   "50400738",
   "50400763",
   "50400881",
-  "50400928"
+  "50400928",
+  "50400935",
+  "50400964",
+  "50401030",
+  "50401034",
+  "50401113"
  ],
  "props": {
   "T103": {
@@ -2882,6 +2952,8 @@
   "cbb164558",
   "cbb164559",
   "cbb164566",
+  "cbb164567",
+  "cbb164568",
   "cfb238565",
   "cfb238566",
   "cfb238567",
@@ -2899,6 +2971,8 @@
   "cfb238585",
   "cfb238586",
   "cfb238587",
+  "cfb238588",
+  "cfb238589",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -2910,6 +2984,7 @@
   "nba537847",
   "nba537851",
   "nba537852",
+  "nba537853",
   "nfl646200",
   "nfl646201",
   "nfl646202",
@@ -2934,7 +3009,10 @@
   "nfl646242",
   "nfl646244",
   "nfl646247",
-  "nfl646248"
+  "nfl646248",
+  "nfl646249",
+  "nfl646250",
+  "nfl646255"
  ],
  "seeded": true,
  "sgo_events": {
@@ -2948,15 +3026,16 @@
  },
  "wx_checked": {
   "401856738": 1793989905.3261924,
-  "401856740": 1793987107.7182338,
+  "401856739": 1793993367.6129277,
+  "401856740": 1793993362.750193,
   "401856741": 1793989910.323928,
   "401856742": 1793989907.9704854,
   "401856743": 1793989878.648508,
-  "401856744": 1793987106.1633067,
-  "401856745": 1793987135.7911077,
+  "401856744": 1793993361.860903,
+  "401856745": 1793993367.3885965,
   "401856849": 1793989878.3137517,
   "401856850": 1793989906.4064388,
-  "401856851": 1793987109.6061354,
+  "401856851": 1793993363.1943989,
   "401856852": 1793989934.0626564,
   "401856853": 1793989879.047382,
   "401856854": 1793989905.5142584,
@@ -2965,35 +3044,36 @@
   "401858287": 1793989935.0723927,
   "401858288": 1793989875.9902267,
   "401858289": 1793989879.209074,
-  "401858290": 1793987109.1646814,
+  "401858290": 1793993362.963038,
   "401858291": 1793989909.323318,
   "401858292": 1793989879.7419088,
   "401858510": 1793989876.6282408,
   "401858511": 1793989935.7918375,
   "401858512": 1793989878.85676,
   "401858513": 1793989911.0273905,
-  "401858514": 1793987108.5425406,
+  "401858514": 1793993362.878956,
   "401858515": 1793989905.1413095,
-  "401858516": 1793987110.2422628,
+  "401858516": 1793993363.2772975,
   "401858517": 1793989908.1633563,
-  "401860911": 1793987112.544814,
+  "401860911": 1793993367.176686,
   "401862818": 1793989876.2784157,
-  "401862819": 1793987110.864002,
-  "401862820": 1793987111.132587,
+  "401862819": 1793993363.7852738,
+  "401862820": 1793993363.8947847,
   "401862821": 1793989906.582307,
   "401862822": 1793989882.246,
   "401862823": 1793989936.8194227,
   "401864533": 1793989877.1383471,
   "401864534": 1793989906.761344,
   "401869927": 1793989906.2218974,
-  "401869936": 1793987106.958741,
+  "401869936": 1793993362.2831762,
   "401869945": 1793989906.0727813,
-  "401869951": 1793987111.4047027,
-  "401869968": 1793987112.2725968,
-  "401871073": 1793987107.2370594,
+  "401869951": 1793993364.4166381,
+  "401869968": 1793993366.8043523,
+  "401870795": 1793993368.1101708,
+  "401871073": 1793993362.6614385,
   "401871074": 1793989907.2735355,
   "401871075": 1793989908.3006403,
-  "401871076": 1793987112.0040722,
+  "401871076": 1793993366.7098846,
   "401871098": 1793989907.7857924
  }
 }
