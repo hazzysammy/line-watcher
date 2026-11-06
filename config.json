@@ -1,35 +1,163 @@
 {
-  "favorites": ["BYU", "Brigham Young", "San Francisco State", "Golden State", "Warriors", "Valkyries",
-                "San Francisco Giants", "San Jose Sharks", "49ers", "Barcelona", "Paris Saint-Germain", "PSG",
-                "Galatasaray", "Lyon", "London City", "Liverpool"],
+  "favorites": [
+    "BYU",
+    "Brigham Young",
+    "San Francisco State",
+    "Golden State",
+    "Warriors",
+    "Valkyries",
+    "San Francisco Giants",
+    "San Jose Sharks",
+    "49ers",
+    "Barcelona",
+    "Paris Saint-Germain",
+    "PSG",
+    "Galatasaray",
+    "Lyon",
+    "London City",
+    "Liverpool"
+  ],
   "parlay_cutoff": -650,
   "days_ahead": 2,
-  "quiet_hours": [23, 7],
+  "quiet_hours": [
+    23,
+    7
+  ],
   "thresholds": {
-    "nba":    {"spread": 1.5, "total": 3,   "ml": 30},
-    "nfl":    {"spread": 1.5, "total": 2,   "ml": 30},
-    "ncaaf":  {"spread": 2,   "total": 3,   "ml": 40},
-    "ncaab":  {"spread": 2,   "total": 3,   "ml": 40},
-    "nhl":    {"spread": 0,   "total": 0.5, "ml": 25},
-    "soccer": {"spread": 0,   "total": 0.5, "ml": 15}
+    "nba": {
+      "spread": 1.5,
+      "total": 3,
+      "ml_pct": 4
+    },
+    "nfl": {
+      "spread": 1.5,
+      "total": 2,
+      "ml_pct": 4
+    },
+    "ncaaf": {
+      "spread": 2,
+      "total": 3,
+      "ml_pct": 5
+    },
+    "ncaab": {
+      "spread": 2,
+      "total": 3,
+      "ml_pct": 5
+    },
+    "nhl": {
+      "spread": 0,
+      "total": 0.5,
+      "ml_pct": 4
+    },
+    "soccer": {
+      "spread": 0,
+      "total": 0.5,
+      "ml_pct": 3
+    }
   },
   "leagues": [
-    {"key": "nba",  "sport": "nba",   "path": "basketball/nba", "watch": "all"},
-    {"key": "nfl",  "sport": "nfl",   "path": "football/nfl", "watch": "all"},
-    {"key": "cfb",  "sport": "ncaaf", "path": "football/college-football", "query": "groups=80", "watch": "ranked"},
-    {"key": "cbb",  "sport": "ncaab", "path": "basketball/mens-college-basketball", "query": "groups=50&limit=400", "watch": "ranked"},
-    {"key": "nhl",  "sport": "nhl",   "path": "hockey/nhl", "watch": "favorites"},
-    {"key": "epl",  "sport": "soccer", "path": "soccer/eng.1", "watch": "all"},
-    {"key": "liga", "sport": "soccer", "path": "soccer/esp.1", "watch": "all"},
-    {"key": "seriea","sport": "soccer", "path": "soccer/ita.1", "watch": "all"},
-    {"key": "bund", "sport": "soccer", "path": "soccer/ger.1", "watch": "all"},
-    {"key": "l1",   "sport": "soccer", "path": "soccer/fra.1", "watch": "all"},
-    {"key": "tur",  "sport": "soccer", "path": "soccer/tur.1", "watch": "favorites"},
-    {"key": "ucl",  "sport": "soccer", "path": "soccer/uefa.champions", "watch": "all"},
-    {"key": "uel",  "sport": "soccer", "path": "soccer/uefa.europa", "watch": "all"},
-    {"key": "uecl", "sport": "soccer", "path": "soccer/uefa.europa.conf", "watch": "all"},
-    {"key": "wsl",  "sport": "soccer", "path": "soccer/eng.w.1", "watch": "favorites"},
-    {"key": "uwcl", "sport": "soccer", "path": "soccer/uefa.wchampions", "watch": "favorites"}
+    {
+      "key": "nba",
+      "sport": "nba",
+      "path": "basketball/nba",
+      "watch": "all"
+    },
+    {
+      "key": "nfl",
+      "sport": "nfl",
+      "path": "football/nfl",
+      "watch": "all"
+    },
+    {
+      "key": "cfb",
+      "sport": "ncaaf",
+      "path": "football/college-football",
+      "query": "groups=80",
+      "watch": "ranked"
+    },
+    {
+      "key": "cbb",
+      "sport": "ncaab",
+      "path": "basketball/mens-college-basketball",
+      "query": "groups=50&limit=400",
+      "watch": "ranked"
+    },
+    {
+      "key": "nhl",
+      "sport": "nhl",
+      "path": "hockey/nhl",
+      "watch": "favorites"
+    },
+    {
+      "key": "epl",
+      "sport": "soccer",
+      "path": "soccer/eng.1",
+      "watch": "all"
+    },
+    {
+      "key": "liga",
+      "sport": "soccer",
+      "path": "soccer/esp.1",
+      "watch": "all"
+    },
+    {
+      "key": "seriea",
+      "sport": "soccer",
+      "path": "soccer/ita.1",
+      "watch": "all"
+    },
+    {
+      "key": "bund",
+      "sport": "soccer",
+      "path": "soccer/ger.1",
+      "watch": "all"
+    },
+    {
+      "key": "l1",
+      "sport": "soccer",
+      "path": "soccer/fra.1",
+      "watch": "all"
+    },
+    {
+      "key": "tur",
+      "sport": "soccer",
+      "path": "soccer/tur.1",
+      "watch": "favorites"
+    },
+    {
+      "key": "ucl",
+      "sport": "soccer",
+      "path": "soccer/uefa.champions",
+      "watch": "all"
+    },
+    {
+      "key": "uel",
+      "sport": "soccer",
+      "path": "soccer/uefa.europa",
+      "watch": "all"
+    },
+    {
+      "key": "uecl",
+      "sport": "soccer",
+      "path": "soccer/uefa.europa.conf",
+      "watch": "all"
+    },
+    {
+      "key": "wsl",
+      "sport": "soccer",
+      "path": "soccer/eng.w.1",
+      "watch": "favorites"
+    },
+    {
+      "key": "uwcl",
+      "sport": "soccer",
+      "path": "soccer/uefa.wchampions",
+      "watch": "favorites"
+    }
   ],
-  "injury_feeds": {"nba": "basketball/nba", "nfl": "football/nfl"}
+  "injury_feeds": {
+    "nba": "basketball/nba",
+    "nfl": "football/nfl"
+  },
+  "_notes": "ml_pct = moneyline alert when implied win % moves this many points (e.g. -150 -> -185 is ~5 pts). ML moves are ignored when the favorite is shorter than parlay_cutoff before and after."
 }

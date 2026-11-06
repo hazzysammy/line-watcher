@@ -28,6 +28,10 @@ def ml_cents(a, b):
     def lin(x): return x - 100 if x >= 100 else x + 100   # +130 -> 30, -130 -> -30
     return abs(lin(a) - lin(b))
 
+def prob(x):
+    """American odds -> implied win probability (0-1)."""
+    return 100 / (x + 100) if x > 0 else -x / (-x + 100)
+
 def num(x):
     try: return float(str(x).replace("+", ""))
     except Exception: return None
@@ -138,8 +142,15 @@ def main():
             if o["total"] is not None and b.get("total") is not None and th.get("total") and abs(o["total"] - b["total"]) >= th["total"]:
                 msgs.append(f'Total {b['total']:g} → {o['total']:g}')
                 b["total"] = o["total"]
+            cut = CFG.get("parlay_cutoff", -650)
             for side, ab in (("ml_home", ev["hab"]), ("ml_away", ev["aab"])):
-                if o[side] is not None and b.get(side) is not None and th.get("ml") and ml_cents(o[side], b[side]) >= th["ml"]:
+                if o[side] is None or b.get(side) is None or not th.get("ml_pct"): continue
+                # ignore huge-favorite / huge-dog noise: skip when the favorite is shorter than the cutoff before AND after
+                fav_now = min(v for v in (o["ml_home"], o["ml_away"]) if v is not None)
+                fav_then = min(v for v in (b.get("ml_home"), b.get("ml_away")) if v is not None)
+                if fav_now < cut and fav_then < cut:
+                    b[side] = o[side]; continue
+                if abs(prob(o[side]) - prob(b[side])) * 100 >= th["ml_pct"]:
                     msgs.append(f'ML {ab} {fmt(b[side])} → {fmt(o[side])}')
                     b[side] = o[side]
             if msgs:
