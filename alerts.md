@@ -1,5 +1,116 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 10:31 PT · 🏥 NBA injury update**  
+Dennis Schroder (Charlotte Hornets): Day-To-Day → Out — Schroder (thigh) is out for Friday's game versus Boston.  
+Moussa Diabate (Charlotte Hornets): Day-To-Day → Out — Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official i  
+Terrence Shannon Jr. (Minnesota Timberwolves): Day-To-Day → Out — Shannon (hip) has been ruled out for Friday's game against New Orleans.  
+Jakob Poeltl (Toronto Raptors): NEW → Day-To-Day — Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.  
+Immanuel Quickley (Toronto Raptors): NEW → Day-To-Day — Quickley (hamstring) is questionable for Friday against the Bucks.  
+Trey Murphy III (New Orleans Pelicans): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 10:31 PT · ⚡ NCAAF news (RotoWire)**  
+Daniel Rolovich: Will start Saturday  
+Rolovich will start Saturday's game against Northern Illinois, Pete Thamel of ESPN reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Northern Illinois Huskies  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NCAAF news (RotoWire)**  
+Nicco Marchiol: Set to start Saturday  
+Marchiol will start Saturday's game against Iowa due to the absence of Aidan Chiles (lower body), Pete Thamel of ESPN reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Iowa Hawkeyes  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NCAAB news (RotoWire)**  
+Kanye Clary: Game-time call for Friday  
+Clary (groin) is a game-time call for Friday's game against Queens University, Jon Rothstein of CBS Sports reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Queens University Royals  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NFL news (RotoWire)**  
+Woody Marks: Set for RB1 work  
+With David Montgomery (groin) again ruled out for Week 9, Marks is expected to remain the Texans' clear RB1 for Sunday's game against the Chargers, Aaron Wilson of KPRC 2 Houston reports.  
+  
+        Visit RotoWire.com for more analysis on thi  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NFL news (RotoWire)**  
+A.J. Brown: Won't play in Sunday's game  
+Brown (knee) won't be available for Sunday's game against the Packers, Mark Daniels of Masslive.comreports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NFL news (RotoWire)**  
+Shedeur Sanders: Will start Sunday  
+Sanders will start at quarterback Sunday against the Saints, Scott Petrak of the Elyria Chronicle-Telegram reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NFL news (RotoWire)**  
+Harold Fannin: Will play Sunday  
+Fannin (groin) will play Sunday against the Saints, Daniel Oyefusi of ESPN.com reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NFL news (RotoWire)**  
+Deshaun Watson: Listed as questionable, won't start  
+Watson (concussion) is listed as questionable for Sunday's game against the Saints, but Shedeur Sanders will start even if Watson is active Kelsey Russo of the Browns' official site reports.  
+  
+        Visit RotoWire.com for more analysis on   
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NBA news (RotoWire)**  
+Moussa Diabate: Ruled out for Friday  
+Diabate (quadriceps) has been ruled out for Friday's game against Boston, according to the Hornets' official injury report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Boston Celtics, Charlotte Hornets  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NBA news (RotoWire)**  
+Immanuel Quickley: Downgraded to questionable  
+Quickley (hamstring) is questionable for Friday against the Bucks.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Milwaukee Bucks, Toronto Raptors  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · ⚡ NBA news (RotoWire)**  
+Jusuf Nurkic: Re-evaluated in two weeks  
+Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injury sustained during an Oct. 4 preseason game against Denver. He will be re-evaluated in two weeks, the Jazz announced Friday.  
+  
+      
+Plays within 36h: Denver Nuggets, Utah Jazz  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · 📰 NCAAF news**  
+Sources: Northwestern QB Aidan Chiles expected out vs. Iowa  
+Northwestern QB Aidan Chiles, who has thrown for 1,898 yards and accounted for 23 TDs, is expected to miss Saturday's game vs. Iowa, sources told ESPN.  
+Plays within 36h: Northwestern Wildcats  
+→ Check the line NOW before it moves.
+
+**2026-11-06 10:31 PT · 📈 Line move**  
+CFB Iowa Hawkeyes @ Northwestern Wildcats (Sat 4:30 PM PT)  
+Spread NU -2.5 → +1.5  
+ML NU -135 → +105  
+ML IOWA +114 → -125  
+(first seen: NU -2.5, O/U 45.5)
+
+**2026-11-06 10:31 PT · 📈 Line move**  
+NBA Toronto Raptors @ Milwaukee Bucks (Fri 5:00 PM PT)  
+Spread MIL +7.5 → +4.5  
+ML MIL +216 → +160  
+ML TOR -263 → -192  
+(first seen: MIL +7.5, O/U 230.5)
+
 **2026-11-06 09:44 PT · 🏥 NBA injury update**  
 Payton Pritchard (Boston Celtics): Day-To-Day → removed from report (likely available)
 
