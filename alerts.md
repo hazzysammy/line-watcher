@@ -1,5 +1,15 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:15 PT · 🏥 NBA injury update**  
+Jalen Johnson (Atlanta Hawks): Day-To-Day → Out — Johnson (ankle) is out for Friday's game against the Wizards.
+
+**2026-11-06 14:15 PT · ⚡ NFL news (RotoWire)**  
+Mike Evans: Won't play Sunday  
+Evans (Achilles) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:10 PT · 🏥 NFL injury update**  
 🚨⭐ Christian Kirk (San Francisco 49ers): Questionable → Out — Kirk (knee) didn't practice Thursday, Sam Warren of The Athletic reports.
 

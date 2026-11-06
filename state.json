@@ -454,6 +454,16 @@
    "at": "2026-11-06 14:10 PT",
    "body": "\ud83d\udea8\u2b50 Christian Kirk (San Francisco 49ers): Questionable \u2192 Out \u2014 Kirk (knee) didn't practice Thursday, Sam Warren of The Athletic reports.",
    "title": "\ud83c\udfe5 NFL injury update"
+  },
+  {
+   "at": "2026-11-06 14:15 PT",
+   "body": "Mike Evans: Won't play Sunday\nEvans (Achilles) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:15 PT",
+   "body": "Jalen Johnson (Atlanta Hawks): Day-To-Day \u2192 Out \u2014 Johnson (ankle) is out for Friday's game against the Wizards.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1677,7 +1687,7 @@
   "nba": {
    "Atlanta Hawks|Asa Newell": "Out \u00a6 Newell (toe) is out for Friday's game against Washington.",
    "Atlanta Hawks|Henri Veesaar": "Out \u00a6 Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Mo",
-   "Atlanta Hawks|Jalen Johnson": "Day-To-Day \u00a6 Johnson is questionable to suit up for Friday's game against Washington.",
+   "Atlanta Hawks|Jalen Johnson": "Out \u00a6 Johnson (ankle) is out for Friday's game against the Wizards.",
    "Atlanta Hawks|Jock Landale": "Out \u00a6 Landale (hip) has been ruled out for Friday's game against the Wizards.",
    "Atlanta Hawks|Keshon Gilbert": "Out \u00a6 Gilbert is out for Friday's game against the Wizards due to left knee inflammation.",
    "Atlanta Hawks|Mouhamed Gueye": "Out \u00a6 Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, B",
@@ -2093,7 +2103,7 @@
    "Houston Texans|Naquan Jones": "Active \u00a6 The Texans signed Jones on Monday.",
    "Houston Texans|Nate Thomas": "Active",
    "Houston Texans|Nico Collins": "Active \u00a6 Collins caught two of five targets for six yards in Sunday's 27-21 overtime loss to the Giants.",
-   "Houston Texans|Reed Blankenship": "Questionable \u00a6 Blankenship (concussion/hand) did not participate at the Texans' practice Wednesday.",
+   "Houston Texans|Reed Blankenship": "Out \u00a6 out",
    "Houston Texans|Tank Dell": "Active \u00a6 Dell caught his only target for 43 yards and added a two-yard rush during Sunday's 27-21 overtime loss to the ",
    "Houston Texans|Woody Marks": "Active \u00a6 With David Montgomery (groin) again ruled out for Week 9, Marks is expected to remain the Texans' clear RB1 fo",
    "Houston Texans|Xavier Hutchinson": "Active \u00a6 Hutchinson caught three of six targets for 17 yards and a touchdown in Sunday's 27-21 overtime loss to the Gia",
@@ -2574,7 +2584,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T14:10:14.688793-08:00",
+ "last_run": "2026-11-06T14:15:13.493188-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3074,7 +3084,8 @@
   "50401639",
   "50401690",
   "50402041",
-  "50402150"
+  "50402150",
+  "50402162"
  ],
  "props": {
   "T103": {
@@ -3190,7 +3201,8 @@
   "nfl646294",
   "nfl646295",
   "nfl646296",
-  "nfl646297"
+  "nfl646297",
+  "nfl646302"
  ],
  "seeded": true,
  "sgo_events": {
