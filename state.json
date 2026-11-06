@@ -29,6 +29,21 @@
    "at": "2026-11-06 01:46 PT",
    "body": "\ud83d\udea8\u2b50 L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)\nParis Saint-Germain ML -900 is shorter than -650.",
    "title": "\u26a0 Too short for parlay"
+  },
+  {
+   "at": "2026-11-06 02:45 PT",
+   "body": "Mitchell leads Ohio against N.C. A&T after 21-point outing\nNorth Carolina A&T Aggies (1-0) at Ohio Bobcats (1-0)\nPlays within 36h: North Carolina A&T Aggies, Ohio Bobcats, Utah State Aggies\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAB news"
+  },
+  {
+   "at": "2026-11-06 02:45 PT",
+   "body": "Pacific visits Bradley following Thompson's 21-point outing\nPacific Tigers (1-0) at Bradley Braves (1-0)\nPlays within 36h: Missouri Tigers\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAB news"
+  },
+  {
+   "at": "2026-11-06 02:45 PT",
+   "body": "Little Rock takes on SE Louisiana after King's 27-point outing\nSE Louisiana Lions (0-1) at Little Rock Trojans (0-1)\nPlays within 36h: Lindenwood Lions, Troy Trojans\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAB news"
   }
  ],
  "base": {
@@ -1936,7 +1951,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T01:46:24.878089-08:00",
+ "last_run": "2026-11-06T02:45:25.192820-08:00",
  "news_seen": [
   "40699880",
   "43810752",
@@ -2303,7 +2318,46 @@
   "50397919",
   "50397920",
   "50397921",
-  "50397922"
+  "50397922",
+  "50397924",
+  "50397925",
+  "50397926",
+  "50397927",
+  "50397928",
+  "50397944",
+  "50397945",
+  "50397946",
+  "50397947",
+  "50397948",
+  "50397949",
+  "50397952",
+  "50397953",
+  "50397954",
+  "50397955",
+  "50397956",
+  "50397957",
+  "50397958",
+  "50397960",
+  "50397961",
+  "50397962",
+  "50397963",
+  "50397964",
+  "50397965",
+  "50397966",
+  "50397967",
+  "50397968",
+  "50397969",
+  "50397970",
+  "50397971",
+  "50397973",
+  "50397974",
+  "50397975",
+  "50397976",
+  "50397980",
+  "50397981",
+  "50397982",
+  "50397983",
+  "50397985"
  ],
  "props": {},
  "queue": [
@@ -2321,6 +2375,21 @@
    2,
    "\u26a0 Too short for parlay",
    "\ud83d\udea8\u2b50 L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)\nParis Saint-Germain ML -900 is shorter than -650.\n\u23f1 1:46 AM PT"
+  ],
+  [
+   4,
+   "\ud83d\udcf0 NCAAB news",
+   "Mitchell leads Ohio against N.C. A&T after 21-point outing\nNorth Carolina A&T Aggies (1-0) at Ohio Bobcats (1-0)\nPlays within 36h: North Carolina A&T Aggies, Ohio Bobcats, Utah State Aggies\n\u2192 Check the line NOW before it moves.\n\u23f1 2:45 AM PT"
+  ],
+  [
+   4,
+   "\ud83d\udcf0 NCAAB news",
+   "Pacific visits Bradley following Thompson's 21-point outing\nPacific Tigers (1-0) at Bradley Braves (1-0)\nPlays within 36h: Missouri Tigers\n\u2192 Check the line NOW before it moves.\n\u23f1 2:45 AM PT"
+  ],
+  [
+   4,
+   "\ud83d\udcf0 NCAAB news",
+   "Little Rock takes on SE Louisiana after King's 27-point outing\nSE Louisiana Lions (0-1) at Little Rock Trojans (0-1)\nPlays within 36h: Lindenwood Lions, Troy Trojans\n\u2192 Check the line NOW before it moves.\n\u23f1 2:45 AM PT"
   ]
  ],
  "rw_seen": [

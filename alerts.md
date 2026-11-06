@@ -1,5 +1,23 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 02:45 PT · 📰 NCAAB news**  
+Little Rock takes on SE Louisiana after King's 27-point outing  
+SE Louisiana Lions (0-1) at Little Rock Trojans (0-1)  
+Plays within 36h: Lindenwood Lions, Troy Trojans  
+→ Check the line NOW before it moves.
+
+**2026-11-06 02:45 PT · 📰 NCAAB news**  
+Pacific visits Bradley following Thompson's 21-point outing  
+Pacific Tigers (1-0) at Bradley Braves (1-0)  
+Plays within 36h: Missouri Tigers  
+→ Check the line NOW before it moves.
+
+**2026-11-06 02:45 PT · 📰 NCAAB news**  
+Mitchell leads Ohio against N.C. A&T after 21-point outing  
+North Carolina A&T Aggies (1-0) at Ohio Bobcats (1-0)  
+Plays within 36h: North Carolina A&T Aggies, Ohio Bobcats, Utah State Aggies  
+→ Check the line NOW before it moves.
+
 **2026-11-06 01:46 PT · ⚠ Too short for parlay**  
 🚨⭐ L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)  
 Paris Saint-Germain ML -900 is shorter than -650.
