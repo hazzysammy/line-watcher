@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 08:59 PT · ⚡ NFL news (RotoWire)**  
+Garrett Wilson: Ruled out for Sunday  
+Wilson (concussion) is out for Sunday's game against the Chiefs, Brian Costello of the New York Post reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
 **2026-11-06 08:11 PT · 🏥 NBA injury update**  
 Kyle Anderson (Toronto Raptors): NEW → Day-To-Day — Anderson (knee) was a full participant in Monday's practice, Josh Lewenberg of TSN.ca reports.
 
