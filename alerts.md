@@ -1,5 +1,17 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:25 PT · 🏥 NBA injury update**  
+🚨⭐ Draymond Green (Golden State Warriors): NEW → Day-To-Day — Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d  
+🚨⭐ Gary Payton II (Golden State Warriors): NEW → Day-To-Day — Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri
+
+**2026-11-06 14:25 PT · ⚡ NBA news (RotoWire)**  
+Draymond Green: Questionable versus Orlando  
+Green (elbow) is listed as questionable ahead of Saturday's game against Orlando.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Golden State Warriors, Orlando Magic  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:15 PT · 🏥 NBA injury update**  
 Jalen Johnson (Atlanta Hawks): Day-To-Day → Out — Johnson (ankle) is out for Friday's game against the Wizards.
 
