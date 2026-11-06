@@ -1,5 +1,11 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 04:29 PT · 📰 NBA news**  
+🚨⭐ Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start  
+Brian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.  
+Plays within 36h: Memphis Grizzlies, Philadelphia 76ers  
+→ Check the line NOW before it moves.
+
 **2026-11-06 03:36 PT · 📈 Line move**  
 NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
 Total 230.5 → 227.5  
