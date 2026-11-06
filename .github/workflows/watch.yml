@@ -26,5 +26,12 @@ jobs:
           git config user.name "watcher-bot"
           git config user.email "watcher-bot@users.noreply.github.com"
           git add state.json
-          git diff --cached --quiet || git commit -m "state update" -q
-          git push -q || (git pull --rebase -q && git push -q)
+          git diff --cached --quiet && exit 0
+          git commit -qm "state update"
+          for i in 1 2 3; do
+            git push -q && exit 0
+            git fetch -q origin main
+            git reset -q --soft origin/main
+            git add state.json
+            git commit -qm "state update" || exit 0
+          done
