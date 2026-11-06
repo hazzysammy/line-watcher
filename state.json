@@ -1377,6 +1377,21 @@
    "spread_home": -29.5,
    "total": 156.5
   },
+  "401918948": {
+   "date": "2026-11-07T17:00Z",
+   "ml_away": null,
+   "ml_draw": null,
+   "ml_home": null,
+   "open": {
+    "ml_away": null,
+    "ml_draw": null,
+    "ml_home": null,
+    "spread_home": -36.5,
+    "total": 150.5
+   },
+   "spread_home": -36.5,
+   "total": 150.5
+  },
   "401920423": {
    "date": "2026-11-06T22:00Z",
    "ml_away": null,
@@ -1466,6 +1481,21 @@
    },
    "spread_home": -34.5,
    "total": 155.5
+  },
+  "401928788": {
+   "date": "2026-11-07T22:00Z",
+   "ml_away": 3500.0,
+   "ml_draw": null,
+   "ml_home": -20000.0,
+   "open": {
+    "ml_away": 3500.0,
+    "ml_draw": null,
+    "ml_home": -20000.0,
+    "spread_home": -27.5,
+    "total": 148.5
+   },
+   "spread_home": -27.5,
+   "total": 148.5
   }
  },
  "fired": [
@@ -1746,12 +1776,14 @@
   "401909295": true,
   "401909772": true,
   "401909785": true,
+  "401918948": true,
   "401920423": true,
   "401920685": true,
   "401921719": true,
   "401921739": true,
   "401921802": true,
-  "401922219": true
+  "401922219": true,
+  "401928788": true
  },
  "inj": {
   "nba": {
@@ -1963,7 +1995,7 @@
    "Carolina Panthers|Brycen Tremayne": "Active \u00a6 Tremayne finished with an 11-yard reception on his lone target in Thursday's 27-19 loss to the Packers.",
    "Carolina Panthers|Chuba Hubbard": "Active \u00a6 Hubbard rushed 22 times for 81 yards and a touchdown and brought in seven of eight targets for 38 yards in the",
    "Carolina Panthers|Corey Bullock": "Active \u00a6 Bullock (quadriceps) was a full participant at the Panthers' practice Thursday, Steve Reed of the Associated P",
-   "Carolina Panthers|Damien Lewis": "Questionable \u00a6 Lewis (knee) did not participate at the Panthers' practice Thursday, Steve Reed of the Associated Press report",
+   "Carolina Panthers|Damien Lewis": "Out \u00a6 Lewis (knee) did not participate at the Panthers' practice Thursday, Steve Reed of the Associated Press report",
    "Carolina Panthers|Darren Waller": "Active \u00a6 Waller corralled one of two targets for 11 yards during last Thursday's 27-19 loss at Green Bay.",
    "Carolina Panthers|David Moore": "Active \u00a6 Moore didn't receive any playing time on offense and logged two snaps on special teams in Thursday's 27-19 los",
    "Carolina Panthers|Devin Lloyd": "Active \u00a6 Lloyd posted four tackles in Sunday's loss to the Buccaneers.",
@@ -2656,7 +2688,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:05:11.906128-08:00",
+ "last_run": "2026-11-06T15:10:12.714741-08:00",
  "news_seen": [
   "29098001",
   "40699880",
