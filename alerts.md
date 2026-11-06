@@ -1,5 +1,53 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 13:00 PT · 🏥 NBA injury update**  
+Clint Capela (Houston Rockets): Day-To-Day → Out — Capela (ankle) is out for Saturday's game against the Suns.
+
+**2026-11-06 13:00 PT · 🌦 Weather game**  
+CFB Fresno State Bulldogs @ Utah State Aggies (Sat 6:30 PM PT)  
+Maverik Stadium — 💨 wind 15 mph (gusts 33)  
+Total 42.5 · USU +1.5  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
+**2026-11-06 13:00 PT · ⚡ NCAAF news (RotoWire)**  
+Isaiah Marshall: Expected to start Saturday  
+Marshall is expected to start Saturday against UCF, Pete Thamel of ESPN reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: UCF Knights  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:00 PT · ⚡ NFL news (RotoWire)**  
+Emeka Egbuka: Officially questionable for Week 9  
+Egbuka (foot) is listed as questionable for Sunday's game in Chicago.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:00 PT · ⚡ NBA news (RotoWire)**  
+Gui Santos: Questionable for Saturday  
+Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Golden State Warriors, Orlando Magic  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:00 PT · 📰 NCAAF news**  
+Alabama's Ryan Coleman-Williams among trio to return vs. LSU  
+Alabama will get a trio of injured starters -- WR Ryan Coleman-Williams, center Racin Delgatty and DT Terrance Green -- back for Saturday's game at LSU.  
+Plays within 36h: Alabama Crimson Tide, LSU Tigers, North Texas Mean Green  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:00 PT · 📈 Line move**  
+NBA Boston Celtics @ Charlotte Hornets (Fri 4:00 PM PT)  
+Spread CHA +8.5 → +10.5  
+(first seen: CHA +8.5, O/U 210.5)
+
+**2026-11-06 13:00 PT · 📈 Line move**  
+NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
+Spread ATL -6.5 → -8.5  
+(first seen: ATL -6.5, O/U 230.5)
+
 **2026-11-06 12:16 PT · ⚡ NFL news (RotoWire)**  
 Kyle Monangai: Questionable for Sunday  
 Monangai (thumb/toe) is listed as questionable for Sunday's game against the Buccaneers.  
