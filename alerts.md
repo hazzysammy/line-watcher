@@ -1,5 +1,26 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 12:16 PT · ⚡ NFL news (RotoWire)**  
+Kyle Monangai: Questionable for Sunday  
+Monangai (thumb/toe) is listed as questionable for Sunday's game against the Buccaneers.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 12:16 PT · ⚡ NFL news (RotoWire)**  
+George Pickens: Questionable for Week 9  
+Pickens (hamstring) is listed as questionable for Sunday's game at Indianapolis, Tommy Yarrish of the Cowboys' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 12:16 PT · ⚡ NFL news (RotoWire)**  
+Jake Ferguson: Listed as questionable for Sunday  
+Ferguson (ankle) is listed as questionable for Sunday's game against the Colts, Tommy Yarrish of the Cowboys' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
 **2026-11-06 11:29 PT · 🏥 NBA injury update**  
 Kyrie Irving (Dallas Mavericks): NEW → Day-To-Day — Irving (illness) is probable for Friday's game against Utah.
 
