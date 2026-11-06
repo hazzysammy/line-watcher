@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 01:46 PT · ⚠ Too short for parlay**  
+🚨⭐ L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)  
+Paris Saint-Germain ML -900 is shorter than -650.
+
 **2026-11-06 00:50 PT · 📰 SOCCER news**  
 Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?  
 If Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!  

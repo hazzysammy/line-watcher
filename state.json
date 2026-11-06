@@ -24,6 +24,11 @@
    "at": "2026-11-06 00:50 PT",
    "body": "Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?\nIf Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!\nPlays within 36h: Leeds United\n\u2192 Check the line NOW before it moves.",
    "title": "\ud83d\udcf0 SOCCER news"
+  },
+  {
+   "at": "2026-11-06 01:46 PT",
+   "body": "\ud83d\udea8\u2b50 L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)\nParis Saint-Germain ML -900 is shorter than -650.",
+   "title": "\u26a0 Too short for parlay"
   }
  ],
  "base": {
@@ -943,7 +948,9 @@
    "total": 155.5
   }
  },
- "fired": [],
+ "fired": [
+  "401876407ml_home:cut"
+ ],
  "geo": {
   "Champaign, IL": [
    40.11642,
@@ -1929,7 +1936,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T00:50:02.748051-08:00",
+ "last_run": "2026-11-06T01:46:24.878089-08:00",
  "news_seen": [
   "40699880",
   "43810752",
@@ -2289,7 +2296,14 @@
   "50397480",
   "50397481",
   "50397482",
-  "50397632"
+  "50397632",
+  "50397916",
+  "50397917",
+  "50397918",
+  "50397919",
+  "50397920",
+  "50397921",
+  "50397922"
  ],
  "props": {},
  "queue": [
@@ -2302,6 +2316,11 @@
    4,
    "\ud83d\udcf0 SOCCER news",
    "Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?\nIf Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!\nPlays within 36h: Leeds United\n\u2192 Check the line NOW before it moves.\n\u23f1 12:50 AM PT"
+  ],
+  [
+   2,
+   "\u26a0 Too short for parlay",
+   "\ud83d\udea8\u2b50 L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)\nParis Saint-Germain ML -900 is shorter than -650.\n\u23f1 1:46 AM PT"
   ]
  ],
  "rw_seen": [
@@ -2329,10 +2348,10 @@
  "seeded": true,
  "sgo_usage": {},
  "wx_checked": {
-  "401856855": 1793951881.345303,
-  "401858288": 1793951880.128241,
-  "401858510": 1793951880.6542156,
-  "401862818": 1793951880.358334,
-  "401864533": 1793951881.1725082
+  "401856855": 1793958387.7523787,
+  "401858288": 1793958387.4163156,
+  "401858510": 1793958387.6164753,
+  "401862818": 1793958387.5189607,
+  "401864533": 1793958387.6846926
  }
 }
