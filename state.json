@@ -569,6 +569,26 @@
    "at": "2026-11-06 15:35 PT",
    "body": "NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
    "title": "\u26d4 Line pulled"
+  },
+  {
+   "at": "2026-11-06 15:40 PT",
+   "body": "NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)\nReposted: CLE +2.5, O/U 231.5, ML PHI -148 / CLE +125",
+   "title": "\u2705 Line back up"
+  },
+  {
+   "at": "2026-11-06 15:40 PT",
+   "body": "NBA Toronto Raptors @ Milwaukee Bucks (Fri 5:00 PM PT)\nTotal 230.5 \u2192 227.5\n(first seen: MIL +7.5, O/U 230.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 15:40 PT",
+   "body": "\ud83d\udea8\u2b50 CBB Omaha Mavericks @ BYU Cougars (Fri 6:00 PM PT)\nSpread BYU -31.5 \u2192 -33.5\n(first seen: BYU -31.5, O/U 160.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 15:40 PT",
+   "body": "Deandre Ayton: Starting Friday\nAyton will start Friday against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Atlanta Hawks\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
   }
  ],
  "base": {
@@ -1335,7 +1355,7 @@
     "total": 230.5
    },
    "spread_home": 4.5,
-   "total": 230.5
+   "total": 227.5
   },
   "401909293": {
    "date": "2026-11-07T01:00Z",
@@ -1484,7 +1504,7 @@
     "spread_home": -31.5,
     "total": 160.5
    },
-   "spread_home": -31.5,
+   "spread_home": -33.5,
    "total": 160.5
   },
   "401921802": {
@@ -1534,8 +1554,7 @@
   }
  },
  "fired": [
-  "401876407ml_home:cut",
-  "401909289:off"
+  "401876407ml_home:cut"
  ],
  "geo": {
   "Ann Arbor, MI": [
@@ -2720,7 +2739,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:35:46.586365-08:00",
+ "last_run": "2026-11-06T15:40:15.012447-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3235,7 +3254,8 @@
   "50402579",
   "50402614",
   "50402615",
-  "50402657"
+  "50402657",
+  "50402727"
  ],
  "props": {
   "T103": {
@@ -3314,6 +3334,8 @@
   "nba537866",
   "nba537871",
   "nba537872",
+  "nba537875",
+  "nba537876",
   "nfl646200",
   "nfl646201",
   "nfl646202",

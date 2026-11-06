@@ -1,5 +1,27 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:40 PT · ⚡ NBA news (RotoWire)**  
+Deandre Ayton: Starting Friday  
+Ayton will start Friday against the Hawks.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Atlanta Hawks  
+→ Check the line NOW before it moves.
+
+**2026-11-06 15:40 PT · 📈 Line move**  
+🚨⭐ CBB Omaha Mavericks @ BYU Cougars (Fri 6:00 PM PT)  
+Spread BYU -31.5 → -33.5  
+(first seen: BYU -31.5, O/U 160.5)
+
+**2026-11-06 15:40 PT · 📈 Line move**  
+NBA Toronto Raptors @ Milwaukee Bucks (Fri 5:00 PM PT)  
+Total 230.5 → 227.5  
+(first seen: MIL +7.5, O/U 230.5)
+
+**2026-11-06 15:40 PT · ✅ Line back up**  
+NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
+Reposted: CLE +2.5, O/U 231.5, ML PHI -148 / CLE +125
+
 **2026-11-06 15:35 PT · ⛔ Line pulled**  
 NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
 DK line came OFF the board — check injury/lineup news.
