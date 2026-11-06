@@ -137,7 +137,7 @@ def main():
         for ev in evs.values():
             start = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
             hrs = (start - dt.datetime.now(dt.timezone.utc)).total_seconds() / 3600
-            if hrs < 36:
+            if 0 < hrs < 36 and ev["state"] == "pre":
                 playing_soon.setdefault(lg["sport"], set()).update([ev["home"], ev["away"]])
             if lg["sport"] == "soccer" and 0 < hrs <= CFG.get("lineup_lookahead_hrs", 1.25) and ev["state"] == "pre" and lineup_wanted(ev):
                 soon_lineups.append((lg, ev))
@@ -337,21 +337,28 @@ def main():
             team = t.get("displayName", "")
             for it in t.get("injuries", []):
                 nm = (it.get("athlete") or {}).get("displayName")
-                if nm: cur[f"{team}|{nm}"] = it.get("status", "")
+                cm = (it.get("shortComment") or "").strip()
+                if nm: cur[f"{team}|{nm}"] = it.get("status", "") + (" ¦ " + cm[:110] if cm else "")
         prev = inj_prev.get(sport)
         if prev is not None:
             lines = []
             for k, s in cur.items():
                 team, nm = k.split("|", 1)
                 if team not in soon and not is_fav(team): continue
-                if k not in prev:
-                    lines.append(f'{"🚨⭐ " if is_fav(team) else ""}{nm} ({team}): NEW → {s}')
-                elif prev[k] != s:
-                    lines.append(f'{"🚨⭐ " if is_fav(team) else ""}{nm} ({team}): {prev[k]} → {s}')
-            for k, s in prev.items():
+                pv = prev.get(k)
+                pst = pv.split(" ¦ ")[0] if pv else None
+                cst = s.split(" ¦ ")[0]
+                note = s.split(" ¦ ")[1] if " ¦ " in s else ""
+                if pst == cst: continue
+                if cst.lower() == "active" and pst is None: continue          # newly listed as Active = noise
+                if (pst or "").lower() in ("injured reserve", "out for season") and cst.lower() in ("injured reserve", "out for season"): continue
+                star = "🚨⭐ " if is_fav(team) else ""
+                lines.append(f'{star}{nm} ({team}): {pst or "NEW"} → {cst}' + (f' — {note}' if note else ""))
+            for k, pv in prev.items():
                 team, nm = k.split("|", 1)
-                if k not in cur and (team in soon or is_fav(team)):
-                    lines.append(f'{"🚨⭐ " if is_fav(team) else ""}{nm} ({team}): {s} → OFF report (likely playing)')
+                pst = pv.split(" ¦ ")[0]
+                if k not in cur and (team in soon or is_fav(team)) and pst.lower() not in ("active", "injured reserve", "out for season"):
+                    lines.append(f'{"🚨⭐ " if is_fav(team) else ""}{nm} ({team}): {pst} → removed from report (likely available)')
             if lines:
                 alerts.append((4, f"🏥 {sport.upper()} injury update", "\n".join(lines[:15]) + (f"\n+{len(lines)-15} more" if len(lines) > 15 else "")))
         inj_prev[sport] = cur
