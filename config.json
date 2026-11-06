@@ -20,8 +20,8 @@
   "parlay_cutoff": -650,
   "days_ahead": 2,
   "quiet_hours": [
-    23,
-    7
+    24,
+    0
   ],
   "thresholds": {
     "nba": {
@@ -195,5 +195,6 @@
     "snow_in_hr": 0.2,
     "cold_f": 20
   },
-  "grade_check_minutes": 30
+  "grade_check_minutes": 30,
+  "_notes_quiet": "quiet_hours [24,0] = never quiet (Sammy wants alerts 24/7)"
 }
