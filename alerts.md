@@ -1,5 +1,10 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 03:36 PT · 📈 Line move**  
+NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
+Total 230.5 → 227.5  
+(first seen: ATL -6.5, O/U 230.5)
+
 **2026-11-06 02:45 PT · 📰 NCAAB news**  
 Little Rock takes on SE Louisiana after King's 27-point outing  
 SE Louisiana Lions (0-1) at Little Rock Trojans (0-1)  
