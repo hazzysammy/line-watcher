@@ -1,5 +1,16 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:30 PT · 🏥 NBA injury update**  
+🚨⭐ Draymond Green (Golden State Warriors): Day-To-Day → removed from report (likely available)  
+🚨⭐ Gary Payton II (Golden State Warriors): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 14:30 PT · 📈 Line move**  
+NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
+Spread ATL -8.5 → -6.5  
+ML ATL -297 → -238  
+ML WSH +241 → +197  
+(first seen: ATL -6.5, O/U 230.5)
+
 **2026-11-06 14:25 PT · 🏥 NBA injury update**  
 🚨⭐ Draymond Green (Golden State Warriors): NEW → Day-To-Day — Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d  
 🚨⭐ Gary Payton II (Golden State Warriors): NEW → Day-To-Day — Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri
