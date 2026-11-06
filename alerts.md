@@ -1,5 +1,20 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 09:44 PT · 🏥 NBA injury update**  
+Payton Pritchard (Boston Celtics): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 09:44 PT · ⚡ NFL news (RotoWire)**  
+Emeka Egbuka: Could be game-time call  
+Buccaneers coach Todd Bowles said Friday that Egbuka (foot) will be a game-time decision for Sunday night's game against the Bears, Greg Auman of Fox Sports reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 09:44 PT · 📈 Line move**  
+L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)  
+ML TOU +130 → +115  
+(first seen: TOU -0.5, O/U 2.5)
+
 **2026-11-06 08:59 PT · ⚡ NFL news (RotoWire)**  
 Garrett Wilson: Ruled out for Sunday  
 Wilson (concussion) is out for Sunday's game against the Chiefs, Brian Costello of the New York Post reports.  
