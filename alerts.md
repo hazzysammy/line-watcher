@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:35 PT · ⛔ Line pulled**  
+NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
+DK line came OFF the board — check injury/lineup news.
+
 **2026-11-06 15:35 PT · 🏥 NFL injury update**  
 🚨⭐ Luke Gifford (San Francisco 49ers): Questionable → Active  
 🚨⭐ Marques Sigle (San Francisco 49ers): Questionable → Active  

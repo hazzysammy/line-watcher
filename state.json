@@ -564,6 +564,11 @@
    "at": "2026-11-06 15:35 PT",
    "body": "\ud83d\udea8\u2b50 Luke Gifford (San Francisco 49ers): Questionable \u2192 Active\n\ud83d\udea8\u2b50 Marques Sigle (San Francisco 49ers): Questionable \u2192 Active\n\ud83d\udea8\u2b50 Garret Wallow (San Francisco 49ers): Questionable \u2192 Active\n\ud83d\udea8\u2b50 Nick Bosa (San Francisco 49ers): Questionable \u2192 Active",
    "title": "\ud83c\udfe5 NFL injury update"
+  },
+  {
+   "at": "2026-11-06 15:35 PT",
+   "body": "NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
+   "title": "\u26d4 Line pulled"
   }
  ],
  "base": {
@@ -1529,7 +1534,8 @@
   }
  },
  "fired": [
-  "401876407ml_home:cut"
+  "401876407ml_home:cut",
+  "401909289:off"
  ],
  "geo": {
   "Ann Arbor, MI": [
@@ -2714,7 +2720,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:35:12.158804-08:00",
+ "last_run": "2026-11-06T15:35:46.586365-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3233,7 +3239,7 @@
  ],
  "props": {
   "T103": {
-   "checked": 1794007522.4975393,
+   "checked": 1794008151.353776,
    "dk_bet_line": -2.5,
    "dk_bet_price": -110.0,
    "line": -2.5,
@@ -3366,7 +3372,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 6
+  "2026-11": 7
  },
  "wx": {
   "401860912:wx": 2,
