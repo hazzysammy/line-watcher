@@ -1,5 +1,16 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:10 PT · 🏥 NFL injury update**  
+🚨⭐ Christian Kirk (San Francisco 49ers): Questionable → Out — Kirk (knee) didn't practice Thursday, Sam Warren of The Athletic reports.
+
+**2026-11-06 14:10 PT · ⚡ NBA news (RotoWire)**  
+Jalen Johnson: Ruled out for Friday  
+Johnson (ankle) is out for Friday's game against the Wizards.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Atlanta Hawks, Washington Wizards  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:05 PT · ⚡ NFL news (RotoWire)**  
 Deebo Samuel: Ruled out for Sunday  
 Samuel (hamstring) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN.com reports.  
