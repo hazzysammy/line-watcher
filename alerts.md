@@ -1,5 +1,41 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:50 PT · ⚡ NBA news (RotoWire)**  
+Grayson Allen: Starting versus Boston  
+Allen will start in Friday's game against the Celtics  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Boston Celtics  
+→ Check the line NOW before it moves.
+
+**2026-11-06 15:50 PT · ⚡ NBA news (RotoWire)**  
+Immanuel Quickley: Ruled out for Friday  
+Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Milwaukee Bucks, Toronto Raptors  
+→ Check the line NOW before it moves.
+
+**2026-11-06 15:50 PT · ⚡ NBA news (RotoWire)**  
+Scottie Barnes: Ruled out Friday  
+Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Milwaukee Bucks, Toronto Raptors  
+→ Check the line NOW before it moves.
+
+**2026-11-06 15:50 PT · ⚡ NBA news (RotoWire)**  
+Jordan Walsh: Starting Friday  
+Walsh will start Friday against the Hornets, Sean Grande of NBC Sports Boston reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Boston Celtics, Charlotte Hornets  
+→ Check the line NOW before it moves.
+
+**2026-11-06 15:50 PT · ⛔ Line pulled**  
+NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
+DK line came OFF the board — check injury/lineup news.
+
 **2026-11-06 15:40 PT · ⚡ NBA news (RotoWire)**  
 Deandre Ayton: Starting Friday  
 Ayton will start Friday against the Hawks.  
