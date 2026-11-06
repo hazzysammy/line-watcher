@@ -149,6 +149,36 @@
    "at": "2026-11-06 07:22 PT",
    "body": "Kam Jones (Milwaukee Bucks): Out \u2192 Day-To-Day \u2014 Jones (ankle/two-way player) is out for Friday's game against Toronto.",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)\nML ATL -241 \u2192 -297\nML WSH +199 \u2192 +241\n(first seen: ATL -6.5, O/U 230.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)\nSpread UCLA -31.5 \u2192 -34.5\n(first seen: UCLA -31.5, O/U 155.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "John Mateer: Expected to start Saturday\nMateer is expected to start Saturday at Florida, On3.com reports.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Florida Gators\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "Gio Lopez: Listed as day-to-day\nLopez is day-to-day due to a lower-body injury and is uncertain to play Saturday against Merrimack, according to Pete Nakos of On3.com.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Merrimack Warriors\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "Quintrevion Wisner: Trending toward playing\nWisner (undisclosed) is listed as questionable but is trending toward playing Saturday at Boston College, according to Pete Nakos of On3.com.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Boston College Eagles\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 08:11 PT",
+   "body": "Kyle Anderson (Toronto Raptors): NEW \u2192 Day-To-Day \u2014 Anderson (knee) was a full participant in Monday's practice, Josh Lewenberg of TSN.ca reports.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -289,9 +319,9 @@
   },
   "401856856": {
    "date": "2026-11-08T02:30Z",
-   "ml_away": 600.0,
+   "ml_away": 550.0,
    "ml_draw": null,
-   "ml_home": -900.0,
+   "ml_home": -800.0,
    "open": {
     "ml_away": 600.0,
     "ml_draw": null,
@@ -814,9 +844,9 @@
   },
   "401909287": {
    "date": "2026-11-07T00:00Z",
-   "ml_away": 199.0,
+   "ml_away": 241.0,
    "ml_draw": null,
-   "ml_home": -241.0,
+   "ml_home": -297.0,
    "open": {
     "ml_away": 199.0,
     "ml_draw": null,
@@ -1064,7 +1094,7 @@
     "spread_home": -31.5,
     "total": 155.5
    },
-   "spread_home": -31.5,
+   "spread_home": -34.5,
    "total": 155.5
   }
  },
@@ -1143,6 +1173,10 @@
   "Kennesaw, GA": [
    34.02343,
    -84.61549
+  ],
+  "Lafayette, LA": [
+   30.22409,
+   -92.01984
   ],
   "Lawrence, KS": [
    38.97167,
@@ -1370,6 +1404,7 @@
    "San Antonio Spurs|Jayden Quaintance": "Out \u00a6 Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.",
    "San Antonio Spurs|Tobias Harris": "Out \u00a6 Harris (calf) is listed as out for Saturday's game against Minnesota.",
    "Toronto Raptors|Kawhi Leonard": "Out \u00a6 Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, B",
+   "Toronto Raptors|Kyle Anderson": "Day-To-Day \u00a6 Anderson (knee) was a full participant in Monday's practice, Josh Lewenberg of TSN.ca reports.",
    "Toronto Raptors|Nate Bittle": "Out \u00a6 Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
    "Toronto Raptors|Scottie Barnes": "Day-To-Day \u00a6 Barnes (groin) is questionable to play Friday's game against the Bucks.",
    "Utah Jazz|Jaren Jackson Jr.": "Out \u00a6 Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams",
@@ -2005,7 +2040,7 @@
    "New York Jets|Omar Cooper Jr.": "Active \u00a6 Cooper did not garner a target during Sunday's 38-33 loss to the Raiders.",
    "New York Jets|T'Vondre Sweat": "Injured Reserve \u00a6 The Jets placed Sweat (knee) on injured reserve Saturday, Jeremy Fowler of ESPN.com reports.",
    "New York Jets|Tim Patrick": "Active",
-   "New York Jets|Trevin Wallace": "Questionable \u00a6 questionable",
+   "New York Jets|Trevin Wallace": "Out \u00a6 out",
    "New York Jets|VJ Payne": "Injured Reserve \u00a6 Payne (knee) was designated to return from injured reserve by the Jets on Wednesday, Amanda Vogt of the team's",
    "Philadelphia Eagles|Britain Covey": "Questionable \u00a6 questionable",
    "Philadelphia Eagles|Dallas Goedert": "Active \u00a6 Goedert caught all four of his targets for 30 yards and added a two-yard run in Sunday's 27-10 loss to the Com",
@@ -2184,7 +2219,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T07:22:25.365589-08:00",
+ "last_run": "2026-11-06T08:11:26.174710-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -2640,7 +2675,12 @@
   "50399475",
   "50399528",
   "50399542",
-  "50399574"
+  "50399574",
+  "50399729",
+  "50399783",
+  "50399857",
+  "50399865",
+  "50400016"
  ],
  "props": {},
  "queue": [],
@@ -2654,6 +2694,9 @@
   "cbb164542",
   "cbb164548",
   "cbb164549",
+  "cbb164551",
+  "cbb164558",
+  "cbb164559",
   "cfb238565",
   "cfb238566",
   "cfb238567",
@@ -2662,6 +2705,9 @@
   "cfb238573",
   "cfb238574",
   "cfb238575",
+  "cfb238576",
+  "cfb238577",
+  "cfb238579",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -2686,41 +2732,42 @@
  },
  "wx_checked": {
   "401856738": 1793978555.9663026,
-  "401856740": 1793975814.448677,
+  "401856740": 1793981490.4197378,
   "401856742": 1793978584.3761814,
   "401856743": 1793978552.2116086,
-  "401856744": 1793975811.2190607,
+  "401856744": 1793981489.7730663,
   "401856849": 1793978551.6469264,
   "401856850": 1793978557.4363725,
-  "401856851": 1793975817.1481385,
+  "401856851": 1793981490.7142367,
   "401856853": 1793978552.8138502,
   "401856854": 1793978556.2566152,
   "401856855": 1793978551.0683138,
   "401858286": 1793978555.082874,
   "401858288": 1793978549.571295,
   "401858289": 1793978553.3825548,
-  "401858290": 1793975816.2548592,
+  "401858290": 1793981490.6404872,
   "401858292": 1793978553.9498525,
   "401858510": 1793978550.1897216,
   "401858512": 1793978552.5179813,
-  "401858514": 1793975815.367548,
+  "401858514": 1793981490.4863756,
   "401858515": 1793978555.6518235,
-  "401858516": 1793975818.0376022,
+  "401858516": 1793981490.779166,
   "401858517": 1793978585.5548897,
   "401862818": 1793978549.8756285,
-  "401862819": 1793975841.1916907,
-  "401862820": 1793975842.0881681,
+  "401862819": 1793981490.8627963,
+  "401862820": 1793981491.2555285,
   "401862821": 1793978558.647358,
   "401862822": 1793978554.514185,
   "401864533": 1793978550.4865382,
   "401864534": 1793978559.543036,
   "401869927": 1793978557.1418567,
-  "401869936": 1793975812.3995545,
+  "401869936": 1793981489.9624565,
   "401869945": 1793978556.5577414,
-  "401869951": 1793975842.9778066,
-  "401871073": 1793975813.291224,
+  "401869951": 1793981491.3436303,
+  "401869968": 1793981492.1380045,
+  "401871073": 1793981490.354714,
   "401871074": 1793978560.4338305,
-  "401871076": 1793975844.129143,
+  "401871076": 1793981491.7357275,
   "401871098": 1793978583.4747086
  }
 }

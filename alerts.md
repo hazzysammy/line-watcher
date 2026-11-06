@@ -1,5 +1,43 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 08:11 PT · 🏥 NBA injury update**  
+Kyle Anderson (Toronto Raptors): NEW → Day-To-Day — Anderson (knee) was a full participant in Monday's practice, Josh Lewenberg of TSN.ca reports.
+
+**2026-11-06 08:11 PT · ⚡ NCAAF news (RotoWire)**  
+Quintrevion Wisner: Trending toward playing  
+Wisner (undisclosed) is listed as questionable but is trending toward playing Saturday at Boston College, according to Pete Nakos of On3.com.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Boston College Eagles  
+→ Check the line NOW before it moves.
+
+**2026-11-06 08:11 PT · ⚡ NCAAF news (RotoWire)**  
+Gio Lopez: Listed as day-to-day  
+Lopez is day-to-day due to a lower-body injury and is uncertain to play Saturday against Merrimack, according to Pete Nakos of On3.com.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Merrimack Warriors  
+→ Check the line NOW before it moves.
+
+**2026-11-06 08:11 PT · ⚡ NCAAF news (RotoWire)**  
+John Mateer: Expected to start Saturday  
+Mateer is expected to start Saturday at Florida, On3.com reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Florida Gators  
+→ Check the line NOW before it moves.
+
+**2026-11-06 08:11 PT · 📈 Line move**  
+CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)  
+Spread UCLA -31.5 → -34.5  
+(first seen: UCLA -31.5, O/U 155.5)
+
+**2026-11-06 08:11 PT · 📈 Line move**  
+NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
+ML ATL -241 → -297  
+ML WSH +199 → +241  
+(first seen: ATL -6.5, O/U 230.5)
+
 **2026-11-06 07:22 PT · 🏥 NBA injury update**  
 Kam Jones (Milwaukee Bucks): Out → Day-To-Day — Jones (ankle/two-way player) is out for Friday's game against Toronto.
 
