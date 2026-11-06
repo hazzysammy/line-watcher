@@ -1,5 +1,11 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:35 PT · 🏥 NFL injury update**  
+🚨⭐ Luke Gifford (San Francisco 49ers): Questionable → Active  
+🚨⭐ Marques Sigle (San Francisco 49ers): Questionable → Active  
+🚨⭐ Garret Wallow (San Francisco 49ers): Questionable → Active  
+🚨⭐ Nick Bosa (San Francisco 49ers): Questionable → Active
+
 **2026-11-06 15:30 PT · 🏥 NBA injury update**  
 Max Christie (Dallas Mavericks): Day-To-Day → removed from report (likely available)
 
