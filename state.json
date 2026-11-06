@@ -484,6 +484,21 @@
    "at": "2026-11-06 14:30 PT",
    "body": "\ud83d\udea8\u2b50 Draymond Green (Golden State Warriors): Day-To-Day \u2192 removed from report (likely available)\n\ud83d\udea8\u2b50 Gary Payton II (Golden State Warriors): Day-To-Day \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 14:35 PT",
+   "body": "CBB James Madison Dukes @ Kentucky Wildcats (Fri 4:00 PM PT)\nSpread UK -25.5 \u2192 -23.5\n(first seen: UK -25.5, O/U 157.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 14:35 PT",
+   "body": "Terrance Ferguson: Suffers hamstring injury, out again\nFerguson (ankle) was expected to return for Sunday's game against Washington, but he's been ruled out after injuring his hamstring during Friday's practice, Cameron DaSilva of USA Today reports.\n\n        Visit RotoWire.com for more analysis\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:35 PT",
+   "body": "\ud83d\udea8\u2b50 Draymond Green (Golden State Warriors): NEW \u2192 Day-To-Day \u2014 Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d\n\ud83d\udea8\u2b50 Gary Payton II (Golden State Warriors): NEW \u2192 Day-To-Day \u2014 Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1399,7 +1414,7 @@
     "spread_home": -25.5,
     "total": 157.5
    },
-   "spread_home": -25.5,
+   "spread_home": -23.5,
    "total": 157.5
   },
   "401922219": {
@@ -1737,6 +1752,8 @@
    "Denver Nuggets|Spencer Jones": "Out \u00a6 Jones (hamstring) is out for Wednesday's game against the Raptors.",
    "Detroit Pistons|Isaiah Joe": "Out \u00a6 Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
    "Detroit Pistons|Jalen Duren": "Out \u00a6 Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com repo",
+   "Golden State Warriors|Draymond Green": "Day-To-Day \u00a6 Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d",
+   "Golden State Warriors|Gary Payton II": "Day-To-Day \u00a6 Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri",
    "Golden State Warriors|Gui Santos": "Day-To-Day \u00a6 Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.",
    "Golden State Warriors|Jimmy Butler III": "Out \u00a6 Butler (knee) could return sometime between January and February as he continues recovering from a torn right ",
    "Golden State Warriors|Kristaps Porzingis": "Out \u00a6 Porzingis announced on his social media that he's stepping away from basketball.",
@@ -1820,7 +1837,7 @@
    "Arizona Cardinals|Jon Gaines II": "Out \u00a6 Gaines (ankle) did not participate at the Cardinals' practice Thursday, Darren Urban of the team's official si",
    "Arizona Cardinals|Kendrick Bourne": "Injured Reserve \u00a6 Arizona placed Bourne (tibia) on injured reserve Tuesday, Darren Urban of the Cardinals' official site reports",
    "Arizona Cardinals|Max Melton": "Questionable \u00a6 questionable",
-   "Arizona Cardinals|Michael Wilson": "Active \u00a6 Wilson (rest/ribs) was a limited practice participant Thursday, Darren Urban of the Cardinals' official site r",
+   "Arizona Cardinals|Michael Wilson": "Active \u00a6 Wilson (rest/ribs) doesn't have a designation for Sunday's contest in Seattle, Josh Weinfuss of ESPN.com repor",
    "Arizona Cardinals|Reggie Virgil": "Active \u00a6 Virgil failed to reel in either of his targets during Sunday's 33-30 overtime victory against Dallas.",
    "Arizona Cardinals|Simi Fehoko": "Active \u00a6 Fehoko is listed as a starting receiver on the Cardinals' unofficial depth chart heading into Sunday's game at",
    "Arizona Cardinals|Starling Thomas V": "Active",
@@ -2075,7 +2092,7 @@
    "Detroit Lions|Roger McCreary": "Active \u00a6 McCreary (foot) is active for Sunday's game against the Vikings.",
    "Detroit Lions|Sam LaPorta": "Active \u00a6 LaPorta caught three of five targets for 33 yards in Sunday's 19-15 win over the Vikings. He added two rushing",
    "Detroit Lions|Seth McLaughlin": "Active",
-   "Detroit Lions|Sione Vaki": "Active \u00a6 Vaki rushed 11 times for 65 yards in Sunday's 19-15 win over the Vikings. He added one catch for five yards on",
+   "Detroit Lions|Sione Vaki": "Questionable \u00a6 questionable",
    "Detroit Lions|Tyleik Williams": "Active",
    "Green Bay Packers|Aaron Banks": "Active",
    "Green Bay Packers|Anthony Campbell": "Active",
@@ -2273,7 +2290,7 @@
    "Los Angeles Rams|Quentin Lake": "Active \u00a6 Lake recorded seven total tackles (two solo) and two passes defensed, including an interception, during Sunday",
    "Los Angeles Rams|Ronnie Rivers": "Injured Reserve \u00a6 Rivers (calf) was designated to return from injured reserve Wednesday, Greg Beacham of the Associated Press re",
    "Los Angeles Rams|Steve Avila": "Active",
-   "Los Angeles Rams|Terrance Ferguson": "Injured Reserve \u00a6 Ferguson (ankle) doesn't have an injury designation for Sunday's game against the Commanders, Adam Caplan of S",
+   "Los Angeles Rams|Terrance Ferguson": "Injured Reserve \u00a6 Ferguson (ankle) was expected to return for Sunday's game against Washington, but he's been ruled out after in",
    "Los Angeles Rams|Trent McDuffie": "Questionable \u00a6 McDuffie (back) is listed as questionable for Sunday's game against the Commanders, Nate Atkins of The Athleti",
    "Los Angeles Rams|Ty Simpson": "Active",
    "Los Angeles Rams|Tyler Higbee": "Active \u00a6 Higbee caught one of two targets for 14 yards against the Chargers in Sunday's 24-9 victory.",
@@ -2441,7 +2458,7 @@
    "Philadelphia Eagles|Jalen Carter": "Active",
    "Philadelphia Eagles|Jalyx Hunt": "Questionable \u00a6 questionable",
    "Philadelphia Eagles|Jaydon Blue": "Active \u00a6 Blue caught his lone target for nine yards in Sunday night's 27-10 loss to the Commanders.",
-   "Philadelphia Eagles|Jihaad Campbell": "Questionable \u00a6 Campbell (hamstring/quadriceps) did not participate at the Eagles' practice Wednesday.",
+   "Philadelphia Eagles|Jihaad Campbell": "Out \u00a6 out",
    "Philadelphia Eagles|Joe Milton": "Active \u00a6 Milton is set to be the Eagles' starting quarterback Sunday against the Giants, Mike Garafolo of NFL Network r",
    "Philadelphia Eagles|Jonathan Greenard": "Questionable \u00a6 questionable",
    "Philadelphia Eagles|Jonathan Jones": "Questionable \u00a6 questionable",
@@ -2510,7 +2527,7 @@
    "Seattle Seahawks|Connor O'Toole": "Questionable \u00a6 questionable",
    "Seattle Seahawks|Cooper Kupp": "Active \u00a6 Kupp caught one of three targets for a seven-yard touchdown Monday in a loss to the Bears.",
    "Seattle Seahawks|Derick Hall": "Questionable \u00a6 questionable",
-   "Seattle Seahawks|Drew Lock": "Active",
+   "Seattle Seahawks|Drew Lock": "Active \u00a6 Lock (right elbow) doesn't have a designation for Sunday's contest against the Cardinals, John Boyle of the Se",
    "Seattle Seahawks|Emanuel Wilson": "Active \u00a6 Wilson played just seven snaps -- all on special teams -- in Monday's 34-17 loss to the Bears.",
    "Seattle Seahawks|Ernest Jones IV": "Questionable \u00a6 Jones (ankle) was a limited participant at the Seahawks' practice Thursday, John Boyle of the team's official ",
    "Seattle Seahawks|George Holani": "Active \u00a6 Holani carried once for nine yards and failed to haul in his lone target in Monday's 34-17 loss to the Bears. ",
@@ -2604,7 +2621,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T14:30:17.104895-08:00",
+ "last_run": "2026-11-06T14:35:11.190030-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3107,6 +3124,7 @@
   "50402150",
   "50402162",
   "50402285",
+  "50402297",
   "50402299"
  ],
  "props": {
@@ -3227,7 +3245,9 @@
   "nfl646297",
   "nfl646302",
   "nfl646303",
-  "nfl646304"
+  "nfl646304",
+  "nfl646305",
+  "nfl646306"
  ],
  "seeded": true,
  "sgo_events": {

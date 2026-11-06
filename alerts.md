@@ -1,5 +1,21 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:35 PT · 🏥 NBA injury update**  
+🚨⭐ Draymond Green (Golden State Warriors): NEW → Day-To-Day — Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d  
+🚨⭐ Gary Payton II (Golden State Warriors): NEW → Day-To-Day — Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri
+
+**2026-11-06 14:35 PT · ⚡ NFL news (RotoWire)**  
+Terrance Ferguson: Suffers hamstring injury, out again  
+Ferguson (ankle) was expected to return for Sunday's game against Washington, but he's been ruled out after injuring his hamstring during Friday's practice, Cameron DaSilva of USA Today reports.  
+  
+        Visit RotoWire.com for more analysis  
+→ Check the line NOW before it moves.
+
+**2026-11-06 14:35 PT · 📈 Line move**  
+CBB James Madison Dukes @ Kentucky Wildcats (Fri 4:00 PM PT)  
+Spread UK -25.5 → -23.5  
+(first seen: UK -25.5, O/U 157.5)
+
 **2026-11-06 14:30 PT · 🏥 NBA injury update**  
 🚨⭐ Draymond Green (Golden State Warriors): Day-To-Day → removed from report (likely available)  
 🚨⭐ Gary Payton II (Golden State Warriors): Day-To-Day → removed from report (likely available)
