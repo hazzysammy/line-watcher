@@ -2,7 +2,7 @@
 """Sammy's line & injury watcher.
 Runs every 15 min on GitHub Actions. Pulls ESPN (DraftKings lines) + injury reports,
 compares with the last run (state.json) and pushes alerts to your phone via ntfy."""
-import json, os, sys, time, urllib.request, datetime as dt
+import json, os, sys, time, urllib.request, urllib.parse, datetime as dt
 from zoneinfo import ZoneInfo
 
 PT = ZoneInfo("America/Los_Angeles")
@@ -66,6 +66,37 @@ def close_bet(w, ps):
     return (2, "📏 Closing line", f'{w.get("label")}\nYou: {myl if myl is not None else ""} {fmt(myp)} · DK then {dbl if dbl is not None else ""} {fmt(db)} (gap {gap*100:+.1f}%)'
                f'\nDK close {dcl if dcl is not None else ""} {fmt(dc)} → ≈ {fmt(est)} at your book{ln}\nCLV {clv*100:+.1f}% {verdict}')
 
+def grade_bet(w, ps, ev):
+    """Grade from SportsGameOdds final results. Writes the result into ps and returns an alert."""
+    o = (ev.get("odds") or {}).get(w["odd_id"]) or {}
+    oid = w["odd_id"]; line = w.get("my_line"); res = None
+    score = o.get("score")
+    if o.get("cancelled"):
+        res = "Void"
+    elif "-ou-" in oid and score is not None and line is not None:
+        d = score - line if oid.endswith("-over") else line - score
+        res = "Win" if d > 0 else "Loss" if d < 0 else "Push"
+    elif ("-sp-" in oid or "-ml-" in oid):
+        per = oid.split("-")[-3]
+        r = ((ev.get("results") or {}).get(per) or {})
+        side = oid.split("-")[-1]; other = "home" if side == "away" else "away"
+        a, b = (r.get(side) or {}).get("points"), (r.get(other) or {}).get("points")
+        if a is not None and b is not None:
+            m = a - b + (line or 0 if "-sp-" in oid else 0)
+            if "-ml-" in oid and a == b: res = "Push" if w.get("draw_push") else "Loss"
+            else: res = "Win" if m > 0 else "Loss" if m < 0 else "Push"
+            score = f"{a}-{b}"
+    if res is None:
+        return None
+    myp = w.get("my_price"); stake = w.get("stake")
+    net = None
+    if stake is not None and myp is not None:
+        net = round(stake * (myp / 100 if myp > 0 else 100 / -myp), 2) if res == "Win" else (-stake if res == "Loss" else 0)
+    ps.update(graded=True, result=res, final=score, net=net)
+    icon = {"Win": "✅", "Loss": "❌", "Push": "➖", "Void": "➖"}[res]
+    return (3, f"{icon} Bet graded: {res}", f'{w.get("label")}\nFinal: {score}' + (f'\nNet: {"+" if (net or 0) > 0 else ""}${net}' if net is not None else "")
+               + (f'\nCLV {ps["clv_pct"]:+.1f}%' if ps.get("clv_pct") is not None else ""))
+
 def num(x):
     try: return float(str(x).replace("+", ""))
     except Exception: return None
@@ -110,7 +141,11 @@ def parse_event(e, lg):
           "hab": h["team"].get("abbreviation", ""), "aab": a["team"].get("abbreviation", ""),
           "ranked": min(rank(h), rank(a)) <= 25,
           "score": f'{a["team"].get("abbreviation","")} {a.get("score","")}-{h.get("score","")} {h["team"].get("abbreviation","")}',
-          "odds": None}
+          "odds": None,
+          "indoor": (c.get("venue") or {}).get("indoor"),
+          "city": ((c.get("venue") or {}).get("address") or {}).get("city", ""),
+          "st": ((c.get("venue") or {}).get("address") or {}).get("state", ""),
+          "venue": (c.get("venue") or {}).get("fullName", "")}
     od = (c.get("odds") or [None])[0]
     if od:
         ml = od.get("moneyline") or {}
@@ -158,6 +193,7 @@ def main():
     days = [(now + dt.timedelta(days=d)).strftime("%Y%m%d") for d in range(CFG.get("days_ahead", 2))]
     playing_soon = {}   # sport -> set of team names playing within 36h
     soon_lineups = []
+    weather_games = []
 
     for lg in CFG["leagues"]:
         evs = {}
@@ -173,6 +209,8 @@ def main():
             hrs = (start - dt.datetime.now(dt.timezone.utc)).total_seconds() / 3600
             if 0 < hrs < 36 and ev["state"] == "pre":
                 playing_soon.setdefault(lg["sport"], set()).update([ev["home"], ev["away"]])
+            if lg["sport"] in ("nfl", "ncaaf") and 0 < hrs <= 30 and ev["indoor"] is False and ev["state"] == "pre" and (ev["odds"] or is_fav(ev["home"]) or is_fav(ev["away"])) and (lg.get("watch") != "ranked" or ev["ranked"] or ev["odds"]):
+                weather_games.append(ev)
             if lg["sport"] == "soccer" and 0 < hrs <= CFG.get("lineup_lookahead_hrs", 1.25) and ev["state"] == "pre" and lineup_wanted(ev):
                 soon_lineups.append((lg, ev))
             if ev["state"] != "pre" or not relevant(ev, lg):
@@ -215,7 +253,7 @@ def main():
                                f'\n(first seen: {ev["hab"]} {fmt(op.get("spread_home"))}, O/U {op.get('total') or '—'})'))
             # watchlist rules
             for w in watch:
-                if w.get("type") == "prop" or not w.get("active", True) or w.get("id") in fired: continue
+                if w.get("type") in ("prop", "bet") or not w.get("active", True) or w.get("id") in fired: continue
                 tm = w["team"].lower()
                 side = "home" if tm in ev["home"].lower() or tm == ev["hab"].lower() else \
                        "away" if tm in ev["away"].lower() or tm == ev["aab"].lower() else None
@@ -265,6 +303,94 @@ def main():
                            + "\n→ Check the line NOW before it moves."))
     state["news_seen"] = sorted(news_seen)[-1500:]
 
+    # player -> team map from ESPN injury reports (RotoWire headlines only name the player)
+    player_team = {}
+    inj_cache = {}
+    for sport, path in CFG["injury_feeds"].items():
+        j = get(API + path + "/injuries"); inj_cache[sport] = j
+        for t in (j or {}).get("injuries", []):
+            for it in t.get("injuries", []):
+                nm = (it.get("athlete") or {}).get("displayName")
+                if nm: player_team.setdefault(sport, {})[nm.lower()] = t.get("displayName", "")
+
+    # ---------- RotoWire news (usually faster than ESPN) ----------
+    import xml.etree.ElementTree as ET, email.utils
+    rw_first = "rw_seen" not in state
+    rw_seen = set(state.setdefault("rw_seen", []))
+    for sport, code in CFG.get("rotowire_feeds", {}).items():
+        try:
+            req = urllib.request.Request("https://www.rotowire.com/rss/news.php?sport=" + code, headers={"User-Agent": "Mozilla/5.0 line-watcher"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                root = ET.fromstring(r.read())
+        except Exception as e:
+            print("rotowire failed", code, e); continue
+        soon = playing_soon.get(sport, set())
+        nick = {t.split()[-1].lower(): t for t in soon}
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip(); desc = (it.findtext("description") or "").strip()
+            gid = (it.findtext("guid") or title)
+            if gid in rw_seen: continue
+            rw_seen.add(gid)
+            if rw_first: continue
+            try:
+                pub = email.utils.parsedate_to_datetime(it.findtext("pubDate"))
+                if (utcnow - pub).total_seconds() > 3 * 3600: continue
+            except Exception:
+                pass
+            text = title + " " + desc
+            if not news_hit(text): continue
+            blob = text.lower()
+            clean = " " + blob.replace(",", " ").replace(".", " ").replace("'", " ").replace(":", " ") + " "
+            city = {" ".join(t.split()[:-1]).lower(): t for t in soon if len(t.split()) > 1}
+            teams = {t for t in soon if t.lower() in blob} | {nick[n] for n in nick if (" " + n + " ") in clean} \
+                    | {city[c] for c in city if c and (" " + c + " ") in clean}
+            pl = title.split(":")[0].strip().lower()
+            if pl in player_team.get(sport, {}) and player_team[sport][pl] in soon: teams.add(player_team[sport][pl])
+            teams = sorted(teams)
+            fav = is_fav(blob)
+            strong = any(w in blob for w in ("ruled out", "questionable", "doubtful", "out for", "won't play", "will not play", "game-time",
+                                             "inactive", "will play", "upgraded", "downgraded", "probable", "will start", "to start", "starting lineup", "out vs", "out against", "sit out", "rest"))
+            if not teams and not fav and not (strong and sport in ("nba", "nfl")): continue
+            alerts.append((4, f"⚡ {sport.upper()} news (RotoWire)", f'{"🚨⭐ " if fav else ""}{title}\n{desc[:240]}'
+                           + (f'\nPlays within 36h: {", ".join(teams)}' if teams else "") + "\n→ Check the line NOW before it moves."))
+    state["rw_seen"] = sorted(rw_seen)[-3000:]
+
+    # ---------- weather for outdoor football ----------
+    geo = state.setdefault("geo", {})
+    wxc = state.setdefault("wx_checked", {})
+    for ev in weather_games:
+        if time.time() - wxc.get(ev["id"], 0) < CFG.get("weather_check_minutes", 60) * 60: continue
+        wxc[ev["id"]] = time.time()
+        loc = f'{ev["city"]}, {ev["st"]}'.strip(", ")
+        if not loc: continue
+        if loc not in geo:
+            g = get("https://geocoding-api.open-meteo.com/v1/search?count=1&name=" + urllib.parse.quote(ev["city"]))
+            r0 = ((g or {}).get("results") or [None])[0]
+            geo[loc] = [r0["latitude"], r0["longitude"]] if r0 else None
+        if not geo[loc]: continue
+        lat, lon = geo[loc]
+        w = get(f"https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&hourly=temperature_2m,precipitation,snowfall,wind_speed_10m,wind_gusts_10m&wind_speed_unit=mph&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=UTC&forecast_days=3")
+        h = (w or {}).get("hourly") or {}
+        ko = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+        idx = [i for i, t in enumerate(h.get("time", [])) if 0 <= (dt.datetime.fromisoformat(t + "+00:00") - ko).total_seconds() < 3 * 3600]
+        if not idx: continue
+        mx = lambda k: max(h[k][i] or 0 for i in idx)
+        wind, gust, rain, snow, temp = mx("wind_speed_10m"), mx("wind_gusts_10m"), mx("precipitation"), mx("snowfall"), min(h["temperature_2m"][i] for i in idx)
+        t = CFG.get("weather", {})
+        flags = []
+        if wind >= t.get("wind_mph", 15) or gust >= t.get("gust_mph", 28): flags.append(f"💨 wind {wind:.0f} mph (gusts {gust:.0f})")
+        if rain >= t.get("rain_in_hr", 0.15): flags.append(f"🌧 heavy rain {rain:.2f} in/hr")
+        if snow >= t.get("snow_in_hr", 0.2): flags.append(f"❄️ snow {snow:.1f} in/hr")
+        if temp <= t.get("cold_f", 20): flags.append(f"🥶 {temp:.0f}°F")
+        sev = len(flags) + (1 if wind >= 20 or gust >= 35 else 0)
+        key = ev["id"] + ":wx"
+        if flags and state.setdefault("wx", {}).get(key, 0) < sev:
+            state["wx"][key] = sev
+            o = ev["odds"] or {}
+            alerts.append((4 if sev >= 2 else 3, "🌦 Weather game", f'{label(ev)}\n{ev["venue"]} — ' + ", ".join(flags)
+                           + f'\nTotal {o.get("total") or "—"} · {ev["hab"]} {fmt(o.get("spread_home"))}'
+                           + "\nWind/rain usually push totals and passing props DOWN — check before the market adjusts."))
+
     # ---------- soccer lineups (~1h before kickoff) ----------
     watch_players = [norm(p) for p in CFG.get("lineup_players", [])]
     for lg, ev in soon_lineups:
@@ -293,7 +419,7 @@ def main():
     # ---------- DraftKings props / halves / quarters via SportsGameOdds (needs SGO_API_KEY) ----------
     skey = os.environ.get("SGO_API_KEY", "").strip()
     props = [w for w in watch if w.get("type") in ("prop", "bet") and w.get("active", True)
-             and not state.get("props", {}).get(w["id"], {}).get("closed")]
+             and not state.get("props", {}).get(w["id"], {}).get("graded")]
     pstate = state.setdefault("props", {})
     month = now.strftime("%Y-%m")
     usage = state.setdefault("sgo_usage", {})
@@ -321,6 +447,7 @@ def main():
             if w.get("type") == "bet" and st:
                 mins = (dt.datetime.fromisoformat(st.replace("Z", "+00:00")) - utcnow).total_seconds() / 60
                 if mins <= 75: every = CFG.get("close_check_minutes", 10)
+                if mins < 0: every = CFG.get("grade_check_minutes", 30)
             if time.time() - last < every * 60: continue
             groups.setdefault((w["league"], w["team_id"]), []).append(w)
         for (league, team_id), ws in groups.items():
@@ -341,9 +468,15 @@ def main():
             if not evdata: continue
             if (evdata.get("status") or {}).get("started"):
                 for w in ws:
+                    ps = pstate.setdefault(w["id"], {}); ps["checked"] = time.time()
                     if w.get("type") == "bet":
-                        a = close_bet(w, pstate.setdefault(w["id"], {}))
+                        a = close_bet(w, ps)
                         if a: alerts.append(a)
+                        if (evdata.get("status") or {}).get("ended"):
+                            g = grade_bet(w, ps, evdata)
+                            if g: alerts.append(g)
+                    else:
+                        ps["graded"] = True      # watch-only prop: nothing more to do after tip
                 continue
             for w in ws:
                 pstate.setdefault(w["id"], {})["starts"] = (evdata.get("status") or {}).get("startsAt")
@@ -379,7 +512,7 @@ def main():
 
     # injuries
     for sport, path in CFG["injury_feeds"].items():
-        j = get(API + path + "/injuries")
+        j = inj_cache.get(sport) if sport in inj_cache else get(API + path + "/injuries")
         if not j: continue
         soon = playing_soon.get(sport, set())
         cur = {}
@@ -415,6 +548,8 @@ def main():
 
     # prune old events
     cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=3)).isoformat()
+    for k in [k for k, v in wxc.items() if time.time() - v > 3 * 86400]:
+        wxc.pop(k)
     for k in [k for k, v in base.items() if v.get("date", "9") < cutoff]:
         base.pop(k, None); seen_odds.pop(k, None)
     state["fired"] = sorted(fired)[-2000:]

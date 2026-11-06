@@ -181,5 +181,19 @@
     "prop": 3,
     "game": 1.5
   },
-  "close_check_minutes": 10
+  "close_check_minutes": 10,
+  "rotowire_feeds": {
+    "nba": "NBA",
+    "nfl": "NFL",
+    "ncaab": "CBB",
+    "ncaaf": "CFB"
+  },
+  "weather": {
+    "wind_mph": 15,
+    "gust_mph": 28,
+    "rain_in_hr": 0.15,
+    "snow_in_hr": 0.2,
+    "cold_f": 20
+  },
+  "grade_check_minutes": 30
 }
