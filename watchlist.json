@@ -1,4 +1,14 @@
 [
-  {"id": "example-gs", "active": false, "label": "EXAMPLE: Warriors become 3+ pt dogs",
-   "team": "Warriors", "field": "spread", "op": ">=", "value": 3}
+ {
+  "id": "T103",
+  "type": "bet",
+  "league": "NBA",
+  "team_id": "PHILADELPHIA_76ERS_NBA",
+  "odd_id": "points-away-game-sp-away",
+  "label": "76ers -2.5 @ CLE (T103)",
+  "my_price": -110,
+  "my_line": -2.5,
+  "stake": 11,
+  "placed": "2026-11-06T09:57-08:00"
+ }
 ]
