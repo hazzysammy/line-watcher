@@ -1,5 +1,8 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:30 PT · 🏥 NBA injury update**  
+Max Christie (Dallas Mavericks): Day-To-Day → removed from report (likely available)
+
 **2026-11-06 15:20 PT · 🏥 NBA injury update**  
 Tyrese Proctor (Cleveland Cavaliers): Day-To-Day → removed from report (likely available)
 

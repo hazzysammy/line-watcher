@@ -554,6 +554,11 @@
    "at": "2026-11-06 15:20 PT",
    "body": "Tyrese Proctor (Cleveland Cavaliers): Day-To-Day \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 15:30 PT",
+   "body": "Max Christie (Dallas Mavericks): Day-To-Day \u2192 removed from report (likely available)",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1828,7 +1833,6 @@
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Peyton Watson": "Day-To-Day \u00a6 Watson (hamstring) is questionable for Friday's game against the 76ers.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
-   "Dallas Mavericks|Max Christie": "Day-To-Day \u00a6 Christie (hip) is probable for Friday's game against the Jazz.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
    "Dallas Mavericks|Tarik Biberovic": "Out \u00a6 Biberovic (heel) is listed as out for Monday's game against Sacramento.",
    "Denver Nuggets|DeMar DeRozan": "Day-To-Day \u00a6 DeRozan (back) is probable for Saturday's game against the Pacers.",
@@ -1872,7 +1876,7 @@
    "Orlando Magic|Jonathan Isaac": "Out \u00a6 Orlando recalled Isaac (knee) from the G League's Osceola Magic on Wednesday.",
    "Orlando Magic|Noah Penda": "Out \u00a6 Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel report",
    "Orlando Magic|Paolo Banchero": "Out \u00a6 Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Ch",
-   "Philadelphia 76ers|Adem Bona": "Out \u00a6 Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.",
+   "Philadelphia 76ers|Adem Bona": "Out \u00a6 Bona (neck) is listed as out for Friday's game versus the Cavaliers.",
    "Philadelphia 76ers|Ariel Hukporti": "Out \u00a6 Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
    "Philadelphia 76ers|Dominick Barlow": "Out \u00a6 Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to",
    "Phoenix Suns|Jordan Goodwin": "Day-To-Day \u00a6 Goodwin (calf) is out for Thursday's game against Orlando.",
@@ -2356,7 +2360,7 @@
    "Los Angeles Rams|Bill Murray": "Active",
    "Los Angeles Rams|Blake Corum": "Active \u00a6 Corum rushed 11 times for 73 yards and a touchdown and failed to bring in his only target in the Rams' 24-9 wi",
    "Los Angeles Rams|Brandon McManus": "Active \u00a6 McManus converted his sole field-goal attempt and all three PATs in the Rams' 24-9 win over the Chargers on Su",
-   "Los Angeles Rams|Colby Parkinson": "Questionable \u00a6 Parkinson (ribs) is questionable for Sunday's game against the Commanders, Adam Caplan of SiriusXM NFL Radio r",
+   "Los Angeles Rams|Colby Parkinson": "Questionable \u00a6 Parkinson (ribs) is listed as questionable for Sunday's game against the Commanders, Adam Caplan of SiriusXM N",
    "Los Angeles Rams|Coleman Shelton": "Active",
    "Los Angeles Rams|Dean Connors": "Injured Reserve \u00a6 Connors (hand) was placed on IR on Tuesday, Blaine Grisak of SI.com reports.",
    "Los Angeles Rams|Desjuan Johnson": "Active",
@@ -2607,7 +2611,7 @@
    "Seattle Seahawks|Anthony Bradford": "Active",
    "Seattle Seahawks|Beau Stephens": "Active",
    "Seattle Seahawks|Brandon Pili": "Out \u00a6 out",
-   "Seattle Seahawks|Charles Cross": "Questionable \u00a6 Cross (ankle) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site r",
+   "Seattle Seahawks|Charles Cross": "Out \u00a6 Cross (ankle) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site r",
    "Seattle Seahawks|Connor O'Toole": "Questionable \u00a6 questionable",
    "Seattle Seahawks|Cooper Kupp": "Active \u00a6 Kupp caught one of three targets for a seven-yard touchdown Monday in a loss to the Bears.",
    "Seattle Seahawks|Derick Hall": "Active",
@@ -2705,7 +2709,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:25:12.007822-08:00",
+ "last_run": "2026-11-06T15:30:17.183310-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3219,7 +3223,8 @@
   "50402514",
   "50402579",
   "50402614",
-  "50402615"
+  "50402615",
+  "50402657"
  ],
  "props": {
   "T103": {
