@@ -1,5 +1,18 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:15 PT · 🏥 NBA injury update**  
+Adem Bona (Philadelphia 76ers): Day-To-Day → Out — Bona (back) is doubtful to play in Friday's game against the Cavaliers, Ky Carlin of USA Today reports.  
+Kyrie Irving (Dallas Mavericks): Day-To-Day → removed from report (likely available)  
+Santi Aldama (Dallas Mavericks): Out → removed from report (likely available)
+
+**2026-11-06 15:15 PT · ⚡ NBA news (RotoWire)**  
+Kyrie Irving: Upgraded to available  
+Irving (illness) is available for Friday's game against Utah.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Utah Jazz  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:45 PT · 🏥 NBA injury update**  
 Anthony Davis (Washington Wizards): Day-To-Day → Out — Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Ath
 
