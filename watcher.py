@@ -129,6 +129,14 @@ def news_hit(text):
     t = " " + text.lower() + " "
     return any((" " + w) in t for w in NEWS_WORDS)
 
+STRONG = ("ruled out", "questionable", "doubtful", "out for", "won't play", "will not play", "game-time", "inactive",
+          "will play", "upgraded", "downgraded", "probable", "will start", "to start", "starting lineup", "out vs", "out against",
+          "sit out", "rest ", "injur", "suspend", "scratch", "day-to-day", "sidelined", "will miss", "to miss", "concussion", "torn", "surgery")
+
+def strong_hit(text):
+    t = text.lower()
+    return any(w in t for w in STRONG)
+
 def parse_event(e, lg):
     c = e["competitions"][0]
     teams = {x["homeAway"]: x for x in c["competitors"]}
@@ -291,7 +299,7 @@ def main():
             except Exception:
                 pass
             text = (a.get("headline", "") + " " + a.get("description", ""))
-            if not news_hit(text): continue
+            if not strong_hit(a.get("headline", "") + " " + (a.get("description") or "")[:160]): continue
             cats = " ".join((c.get("description") or "") for c in a.get("categories", []) if c.get("type") in ("team", "athlete"))
             blob = (text + " " + cats).lower()
             teams = [t for t in soon if t.lower() in blob] + [nick[n] for n in nick if (" " + n) in (" " + blob) and nick[n] not in blob]
@@ -338,7 +346,7 @@ def main():
             except Exception:
                 pass
             text = title + " " + desc
-            if not news_hit(text): continue
+            if not strong_hit(text): continue
             blob = text.lower()
             clean = " " + blob.replace(",", " ").replace(".", " ").replace("'", " ").replace(":", " ") + " "
             city = {" ".join(t.split()[:-1]).lower(): t for t in soon if len(t.split()) > 1}
