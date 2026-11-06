@@ -519,6 +519,21 @@
    "at": "2026-11-06 14:40 PT",
    "body": "Michael Van Buren: Ruled out for Friday\nVan Buren (undisclosed) won't suit up for Friday's clash with East Carolina, per the American Athletic availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: East Carolina Pirates\n\u2192 Check the line NOW before it moves.",
    "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:45 PT",
+   "body": "Arhmad Branch: Will not play versus East Carolina\nBranch (undisclosed) has been ruled out for Friday's matchup versus East Carolina, per the American Athletic availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: East Carolina Pirates\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:45 PT",
+   "body": "Brock Spalding: Status up in air for Week 10\nSpalding is questionable for Friday's clash with South Florida, per the American Athletic availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Florida Gators, South Florida Bulls\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:45 PT",
+   "body": "Anthony Davis (Washington Wizards): Day-To-Day \u2192 Out \u2014 Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Ath",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1832,7 +1847,7 @@
    "Utah Jazz|Jaren Jackson Jr.": "Out \u00a6 Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams",
    "Utah Jazz|Jusuf Nurkic": "Out \u00a6 Nurkic (toe) has begun participating in on-court activities as he continues recovering from a right foot injur",
    "Utah Jazz|Trey Alexander": "Out \u00a6 Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise.",
-   "Washington Wizards|Anthony Davis": "Day-To-Day \u00a6 Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Ath",
+   "Washington Wizards|Anthony Davis": "Out \u00a6 Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Ath",
    "Washington Wizards|Jamir Watkins": "Out \u00a6 The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL.",
    "Washington Wizards|Justin Champagnie": "Out \u00a6 Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic.",
    "Washington Wizards|Reece Beekman": "Out \u00a6 The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-eval",
@@ -2473,18 +2488,18 @@
    "Philadelphia Eagles|Elijah Mitchell": "Active \u00a6 Mitchell reverted to the Eagles' practice squad Monday, per the NFL's transaction log.",
    "Philadelphia Eagles|Elijah Moore": "Active \u00a6 Moore did not garner a target during Sunday night's 27-10 loss to the Commanders.",
    "Philadelphia Eagles|Hollywood Brown": "Active \u00a6 Brown finished Sunday's loss to the Commanders with two catches for 17 yards on two targets.",
-   "Philadelphia Eagles|Jake Elliott": "Questionable \u00a6 Elliott (ankle) was a limited participant in Thursday's practice.",
+   "Philadelphia Eagles|Jake Elliott": "Active",
    "Philadelphia Eagles|Jake Majors": "Active",
    "Philadelphia Eagles|Jalen Carter": "Active",
-   "Philadelphia Eagles|Jalyx Hunt": "Questionable \u00a6 questionable",
+   "Philadelphia Eagles|Jalyx Hunt": "Active",
    "Philadelphia Eagles|Jaydon Blue": "Active \u00a6 Blue caught his lone target for nine yards in Sunday night's 27-10 loss to the Commanders.",
    "Philadelphia Eagles|Jihaad Campbell": "Out \u00a6 out",
    "Philadelphia Eagles|Joe Milton": "Active \u00a6 Milton is set to be the Eagles' starting quarterback Sunday against the Giants, Mike Garafolo of NFL Network r",
-   "Philadelphia Eagles|Jonathan Greenard": "Questionable \u00a6 questionable",
-   "Philadelphia Eagles|Jonathan Jones": "Questionable \u00a6 questionable",
+   "Philadelphia Eagles|Jonathan Greenard": "Active",
+   "Philadelphia Eagles|Jonathan Jones": "Out \u00a6 out",
    "Philadelphia Eagles|Makai Lemon": "Active \u00a6 Lemon caught six of nine targets for 57 yards in Sunday's 27-10 loss to the Commanders.",
    "Philadelphia Eagles|Marcus Epps": "Active",
-   "Philadelphia Eagles|Michael Carter II": "Questionable \u00a6 Carter (abdomen) is questionable to return to Sunday night's contest against the Commanders.",
+   "Philadelphia Eagles|Michael Carter II": "Out \u00a6 out",
    "Philadelphia Eagles|Moro Ojomo": "Active",
    "Philadelphia Eagles|Nolan Smith Jr.": "Active \u00a6 Smith (concussion) does not carry an injury designation into Sunday's game against the Commanders.",
    "Philadelphia Eagles|Saquon Barkley": "Active \u00a6 Barkley (hamstring/back) doesn't have a designation for Sunday's game against the Giants.",
@@ -2641,7 +2656,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T14:40:14.764344-08:00",
+ "last_run": "2026-11-06T14:45:16.876378-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3201,6 +3216,8 @@
   "cfb238591",
   "cfb238592",
   "cfb238593",
+  "cfb238594",
+  "cfb238595",
   "nba537807",
   "nba537808",
   "nba537809",

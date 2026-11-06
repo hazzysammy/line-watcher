@@ -1,5 +1,24 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:45 PT · 🏥 NBA injury update**  
+Anthony Davis (Washington Wizards): Day-To-Day → Out — Davis is questionable for Friday's game against the Hawks due to a right ankle sprain, Josh Robbins of The Ath
+
+**2026-11-06 14:45 PT · ⚡ NCAAF news (RotoWire)**  
+Brock Spalding: Status up in air for Week 10  
+Spalding is questionable for Friday's clash with South Florida, per the American Athletic availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Florida Gators, South Florida Bulls  
+→ Check the line NOW before it moves.
+
+**2026-11-06 14:45 PT · ⚡ NCAAF news (RotoWire)**  
+Arhmad Branch: Will not play versus East Carolina  
+Branch (undisclosed) has been ruled out for Friday's matchup versus East Carolina, per the American Athletic availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: East Carolina Pirates  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:40 PT · ⚡ NCAAF news (RotoWire)**  
 Michael Van Buren: Ruled out for Friday  
 Van Buren (undisclosed) won't suit up for Friday's clash with East Carolina, per the American Athletic availability report.  
