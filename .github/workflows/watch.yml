@@ -1,7 +1,7 @@
 name: line-watcher
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -20,6 +20,7 @@ jobs:
       - name: Run watcher
         env:
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python watcher.py
       - name: Save state
         run: |

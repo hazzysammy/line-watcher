@@ -159,5 +159,19 @@
     "nba": "basketball/nba",
     "nfl": "football/nfl"
   },
-  "_notes": "ml_pct = moneyline alert when implied win % moves this many points (e.g. -150 -> -185 is ~5 pts). ML moves are ignored when the favorite is shorter than parlay_cutoff before and after."
+  "_notes": "ml_pct = moneyline alert when implied win % moves this many points (e.g. -150 -> -185 is ~5 pts). ML moves are ignored when the favorite is shorter than parlay_cutoff before and after.",
+  "news_feeds": {
+    "nba": "basketball/nba",
+    "nfl": "football/nfl",
+    "ncaab": "basketball/mens-college-basketball",
+    "ncaaf": "football/college-football",
+    "soccer": "soccer/eng.1",
+    "soccer_ucl": "soccer/uefa.champions",
+    "soccer_esp": "soccer/esp.1"
+  },
+  "lineup_lookahead_hrs": 1.25,
+  "lineup_teams": [],
+  "lineup_players": [],
+  "prop_book": "draftkings",
+  "prop_check_minutes": 60
 }
