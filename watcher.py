@@ -384,6 +384,14 @@ def main():
         msgs = [tuple(q) for q in queue] + msgs; state["queue"] = queue = []
     state["queue"] = queue[-50:]
 
+    log = state.setdefault("alert_log", [])
+    for p, t, b in alerts:
+        log.append({"at": now.strftime("%Y-%m-%d %H:%M PT"), "title": t, "body": b})
+    state["alert_log"] = log[-300:]
+    with open(os.path.join(HERE, "alerts.md"), "w") as f:
+        f.write("# Watcher alert log (newest first)\n\n")
+        for a in reversed(state["alert_log"]):
+            f.write(f'**{a["at"]} · {a["title"]}**  \n' + a["body"].replace("\n", "  \n") + "\n\n")
     for p, t, b in msgs:
         print("ALERT", t, "|", b.replace("\n", " | "))
         if TOPIC:
