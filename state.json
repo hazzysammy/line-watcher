@@ -499,6 +499,26 @@
    "at": "2026-11-06 14:35 PT",
    "body": "\ud83d\udea8\u2b50 Draymond Green (Golden State Warriors): NEW \u2192 Day-To-Day \u2014 Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d\n\ud83d\udea8\u2b50 Gary Payton II (Golden State Warriors): NEW \u2192 Day-To-Day \u2014 Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 14:40 PT",
+   "body": "NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)\nSpread ATL -6.5 \u2192 -8.5\nML ATL -238 \u2192 -323\nML WSH +197 \u2192 +261\n(first seen: ATL -6.5, O/U 230.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 14:40 PT",
+   "body": "Anthony Davis: Ruled out Friday night\nDavis (ankle) is listed as out for Friday's game against the Hawks.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Atlanta Hawks, Washington Wizards\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:40 PT",
+   "body": "Jeremiah Melvin: Will not play versus South Florida\nMelvin (undisclosed) is out for Friday's game versus South Florida, per the American Athletic availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Florida Gators, South Florida Bulls\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 14:40 PT",
+   "body": "Michael Van Buren: Ruled out for Friday\nVan Buren (undisclosed) won't suit up for Friday's clash with East Carolina, per the American Athletic availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: East Carolina Pirates\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
   }
  ],
  "base": {
@@ -1179,9 +1199,9 @@
   },
   "401909287": {
    "date": "2026-11-07T00:00Z",
-   "ml_away": 197.0,
+   "ml_away": 261.0,
    "ml_draw": null,
-   "ml_home": -238.0,
+   "ml_home": -323.0,
    "open": {
     "ml_away": 199.0,
     "ml_draw": null,
@@ -1189,7 +1209,7 @@
     "spread_home": -6.5,
     "total": 230.5
    },
-   "spread_home": -6.5,
+   "spread_home": -8.5,
    "total": 227.5
   },
   "401909288": {
@@ -1752,8 +1772,8 @@
    "Denver Nuggets|Spencer Jones": "Out \u00a6 Jones (hamstring) is out for Wednesday's game against the Raptors.",
    "Detroit Pistons|Isaiah Joe": "Out \u00a6 Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
    "Detroit Pistons|Jalen Duren": "Out \u00a6 Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com repo",
-   "Golden State Warriors|Draymond Green": "Day-To-Day \u00a6 Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d",
-   "Golden State Warriors|Gary Payton II": "Day-To-Day \u00a6 Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri",
+   "Golden State Warriors|Draymond Green": "Day-To-Day \u00a6 Green (elbow) is listed as questionable ahead of Saturday's game against Orlando.",
+   "Golden State Warriors|Gary Payton II": "Day-To-Day \u00a6 Payton is questionable to play Saturday against the Magic due to right calf tightness.",
    "Golden State Warriors|Gui Santos": "Day-To-Day \u00a6 Santos (knee) is questionable for Saturday's game versus Orlando, per Nick Friedell of The Athletic.",
    "Golden State Warriors|Jimmy Butler III": "Out \u00a6 Butler (knee) could return sometime between January and February as he continues recovering from a torn right ",
    "Golden State Warriors|Kristaps Porzingis": "Out \u00a6 Porzingis announced on his social media that he's stepping away from basketball.",
@@ -2621,7 +2641,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T14:35:11.190030-08:00",
+ "last_run": "2026-11-06T14:40:14.764344-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3125,11 +3145,13 @@
   "50402162",
   "50402285",
   "50402297",
-  "50402299"
+  "50402299",
+  "50402360",
+  "50402366"
  ],
  "props": {
   "T103": {
-   "checked": 1794001164.96876,
+   "checked": 1794004859.171238,
    "dk_bet_line": -2.5,
    "dk_bet_price": -110.0,
    "line": -2.5,
@@ -3177,6 +3199,8 @@
   "cfb238589",
   "cfb238590",
   "cfb238591",
+  "cfb238592",
+  "cfb238593",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -3196,6 +3220,7 @@
   "nba537862",
   "nba537863",
   "nba537865",
+  "nba537866",
   "nfl646200",
   "nfl646201",
   "nfl646202",
@@ -3254,7 +3279,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 3
+  "2026-11": 4
  },
  "wx": {
   "401860912:wx": 2,
@@ -3262,59 +3287,59 @@
   "401862820:wx": 1
  },
  "wx_checked": {
-  "401856738": 1794001129.2480156,
+  "401856738": 1794004827.0593922,
   "401856739": 1794002649.7557197,
   "401856740": 1794002645.4017136,
-  "401856741": 1794001136.094062,
-  "401856742": 1794001134.3138766,
-  "401856743": 1794001102.488256,
+  "401856741": 1794004852.8483534,
+  "401856742": 1794004851.8124428,
+  "401856743": 1794004824.4557848,
   "401856744": 1794002644.7030132,
   "401856745": 1794002649.2192724,
-  "401856849": 1794001102.2192578,
-  "401856850": 1794001131.635189,
+  "401856849": 1794004823.9645493,
+  "401856850": 1794004850.2005029,
   "401856851": 1794002645.8814697,
-  "401856852": 1794001159.5534282,
-  "401856853": 1794001103.3796377,
-  "401856854": 1794001129.9752636,
-  "401856855": 1794001101.9131284,
+  "401856852": 1794004853.8356056,
+  "401856853": 1794004825.0753117,
+  "401856854": 1794004827.7205338,
+  "401856855": 1794004822.76496,
   "401856856": 1794002650.4030933,
-  "401858286": 1794001105.753554,
-  "401858287": 1794001162.0467172,
-  "401858288": 1794001100.0124497,
-  "401858289": 1794001104.0855007,
+  "401858286": 1794004826.7823508,
+  "401858287": 1794004853.9801817,
+  "401858288": 1794004821.06731,
+  "401858289": 1794004825.5890236,
   "401858290": 1794002645.7029781,
-  "401858291": 1794001135.8192928,
-  "401858292": 1794001104.864016,
-  "401858510": 1794001101.3458562,
-  "401858511": 1794001162.534114,
-  "401858512": 1794001102.7556033,
-  "401858513": 1794001159.2604969,
+  "401858291": 1794004852.6614037,
+  "401858292": 1794004825.7630332,
+  "401858510": 1794004821.7399492,
+  "401858511": 1794004854.1391606,
+  "401858512": 1794004824.5788898,
+  "401858513": 1794004853.3411546,
   "401858514": 1794002645.532099,
-  "401858515": 1794001106.3693073,
+  "401858515": 1794004826.9210703,
   "401858516": 1794002646.8312845,
-  "401858517": 1794001134.588387,
+  "401858517": 1794004852.3388066,
   "401860911": 1794002648.6909187,
-  "401860912": 1794001163.6051335,
+  "401860912": 1794004855.268391,
   "401860913": 1794002650.9518077,
-  "401862818": 1794001100.6994252,
+  "401862818": 1794004821.5928283,
   "401862819": 1794002647.3297493,
   "401862820": 1794002647.5546672,
-  "401862821": 1794001132.255132,
-  "401862822": 1794001105.132195,
-  "401862823": 1794001163.1674712,
+  "401862821": 1794004850.488081,
+  "401862822": 1794004826.2728078,
+  "401862823": 1794004854.7754254,
   "401864532": 1794002651.0929525,
-  "401864533": 1794001101.614848,
-  "401864534": 1794001132.5250008,
-  "401869927": 1794001130.9871562,
+  "401864533": 1794004822.2422123,
+  "401864534": 1794004850.6264443,
+  "401869927": 1794004850.0768435,
   "401869936": 1794002644.9404361,
-  "401869945": 1794001130.3344302,
+  "401869945": 1794004849.887853,
   "401869951": 1794002647.90433,
   "401869968": 1794002648.1822767,
   "401870795": 1794002650.2420163,
   "401871073": 1794002645.216377,
-  "401871074": 1794001133.008179,
-  "401871075": 1794001135.2035353,
+  "401871074": 1794004851.1375408,
+  "401871075": 1794004852.5250266,
   "401871076": 1794002648.0319319,
-  "401871098": 1794001133.6234586
+  "401871098": 1794004851.6379774
  }
 }

@@ -1,5 +1,36 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:40 PT · ⚡ NCAAF news (RotoWire)**  
+Michael Van Buren: Ruled out for Friday  
+Van Buren (undisclosed) won't suit up for Friday's clash with East Carolina, per the American Athletic availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: East Carolina Pirates  
+→ Check the line NOW before it moves.
+
+**2026-11-06 14:40 PT · ⚡ NCAAF news (RotoWire)**  
+Jeremiah Melvin: Will not play versus South Florida  
+Melvin (undisclosed) is out for Friday's game versus South Florida, per the American Athletic availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Florida Gators, South Florida Bulls  
+→ Check the line NOW before it moves.
+
+**2026-11-06 14:40 PT · ⚡ NBA news (RotoWire)**  
+Anthony Davis: Ruled out Friday night  
+Davis (ankle) is listed as out for Friday's game against the Hawks.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Atlanta Hawks, Washington Wizards  
+→ Check the line NOW before it moves.
+
+**2026-11-06 14:40 PT · 📈 Line move**  
+NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)  
+Spread ATL -6.5 → -8.5  
+ML ATL -238 → -323  
+ML WSH +197 → +261  
+(first seen: ATL -6.5, O/U 230.5)
+
 **2026-11-06 14:35 PT · 🏥 NBA injury update**  
 🚨⭐ Draymond Green (Golden State Warriors): NEW → Day-To-Day — Green amassed two points (1-3 FG, 0-2 3Pt), five rebounds, 11 assists, one block and one steal in 27 minutes d  
 🚨⭐ Gary Payton II (Golden State Warriors): NEW → Day-To-Day — Payton accumulated five points (2-4 FG, 1-3 3Pt), two rebounds, two assists and one steal over 15 minutes duri
