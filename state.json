@@ -54,6 +54,21 @@
    "at": "2026-11-06 04:29 PT",
    "body": "\ud83d\udea8\u2b50 Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start\nBrian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.\nPlays within 36h: Memphis Grizzlies, Philadelphia 76ers\n\u2192 Check the line NOW before it moves.",
    "title": "\ud83d\udcf0 NBA news"
+  },
+  {
+   "at": "2026-11-06 05:43 PT",
+   "body": "NBA Boston Celtics @ Charlotte Hornets (Fri 4:00 PM PT)\nTotal 210.5 \u2192 207.5\n(first seen: CHA +8.5, O/U 210.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 05:43 PT",
+   "body": "CBB Arkansas State Red Wolves @ Alabama Crimson Tide (Fri 4:30 PM PT)\nTotal 173.5 \u2192 176.5\n(first seen: ALA -25.5, O/U 173.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 05:43 PT",
+   "body": "CBB UConn Huskies @ Michigan Wolverines (Fri 5:00 PM PT)\nTotal 144.5 \u2192 141.5\n(first seen: MICH +6.5, O/U 144.5)",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -419,9 +434,9 @@
   },
   "401876407": {
    "date": "2026-11-07T20:05Z",
-   "ml_away": 1700.0,
+   "ml_away": 1600.0,
    "ml_draw": 1000.0,
-   "ml_home": -900.0,
+   "ml_home": -800.0,
    "open": {
     "ml_away": 1600.0,
     "ml_draw": 1000.0,
@@ -715,7 +730,7 @@
     "total": 173.5
    },
    "spread_home": -25.5,
-   "total": 173.5
+   "total": 176.5
   },
   "401909287": {
    "date": "2026-11-07T00:00Z",
@@ -745,7 +760,7 @@
     "total": 210.5
    },
    "spread_home": 8.5,
-   "total": 210.5
+   "total": 207.5
   },
   "401909289": {
    "date": "2026-11-07T00:30Z",
@@ -839,9 +854,9 @@
   },
   "401909295": {
    "date": "2026-11-07T03:00Z",
-   "ml_away": -990.0,
+   "ml_away": -1040.0,
    "ml_draw": null,
-   "ml_home": 650.0,
+   "ml_home": 680.0,
    "open": {
     "ml_away": -970.0,
     "ml_draw": null,
@@ -910,7 +925,7 @@
     "total": 144.5
    },
    "spread_home": 6.5,
-   "total": 144.5
+   "total": 141.5
   },
   "401921719": {
    "date": "2026-11-07T02:00Z",
@@ -980,6 +995,10 @@
   "Auburn, AL": [
    42.93173,
    -76.56605
+  ],
+  "Boone, NC": [
+   36.21679,
+   -81.67455
   ],
   "Champaign, IL": [
    40.11642,
@@ -1247,7 +1266,7 @@
    "Atlanta Falcons|Drake London": "Active \u00a6 London brought in one of six targets for eight yards in the Falcons' 16-0 loss to the Buccaneers on Sunday.",
    "Atlanta Falcons|Jack Strand": "Active",
    "Atlanta Falcons|Jahan Dotson": "Active \u00a6 Dotson caught two of five targets for 95 yards during Sunday's 16-0 loss to Tampa Bay.",
-   "Atlanta Falcons|James Pearce Jr.": "Active \u00a6 The NFL reinstated Pearce on Monday after he served his eight-game suspension for violating the league's perso",
+   "Atlanta Falcons|James Pearce Jr.": "Questionable \u00a6 questionable",
    "Atlanta Falcons|Khalil Herbert": "Active \u00a6 Herbert reverted to the Falcons' practice squad Monday, per the NFL's transaction log.",
    "Atlanta Falcons|Kyle Pitts Sr.": "Active \u00a6 Pitts caught two of five targets for six yards during Sunday's 16-0 loss to the Buccaneers.",
    "Atlanta Falcons|Michael Penix Jr.": "Active \u00a6 Penix completed eight of 24 passes for 125 yards with no touchdowns and four interceptions while rushing five ",
@@ -2009,8 +2028,9 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T04:29:54.684822-08:00",
+ "last_run": "2026-11-06T05:43:23.534963-08:00",
  "news_seen": [
+  "29098001",
   "40699880",
   "43810752",
   "47664633",
@@ -2022,9 +2042,11 @@
   "49881131",
   "49967701",
   "50028196",
+  "50043976",
   "50055526",
   "50075485",
   "50116408",
+  "50119009",
   "50166049",
   "50182998",
   "50284670",
@@ -2095,6 +2117,7 @@
   "50356977",
   "50357124",
   "50357352",
+  "50357490",
   "50357589",
   "50357670",
   "50358038",
@@ -2434,7 +2457,8 @@
   "50397985",
   "50398268",
   "50398344",
-  "50398613"
+  "50398613",
+  "50399035"
  ],
  "props": {},
  "queue": [
@@ -2477,6 +2501,21 @@
    4,
    "\ud83d\udcf0 NBA news",
    "\ud83d\udea8\u2b50 Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start\nBrian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.\nPlays within 36h: Memphis Grizzlies, Philadelphia 76ers\n\u2192 Check the line NOW before it moves.\n\u23f1 4:29 AM PT"
+  ],
+  [
+   3,
+   "\ud83d\udcc8 Line move",
+   "NBA Boston Celtics @ Charlotte Hornets (Fri 4:00 PM PT)\nTotal 210.5 \u2192 207.5\n(first seen: CHA +8.5, O/U 210.5)\n\u23f1 5:43 AM PT"
+  ],
+  [
+   3,
+   "\ud83d\udcc8 Line move",
+   "CBB Arkansas State Red Wolves @ Alabama Crimson Tide (Fri 4:30 PM PT)\nTotal 173.5 \u2192 176.5\n(first seen: ALA -25.5, O/U 173.5)\n\u23f1 5:43 AM PT"
+  ],
+  [
+   3,
+   "\ud83d\udcc8 Line move",
+   "CBB UConn Huskies @ Michigan Wolverines (Fri 5:00 PM PT)\nTotal 144.5 \u2192 141.5\n(first seen: MICH +6.5, O/U 144.5)\n\u23f1 5:43 AM PT"
   ]
  ],
  "rw_seen": [
@@ -2506,22 +2545,23 @@
  "seeded": true,
  "sgo_usage": {},
  "wx_checked": {
-  "401856738": 1793968200.57241,
-  "401856743": 1793964997.9746828,
-  "401856849": 1793964997.0666296,
-  "401856853": 1793965000.0128279,
-  "401856854": 1793968201.879957,
-  "401856855": 1793964996.5124412,
-  "401858286": 1793965004.1061454,
-  "401858288": 1793964994.8507507,
-  "401858289": 1793965001.1613283,
-  "401858292": 1793965002.0567746,
-  "401858510": 1793964995.5291917,
-  "401858512": 1793964998.8641877,
-  "401858515": 1793965005.020846,
-  "401862818": 1793964995.144866,
-  "401862822": 1793965003.203962,
-  "401864533": 1793964995.8227568,
-  "401869945": 1793968203.1560147
+  "401856738": 1793972611.42154,
+  "401856743": 1793972609.1800244,
+  "401856849": 1793972608.6943133,
+  "401856853": 1793972609.398132,
+  "401856854": 1793972611.5412252,
+  "401856855": 1793972608.4819076,
+  "401858286": 1793972610.6727567,
+  "401858288": 1793972606.851319,
+  "401858289": 1793972609.5999472,
+  "401858292": 1793972610.0774853,
+  "401858510": 1793972607.499167,
+  "401858512": 1793972609.2953696,
+  "401858515": 1793972610.7851508,
+  "401862818": 1793972607.3448367,
+  "401862822": 1793972610.5549784,
+  "401864533": 1793972607.981934,
+  "401869927": 1793972612.1503718,
+  "401869945": 1793972611.645726
  }
 }

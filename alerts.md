@@ -1,5 +1,20 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 05:43 PT · 📈 Line move**  
+CBB UConn Huskies @ Michigan Wolverines (Fri 5:00 PM PT)  
+Total 144.5 → 141.5  
+(first seen: MICH +6.5, O/U 144.5)
+
+**2026-11-06 05:43 PT · 📈 Line move**  
+CBB Arkansas State Red Wolves @ Alabama Crimson Tide (Fri 4:30 PM PT)  
+Total 173.5 → 176.5  
+(first seen: ALA -25.5, O/U 173.5)
+
+**2026-11-06 05:43 PT · 📈 Line move**  
+NBA Boston Celtics @ Charlotte Hornets (Fri 4:00 PM PT)  
+Total 210.5 → 207.5  
+(first seen: CHA +8.5, O/U 210.5)
+
 **2026-11-06 04:29 PT · 📰 NBA news**  
 🚨⭐ Windhorst & MacMahon: What league insiders are seeing from Philly's 8-1 start  
 Brian Windhorst and Tim MacMahon canvass the league for early superteam intel, the staying power of Memphis and next steps in Sacramento.  
