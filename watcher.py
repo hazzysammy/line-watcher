@@ -256,42 +256,76 @@ def main():
             fired.add(ev["id"] + ":lu")
             alerts.append((4, "📋 Lineups posted", f'{label(ev)}\n' + "\n".join(xi_lines) + ("\n" + "\n".join(warn) if warn else "")))
 
-    # ---------- player props (optional: needs ODDS_API_KEY secret) ----------
-    okey = os.environ.get("ODDS_API_KEY", "").strip()
+    # ---------- DraftKings props / halves / quarters via SportsGameOdds (needs SGO_API_KEY) ----------
+    skey = os.environ.get("SGO_API_KEY", "").strip()
     props = [w for w in watch if w.get("type") == "prop" and w.get("active", True)]
     pstate = state.setdefault("props", {})
-    if okey and props:
-        OA = "https://api.the-odds-api.com/v4/sports/"
-        evcache = {}
+    month = now.strftime("%Y-%m")
+    usage = state.setdefault("sgo_usage", {})
+    if skey and props:
+        SGO = "https://api.sportsgameodds.com/v2/events"
+        def sgo(q):
+            if usage.get(month, 0) >= CFG.get("sgo_monthly_budget", 1200):
+                print("SGO monthly budget reached"); return []
+            req = urllib.request.Request(SGO + "?" + q, headers={"x-api-key": skey, "User-Agent": "line-watcher"})
+            try:
+                with urllib.request.urlopen(req, timeout=25) as r:
+                    d = json.load(r).get("data", [])
+            except Exception as e:
+                print("sgo failed", e); return []
+            usage[month] = usage.get(month, 0) + len(d)
+            return d
+        evids = state.setdefault("sgo_events", {})   # "LEAGUE|TEAM|date" -> eventID
+        day = now.strftime("%Y%m%d")
         groups = {}
         for w in props:
             last = pstate.get(w["id"], {}).get("checked", 0)
             if time.time() - last < CFG.get("prop_check_minutes", 60) * 60: continue
-            groups.setdefault((w["sport_key"], w["team"], w["market"]), []).append(w)
-        for (sk, team, market), ws in groups.items():
-            if sk not in evcache:
-                evcache[sk] = get(OA + sk + "/events?apiKey=" + okey) or []
-            evm = [e for e in evcache[sk] if team.lower() in (e.get("home_team", "") + e.get("away_team", "")).lower()]
-            evm = [e for e in evm if 0 < (dt.datetime.fromisoformat(e["commence_time"].replace("Z", "+00:00")) - utcnow).total_seconds() < 14 * 3600]
-            if not evm:
+            groups.setdefault((w["league"], w["team_id"]), []).append(w)
+        for (league, team_id), ws in groups.items():
+            ck = f"{league}|{team_id}|{day}"
+            if ck not in evids:
+                t0 = utcnow.strftime("%Y-%m-%dT%H:%M:%SZ"); t1 = (utcnow + dt.timedelta(hours=20)).strftime("%Y-%m-%dT%H:%M:%SZ")
+                d = sgo(f"leagueID={league}&teamID={team_id}&startsAfter={t0}&startsBefore={t1}&limit=1")
+                d = [e for e in d if team_id in (e["teams"]["home"]["teamID"], e["teams"]["away"]["teamID"])]
+                evids[ck] = d[0]["eventID"] if d else None
+                evdata = d[0] if d else None
+            else:
+                evdata = None
+            if not evids[ck]:
                 continue
-            j = get(OA + sk + "/events/" + evm[0]["id"] + "/odds?apiKey=" + okey + "&regions=us&markets=" + market
-                    + "&bookmakers=" + CFG.get("prop_book", "draftkings") + "&oddsFormat=american")
-            outs = [o for b in (j or {}).get("bookmakers", []) for m in b.get("markets", []) for o in m.get("outcomes", [])]
+            if evdata is None:
+                d = sgo("eventIDs=" + evids[ck])
+                evdata = d[0] if d else None
+            if not evdata: continue
+            if (evdata.get("status") or {}).get("started"):
+                continue
             for w in ws:
-                ps = pstate.setdefault(w["id"], {})
-                ps["checked"] = time.time()
-                mine = [o for o in outs if norm(w["player"]) in norm(o.get("description", "")) and o.get("name") == w.get("side", "Over")]
-                if not mine: continue
-                line, price = mine[0].get("point"), mine[0].get("price")
-                prev = ps.get("line")
+                ps = pstate.setdefault(w["id"], {}); ps["checked"] = time.time()
+                o = (evdata.get("odds") or {}).get(w["odd_id"]) or {}
+                bk = (o.get("byBookmaker") or {}).get(CFG.get("prop_book", "draftkings")) or {}
+                if not bk.get("available", True) or not bk:
+                    if ps.get("line") is not None and w["id"] + ":off" not in fired:
+                        alerts.append((4, "⛔ Prop pulled", f'{w.get("label")}\nDK took this market off the board — check news.'))
+                        fired.add(w["id"] + ":off")
+                    continue
+                fired.discard(w["id"] + ":off")
+                line = num(bk.get("overUnder") or bk.get("spread")); price = num(bk.get("odds"))
+                pl, pp = ps.get("line"), ps.get("price")
                 ps.update(line=line, price=price)
-                if prev is not None and line != prev:
-                    alerts.append((3, "📊 Prop line move", f'{w.get("label", w["player"])}\n{w["player"]} {w.get("side","Over")} {prev} → {line} ({fmt(price)})'))
-                if w.get("op") in ("<=", ">=") and w["id"] + ":hit" not in fired and line is not None:
-                    if (line <= w["value"]) if w["op"] == "<=" else (line >= w["value"]):
-                        alerts.append((4, "🎯 Prop target hit", f'{w.get("label", w["player"])}\n{w["player"]} {w.get("side","Over")} {line} ({fmt(price)}) — target {w["op"]} {w["value"]}'))
-                        fired.add(w["id"] + ":hit")
+                mv = []
+                if pl is not None and line != pl: mv.append(f"line {pl:g} → {line:g}")
+                if pp is not None and price is not None and abs(prob(price) - prob(pp)) * 100 >= CFG.get("prop_price_pct", 4):
+                    mv.append(f"price {fmt(pp)} → {fmt(price)}")
+                if mv:
+                    alerts.append((3, "📊 Prop move (DK)", f'{w.get("label")}\n' + ", ".join(mv) + f'  (now {line if line is not None else ""} {fmt(price)})'))
+                for fld, cur in (("line", line), ("price", price)):
+                    op, val = w.get(fld + "_op"), w.get(fld + "_value")
+                    if op and cur is not None and w["id"] + ":" + fld not in fired and ((cur <= val) if op == "<=" else (cur >= val)):
+                        alerts.append((4, "🎯 Target hit (DK)", f'{w.get("label")}\nNow {line if line is not None else ""} {fmt(price)} — target {fld} {op} {fmt(val) if fld=="price" else val}'))
+                        fired.add(w["id"] + ":" + fld)
+        for k in [k for k in evids if not k.endswith(day)]:
+            evids.pop(k)
 
     # injuries
     for sport, path in CFG["injury_feeds"].items():

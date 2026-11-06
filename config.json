@@ -173,5 +173,8 @@
   "lineup_teams": [],
   "lineup_players": [],
   "prop_book": "draftkings",
-  "prop_check_minutes": 60
+  "prop_check_minutes": 60,
+  "sgo_monthly_budget": 1200,
+  "prop_price_pct": 4,
+  "_notes_props": "Props/halves/quarters come from SportsGameOdds (DK prices). Free plan = 2500 game pulls/month; the watcher uses at most sgo_monthly_budget and leaves the rest for Claude's scans."
 }
