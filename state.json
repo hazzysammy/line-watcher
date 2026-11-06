@@ -92,9 +92,9 @@
   },
   "401906758": {
    "date": "2026-11-07T00:30Z",
-   "ml_away": 2200.0,
+   "ml_away": 3000.0,
    "ml_draw": null,
-   "ml_home": -8000.0,
+   "ml_home": -10000.0,
    "open": {
     "ml_away": 2200.0,
     "ml_draw": null,
@@ -1240,7 +1240,7 @@
    "Washington Commanders|Treylon Burks": "Questionable"
   }
  },
- "last_run": "2026-11-05T20:26:23.929613-08:00",
+ "last_run": "2026-11-05T20:37:53.661295-08:00",
  "queue": [],
  "seeded": true
 }
