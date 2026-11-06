@@ -14,9 +14,139 @@
    "at": "2026-11-05 22:47 PT",
    "body": "\ud83d\udea8\u2b50 Gui Santos (Golden State Warriors): Out \u2192 Day-To-Day \u2014 Santos (knee) has been ruled out for Thursday's game against the Heat.",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 00:50 PT",
+   "body": "L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)\nML TOU +110 \u2192 +130\nML STR +235 \u2192 +200\n(first seen: TOU -0.5, O/U 2.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 00:50 PT",
+   "body": "Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?\nIf Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!\nPlays within 36h: Leeds United\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 SOCCER news"
   }
  ],
  "base": {
+  "401856739": {
+   "date": "2026-11-08T00:45Z",
+   "ml_away": 195.0,
+   "ml_draw": null,
+   "ml_home": -238.0,
+   "open": {
+    "ml_away": 195.0,
+    "ml_draw": null,
+    "ml_home": -238.0,
+    "spread_home": -6.5,
+    "total": 45.5
+   },
+   "spread_home": -6.5,
+   "total": 45.5
+  },
+  "401856740": {
+   "date": "2026-11-07T20:30Z",
+   "ml_away": 195.0,
+   "ml_draw": null,
+   "ml_home": -238.0,
+   "open": {
+    "ml_away": 195.0,
+    "ml_draw": null,
+    "ml_home": -238.0,
+    "spread_home": -6.0,
+    "total": 52.5
+   },
+   "spread_home": -6.0,
+   "total": 52.5
+  },
+  "401856741": {
+   "date": "2026-11-08T00:30Z",
+   "ml_away": -175.0,
+   "ml_draw": null,
+   "ml_home": 145.0,
+   "open": {
+    "ml_away": -175.0,
+    "ml_draw": null,
+    "ml_home": 145.0,
+    "spread_home": 3.5,
+    "total": 56.5
+   },
+   "spread_home": 3.5,
+   "total": 56.5
+  },
+  "401856743": {
+   "date": "2026-11-07T17:00Z",
+   "ml_away": -142.0,
+   "ml_draw": null,
+   "ml_home": 120.0,
+   "open": {
+    "ml_away": -142.0,
+    "ml_draw": null,
+    "ml_home": 120.0,
+    "spread_home": 2.5,
+    "total": 42.5
+   },
+   "spread_home": 2.5,
+   "total": 42.5
+  },
+  "401856744": {
+   "date": "2026-11-07T20:00Z",
+   "ml_away": 215.0,
+   "ml_draw": null,
+   "ml_home": -265.0,
+   "open": {
+    "ml_away": 215.0,
+    "ml_draw": null,
+    "ml_home": -265.0,
+    "spread_home": -7.0,
+    "total": 50.5
+   },
+   "spread_home": -7.0,
+   "total": 50.5
+  },
+  "401856745": {
+   "date": "2026-11-07T23:15Z",
+   "ml_away": 195.0,
+   "ml_draw": null,
+   "ml_home": -238.0,
+   "open": {
+    "ml_away": 195.0,
+    "ml_draw": null,
+    "ml_home": -238.0,
+    "spread_home": -6.5,
+    "total": 49.5
+   },
+   "spread_home": -6.5,
+   "total": 49.5
+  },
+  "401856849": {
+   "date": "2026-11-07T17:00Z",
+   "ml_away": 160.0,
+   "ml_draw": null,
+   "ml_home": -192.0,
+   "open": {
+    "ml_away": 160.0,
+    "ml_draw": null,
+    "ml_home": -192.0,
+    "spread_home": -4.5,
+    "total": 48.5
+   },
+   "spread_home": -4.5,
+   "total": 48.5
+  },
+  "401856851": {
+   "date": "2026-11-07T20:30Z",
+   "ml_away": 320.0,
+   "ml_draw": null,
+   "ml_home": -410.0,
+   "open": {
+    "ml_away": 320.0,
+    "ml_draw": null,
+    "ml_home": -410.0,
+    "spread_home": -10.5,
+    "total": 62.5
+   },
+   "spread_home": -10.5,
+   "total": 62.5
+  },
   "401856855": {
    "date": "2026-11-07T03:15Z",
    "ml_away": 240.0,
@@ -31,6 +161,186 @@
    },
    "spread_home": -7.5,
    "total": 46.5
+  },
+  "401856856": {
+   "date": "2026-11-08T02:30Z",
+   "ml_away": 600.0,
+   "ml_draw": null,
+   "ml_home": -900.0,
+   "open": {
+    "ml_away": 600.0,
+    "ml_draw": null,
+    "ml_home": -900.0,
+    "spread_home": -16.5,
+    "total": 65.5
+   },
+   "spread_home": -16.5,
+   "total": 65.5
+  },
+  "401858290": {
+   "date": "2026-11-07T20:30Z",
+   "ml_away": null,
+   "ml_draw": null,
+   "ml_home": null,
+   "open": {
+    "ml_away": null,
+    "ml_draw": null,
+    "ml_home": null,
+    "spread_home": -47.5,
+    "total": 58.5
+   },
+   "spread_home": -47.5,
+   "total": 58.5
+  },
+  "401858291": {
+   "date": "2026-11-08T00:30Z",
+   "ml_away": 225.0,
+   "ml_draw": null,
+   "ml_home": -278.0,
+   "open": {
+    "ml_away": 225.0,
+    "ml_draw": null,
+    "ml_home": -278.0,
+    "spread_home": -7.5,
+    "total": 54.5
+   },
+   "spread_home": -7.5,
+   "total": 54.5
+  },
+  "401858512": {
+   "date": "2026-11-07T17:00Z",
+   "ml_away": -205.0,
+   "ml_draw": null,
+   "ml_home": 170.0,
+   "open": {
+    "ml_away": -205.0,
+    "ml_draw": null,
+    "ml_home": 170.0,
+    "spread_home": 5.5,
+    "total": 38.5
+   },
+   "spread_home": 5.5,
+   "total": 38.5
+  },
+  "401858513": {
+   "date": "2026-11-08T00:30Z",
+   "ml_away": 114.0,
+   "ml_draw": null,
+   "ml_home": -135.0,
+   "open": {
+    "ml_away": 114.0,
+    "ml_draw": null,
+    "ml_home": -135.0,
+    "spread_home": -2.5,
+    "total": 45.5
+   },
+   "spread_home": -2.5,
+   "total": 45.5
+  },
+  "401858514": {
+   "date": "2026-11-07T20:30Z",
+   "ml_away": 245.0,
+   "ml_draw": null,
+   "ml_home": -305.0,
+   "open": {
+    "ml_away": 245.0,
+    "ml_draw": null,
+    "ml_home": -305.0,
+    "spread_home": -7.5,
+    "total": 46.5
+   },
+   "spread_home": -7.5,
+   "total": 46.5
+  },
+  "401860911": {
+   "date": "2026-11-07T23:00Z",
+   "ml_away": -950.0,
+   "ml_draw": null,
+   "ml_home": 625.0,
+   "open": {
+    "ml_away": -950.0,
+    "ml_draw": null,
+    "ml_home": 625.0,
+    "spread_home": 17.5,
+    "total": 68.5
+   },
+   "spread_home": 17.5,
+   "total": 68.5
+  },
+  "401862819": {
+   "date": "2026-11-07T20:30Z",
+   "ml_away": 270.0,
+   "ml_draw": null,
+   "ml_home": -340.0,
+   "open": {
+    "ml_away": 270.0,
+    "ml_draw": null,
+    "ml_home": -340.0,
+    "spread_home": -8.5,
+    "total": 47.5
+   },
+   "spread_home": -8.5,
+   "total": 47.5
+  },
+  "401864532": {
+   "date": "2026-11-08T02:30Z",
+   "ml_away": -345.0,
+   "ml_draw": null,
+   "ml_home": 275.0,
+   "open": {
+    "ml_away": -345.0,
+    "ml_draw": null,
+    "ml_home": 275.0,
+    "spread_home": 8.5,
+    "total": 48.5
+   },
+   "spread_home": 8.5,
+   "total": 48.5
+  },
+  "401874791": {
+   "date": "2026-11-07T14:00Z",
+   "ml_away": 135.0,
+   "ml_draw": 255.0,
+   "ml_home": 165.0,
+   "open": {
+    "ml_away": 135.0,
+    "ml_draw": 255.0,
+    "ml_home": 165.0,
+    "spread_home": 0.5,
+    "total": 3.5
+   },
+   "spread_home": 0.5,
+   "total": 3.5
+  },
+  "401874803": {
+   "date": "2026-11-07T19:45Z",
+   "ml_away": 700.0,
+   "ml_draw": 475.0,
+   "ml_home": -360.0,
+   "open": {
+    "ml_away": 700.0,
+    "ml_draw": 475.0,
+    "ml_home": -360.0,
+    "spread_home": -1.5,
+    "total": 3.5
+   },
+   "spread_home": -1.5,
+   "total": 3.5
+  },
+  "401874811": {
+   "date": "2026-11-07T14:00Z",
+   "ml_away": 320.0,
+   "ml_draw": 255.0,
+   "ml_home": -130.0,
+   "open": {
+    "ml_away": 320.0,
+    "ml_draw": 255.0,
+    "ml_home": -130.0,
+    "spread_home": -0.5,
+    "total": 2.5
+   },
+   "spread_home": -0.5,
+   "total": 2.5
   },
   "401874815": {
    "date": "2026-11-06T19:45Z",
@@ -47,14 +357,119 @@
    "spread_home": -0.5,
    "total": 2.5
   },
+  "401874974": {
+   "date": "2026-11-07T17:00Z",
+   "ml_away": -120.0,
+   "ml_draw": 240.0,
+   "ml_home": 330.0,
+   "open": {
+    "ml_away": -120.0,
+    "ml_draw": 240.0,
+    "ml_home": 330.0,
+    "spread_home": 0.5,
+    "total": 2.5
+   },
+   "spread_home": 0.5,
+   "total": 2.5
+  },
   "401876405": {
    "date": "2026-11-06T19:45Z",
-   "ml_away": 235.0,
+   "ml_away": 200.0,
    "ml_draw": 270.0,
-   "ml_home": 110.0,
+   "ml_home": 130.0,
    "open": {
     "ml_away": 235.0,
     "ml_draw": 270.0,
+    "ml_home": 110.0,
+    "spread_home": -0.5,
+    "total": 2.5
+   },
+   "spread_home": -0.5,
+   "total": 2.5
+  },
+  "401876407": {
+   "date": "2026-11-07T20:05Z",
+   "ml_away": 1600.0,
+   "ml_draw": 1000.0,
+   "ml_home": -900.0,
+   "open": {
+    "ml_away": 1600.0,
+    "ml_draw": 1000.0,
+    "ml_home": -900.0,
+    "spread_home": -2.5,
+    "total": 3.5
+   },
+   "spread_home": -2.5,
+   "total": 3.5
+  },
+  "401876411": {
+   "date": "2026-11-07T18:00Z",
+   "ml_away": -130.0,
+   "ml_draw": 300.0,
+   "ml_home": 320.0,
+   "open": {
+    "ml_away": -130.0,
+    "ml_draw": 300.0,
+    "ml_home": 320.0,
+    "spread_home": 0.5,
+    "total": 2.5
+   },
+   "spread_home": 0.5,
+   "total": 2.5
+  },
+  "401878757": {
+   "date": "2026-11-07T17:30Z",
+   "ml_away": -140.0,
+   "ml_draw": 310.0,
+   "ml_home": 360.0,
+   "open": {
+    "ml_away": -140.0,
+    "ml_draw": 310.0,
+    "ml_home": 360.0,
+    "spread_home": 0.5,
+    "total": 2.5
+   },
+   "spread_home": 0.5,
+   "total": 2.5
+  },
+  "401878758": {
+   "date": "2026-11-07T12:30Z",
+   "ml_away": 155.0,
+   "ml_draw": 240.0,
+   "ml_home": 180.0,
+   "open": {
+    "ml_away": 155.0,
+    "ml_draw": 240.0,
+    "ml_home": 180.0,
+    "spread_home": 0.5,
+    "total": 2.5
+   },
+   "spread_home": 0.5,
+   "total": 2.5
+  },
+  "401878760": {
+   "date": "2026-11-07T15:00Z",
+   "ml_away": 1600.0,
+   "ml_draw": 700.0,
+   "ml_home": -600.0,
+   "open": {
+    "ml_away": 1600.0,
+    "ml_draw": 700.0,
+    "ml_home": -600.0,
+    "spread_home": -2.5,
+    "total": 3.5
+   },
+   "spread_home": -2.5,
+   "total": 3.5
+  },
+  "401879241": {
+   "date": "2026-11-07T15:00Z",
+   "ml_away": 240.0,
+   "ml_draw": 265.0,
+   "ml_home": 110.0,
+   "open": {
+    "ml_away": 240.0,
+    "ml_draw": 265.0,
     "ml_home": 110.0,
     "spread_home": -0.5,
     "total": 2.5
@@ -77,6 +492,21 @@
    "spread_home": -0.5,
    "total": 2.5
   },
+  "401882808": {
+   "date": "2026-11-07T20:00Z",
+   "ml_away": -340.0,
+   "ml_draw": 500.0,
+   "ml_home": 800.0,
+   "open": {
+    "ml_away": -340.0,
+    "ml_draw": 500.0,
+    "ml_home": 800.0,
+    "spread_home": 1.5,
+    "total": 3.5
+   },
+   "spread_home": 1.5,
+   "total": 3.5
+  },
   "401882809": {
    "date": "2026-11-06T20:00Z",
    "ml_away": 320.0,
@@ -91,6 +521,141 @@
    },
    "spread_home": -0.5,
    "total": 2.5
+  },
+  "401882811": {
+   "date": "2026-11-07T17:30Z",
+   "ml_away": 110.0,
+   "ml_draw": 245.0,
+   "ml_home": 260.0,
+   "open": {
+    "ml_away": 110.0,
+    "ml_draw": 245.0,
+    "ml_home": 260.0,
+    "spread_home": 0.5,
+    "total": 2.5
+   },
+   "spread_home": 0.5,
+   "total": 2.5
+  },
+  "401882812": {
+   "date": "2026-11-07T13:00Z",
+   "ml_away": 185.0,
+   "ml_draw": 255.0,
+   "ml_home": 140.0,
+   "open": {
+    "ml_away": 185.0,
+    "ml_draw": 255.0,
+    "ml_home": 140.0,
+    "spread_home": -0.5,
+    "total": 2.5
+   },
+   "spread_home": -0.5,
+   "total": 2.5
+  },
+  "401882813": {
+   "date": "2026-11-07T15:15Z",
+   "ml_away": 215.0,
+   "ml_draw": 235.0,
+   "ml_home": 130.0,
+   "open": {
+    "ml_away": 215.0,
+    "ml_draw": 235.0,
+    "ml_home": 130.0,
+    "spread_home": -0.5,
+    "total": 2.5
+   },
+   "spread_home": -0.5,
+   "total": 2.5
+  },
+  "401884737": {
+   "date": "2026-11-07T14:30Z",
+   "ml_away": 110.0,
+   "ml_draw": 275.0,
+   "ml_home": 195.0,
+   "open": {
+    "ml_away": 110.0,
+    "ml_draw": 275.0,
+    "ml_home": 195.0,
+    "spread_home": 0.5,
+    "total": 3.5
+   },
+   "spread_home": 0.5,
+   "total": 3.5
+  },
+  "401884740": {
+   "date": "2026-11-07T14:30Z",
+   "ml_away": -320.0,
+   "ml_draw": 500.0,
+   "ml_home": 550.0,
+   "open": {
+    "ml_away": -320.0,
+    "ml_draw": 500.0,
+    "ml_home": 550.0,
+    "spread_home": 1.5,
+    "total": 4.5
+   },
+   "spread_home": 1.5,
+   "total": 4.5
+  },
+  "401884743": {
+   "date": "2026-11-07T17:30Z",
+   "ml_away": 310.0,
+   "ml_draw": 340.0,
+   "ml_home": -155.0,
+   "open": {
+    "ml_away": 310.0,
+    "ml_draw": 340.0,
+    "ml_home": -155.0,
+    "spread_home": -0.5,
+    "total": 3.5
+   },
+   "spread_home": -0.5,
+   "total": 3.5
+  },
+  "401884744": {
+   "date": "2026-11-07T14:30Z",
+   "ml_away": 425.0,
+   "ml_draw": 400.0,
+   "ml_home": -225.0,
+   "open": {
+    "ml_away": 425.0,
+    "ml_draw": 400.0,
+    "ml_home": -225.0,
+    "spread_home": -1.5,
+    "total": 3.5
+   },
+   "spread_home": -1.5,
+   "total": 3.5
+  },
+  "401884745": {
+   "date": "2026-11-07T14:30Z",
+   "ml_away": 650.0,
+   "ml_draw": 475.0,
+   "ml_home": -350.0,
+   "open": {
+    "ml_away": 650.0,
+    "ml_draw": 475.0,
+    "ml_home": -350.0,
+    "spread_home": -1.5,
+    "total": 3.5
+   },
+   "spread_home": -1.5,
+   "total": 3.5
+  },
+  "401888371": {
+   "date": "2026-11-07T16:00Z",
+   "ml_away": 500.0,
+   "ml_draw": 390.0,
+   "ml_home": -235.0,
+   "open": {
+    "ml_away": 500.0,
+    "ml_draw": 390.0,
+    "ml_home": -235.0,
+    "spread_home": -1.5,
+    "total": 3.5
+   },
+   "spread_home": -1.5,
+   "total": 3.5
   },
   "401892660": {
    "date": "2026-11-07T01:00Z",
@@ -402,11 +967,48 @@
   ]
  },
  "had_odds": {
+  "401856739": true,
+  "401856740": true,
+  "401856741": true,
+  "401856743": true,
+  "401856744": true,
+  "401856745": true,
+  "401856849": true,
+  "401856851": true,
   "401856855": true,
+  "401856856": true,
+  "401858290": true,
+  "401858291": true,
+  "401858512": true,
+  "401858513": true,
+  "401858514": true,
+  "401860911": true,
+  "401862819": true,
+  "401864532": true,
+  "401874791": true,
+  "401874803": true,
+  "401874811": true,
   "401874815": true,
+  "401874974": true,
   "401876405": true,
+  "401876407": true,
+  "401876411": true,
+  "401878757": true,
+  "401878758": true,
+  "401878760": true,
+  "401879241": true,
   "401879242": true,
+  "401882808": true,
   "401882809": true,
+  "401882811": true,
+  "401882812": true,
+  "401882813": true,
+  "401884737": true,
+  "401884740": true,
+  "401884743": true,
+  "401884744": true,
+  "401884745": true,
+  "401888371": true,
   "401892660": true,
   "401906758": true,
   "401909287": true,
@@ -1327,7 +1929,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-05T23:57:53.702315-08:00",
+ "last_run": "2026-11-06T00:50:02.748051-08:00",
  "news_seen": [
   "40699880",
   "43810752",
@@ -1466,6 +2068,7 @@
   "50377193",
   "50377365",
   "50377376",
+  "50377434",
   "50377477",
   "50378007",
   "50378043",
@@ -1563,6 +2166,7 @@
   "50389756",
   "50390044",
   "50390130",
+  "50390239",
   "50390289",
   "50390325",
   "50390491",
@@ -1606,6 +2210,7 @@
   "50393872",
   "50394147",
   "50394179",
+  "50395131",
   "50395188",
   "50395212",
   "50395594",
@@ -1683,10 +2288,22 @@
   "50397437",
   "50397480",
   "50397481",
-  "50397482"
+  "50397482",
+  "50397632"
  ],
  "props": {},
- "queue": [],
+ "queue": [
+  [
+   3,
+   "\ud83d\udcc8 Line move",
+   "L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)\nML TOU +110 \u2192 +130\nML STR +235 \u2192 +200\n(first seen: TOU -0.5, O/U 2.5)\n\u23f1 12:50 AM PT"
+  ],
+  [
+   4,
+   "\ud83d\udcf0 SOCCER news",
+   "Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?\nIf Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!\nPlays within 36h: Leeds United\n\u2192 Check the line NOW before it moves.\n\u23f1 12:50 AM PT"
+  ]
+ ],
  "rw_seen": [
   "cbb164521",
   "cbb164528",

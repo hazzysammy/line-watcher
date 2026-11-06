@@ -1,5 +1,17 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 00:50 PT · 📰 SOCCER news**  
+Does Man United's coach matter? Could Jurgen Klopp reach Premier League glory at Old Trafford?  
+If Manchester United hired an all-time great like Jurgen Klopp, would they have won the Premier League? Let's find out!  
+Plays within 36h: Leeds United  
+→ Check the line NOW before it moves.
+
+**2026-11-06 00:50 PT · 📈 Line move**  
+L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)  
+ML TOU +110 → +130  
+ML STR +235 → +200  
+(first seen: TOU -0.5, O/U 2.5)
+
 **2026-11-05 22:47 PT · 🏥 NBA injury update**  
 🚨⭐ Gui Santos (Golden State Warriors): Out → Day-To-Day — Santos (knee) has been ruled out for Thursday's game against the Heat.
 
