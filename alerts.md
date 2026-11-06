@@ -1,5 +1,57 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 13:38 PT · 🏥 NBA injury update**  
+De'Andre Hunter (Sacramento Kings): NEW → Day-To-Day — Hunter is questionable for Friday against the Spurs due to an illness.  
+Noah Clowney (Brooklyn Nets): Day-To-Day → removed from report (likely available)  
+Sandro Mamukelashvili (Los Angeles Lakers): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 13:38 PT · 🌦 Weather game**  
+CFB Texas State Bobcats @ Oregon State Beavers (Sat 7:30 PM PT)  
+Reser Stadium — 💨 wind 19 mph (gusts 42)  
+Total 71.5 · ORST -6.5  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
+**2026-11-06 13:38 PT · ⚡ NFL news (RotoWire)**  
+Amon-Ra St. Brown: Listed questionable for Sunday  
+St. Brown (ribs) is questionable for Sunday's game against the Dolphins, Tim Twentyman of the Lions' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:38 PT · ⚡ NFL news (RotoWire)**  
+DeVonta Smith: Won't play Sunday  
+Smith (hamstring) has been ruled out for Sunday's game against the Giants.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:38 PT · ⚡ NFL news (RotoWire)**  
+Cam Skattebo: Doubtful for Week 9  
+Skattebo (hamstring) is listed as doubtful for Sunday's game at Philadelphia, Dan Salomone of the Giants' official site reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:38 PT · ⚡ NFL news (RotoWire)**  
+Devin Singletary: Ticketed for RB1 duties  
+With Cam Skattebo (hamstring) doubtful to play Week 9, Singletary is expected to operate as the Giants' lead back Sunday against the Eagles, Jordan Raanan of ESPN.com reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:38 PT · ⚡ NBA news (RotoWire)**  
+De'Andre Hunter: Late addition to injury report  
+Hunter is questionable for Friday against the Spurs due to an illness.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Sacramento Kings, San Antonio Spurs  
+→ Check the line NOW before it moves.
+
+**2026-11-06 13:38 PT · 📈 Line move**  
+CBB Northeastern Huskies @ Virginia Cavaliers (Fri 2:00 PM PT)  
+Total 162.5 → 159.5  
+(first seen: UVA -33.5, O/U 159.5)
+
 **2026-11-06 13:00 PT · 🏥 NBA injury update**  
 Clint Capela (Houston Rockets): Day-To-Day → Out — Capela (ankle) is out for Saturday's game against the Suns.
 
