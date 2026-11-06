@@ -1,5 +1,61 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 07:22 PT · 🏥 NBA injury update**  
+Kam Jones (Milwaukee Bucks): Out → Day-To-Day — Jones (ankle/two-way player) is out for Friday's game against Toronto.
+
+**2026-11-06 07:22 PT · ⚡ NCAAF news (RotoWire)**  
+Ryan Wingo: Will be game-time decision Saturday  
+Wingo (shoulder) is expected to be a game-time decision for Saturday's game at Missouri, according to Pete Nakos of On3.com.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Missouri Tigers  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · ⚡ NCAAF news (RotoWire)**  
+Cam Coleman: Might not play in Week 10  
+Coleman (shoulder) might not be available for Saturday's game at Missouri despite his current questionable tag, according to Pete Nakos of On3.com.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Missouri Tigers  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · ⚡ NFL news (RotoWire)**  
+Deshaun Watson: Unlikely to start Sunday  
+Watson (concussion) "is unlikely to start" Sunday's game against the Saints, Ian Rapoport of NFL Network reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · ⚡ NFL news (RotoWire)**  
+Cam Skattebo: Seemingly out for Week 9  
+"It does not seem" that Skattebo (hamstring) will play Sunday against the Eagles, Ian Rapoport of NFL Network reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · ⚡ NFL news (RotoWire)**  
+George Pickens: Will remain limited Friday  
+Pickens (hamstring) "will be a little bit limited" Friday, but head coach Brian Schottenheimer is "hopeful" he will play Sunday against the Colts, Tommy Yarrish of the Cowboys' official site reports.  
+  
+        Visit RotoWire.com for more ana  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · 📰 SOCCER news**  
+Roberto De Zerbi: Tottenham rising star Luca Williams-Barnett ready to start matches  
+Roberto De Zerbi believes Tottenham's highly-rated youngster Luca Williams-Barnett is ready to start matches.  
+Plays within 36h: Tottenham Hotspur  
+→ Check the line NOW before it moves.
+
+**2026-11-06 07:22 PT · 📈 Line move**  
+CBB Middle Tennessee Blue Raiders @ Kansas Jayhawks (Fri 6:00 PM PT)  
+Total 153.5 → 156.5  
+(first seen: KU -29.5, O/U 153.5)
+
+**2026-11-06 07:22 PT · 📈 Line move**  
+CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)  
+Total 150.5 → 145.5  
+(first seen: ISU -30.5, O/U 150.5)
+
 **2026-11-06 06:36 PT · 🌦 Weather game**  
 CFB Temple Owls @ Navy Midshipmen (Sat 12:30 PM PT)  
 Navy-Marine Corps Memorial Stadium — 💨 wind 13 mph (gusts 33)  

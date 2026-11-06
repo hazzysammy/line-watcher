@@ -104,6 +104,51 @@
    "at": "2026-11-06 06:36 PT",
    "body": "CFB Temple Owls @ Navy Midshipmen (Sat 12:30 PM PT)\nNavy-Marine Corps Memorial Stadium \u2014 \ud83d\udca8 wind 13 mph (gusts 33)\nTotal 54.5 \u00b7 NAVY -7.5\nWind/rain usually push totals and passing props DOWN \u2014 check before the market adjusts.",
    "title": "\ud83c\udf26 Weather game"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)\nTotal 150.5 \u2192 145.5\n(first seen: ISU -30.5, O/U 150.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "CBB Middle Tennessee Blue Raiders @ Kansas Jayhawks (Fri 6:00 PM PT)\nTotal 153.5 \u2192 156.5\n(first seen: KU -29.5, O/U 153.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Roberto De Zerbi: Tottenham rising star Luca Williams-Barnett ready to start matches\nRoberto De Zerbi believes Tottenham's highly-rated youngster Luca Williams-Barnett is ready to start matches.\nPlays within 36h: Tottenham Hotspur\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 SOCCER news"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "George Pickens: Will remain limited Friday\nPickens (hamstring) \"will be a little bit limited\" Friday, but head coach Brian Schottenheimer is \"hopeful\" he will play Sunday against the Colts, Tommy Yarrish of the Cowboys' official site reports.\n\n        Visit RotoWire.com for more ana\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Cam Skattebo: Seemingly out for Week 9\n\"It does not seem\" that Skattebo (hamstring) will play Sunday against the Eagles, Ian Rapoport of NFL Network reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Deshaun Watson: Unlikely to start Sunday\nWatson (concussion) \"is unlikely to start\" Sunday's game against the Saints, Ian Rapoport of NFL Network reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Cam Coleman: Might not play in Week 10\nColeman (shoulder) might not be available for Saturday's game at Missouri despite his current questionable tag, according to Pete Nakos of On3.com.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Missouri Tigers\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Ryan Wingo: Will be game-time decision Saturday\nWingo (shoulder) is expected to be a game-time decision for Saturday's game at Missouri, according to Pete Nakos of On3.com.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Missouri Tigers\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 07:22 PT",
+   "body": "Kam Jones (Milwaukee Bucks): Out \u2192 Day-To-Day \u2014 Jones (ankle/two-way player) is out for Friday's game against Toronto.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -754,9 +799,9 @@
   },
   "401906758": {
    "date": "2026-11-07T00:30Z",
-   "ml_away": 3000.0,
+   "ml_away": 2200.0,
    "ml_draw": null,
-   "ml_home": -10000.0,
+   "ml_home": -8000.0,
    "open": {
     "ml_away": 2200.0,
     "ml_draw": null,
@@ -889,9 +934,9 @@
   },
   "401909295": {
    "date": "2026-11-07T03:00Z",
-   "ml_away": -1040.0,
+   "ml_away": -1180.0,
    "ml_draw": null,
-   "ml_home": 680.0,
+   "ml_home": 740.0,
    "open": {
     "ml_away": -970.0,
     "ml_draw": null,
@@ -915,7 +960,7 @@
     "total": 150.5
    },
    "spread_home": -30.5,
-   "total": 150.5
+   "total": 145.5
   },
   "401909785": {
    "date": "2026-11-07T02:00Z",
@@ -930,7 +975,7 @@
     "total": 153.5
    },
    "spread_home": -29.5,
-   "total": 153.5
+   "total": 156.5
   },
   "401920423": {
    "date": "2026-11-06T22:00Z",
@@ -1075,6 +1120,10 @@
    32.78306,
    -96.80667
   ],
+  "Denton, TX": [
+   33.21484,
+   -97.13307
+  ],
   "East Hartford, CT": [
    41.78232,
    -72.61203
@@ -1095,9 +1144,21 @@
    34.02343,
    -84.61549
   ],
+  "Lawrence, KS": [
+   38.97167,
+   -95.23525
+  ],
+  "Madison, WI": [
+   43.07305,
+   -89.40123
+  ],
   "Manhattan, KS": [
    40.78343,
    -73.96625
+  ],
+  "Miami, FL": [
+   25.77427,
+   -80.19366
   ],
   "Minneapolis, MN": [
    44.97997,
@@ -1123,13 +1184,25 @@
    40.76078,
    -111.89105
   ],
+  "San Jose, CA": [
+   37.33939,
+   -121.89496
+  ],
   "Seattle, WA": [
    47.60621,
    -122.33207
   ],
+  "Starkville, MS": [
+   33.45049,
+   -88.81961
+  ],
   "Statesboro, GA": [
    32.44879,
    -81.78317
+  ],
+  "Troy, AL": [
+   42.72841,
+   -73.69179
   ],
   "Tucson, AZ": [
    32.22174,
@@ -1264,7 +1337,7 @@
    "Los Angeles Lakers|Sandro Mamukelashvili": "Day-To-Day \u00a6 Mamukelashvili (illness) is listed as questionable for Friday's game against Portland.",
    "Memphis Grizzlies|Isaiah Stewart": "Out \u00a6 Stewart (knee) has been ruled out for Friday's game against the Thunder.",
    "Memphis Grizzlies|Scotty Pippen Jr.": "Out \u00a6 Pippen (back) has been ruled out for Friday's game against Oklahoma City.",
-   "Milwaukee Bucks|Kam Jones": "Out \u00a6 Jones (ankle/two-way player) is out for Friday's game against Toronto.",
+   "Milwaukee Bucks|Kam Jones": "Day-To-Day \u00a6 Jones (ankle/two-way player) is out for Friday's game against Toronto.",
    "Minnesota Timberwolves|Anthony Edwards": "Out \u00a6 Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
    "Minnesota Timberwolves|Donte DiVincenzo": "Out \u00a6 DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The At",
    "Minnesota Timberwolves|Terrence Shannon Jr.": "Day-To-Day \u00a6 Shannon (hip) is questionable for Friday's game against New Orleans.",
@@ -1488,7 +1561,7 @@
    "Cleveland Browns|Austin Barber": "Questionable \u00a6 questionable",
    "Cleveland Browns|Carson Schwesinger": "Questionable \u00a6 Schwesinger notched 10 tackles (four solo) in Sunday's 27-6 loss to the Steelers.",
    "Cleveland Browns|Denzel Boston": "Questionable \u00a6 Boston (calf) remained limited in Thursday's practice, Mary Kay Cabot of The Cleveland Plain Dealer reports.",
-   "Cleveland Browns|Deshaun Watson": "Questionable \u00a6 Watson (concussion) remained sidelined from practice Thursday, Daniel Oyefusi of ESPN.com reports.",
+   "Cleveland Browns|Deshaun Watson": "Questionable \u00a6 Watson (concussion) \"is unlikely to start\" Sunday's game against the Saints, Ian Rapoport of NFL Network repor",
    "Cleveland Browns|Dillon Gabriel": "Active",
    "Cleveland Browns|Dylan Sampson": "Active \u00a6 Sampson rushed one time for seven yards and caught six of eight targets for 62 yards in Sunday's 27-6 loss to ",
    "Cleveland Browns|Elgton Jenkins": "Active",
@@ -1517,8 +1590,8 @@
    "Dallas Cowboys|DeMarvion Overshown": "Questionable \u00a6 Overshown (hamstring/back) was limited in Thursday's practice, Todd Archer of ESPN.com reports.",
    "Dallas Cowboys|Dee Winters": "Active \u00a6 Winters (calf) was a full participant in practice Thursday, Todd Archer of ESPN.com reports.",
    "Dallas Cowboys|Drew Shelton": "Active \u00a6 Shelton (hamstring) was a full participant in Wednesday's practice, Patrik Walker of the Cowboys' official sit",
-   "Dallas Cowboys|George Pickens": "Questionable \u00a6 Pickens (hamstring) was limited at Thursday's practice, Todd Archer of ESPN.com reports.",
-   "Dallas Cowboys|Jake Ferguson": "Questionable \u00a6 Ferguson (ankle) did not practice Thursday, Todd Archer of ESPN.com reports.",
+   "Dallas Cowboys|George Pickens": "Questionable \u00a6 Pickens (hamstring) \"will be a little bit limited\" Friday, but head coach Brian Schottenheimer is \"hopeful\" he",
+   "Dallas Cowboys|Jake Ferguson": "Questionable \u00a6 Head coach Brian Schottenheimer hopes that Ferguson (ankle) will be \"back on the field\" Friday, Tommy Yarrish ",
    "Dallas Cowboys|Jalen Thompson": "Injured Reserve \u00a6 Thompson (hamstring) has not had his 21-day practice window opened yet, Joe Hoyt of The Dallas Morning News re",
    "Dallas Cowboys|Javonte Williams": "Active \u00a6 Williams churned out 56 yards on 24 carries and notched one catch (on two targets) for one yard during Sunday'",
    "Dallas Cowboys|Joey Porter Jr.": "Questionable \u00a6 questionable",
@@ -1887,7 +1960,7 @@
    "New York Giants|Abdul Carter": "Active \u00a6 Carter (illness) returned to practice Thursday, Dan Duggan of The Athletic reports.",
    "New York Giants|Andrew Thomas": "Questionable \u00a6 Thomas (groin) was a limited participant at the Giants' practice Thursday.",
    "New York Giants|Arvell Reese": "Active \u00a6 Reese posted seven tackles (five solo), including 0.5 sacks, in Sunday's 27-21 overtime victory against the Te",
-   "New York Giants|Cam Skattebo": "Questionable \u00a6 Skattebo (hamstring) was a non-participant at Thursday's practice, Dan Salomone of the Giants' official site r",
+   "New York Giants|Cam Skattebo": "Questionable \u00a6 \"It does not seem\" that Skattebo (hamstring) will play Sunday against the Eagles, Ian Rapoport of NFL Network ",
    "New York Giants|Charlie Jones": "Questionable \u00a6 questionable",
    "New York Giants|Colton Hood": "Active \u00a6 Hood (illness) was a full participant in Thursday's practice.",
    "New York Giants|Darius Alexander": "Questionable \u00a6 questionable",
@@ -1911,7 +1984,7 @@
    "New York Giants|Tyrone Tracy Jr.": "Injured Reserve \u00a6 The Giants placed Tracy (hamstring) on injured reserve Tuesday, Dan Salomone of the team's official site repor",
    "New York Jets|Adonai Mitchell": "Active \u00a6 Mitchell caught seven of nine targets for 142 yards and a touchdown in Sunday's 38-33 loss to the Raiders.",
    "New York Jets|Braelon Allen": "Active \u00a6 Allen rushed 21 times for 147 yards and a touchdown while catching both of his targets for six yards in Sunday",
-   "New York Jets|Breece Hall": "Active \u00a6 Hall (quadriceps) indicated Thursday that he's ready to play Sunday against the Chiefs, Rich Cimini of ESPN.co",
+   "New York Jets|Breece Hall": "Active \u00a6 Hall (quadriceps) \"has been medically cleared\" and is expected to play Sunday against the Chiefs, Ian Rapoport",
    "New York Jets|Dane Belton": "Active \u00a6 Belton recorded 12 total tackles (eight solo) and a pass defensed in Sunday's 38-33 loss to the Raiders.",
    "New York Jets|David Bailey": "Active \u00a6 Bailey (groin) was a full participant in Thursday's practice.",
    "New York Jets|Dylan Parham": "Active \u00a6 Parham (knee) is active for Sunday's game against Las Vegas.",
@@ -2111,10 +2184,11 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-06T06:36:48.092320-08:00",
+ "last_run": "2026-11-06T07:22:25.365589-08:00",
  "news_seen": [
   "29098001",
   "40699880",
+  "42078248",
   "43810752",
   "47664633",
   "48543549",
@@ -2399,9 +2473,11 @@
   "50392002",
   "50392079",
   "50392279",
+  "50392385",
   "50392395",
   "50392675",
   "50392746",
+  "50392748",
   "50392822",
   "50392891",
   "50393038",
@@ -2416,6 +2492,7 @@
   "50393506",
   "50393510",
   "50393540",
+  "50393541",
   "50393654",
   "50393795",
   "50393872",
@@ -2556,56 +2633,17 @@
   "50399242",
   "50399269",
   "50399276",
-  "50399365"
+  "50399365",
+  "50399415",
+  "50399448",
+  "50399467",
+  "50399475",
+  "50399528",
+  "50399542",
+  "50399574"
  ],
  "props": {},
- "queue": [
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)\nML TOU +110 \u2192 +130\nML STR +235 \u2192 +200\n(first seen: TOU -0.5, O/U 2.5)\n\u23f1 12:50 AM PT"
-  ],
-  [
-   2,
-   "\u26a0 Too short for parlay",
-   "\ud83d\udea8\u2b50 L1 Troyes @ Paris Saint-Germain (Sat 12:05 PM PT)\nParis Saint-Germain ML -900 is shorter than -650.\n\u23f1 1:46 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "NBA Washington Wizards @ Atlanta Hawks (Fri 4:00 PM PT)\nTotal 230.5 \u2192 227.5\n(first seen: ATL -6.5, O/U 230.5)\n\u23f1 3:36 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "NBA Boston Celtics @ Charlotte Hornets (Fri 4:00 PM PT)\nTotal 210.5 \u2192 207.5\n(first seen: CHA +8.5, O/U 210.5)\n\u23f1 5:43 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "CBB Arkansas State Red Wolves @ Alabama Crimson Tide (Fri 4:30 PM PT)\nTotal 173.5 \u2192 176.5\n(first seen: ALA -25.5, O/U 173.5)\n\u23f1 5:43 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "CBB UConn Huskies @ Michigan Wolverines (Fri 5:00 PM PT)\nTotal 144.5 \u2192 141.5\n(first seen: MICH +6.5, O/U 144.5)\n\u23f1 5:43 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "CBB Northeastern Huskies @ Virginia Cavaliers (Fri 2:00 PM PT)\nTotal 159.5 \u2192 162.5\n(first seen: UVA -33.5, O/U 159.5)\n\u23f1 6:36 AM PT"
-  ],
-  [
-   3,
-   "\ud83d\udcc8 Line move",
-   "CBB Wagner Seahawks @ Miami Hurricanes (Fri 6:00 PM PT)\nSpread MIA -31.5 \u2192 -38.5\n(first seen: MIA -31.5, O/U 146.5)\n\u23f1 6:36 AM PT"
-  ],
-  [
-   3,
-   "\ud83c\udf26 Weather game",
-   "CFB Temple Owls @ Navy Midshipmen (Sat 12:30 PM PT)\nNavy-Marine Corps Memorial Stadium \u2014 \ud83d\udca8 wind 13 mph (gusts 33)\nTotal 54.5 \u00b7 NAVY -7.5\nWind/rain usually push totals and passing props DOWN \u2014 check before the market adjusts.\n\u23f1 6:36 AM PT"
-  ]
- ],
+ "queue": [],
  "rw_seen": [
   "cbb164521",
   "cbb164528",
@@ -2614,11 +2652,16 @@
   "cbb164536",
   "cbb164541",
   "cbb164542",
+  "cbb164548",
+  "cbb164549",
   "cfb238565",
   "cfb238566",
   "cfb238567",
   "cfb238568",
   "cfb238569",
+  "cfb238573",
+  "cfb238574",
+  "cfb238575",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -2629,7 +2672,12 @@
   "nfl646202",
   "nfl646203",
   "nfl646205",
-  "nfl646208"
+  "nfl646208",
+  "nfl646209",
+  "nfl646210",
+  "nfl646211",
+  "nfl646212",
+  "nfl646213"
  ],
  "seeded": true,
  "sgo_usage": {},
@@ -2637,35 +2685,42 @@
   "401862820:wx": 1
  },
  "wx_checked": {
-  "401856738": 1793972611.42154,
+  "401856738": 1793978555.9663026,
   "401856740": 1793975814.448677,
-  "401856743": 1793972609.1800244,
+  "401856742": 1793978584.3761814,
+  "401856743": 1793978552.2116086,
   "401856744": 1793975811.2190607,
-  "401856849": 1793972608.6943133,
+  "401856849": 1793978551.6469264,
+  "401856850": 1793978557.4363725,
   "401856851": 1793975817.1481385,
-  "401856853": 1793972609.398132,
-  "401856854": 1793972611.5412252,
-  "401856855": 1793972608.4819076,
-  "401858286": 1793972610.6727567,
-  "401858288": 1793972606.851319,
-  "401858289": 1793972609.5999472,
+  "401856853": 1793978552.8138502,
+  "401856854": 1793978556.2566152,
+  "401856855": 1793978551.0683138,
+  "401858286": 1793978555.082874,
+  "401858288": 1793978549.571295,
+  "401858289": 1793978553.3825548,
   "401858290": 1793975816.2548592,
-  "401858292": 1793972610.0774853,
-  "401858510": 1793972607.499167,
-  "401858512": 1793972609.2953696,
+  "401858292": 1793978553.9498525,
+  "401858510": 1793978550.1897216,
+  "401858512": 1793978552.5179813,
   "401858514": 1793975815.367548,
-  "401858515": 1793972610.7851508,
+  "401858515": 1793978555.6518235,
   "401858516": 1793975818.0376022,
-  "401862818": 1793972607.3448367,
+  "401858517": 1793978585.5548897,
+  "401862818": 1793978549.8756285,
   "401862819": 1793975841.1916907,
   "401862820": 1793975842.0881681,
-  "401862822": 1793972610.5549784,
-  "401864533": 1793972607.981934,
-  "401869927": 1793972612.1503718,
+  "401862821": 1793978558.647358,
+  "401862822": 1793978554.514185,
+  "401864533": 1793978550.4865382,
+  "401864534": 1793978559.543036,
+  "401869927": 1793978557.1418567,
   "401869936": 1793975812.3995545,
-  "401869945": 1793972611.645726,
+  "401869945": 1793978556.5577414,
   "401869951": 1793975842.9778066,
   "401871073": 1793975813.291224,
-  "401871076": 1793975844.129143
+  "401871074": 1793978560.4338305,
+  "401871076": 1793975844.129143,
+  "401871098": 1793978583.4747086
  }
 }
