@@ -32,6 +32,40 @@ def prob(x):
     """American odds -> implied win probability (0-1)."""
     return 100 / (x + 100) if x > 0 else -x / (-x + 100)
 
+def american(p):
+    p = min(max(p, 0.001), 0.999)
+    return round(-100 * p / (1 - p)) if p >= 0.5 else round(100 * (1 - p) / p)
+
+def close_bet(w, ps):
+    """At game start: closing line value measured DK-to-DK, translated into the user's own book via the gap at bet time."""
+    if ps.get("closed") or ps.get("price") is None or ps.get("dk_bet_price") is None:
+        ps["closed"] = True; return None
+    ps["closed"] = True
+    myp, myl = w.get("my_price"), w.get("my_line")
+    db, dbl, dc, dcl = ps["dk_bet_price"], ps.get("dk_bet_line"), ps["price"], ps.get("line")
+    gap = prob(myp) - prob(db) if myp is not None else 0.0           # your book vs DK at bet time ("exchange rate")
+    # convert the DK close back to YOUR line before comparing (each half point is worth ~k win %)
+    oid = w["odd_id"]; adj = prob(dc)
+    if dbl is not None and dcl is not None and dbl != dcl:
+        k = CFG.get("half_point_pct", {}).get("prop" if "-all-" not in oid and "-home-" not in oid and "-away-" not in oid else "game", 2) / 100
+        halves = (dcl - dbl) / 0.5
+        if oid.endswith("-over"): adj = prob(dc) + k * halves
+        elif oid.endswith("-under"): adj = prob(dc) - k * halves
+        elif "-sp-" in oid: adj = prob(dc) - k * halves     # spread: you hold dbl; more points for you is better
+    clv = adj - prob(db)                                             # DK-to-DK, at your line, in implied win %
+    est = american(prob(dc) + gap)                                   # what your book likely closed at
+    ps.update(gap_pct=round(gap * 100, 2), clv_pct=round(clv * 100, 2), my_book_close_est=est, dk_close_price=dc, dk_close_line=dcl)
+    ln = ""
+    if dbl is not None and dcl is not None and dbl != dcl:
+        side = (w.get("side") or ("over" if w["odd_id"].endswith("over") else "under" if w["odd_id"].endswith("under") else "")).lower()
+        better = (dcl > dbl) if side == "over" else (dcl < dbl) if side == "under" else None
+        if "-sp-" in w["odd_id"]: better = dcl < dbl
+        ln = f"\nLine moved {dbl:g} → {dcl:g}" + (" ✅ in your favor" if better else " ❌ against you" if better is not None else "")
+    ln += "\n(close converted to your line)" if ln else ""
+    verdict = "✅ beat the close" if clv > 0.005 else "❌ lost to the close" if clv < -0.005 else "➖ about even"
+    return (2, "📏 Closing line", f'{w.get("label")}\nYou: {myl if myl is not None else ""} {fmt(myp)} · DK then {dbl if dbl is not None else ""} {fmt(db)} (gap {gap*100:+.1f}%)'
+               f'\nDK close {dcl if dcl is not None else ""} {fmt(dc)} → ≈ {fmt(est)} at your book{ln}\nCLV {clv*100:+.1f}% {verdict}')
+
 def num(x):
     try: return float(str(x).replace("+", ""))
     except Exception: return None
@@ -258,7 +292,8 @@ def main():
 
     # ---------- DraftKings props / halves / quarters via SportsGameOdds (needs SGO_API_KEY) ----------
     skey = os.environ.get("SGO_API_KEY", "").strip()
-    props = [w for w in watch if w.get("type") == "prop" and w.get("active", True)]
+    props = [w for w in watch if w.get("type") in ("prop", "bet") and w.get("active", True)
+             and not state.get("props", {}).get(w["id"], {}).get("closed")]
     pstate = state.setdefault("props", {})
     month = now.strftime("%Y-%m")
     usage = state.setdefault("sgo_usage", {})
@@ -279,8 +314,14 @@ def main():
         day = now.strftime("%Y%m%d")
         groups = {}
         for w in props:
-            last = pstate.get(w["id"], {}).get("checked", 0)
-            if time.time() - last < CFG.get("prop_check_minutes", 60) * 60: continue
+            ps0 = pstate.get(w["id"], {})
+            last = ps0.get("checked", 0)
+            every = CFG.get("prop_check_minutes", 60)
+            st = ps0.get("starts")
+            if w.get("type") == "bet" and st:
+                mins = (dt.datetime.fromisoformat(st.replace("Z", "+00:00")) - utcnow).total_seconds() / 60
+                if mins <= 75: every = CFG.get("close_check_minutes", 10)
+            if time.time() - last < every * 60: continue
             groups.setdefault((w["league"], w["team_id"]), []).append(w)
         for (league, team_id), ws in groups.items():
             ck = f"{league}|{team_id}|{day}"
@@ -299,8 +340,13 @@ def main():
                 evdata = d[0] if d else None
             if not evdata: continue
             if (evdata.get("status") or {}).get("started"):
+                for w in ws:
+                    if w.get("type") == "bet":
+                        a = close_bet(w, pstate.setdefault(w["id"], {}))
+                        if a: alerts.append(a)
                 continue
             for w in ws:
+                pstate.setdefault(w["id"], {})["starts"] = (evdata.get("status") or {}).get("startsAt")
                 ps = pstate.setdefault(w["id"], {}); ps["checked"] = time.time()
                 o = (evdata.get("odds") or {}).get(w["odd_id"]) or {}
                 bk = (o.get("byBookmaker") or {}).get(CFG.get("prop_book", "draftkings")) or {}
@@ -313,6 +359,10 @@ def main():
                 line = num(bk.get("overUnder") or bk.get("spread")); price = num(bk.get("odds"))
                 pl, pp = ps.get("line"), ps.get("price")
                 ps.update(line=line, price=price)
+                if w.get("type") == "bet":
+                    if "dk_bet_price" not in ps:
+                        ps["dk_bet_price"] = w.get("dk_bet_price", price); ps["dk_bet_line"] = w.get("dk_bet_line", line)
+                    continue
                 mv = []
                 if pl is not None and line != pl: mv.append(f"line {pl:g} → {line:g}")
                 if pp is not None and price is not None and abs(prob(price) - prob(pp)) * 100 >= CFG.get("prop_price_pct", 4):
