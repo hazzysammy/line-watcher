@@ -439,6 +439,11 @@
    "at": "2026-11-06 14:03 PT",
    "body": "\ud83d\udea8\u2b50 Christian McCaffrey (San Francisco 49ers): Questionable \u2192 Active\n\ud83d\udea8\u2b50 Deebo Samuel Sr. (San Francisco 49ers): Questionable \u2192 Out \u2014 Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com repo\n\ud83d\udea8\u2b50 Mike Evans (San Francisco 49ers): Questionable \u2192 Out \u2014 Evans (Achilles) didn't participate in the portion of Friday's practice open to the media, Nick Wagoner of ESP",
    "title": "\ud83c\udfe5 NFL injury update"
+  },
+  {
+   "at": "2026-11-06 14:05 PT",
+   "body": "Deebo Samuel: Ruled out for Sunday\nSamuel (hamstring) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN.com reports.\n\n        Visit RotoWire.com for more analysis on this update.\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NFL news (RotoWire)"
   }
  ],
  "base": {
@@ -1834,9 +1839,8 @@
    "Baltimore Ravens|Zay Flowers": "Active \u00a6 Flowers brought in three of six targets for six yards and rushed three times for 17 yards in the Ravens' 33-10",
    "Buffalo Bills|Alec Anderson": "Questionable \u00a6 questionable",
    "Buffalo Bills|Ar'maj Reed-Adams": "Active",
-   "Buffalo Bills|Bradley Chubb": "Active",
-   "Buffalo Bills|DJ Moore": "Questionable \u00a6 Moore (shoulder) was still wearing a non-contact jersey at Friday's practice, Sal Capaccio of WGR Sports Radio",
-   "Buffalo Bills|Dalton Kincaid": "Active",
+   "Buffalo Bills|DJ Moore": "Questionable \u00a6 Moore (shoulder) was a limited practice participant Friday.",
+   "Buffalo Bills|Dalton Kincaid": "Active \u00a6 Kincaid (chest) was a full participant in Friday's practice.",
    "Buffalo Bills|Dawson Knox": "Active \u00a6 Knox caught one of two targets for six yards in Sunday's 36-10 win over the Ravens.",
    "Buffalo Bills|Dee Alford": "Active \u00a6 Alford (ankle) was a full participant in Thursday's practice.",
    "Buffalo Bills|Dion Dawkins": "Questionable \u00a6 questionable",
@@ -1851,11 +1855,12 @@
    "Buffalo Bills|Khalil Shakir": "Active \u00a6 Shakir caught five of six targets for 64 yards in Sunday's 36-10 win over the Ravens.",
    "Buffalo Bills|Mike Danna": "Active",
    "Buffalo Bills|Ray Davis": "Active \u00a6 Davis rushed six times for 30 yards in Sunday's 36-10 win over the Ravens.",
+   "Buffalo Bills|Sam Franklin Jr.": "Questionable \u00a6 questionable",
    "Buffalo Bills|Skyler Bell": "Active",
    "Buffalo Bills|Spencer Brown": "Questionable \u00a6 questionable",
    "Buffalo Bills|TJ Parker": "Active",
    "Buffalo Bills|Te'Cory Couch": "Active \u00a6 The Bills signed Couch (hamstring) off the practice squad to the active roster Saturday.",
-   "Buffalo Bills|Ty Johnson": "Questionable \u00a6 Johnson (illness) did not practice Thursday.",
+   "Buffalo Bills|Ty Johnson": "Active",
    "Buffalo Bills|Tyler Bass": "Active \u00a6 Bass made all three of his field-goal attempts as well as three PATs in the Bills' 36-10 win over the Ravens o",
    "Carolina Panthers|AJ Dillon": "Active",
    "Carolina Panthers|Akayleb Evans": "Injured Reserve \u00a6 Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official ",
@@ -2559,7 +2564,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T14:03:58.469425-08:00",
+ "last_run": "2026-11-06T14:05:36.039361-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3172,7 +3177,8 @@
   "nfl646288",
   "nfl646294",
   "nfl646295",
-  "nfl646296"
+  "nfl646296",
+  "nfl646297"
  ],
  "seeded": true,
  "sgo_events": {

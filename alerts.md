@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 14:05 PT · ⚡ NFL news (RotoWire)**  
+Deebo Samuel: Ruled out for Sunday  
+Samuel (hamstring) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN.com reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+→ Check the line NOW before it moves.
+
 **2026-11-06 14:03 PT · 🏥 NFL injury update**  
 🚨⭐ Christian McCaffrey (San Francisco 49ers): Questionable → Active  
 🚨⭐ Deebo Samuel Sr. (San Francisco 49ers): Questionable → Out — Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com repo  
