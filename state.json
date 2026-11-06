@@ -1,5 +1,21 @@
 {
- "alert_log": [],
+ "alert_log": [
+  {
+   "at": "2026-11-05 22:47 PT",
+   "body": "\ud83d\udea8\u2b50 Stephen Curry scores 29 points as Warriors win 6th straight since 0-3 start, 120-100 over Heat\n\u2014 Stephen Curry scored 29 points, Yaxel Lendeborg added 17 points, eight rebounds and six assists, and the Golden State Warriors won their sixth straight game by beating the Miami Heat 120-100 on Thursday night.\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NBA news"
+  },
+  {
+   "at": "2026-11-05 22:47 PT",
+   "body": "Krivas scores 30, No. 5 Arizona bounces back from opening loss with 104-84 rout of Cal Poly\n\u2014 Motiejus Krivas scored 30 points, freshman Caleb Holt added 21 and No. 5 Arizona bounced back from a season-opening loss to blow out Cal Poly 104-84 on Thursday night.\nPlays within 36h: Villanova Wildcats\n\u2192 Check the line NOW before it moves.",
+   "title": "\ud83d\udcf0 NCAAB news"
+  },
+  {
+   "at": "2026-11-05 22:47 PT",
+   "body": "\ud83d\udea8\u2b50 Gui Santos (Golden State Warriors): Out \u2192 Day-To-Day \u2014 Santos (knee) has been ruled out for Thursday's game against the Heat.",
+   "title": "\ud83c\udfe5 NBA injury update"
+  }
+ ],
  "base": {
   "401856855": {
    "date": "2026-11-07T03:15Z",
@@ -228,9 +244,9 @@
   },
   "401909295": {
    "date": "2026-11-07T03:00Z",
-   "ml_away": -1100.0,
+   "ml_away": -1040.0,
    "ml_draw": null,
-   "ml_home": 710.0,
+   "ml_home": 680.0,
    "open": {
     "ml_away": -970.0,
     "ml_draw": null,
@@ -345,9 +361,46 @@
    },
    "spread_home": -25.5,
    "total": 157.5
+  },
+  "401922219": {
+   "date": "2026-11-07T03:30Z",
+   "ml_away": null,
+   "ml_draw": null,
+   "ml_home": null,
+   "open": {
+    "ml_away": null,
+    "ml_draw": null,
+    "ml_home": null,
+    "spread_home": -31.5,
+    "total": 155.5
+   },
+   "spread_home": -31.5,
+   "total": 155.5
   }
  },
  "fired": [],
+ "geo": {
+  "Champaign, IL": [
+   40.11642,
+   -88.24338
+  ],
+  "Dallas, TX": [
+   32.78306,
+   -96.80667
+  ],
+  "Greenville, NC": [
+   35.61266,
+   -77.36635
+  ],
+  "Reno, NV": [
+   39.52963,
+   -119.8138
+  ],
+  "Tucson, AZ": [
+   32.22174,
+   -110.92648
+  ]
+ },
  "had_odds": {
   "401856855": true,
   "401874815": true,
@@ -371,7 +424,8 @@
   "401920685": true,
   "401921719": true,
   "401921739": true,
-  "401921802": true
+  "401921802": true,
+  "401922219": true
  },
  "inj": {
   "nba": {
@@ -408,7 +462,7 @@
    "Denver Nuggets|Spencer Jones": "Out \u00a6 Jones (hamstring) is out for Wednesday's game against the Raptors.",
    "Detroit Pistons|Isaiah Joe": "Out \u00a6 Joe (hip) has been ruled out for Wednesday's game against Philadelphia.",
    "Detroit Pistons|Jalen Duren": "Out \u00a6 Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com repo",
-   "Golden State Warriors|Gui Santos": "Out \u00a6 Santos (knee) has been ruled out for Thursday's game against the Heat.",
+   "Golden State Warriors|Gui Santos": "Day-To-Day \u00a6 Santos (knee) has been ruled out for Thursday's game against the Heat.",
    "Golden State Warriors|Jimmy Butler III": "Out \u00a6 Butler (knee) could return sometime between January and February as he continues recovering from a torn right ",
    "Golden State Warriors|Kristaps Porzingis": "Out \u00a6 The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is consider",
    "Golden State Warriors|Moses Moody": "Out \u00a6 Moody (knee) is progressing toward a potential return between December and January after rupturing his left pa",
@@ -528,7 +582,7 @@
    "Baltimore Ravens|Derrick Henry": "Active \u00a6 Henry rushed 17 times for 57 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night. He also complet",
    "Baltimore Ravens|Elijah Sarratt": "Out \u00a6 inactive",
    "Baltimore Ravens|Emery Jones Jr.": "Out \u00a6 inactive",
-   "Baltimore Ravens|Jake Moody": "Active \u00a6 The Ravens elevated Moody from the practice squad for Thursday night's game against the Jaguars.",
+   "Baltimore Ravens|Jake Moody": "Active \u00a6 Moody made his only field-goal attempt and his only extra-point try Thursday in a loss to Jacksonville.",
    "Baltimore Ravens|Jaylinn Hawkins": "Out \u00a6 Hawkins (knee) is officially listed as out for Thursday's game versus the Jaguars, Ryan Mink of the Ravens' of",
    "Baltimore Ravens|Joe Fagnano": "Active \u00a6 Fagnano completed 10 of 18 passes for 60 yards with no touchdowns and two interceptions while adding three rus",
    "Baltimore Ravens|John Jenkins": "Active",
@@ -824,14 +878,14 @@
    "Jacksonville Jaguars|Albert Regis": "Active",
    "Jacksonville Jaguars|Alijah Huzzie": "Out \u00a6 inactive",
    "Jacksonville Jaguars|Antonio Johnson": "Active \u00a6 Johnson (ankle) has no injury designation ahead of Thursday night's matchup against Baltimore.",
-   "Jacksonville Jaguars|Bhayshul Tuten": "Active \u00a6 Tuten (ankle/foot) rushed 12 times for 29 yards and a touchdown  in the Jaguars' 33-10 win over the Ravens on ",
+   "Jacksonville Jaguars|Bhayshul Tuten": "Active \u00a6 Tuten (ankle/foot) rushed 12 times for 29 yards and a touchdown in the Jaguars' 33-10 win over the Ravens on T",
    "Jacksonville Jaguars|Branson Combs": "Active",
    "Jacksonville Jaguars|Brenton Strange": "Active \u00a6 Strange caught both of his targets for 55 yards during Sunday's 42-7 win over Indianapolis.",
    "Jacksonville Jaguars|Brian Thomas Jr.": "Active \u00a6 Thomas has drawn interest from other teams leading up to the Nov. 10 trade deadline, Ian Rapoport of ESPN repo",
    "Jacksonville Jaguars|CJ Williams": "Out \u00a6 inactive",
    "Jacksonville Jaguars|Cam Little": "Active \u00a6 Little made all four of his field-goal attempts and all three of his extra-point tries in a 33-10 win over Bal",
    "Jacksonville Jaguars|Cam'Ron Silmon-Craig": "Out \u00a6 inactive",
-   "Jacksonville Jaguars|Chris Rodriguez Jr.": "Active \u00a6 Rodriguez (hand) doesn't carry an injury designation for Thursday night's game against the Ravens.",
+   "Jacksonville Jaguars|Chris Rodriguez Jr.": "Active \u00a6 Rodriguez rushed 10 times for 19 yards and a touchdown and brought in both targets for 13 yards in the Jaguars",
    "Jacksonville Jaguars|DaVon Hamilton": "Injured Reserve \u00a6 The Jaguars placed Hamilton (knee) on their injured reserve list Tuesday.",
    "Jacksonville Jaguars|Eric Murray": "Injured Reserve \u00a6 The Jaguars placed Murray (elbow) on their injured reserve list Tuesday.",
    "Jacksonville Jaguars|Ezra Cleveland": "Active",
@@ -1273,7 +1327,7 @@
    "Washington Commanders|Treylon Burks": "Questionable \u00a6 Burks (foot) was a non-participant at Thursday's practice."
   }
  },
- "last_run": "2026-11-05T21:45:45.366025-08:00",
+ "last_run": "2026-11-05T22:47:10.090930-08:00",
  "news_seen": [
   "40699880",
   "43810752",
@@ -1599,6 +1653,7 @@
   "50396599",
   "50396623",
   "50396626",
+  "50396635",
   "50396642",
   "50396660",
   "50396665",
@@ -1616,10 +1671,47 @@
   "50396892",
   "50396971",
   "50397062",
-  "50397106"
+  "50397106",
+  "50397120",
+  "50397141",
+  "50397158",
+  "50397168",
+  "50397206",
+  "50397225",
+  "50397312",
+  "50397437"
  ],
  "props": {},
  "queue": [],
+ "rw_seen": [
+  "cbb164521",
+  "cbb164528",
+  "cbb164531",
+  "cbb164535",
+  "cbb164536",
+  "cfb238565",
+  "cfb238566",
+  "cfb238567",
+  "cfb238568",
+  "cfb238569",
+  "nba537807",
+  "nba537808",
+  "nba537809",
+  "nba537810",
+  "nba537811",
+  "nfl646200",
+  "nfl646201",
+  "nfl646202",
+  "nfl646203",
+  "nfl646205"
+ ],
  "seeded": true,
- "sgo_usage": {}
+ "sgo_usage": {},
+ "wx_checked": {
+  "401856855": 1793947640.0986264,
+  "401858288": 1793947632.589286,
+  "401858510": 1793947636.415463,
+  "401862818": 1793947633.2053063,
+  "401864533": 1793947637.2240388
+ }
 }
