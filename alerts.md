@@ -1,5 +1,19 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 15:55 PT · 🏥 NBA injury update**  
+Scottie Barnes (Toronto Raptors): Day-To-Day → Out — Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports  
+Immanuel Quickley (Toronto Raptors): Day-To-Day → Out — Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.  
+Peyton Watson (Cleveland Cavaliers): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 15:55 PT · 📈 Line move**  
+NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
+Total 229.5 → 232.5  
+(first seen: CLE +1.5, O/U 229.5)
+
+**2026-11-06 15:55 PT · ✅ Line back up**  
+NBA Philadelphia 76ers @ Cleveland Cavaliers (Fri 4:30 PM PT)  
+Reposted: CLE +2.5, O/U 232.5, ML PHI -152 / CLE +128
+
 **2026-11-06 15:50 PT · ⚡ NBA news (RotoWire)**  
 Grayson Allen: Starting versus Boston  
 Allen will start in Friday's game against the Celtics  
