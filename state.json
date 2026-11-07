@@ -629,6 +629,16 @@
    "at": "2026-11-06 15:55 PT",
    "body": "Scottie Barnes (Toronto Raptors): Day-To-Day \u2192 Out \u2014 Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports\nImmanuel Quickley (Toronto Raptors): Day-To-Day \u2192 Out \u2014 Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.\nPeyton Watson (Cleveland Cavaliers): Day-To-Day \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 16:00 PT",
+   "body": "Jarrett Allen: Won't play Friday\nAllen (knee) is out for Friday's game against the 76ers.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Cleveland Cavaliers, Philadelphia 76ers\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 16:00 PT",
+   "body": "Peyton Watson (Cleveland Cavaliers): NEW \u2192 Day-To-Day \u2014 Watson (hamstring) is questionable for Friday's game against the 76ers.\nJakob Poeltl (Toronto Raptors): Day-To-Day \u2192 removed from report (likely available)",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1901,6 +1911,7 @@
    "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "Cleveland Cavaliers|Jarrett Allen": "Day-To-Day \u00a6 Allen (knee) is questionable for Friday's game against Philadelphia.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
+   "Cleveland Cavaliers|Peyton Watson": "Day-To-Day \u00a6 Watson (hamstring) is questionable for Friday's game against the 76ers.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
    "Dallas Mavericks|Tarik Biberovic": "Out \u00a6 Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -1961,7 +1972,6 @@
    "San Antonio Spurs|Jayden Quaintance": "Out \u00a6 Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.",
    "San Antonio Spurs|Tobias Harris": "Out \u00a6 Harris (calf) is listed as out for Saturday's game against Minnesota.",
    "Toronto Raptors|Immanuel Quickley": "Out \u00a6 Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
-   "Toronto Raptors|Jakob Poeltl": "Day-To-Day \u00a6 Poeltl (shoulder) is listed as probable for Friday's game against Milwaukee.",
    "Toronto Raptors|Kawhi Leonard": "Out \u00a6 Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, B",
    "Toronto Raptors|Kyle Anderson": "Day-To-Day \u00a6 Anderson is questionable for Friday against the Bucks due to illness.",
    "Toronto Raptors|Nate Bittle": "Out \u00a6 Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
@@ -2778,7 +2788,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T15:55:12.037248-08:00",
+ "last_run": "2026-11-06T16:00:18.560766-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3295,7 +3305,9 @@
   "50402615",
   "50402657",
   "50402727",
-  "50402740"
+  "50402740",
+  "50402899",
+  "50402905"
  ],
  "props": {
   "T103": {
@@ -3381,6 +3393,9 @@
   "nba537878",
   "nba537879",
   "nba537881",
+  "nba537883",
+  "nba537884",
+  "nba537885",
   "nfl646200",
   "nfl646201",
   "nfl646202",

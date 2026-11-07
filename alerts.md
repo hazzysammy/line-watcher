@@ -1,5 +1,17 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:00 PT · 🏥 NBA injury update**  
+Peyton Watson (Cleveland Cavaliers): NEW → Day-To-Day — Watson (hamstring) is questionable for Friday's game against the 76ers.  
+Jakob Poeltl (Toronto Raptors): Day-To-Day → removed from report (likely available)
+
+**2026-11-06 16:00 PT · ⚡ NBA news (RotoWire)**  
+Jarrett Allen: Won't play Friday  
+Allen (knee) is out for Friday's game against the 76ers.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Cleveland Cavaliers, Philadelphia 76ers  
+→ Check the line NOW before it moves.
+
 **2026-11-06 15:55 PT · 🏥 NBA injury update**  
 Scottie Barnes (Toronto Raptors): Day-To-Day → Out — Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports  
 Immanuel Quickley (Toronto Raptors): Day-To-Day → Out — Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.  
