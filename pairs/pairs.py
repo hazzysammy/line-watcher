@@ -108,8 +108,8 @@ def main():
                 res.append({"A": players[a]["name"], "A_team": players[a]["team"], "B": players[b]["name"], "B_team": players[b]["team"],
                             "hits": h, "n": n, "rate": round(h / n, 3), "B_base": round(base_rate, 3), "lift": round(h / n - base_rate, 3)})
     res.sort(key=lambda x: (-x["rate"], -x["n"]))
-    json.dump({"generated": dt.datetime.utcnow().strftime("%Y-%m-%d %H:%MZ"), "players": len(players), "pairs": res}, open(os.path.join(HERE, "pairs.json"), "w"), indent=1)
-    L = ["# Player B scores after Player A scores (>=50%, at least %d cases)" % MIN_N, "",
+    json.dump({"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ"), "players": len(players), "pairs": res}, open(os.path.join(HERE, "pairs.json"), "w"), indent=1)
+    L = [f"# Player B scores after Player A scores (50%+, at least {MIN_N} cases)", "",
          "_A scored in a game that kicked off 2-36h before B's game. Base = B's normal scoring rate. Lift = how much better than normal. "
          "Many pairs are luck (we tested thousands), so lift and sample size matter more than the raw %._", "",
          "| B scores after A | Hit | Rate | B normal | Lift |", "|---|---|---|---|---|"]
