@@ -1,21 +1,17 @@
 {
- "id": "r13",
+ "id": "r14",
  "items": [
   {
-   "name": "bt_nba",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260115"
+   "name": "bt_odds_nba",
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401810433/competitions/401810433/odds"
   },
   {
-   "name": "bt_nba24",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20250115"
+   "name": "bt_odds_nfl",
+   "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401772944/competitions/401772944/odds"
   },
   {
-   "name": "bt_nfl",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2025&seasontype=2&week=10"
-  },
-  {
-   "name": "bt_soc",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20260117"
+   "name": "bt_sum_nba",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401810433"
   }
  ]
 }
