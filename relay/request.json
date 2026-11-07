@@ -1,13 +1,13 @@
 {
- "id": "r16",
+ "id": "r17",
  "items": [
   {
-   "name": "sum_401900442",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/summary?event=401900442"
+   "name": "live_nba",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
   },
   {
-   "name": "sum_401884739",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884739"
+   "name": "live_byu",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921739"
   }
  ]
 }
