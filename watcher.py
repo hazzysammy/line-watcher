@@ -882,6 +882,16 @@ def main():
                 print("trigger re-price failed", e)
         for k in [k for k in tb if k < day]: tb.pop(k)
 
+    # ---------- grade finished Alert Picks hourly (ESPN only, free) ----------
+    if time.time() - state.get("last_grade", 0) > 3600 and os.path.exists(os.path.join(HERE, "props", "autoflags.json")):
+        try:
+            sys.path.insert(0, os.path.join(HERE, "props"))
+            import props as P2
+            P2.grade_flags(dt.datetime.now(dt.timezone.utc))
+            state["last_grade"] = time.time()
+        except Exception as e:
+            print("grading failed", e)
+
     # ---------- 🤖 Alert Picks from the prop model (props/autoflags.json) ----------
     afp = os.path.join(HERE, "props", "autoflags.json")
     if os.path.exists(afp):
