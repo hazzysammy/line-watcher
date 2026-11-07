@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 01:05 PT · 📈 Line move**  
+LIGA Deportivo @ Espanyol (Sat 7:15 AM PT)  
+ML Espanyol +130 → +150  
+Now: ESP -0.5 · O/U 2.5 · ML DEP +195 / ESP +150  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ underdog band: 36% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 00:50 PT · 📈 Line move**  
 BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
 ML Munich -320 → -390  
@@ -2088,7 +2095,4 @@ Duff (lower body) won't play in Week 10 at Wisconsin, per Matt Zenitz of CBSSpor
         Visit RotoWire.com for more analysis on this update.  
 Plays within 36h: Wisconsin Badgers  
 → Check the line NOW before it moves.
-
-**2026-11-06 16:50 PT · 🏥 NBA injury update**  
-De'Andre Hunter (Sacramento Kings): Day-To-Day → Out — Hunter (illness) is listed as out for Friday's game against San Antonio.
 
