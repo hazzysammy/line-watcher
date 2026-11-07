@@ -1,5 +1,9 @@
 {
- "af_graded": [],
+ "af_graded": [
+  "2026-11-07|Cam Spencer|threePointersMade|over",
+  "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "2026-11-07|LIVE|Toronto Raptors"
+ ],
  "af_sent": [
   "2026-11-07|Austin Reaves|threePointersMade|over",
   "2026-11-07|Cam Spencer|threePointersMade|over",
@@ -1468,6 +1472,21 @@
    "at": "2026-11-06 20:30 PT",
    "body": "NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
    "title": "\u26d4 Line pulled"
+  },
+  {
+   "at": "2026-11-06 20:40 PT",
+   "body": "Cedric Coward OVER 23.5 pts+reb+ast (-114)\nFinal: 19.0 \u00b7 -0.5u",
+   "title": "\u274c Alert Pick graded: Loss"
+  },
+  {
+   "at": "2026-11-06 20:40 PT",
+   "body": "Cam Spencer OVER 1.5 3-pointers (+131)\nFinal: 1.0 \u00b7 -0.5u",
+   "title": "\u274c Alert Pick graded: Loss"
+  },
+  {
+   "at": "2026-11-06 20:40 PT",
+   "body": "Toronto Raptors LIVE moneyline\nFinal: 121-107 \u00b7 +0.5u",
+   "title": "\u2705 Alert Pick graded: Win"
   }
  ],
  "base": {
@@ -2845,7 +2864,7 @@
    "Brooklyn Nets|Day'Ron Sharpe": "Day-To-Day \u00a6 Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunda",
    "Brooklyn Nets|Egor Demin": "Out \u00a6 The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today ",
    "Brooklyn Nets|Tyler Bilodeau": "Out \u00a6 Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
-   "Charlotte Hornets|Brandon Miller": "Day-To-Day \u00a6 Miller (groin) won't return to Friday's game against the Celtics, Brett Siegel of ClutchPoints.com reports.",
+   "Charlotte Hornets|Brandon Miller": "Day-To-Day \u00a6 Head coach Charles Lee said Miller (groin) will be re-evaluated over the weekend, and they expect to have more",
    "Charlotte Hornets|Dennis Schroder": "Out \u00a6 Schroder (thigh) is out for Friday's game versus Boston.",
    "Charlotte Hornets|Grant Williams": "Out \u00a6 The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday.",
    "Charlotte Hornets|Kon Knueppel": "Out \u00a6 Knueppel (hamstring) is out for Friday's game against the Celtics.",
@@ -2940,7 +2959,7 @@
    "Arizona Cardinals|Evan Hull": "Active",
    "Arizona Cardinals|Gardner Minshew II": "Active \u00a6 Head coach Mike LaFleur announced that Minshew will step in as the Cardinals' new starting quarterback beginni",
    "Arizona Cardinals|Harrison Wallace III": "Active \u00a6 The Cardinals signed Wallace from the practice squad to the active roster Tuesday.",
-   "Arizona Cardinals|Isaiah Adams": "Injured Reserve \u00a6 Adams (ankle) was a limited participant at the Cardinals' practice Thursday, Darren Urban of the team's offici",
+   "Arizona Cardinals|Isaiah Adams": "Injured Reserve \u00a6 Adams (ankle) is officially questionable for Sunday's matchup in Seattle, Josh Weinfuss of ESPN.com reports.",
    "Arizona Cardinals|James Conner": "Injured Reserve \u00a6 Cardinals head coach Mike LaFleur said Tuesday that Conner (foot) won't return from IR this week, Darren Urban",
    "Arizona Cardinals|Jayden Williams": "Out \u00a6 Williams (knee) has been ruled out for Sunday's contest in Seattle, Bo Brack of GoPHNX.com reports.",
    "Arizona Cardinals|Jeremiyah Love": "Injured Reserve \u00a6 Arizona placed Love (ankle) on injured reserve Tuesday, Darren Urban of the Cardinals' official site reports.",
@@ -3731,7 +3750,8 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T20:35:12.934287-08:00",
+ "last_grade": 1794026428.6954005,
+ "last_run": "2026-11-06T20:40:14.198236-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4374,7 +4394,12 @@
   "50404958",
   "50404979",
   "50404984",
-  "50404997"
+  "50404997",
+  "50405001",
+  "50405003",
+  "50405006",
+  "50405014",
+  "50405019"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",

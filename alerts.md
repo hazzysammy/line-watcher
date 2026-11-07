@@ -1,5 +1,17 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 20:40 PT · ✅ Alert Pick graded: Win**  
+Toronto Raptors LIVE moneyline  
+Final: 121-107 · +0.5u
+
+**2026-11-06 20:40 PT · ❌ Alert Pick graded: Loss**  
+Cam Spencer OVER 1.5 3-pointers (+131)  
+Final: 1.0 · -0.5u
+
+**2026-11-06 20:40 PT · ❌ Alert Pick graded: Loss**  
+Cedric Coward OVER 23.5 pts+reb+ast (-114)  
+Final: 19.0 · -0.5u
+
 **2026-11-06 20:30 PT · ⛔ Line pulled**  
 NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
 DK line came OFF the board — check injury/lineup news.

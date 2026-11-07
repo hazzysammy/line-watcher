@@ -21,7 +21,10 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null
+  "result": "Loss",
+  "final": 19.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Cam Spencer|threePointersMade|over",
@@ -45,7 +48,10 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null
+  "result": "Loss",
+  "final": 1.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Darius Acuff|points+rebounds+assists|over",
@@ -490,13 +496,15 @@
   "edge": 0,
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "live",
   "signals": [
    "Raptors were 7.5-pt favorites before tip",
    "now down 11 in Q1 (6:31)",
    "live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em"
-  ]
+  ],
+  "final": "121-107",
+  "net_units": 0.5
  },
  {
   "key": "2026-11-07|Austin Reaves|threePointersMade|over",
