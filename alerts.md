@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 00:50 PT · 📈 Line move**  
+BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
+ML Munich -320 → -390  
+Now: M05 +1.5 · O/U 4.5 · ML MUN -390 / M05 +700  
+🧠 ❌ Doesn't meet any of our criteria · heavy-fav band: 91% of your legs win  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 00:26 PT · 🔗 Pair digest today · Sat Nov 7**  
 75 pairs · 23 Player As · both on your FC27 list  
 format: Player B, kickoff · record after A scores · B fair price · rules: A kicks off 2.5h+ before B, within 36h  
@@ -2084,12 +2091,4 @@ Plays within 36h: Wisconsin Badgers
 
 **2026-11-06 16:50 PT · 🏥 NBA injury update**  
 De'Andre Hunter (Sacramento Kings): Day-To-Day → Out — Hunter (illness) is listed as out for Friday's game against San Antonio.
-
-**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
-Julian Champagnie OVER 2.5 3-pointers (+126) · SA @ SAC  
-Model 3.0 vs line 2.5 · edge +6%  
-• model edge +6% (proj 3.0 vs 2.5)  
-• last 5 avg 3.0  
-• market moving our way  
-Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 

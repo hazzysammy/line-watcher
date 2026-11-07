@@ -61,11 +61,6 @@
  "alert_log": [
   {
    "at": "2026-11-06 16:50 PT",
-   "body": "Julian Champagnie OVER 2.5 3-pointers (+126) \u00b7 SA @ SAC\nModel 3.0 vs line 2.5 \u00b7 edge +6%\n\u2022 model edge +6% (proj 3.0 vs 2.5)\n\u2022 last 5 avg 3.0\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
-   "title": "\ud83e\udd16 Alert Pick (paper)"
-  },
-  {
-   "at": "2026-11-06 16:50 PT",
    "body": "De'Andre Hunter (Sacramento Kings): Day-To-Day \u2192 Out \u2014 Hunter (illness) is listed as out for Friday's game against San Antonio.",
    "title": "\ud83c\udfe5 NBA injury update"
   },
@@ -1558,6 +1553,11 @@
    "at": "2026-11-07 00:26 PT",
    "body": "75 pairs \u00b7 23 Player As \u00b7 both on your FC27 list\nformat: Player B, kickoff \u00b7 record after A scores \u00b7 B fair price \u00b7 rules: A kicks off 2.5h+ before B, within 36h\n\n\u23f3 IF PLAYER A SCORES \u2192 best Player Bs later today\n\n\ud83c\udd70\ufe0f WILSON 4:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 5/8 62% \u00b7 -150\n\n\ud83c\udd70\ufe0f GNABRY 6:30a \u26a0 not in last squad \u2192 if he scores:\n  Haaland 9:30a \u00b7 7/9 78% \u00b7 -145\n  Bouanga 4p \u00b7 8/11 73% \u00b7 -123\n  Budimir 9:30a \u00b7 6/9 67% \u00b7 +101\n  Dreyer 4p \u00b7 5/9 56% \u00b7 +133\n  Mbapp\u00e9 12p \u00b7 5/10 50% \u00b7 -130\n\n\ud83c\udd70\ufe0f MUSIALA 6:30a \u26a0 not in last squad \u2192 if he scores:\n  Budimir 9:30a \u00b7 6/8 75% \u00b7 -106\n  Demirovi\u0107 9:30a \u00b7 5/10 50% \u00b7 +176\n\n\ud83c\udd70\ufe0f GUIRASSY 6:30a \u2192 if he scores:\n  Haaland 9:30a \u00b7 9/13 69% \u00b7 -139\n  Mbapp\u00e9 12p \u00b7 14/22 64% \u00b7 -158\n  Budimir 9:30a \u00b7 7/11 64% \u00b7 +101\n  Messi 1p \u00b7 15/24 62% \u00b7 -155\n  Undav 9:30a \u00b7 5/10 50% \u00b7 +153\n\n\ud83c\udd70\ufe0f BURKARDT 6:30a \u2192 if he scores:\n  Budimir 9:30a \u00b7 10/15 67% \u00b7 -110\n  Bouanga 4p \u00b7 10/16 62% \u00b7 -114\n  Haaland 9:30a \u00b7 6/10 60% \u00b7 -120\n  Mbapp\u00e9 12p \u00b7 10/17 59% \u00b7 -144\n  Messi 1p \u00b7 9/16 56% \u00b7 -138\n  Undav 9:30a \u00b7 6/11 55% \u00b7 +143\n  Zalazar 12:30p \u00b7 4/8 50% \u00b7 +161\n\n\ud83c\udd70\ufe0f KANE 6:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 19/30 63% \u00b7 -159\n  Malen 11:45a \u00b7 9/15 60% \u00b7 -116\n  Haaland 9:30a \u00b7 13/22 59% \u00b7 -125\n  Budimir 9:30a \u00b7 11/20 55% \u00b7 +105\n  Undav 9:30a \u00b7 12/23 52% \u00b7 +130\n  Messi 1p \u00b7 15/30 50% \u00b7 -118\n\n\ud83c\udd70\ufe0f BEIER 6:30a \u2192 if he scores:\n  Budimir 9:30a \u00b7 5/8 62% \u00b7 +107\n  Messi 1p \u00b7 5/10 50% \u00b7 -130\n  Bouanga 4p \u00b7 5/10 50% \u00b7 +108\n  Haaland 9:30a \u00b7 4/8 50% \u00b7 -108\n  Dreyer 4p \u00b7 4/8 50% \u00b7 +143\n\n\ud83c\udd70\ufe0f EZE 7a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 6/8 75% \u00b7 -170\n  Bouanga 4p \u00b7 5/10 50% \u00b7 +108\n  Dreyer 4p \u00b7 5/10 50% \u00b7 +140\n\n\ud83c\udd70\ufe0f SAKA 7a \u26a0 not in last squad \u2192 if he scores:\n  Haaland 9:30a \u00b7 6/8 75% \u00b7 -138\n  Bouanga 4p \u00b7 8/14 57% \u00b7 -104\n  Messi 1p \u00b7 5/9 56% \u00b7 -139\n\n\ud83c\udd70\ufe0f WISSA 7a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 6/9 67% \u00b7 -158\n  Bouanga 4p \u00b7 5/8 62% \u00b7 -104\n  Bellingham 12p \u00b7 4/8 50% \u00b7 +228\n  Messi 1p \u00b7 4/8 50% \u00b7 -132\n\n\ud83c\udd70\ufe0f BARNES 7a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 5/9 56% \u00b7 -140\n  Williams 9:30a \u00b7 4/8 50% \u00b7 +300\n  Sancet 9:30a \u00b7 4/8 50% \u00b7 +236\n\n\ud83c\udd70\ufe0f GY\u00d6KERES 7a \u2192 if he scores:\n  Haaland 9:30a \u00b7 4/8 50% \u00b7 -108\n  Bouanga 4p \u00b7 4/8 50% \u00b7 +108\n\n\ud83c\udd70\ufe0f OSIMHEN 8a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 9/10 90% \u00b7 -212\n  Malen 11:45a \u00b7 7/12 58% \u00b7 -111\n  Messi 1p \u00b7 8/15 53% \u00b7 -132\n  Bouanga 4p \u00b7 9/18 50% \u00b7 +106\n\n\ud83c\udd70\ufe0f DEMIROVI\u0106 9:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 7/9 78% \u00b7 -179\n  Bouanga 4p \u00b7 8/14 57% \u00b7 -104\n  Messi 1p \u00b7 9/16 56% \u00b7 -138\n  Dreyer 4p \u00b7 7/14 50% \u00b7 +135\n\n\ud83c\udd70\ufe0f FODEN 9:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 7/10 70% \u00b7 -165\n\n\ud83c\udd70\ufe0f BUDIMIR 9:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 7/10 70% \u00b7 -165\n  Bouanga 4p \u00b7 7/12 58% \u00b7 -104\n  Messi 1p \u00b7 7/13 54% \u00b7 -134\n  Zalazar 12:30p \u00b7 7/14 50% \u00b7 +150\n\n\ud83c\udd70\ufe0f HAALAND 9:30a \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 12/20 60% \u00b7 -147\n  Messi 1p \u00b7 11/19 58% \u00b7 -141\n  Bouanga 4p \u00b7 11/22 50% \u00b7 +106\n\n\ud83c\udd70\ufe0f UNDAV 9:30a \u2192 if he scores:\n  Bouanga 4p \u00b7 6/10 60% \u00b7 -104\n  Messi 1p \u00b7 7/12 58% \u00b7 -143\n  Dreyer 4p \u00b7 6/11 55% \u00b7 +131\n  Zalazar 12:30p \u00b7 5/10 50% \u00b7 +157\n\n\ud83c\udd70\ufe0f SEMENYO 9:30a \u26a0 not in last squad \u2192 if he scores:\n  Mbapp\u00e9 12p \u00b7 7/12 58% \u00b7 -143\n  Messi 1p \u00b7 6/11 55% \u00b7 -136\n  Bouanga 4p \u00b7 6/12 50% \u00b7 +107\n  Dreyer 4p \u00b7 4/8 50% \u00b7 +143\n\n\ud83c\udd70\ufe0f MBAPP\u00c9 12p \u2192 if he scores:\n  Bouanga 4p \u00b7 15/25 60% \u00b7 -116\n\n\ud83c\udd70\ufe0f BELLINGHAM 12p \u2192 if he scores:\n  Bouanga 4p \u00b7 4/8 50% \u00b7 +108\n\n\ud83c\udd70\ufe0f ZALAZAR 12:30p \u2192 if he scores:\n  Dreyer 4p \u00b7 7/12 58% \u00b7 +123\n  Bouanga 4p \u00b7 5/10 50% \u00b7 +108\n\n\ud83c\udd70\ufe0f MESSI 1p \u2192 if he scores:\n  Bouanga 4p \u00b7 18/24 75% \u00b7 -156\n\n\ud83d\udc49 Bet B only at the fair price or better \u00b7 0.5u max \u00b7 confirm B starts ~1 hr before",
    "title": "\ud83d\udd17 Pair digest today \u00b7 Sat Nov 7"
+  },
+  {
+   "at": "2026-11-07 00:50 PT",
+   "body": "BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)\nML Munich -320 \u2192 -390\nNow: M05 +1.5 \u00b7 O/U 4.5 \u00b7 ML MUN -390 / M05 +700\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 heavy-fav band: 91% of your legs win\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2643,7 +2643,7 @@
   },
   "401884740": {
    "date": "2026-11-07T14:30Z",
-   "ml_away": -320.0,
+   "ml_away": -390.0,
    "ml_draw": 500.0,
    "ml_home": 550.0,
    "open": {
@@ -4454,7 +4454,7 @@
   }
  },
  "last_grade": 1794037822.4878352,
- "last_run": "2026-11-07T00:45:14.251986-08:00",
+ "last_run": "2026-11-07T00:50:15.055046-08:00",
  "live_budget": {},
  "mo_report": "2026-11-06",
  "news_seen": [
