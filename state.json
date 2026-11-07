@@ -3,8 +3,22 @@
  "af_sent": [
   "2026-11-07|Cam Spencer|threePointersMade|over",
   "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "2026-11-07|Damian Lillard|rebounds|over",
   "2026-11-07|Darius Acuff|points+rebounds+assists|over",
+  "2026-11-07|Emanuel Sharp|points|under",
+  "2026-11-07|Jrue Holiday|rebounds|over",
   "2026-11-07|Julian Champagnie|threePointersMade|over",
+  "2026-11-07|Keldon Johnson|rebounds|over",
+  "2026-11-07|Luka Don\u010di\u0107|points|over",
+  "2026-11-07|Malik Monk|points+rebounds+assists|under",
+  "2026-11-07|Matisse Thybulle|points|over",
+  "2026-11-07|Sandro Mamukelashvili|points|over",
+  "2026-11-07|Stephon Castle|assists|under",
+  "2026-11-07|Stephon Castle|points|under",
+  "2026-11-07|Toumani Camara|threePointersMade|over",
+  "2026-11-07|Victor Wembanyama|threePointersMade|under",
+  "2026-11-07|Walker Kessler|points|over",
+  "2026-11-07|Ziaire Williams|rebounds|over",
   "2026-11-07|Ziaire Williams|threePointersMade|over"
  ],
  "alert_log": [
@@ -742,6 +756,76 @@
    "at": "2026-11-06 17:10 PT",
    "body": "Steve Angeli: Trending toward playing in Week 10\nAngeli (undisclosed) is listed as probable for Saturday's clash with Clemson, per the ACC availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Clemson Tigers\n\u2192 Check the line NOW before it moves.",
    "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Malik Monk UNDER 19.5 pts+reb+ast (-127) \u00b7 SA @ SAC\nModel 15.3 vs line 19.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 15.2 vs line 19.5\n\u2022 season avg 12.7\n\u2022 model agrees: proj 15.3 (+7% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Stephon Castle UNDER 17.5 points (-107) \u00b7 SA @ SAC\nModel 14.5 vs line 17.5 (secondary check)\n\u2022 last 5 avg 12.4 vs line 17.5\n\u2022 season avg 15.0\n\u2022 market moving our way\n\u2022 blowout risk: 17.5-pt spread, starters sit late (under)\n\u2022 model agrees: proj 14.5 (+6% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Jrue Holiday OVER 3.5 rebounds (-181) \u00b7 POR @ LAL\nModel 4.7 vs line 3.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 5.2 vs line 3.5\n\u2022 season avg 4.4\n\u2022 market moving our way\n\u2022 model agrees: proj 4.7 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Keldon Johnson OVER 4.5 rebounds (-113) \u00b7 SA @ SAC\nModel 5.5 vs line 4.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 5.6 vs line 4.5\n\u2022 season avg 5.5\n\u2022 market moving our way\n\u2022 model agrees: proj 5.5 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Luka Don\u010di\u0107 OVER 34.5 points (-123) \u00b7 POR @ LAL\nModel 38.9 vs line 34.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 41.0 vs line 34.5\n\u2022 season avg 38.5\n\u2022 market moving our way\n\u2022 model agrees: proj 38.9 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Stephon Castle UNDER 5.5 assists (+107) \u00b7 SA @ SAC\nModel 5.0 vs line 5.5 (secondary check)\n\u2022 last 5 avg 4.8 vs line 5.5\n\u2022 season avg 4.8\n\u2022 blowout risk: 17.5-pt spread, starters sit late (under)\n\u2022 model agrees: proj 5.0 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Matisse Thybulle OVER 6.5 points (-108) \u00b7 POR @ LAL\nModel 7.9 vs line 6.5 (secondary check)\n\u2022 last 5 avg 8.0 vs line 6.5\n\u2022 season avg 8.0\n\u2022 model agrees: proj 7.9 (+4% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Toumani Camara OVER 2.5 3-pointers (-116) \u00b7 POR @ LAL\nModel 3.3 vs line 2.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 3.0 vs line 2.5\n\u2022 season avg 3.4\n\u2022 market moving our way\n\u2022 model agrees: proj 3.3 (+4% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Emanuel Sharp UNDER 5.5 points (-115) \u00b7 SA @ SAC\nModel 4.6 vs line 5.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 3.8 vs line 5.5\n\u2022 season avg 4.4\n\u2022 market moving our way\n\u2022 model agrees: proj 4.6 (+3% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Walker Kessler OVER 12.5 points (-113) \u00b7 POR @ LAL\nModel 13.8 vs line 12.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 season avg 14.4\n\u2022 market moving our way\n\u2022 model agrees: proj 13.8 (+3% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Sandro Mamukelashvili OVER 7.5 points (-145) \u00b7 POR @ LAL\nModel 8.7 vs line 7.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 8.6 vs line 7.5\n\u2022 season avg 9.0\n\u2022 market moving our way\n\u2022 model agrees: proj 8.7 (+3% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Damian Lillard OVER 3.5 rebounds (-128) \u00b7 POR @ LAL\nModel 4.2 vs line 3.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 4.2 vs line 3.5\n\u2022 season avg 4.1\n\u2022 market moving our way\n\u2022 model agrees: proj 4.2 (+2% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Ziaire Williams OVER 2.5 rebounds (-122) \u00b7 POR @ LAL\nModel 3.0 vs line 2.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 3.0 vs line 2.5\n\u2022 season avg 3.0\n\u2022 market moving our way\n\u2022 model agrees: proj 3.0 (+2% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:20 PT",
+   "body": "Victor Wembanyama UNDER 1.5 3-pointers (+121) \u00b7 SA @ SAC\nModel 1.6 vs line 1.5 (secondary check)\n\u2022 market moving our way\n\u2022 blowout risk: 17.5-pt spread, starters sit late (under)\n\u2022 model agrees: proj 1.6 (+2% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
   }
  ],
  "base": {
@@ -2005,7 +2089,7 @@
    "Brooklyn Nets|Day'Ron Sharpe": "Day-To-Day \u00a6 Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunda",
    "Brooklyn Nets|Egor Demin": "Out \u00a6 The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today ",
    "Brooklyn Nets|Tyler Bilodeau": "Out \u00a6 Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana.",
-   "Charlotte Hornets|Brandon Miller": "Day-To-Day \u00a6 Miller (undisclosed) exited Friday's game against the Celtics, Owen O'Connor of SI.com reports.",
+   "Charlotte Hornets|Brandon Miller": "Day-To-Day \u00a6 Miller (groin) won't return to Friday's game against the Celtics, Brett Siegel of ClutchPoints.com reports.",
    "Charlotte Hornets|Dennis Schroder": "Out \u00a6 Schroder (thigh) is out for Friday's game versus Boston.",
    "Charlotte Hornets|Grant Williams": "Out \u00a6 The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday.",
    "Charlotte Hornets|Kon Knueppel": "Out \u00a6 Knueppel (hamstring) is out for Friday's game against the Celtics.",
@@ -2365,7 +2449,7 @@
    "Green Bay Packers|Aaron Banks": "Active",
    "Green Bay Packers|Anthony Campbell": "Active",
    "Green Bay Packers|Brenton Cox Jr.": "Active",
-   "Green Bay Packers|Chris Brooks": "Injured Reserve \u00a6 Brooks (ankle) was designated to return from injured reserve by the Packers on Wednesday, per the NFL's offici",
+   "Green Bay Packers|Chris Brooks": "Injured Reserve \u00a6 Brooks (ankle) is listed as questionable for Sunday's game against the Patriots, Wes Hodkiewicz of the Packers",
    "Green Bay Packers|Christian Watson": "Active \u00a6 Watson (ribs) doesn't have a designation for Sunday's contest at New England.",
    "Green Bay Packers|Devonte Wyatt": "Active \u00a6 Wyatt (ankle) is active for Thursday's game against the Panthers, Mike Spofford of the team's official site re",
    "Green Bay Packers|Donovan Jennings": "Active",
@@ -2374,7 +2458,7 @@
    "Green Bay Packers|Jonnu Smith": "Active",
    "Green Bay Packers|Jordan Love": "Active \u00a6 Love completed 30 of 41 passes for 288 yards with three touchdowns and one interception and recovered a fumble",
    "Green Bay Packers|Josh Jacobs": "Active \u00a6 Jacobs doesn't anticipate missing any additional game action due to the release of additional allegations of p",
-   "Green Bay Packers|Josh Whyle": "Out \u00a6 out",
+   "Green Bay Packers|Josh Whyle": "Out \u00a6 Whyle (concussion) has been ruled out ahead of Sunday's game against the Patriots, Wes Hodkiewicz of the Packe",
    "Green Bay Packers|Kaleb Johnson": "Active",
    "Green Bay Packers|Keisean Nixon": "Questionable \u00a6 Nixon (groin) did not practice Thursday, Weston Hodkiewicz of the Packers' official site reports.",
    "Green Bay Packers|MarShawn Lloyd": "Questionable \u00a6 Lloyd (knee) is listed as questionable for Sunday's game against the Patriots.",
@@ -2512,7 +2596,7 @@
    "Las Vegas Raiders|Thomas Booker IV": "Out \u00a6 out",
    "Las Vegas Raiders|Tre Tucker": "Active \u00a6 Tucker did not catch his only target Sunday in the Raiders' 38-33 Week 8 win over the Jets.",
    "Las Vegas Raiders|Tristin McCollum": "Active",
-   "Los Angeles Chargers|Brenen Thompson": "Doubtful \u00a6 doubtful",
+   "Los Angeles Chargers|Brenen Thompson": "Doubtful \u00a6 Thompson (quadriceps/hamstring) is officially listed as doubtful for Sunday's game versus the Texans.",
    "Los Angeles Chargers|Bud Dupree": "Active",
    "Los Angeles Chargers|Cameron Dicker": "Active \u00a6 Dicker made all three of his field-goal attempts during Sunday's 24-9 loss against the Rams. He did not kick a",
    "Los Angeles Chargers|Charlie Kolar": "Active \u00a6 Kolar caught one of four targets for 20 yards in Sunday's 24-9 loss to the Rams.",
@@ -2889,7 +2973,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:15:14.840838-08:00",
+ "last_run": "2026-11-06T17:20:13.904671-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3418,7 +3502,9 @@
   "50403210",
   "50403255",
   "50403330",
-  "50403347"
+  "50403347",
+  "50403494",
+  "50403506"
  ],
  "props": {
   "T103": {
@@ -3494,6 +3580,8 @@
   "cfb238612",
   "cfb238613",
   "cfb238614",
+  "cfb238615",
+  "cfb238616",
   "nba537807",
   "nba537808",
   "nba537809",

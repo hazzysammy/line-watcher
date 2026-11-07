@@ -1,5 +1,138 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Victor Wembanyama UNDER 1.5 3-pointers (+121) · SA @ SAC  
+Model 1.6 vs line 1.5 (secondary check)  
+• market moving our way  
+• blowout risk: 17.5-pt spread, starters sit late (under)  
+• model agrees: proj 1.6 (+2% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Ziaire Williams OVER 2.5 rebounds (-122) · POR @ LAL  
+Model 3.0 vs line 2.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 3.0 vs line 2.5  
+• season avg 3.0  
+• market moving our way  
+• model agrees: proj 3.0 (+2% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Damian Lillard OVER 3.5 rebounds (-128) · POR @ LAL  
+Model 4.2 vs line 3.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 4.2 vs line 3.5  
+• season avg 4.1  
+• market moving our way  
+• model agrees: proj 4.2 (+2% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Sandro Mamukelashvili OVER 7.5 points (-145) · POR @ LAL  
+Model 8.7 vs line 7.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 8.6 vs line 7.5  
+• season avg 9.0  
+• market moving our way  
+• model agrees: proj 8.7 (+3% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Walker Kessler OVER 12.5 points (-113) · POR @ LAL  
+Model 13.8 vs line 12.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• season avg 14.4  
+• market moving our way  
+• model agrees: proj 13.8 (+3% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Emanuel Sharp UNDER 5.5 points (-115) · SA @ SAC  
+Model 4.6 vs line 5.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 3.8 vs line 5.5  
+• season avg 4.4  
+• market moving our way  
+• model agrees: proj 4.6 (+3% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Toumani Camara OVER 2.5 3-pointers (-116) · POR @ LAL  
+Model 3.3 vs line 2.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 3.0 vs line 2.5  
+• season avg 3.4  
+• market moving our way  
+• model agrees: proj 3.3 (+4% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Matisse Thybulle OVER 6.5 points (-108) · POR @ LAL  
+Model 7.9 vs line 6.5 (secondary check)  
+• last 5 avg 8.0 vs line 6.5  
+• season avg 8.0  
+• model agrees: proj 7.9 (+4% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Stephon Castle UNDER 5.5 assists (+107) · SA @ SAC  
+Model 5.0 vs line 5.5 (secondary check)  
+• last 5 avg 4.8 vs line 5.5  
+• season avg 4.8  
+• blowout risk: 17.5-pt spread, starters sit late (under)  
+• model agrees: proj 5.0 (+5% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Luka Dončić OVER 34.5 points (-123) · POR @ LAL  
+Model 38.9 vs line 34.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 41.0 vs line 34.5  
+• season avg 38.5  
+• market moving our way  
+• model agrees: proj 38.9 (+5% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Keldon Johnson OVER 4.5 rebounds (-113) · SA @ SAC  
+Model 5.5 vs line 4.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 5.6 vs line 4.5  
+• season avg 5.5  
+• market moving our way  
+• model agrees: proj 5.5 (+5% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Jrue Holiday OVER 3.5 rebounds (-181) · POR @ LAL  
+Model 4.7 vs line 3.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 5.2 vs line 3.5  
+• season avg 4.4  
+• market moving our way  
+• model agrees: proj 4.7 (+5% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Stephon Castle UNDER 17.5 points (-107) · SA @ SAC  
+Model 14.5 vs line 17.5 (secondary check)  
+• last 5 avg 12.4 vs line 17.5  
+• season avg 15.0  
+• market moving our way  
+• blowout risk: 17.5-pt spread, starters sit late (under)  
+• model agrees: proj 14.5 (+6% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
+Malik Monk UNDER 19.5 pts+reb+ast (-127) · SA @ SAC  
+Model 15.3 vs line 19.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 15.2 vs line 19.5  
+• season avg 12.7  
+• model agrees: proj 15.3 (+7% edge)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
 **2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
 Steve Angeli: Trending toward playing in Week 10  
 Angeli (undisclosed) is listed as probable for Saturday's clash with Clemson, per the ACC availability report.  
