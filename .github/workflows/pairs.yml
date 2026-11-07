@@ -1,0 +1,38 @@
+name: pairs
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  push:
+    paths: ["pairs/run.txt"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: pairs
+  cancel-in-progress: false
+jobs:
+  pairs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build pairs
+        run: python pairs/pairs.py
+      - name: Save
+        run: |
+          git config user.name "watcher-bot"
+          git config user.email "watcher-bot@users.noreply.github.com"
+          mkdir -p /tmp/keep/pairs && cp -r pairs/cache pairs/pairs.json pairs/pairs.md /tmp/keep/pairs/
+          for i in 1 2 3 4; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp -r /tmp/keep/. .
+            git add pairs/cache pairs/pairs.json pairs/pairs.md
+            git diff --cached --quiet && exit 0
+            git commit -qm "pairs output"
+            git push -q && exit 0
+            sleep 3
+          done
