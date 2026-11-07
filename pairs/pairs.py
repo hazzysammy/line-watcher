@@ -110,7 +110,7 @@ def main():
     res.sort(key=lambda x: (-x["rate"], -x["n"]))
     json.dump({"generated": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%MZ"), "players": len(players), "pairs": res}, open(os.path.join(HERE, "pairs.json"), "w"), indent=1)
     L = [f"# Player B scores after Player A scores (50%+, at least {MIN_N} cases)", "",
-         "_A scored in a game that kicked off 2-36h before B's game. Base = B's normal scoring rate. Lift = how much better than normal. "
+         "_A scored in a game that kicked off 2.5-36h before B's game. Base = B's normal scoring rate. Lift = how much better than normal. "
          "Many pairs are luck (we tested thousands), so lift and sample size matter more than the raw %._", "",
          "| B scores after A | Hit | Rate | B normal | Lift |", "|---|---|---|---|---|"]
     for r in res[:300]:
