@@ -41,11 +41,11 @@ def num(x):
     except Exception: return None
 
 STATS = {  # SGO statID -> (gamelog fields, sd model a*proj+b)
-    "points": (["points"], 0.26, 2.2),
-    "rebounds": (["totalRebounds"], 0.30, 1.1),
-    "assists": (["assists"], 0.32, 1.0),
-    "threePointersMade": (["3pm"], 0.45, 0.6),
-    "points+rebounds+assists": (["points", "totalRebounds", "assists"], 0.20, 3.2),
+    "points": (["points"], 0.30, 3.0),
+    "rebounds": (["totalRebounds"], 0.35, 1.5),
+    "assists": (["assists"], 0.38, 1.3),
+    "threePointersMade": (["3pm"], 0.55, 0.8),
+    "points+rebounds+assists": (["points", "totalRebounds", "assists"], 0.24, 4.0),
 }
 
 def gamelog(aid):
@@ -138,7 +138,7 @@ def main():
             dk = (od.get("byBookmaker") or {}).get("draftkings") or {}
             uo = ((se["odds"].get(od.get("opposingOddID", "")) or {}).get("byBookmaker") or {}).get("draftkings") or {}
             line = num(dk.get("overUnder")); po = num(dk.get("odds")); pu = num(uo.get("odds"))
-            if line is None or po is None or not dk.get("available", True): continue
+            if line is None or po is None or pu is None or not dk.get("available", True): continue
             nm = pname.get(ent, ""); info = players.get(norm(nm))
             if not info or info["gp"] < CFG["min_gp"]: continue
             if info["id"] not in logs: logs[info["id"]] = gamelog(info["id"])
@@ -155,7 +155,8 @@ def main():
             rate = 0.6 * rate_s + 0.4 * rate_5
             mins = 0.6 * (tot_min / len(gl)) + 0.4 * (l5_min / len(l5))
             # teammates out: share their minutes/usage
-            outs = [n for n in out.get(team, []) if norm(n) != norm(nm)]
+            team_gp = max([p["gp"] for p in players.values() if p["team"] == info["team"]] or [1])
+            outs = [n for n in out.get(team, []) if norm(n) != norm(nm) and players.get(norm(n), {}).get("gp", 0) >= 0.6 * team_gp]
             out_min = sum(players.get(norm(n), {}).get("mpg", 0) for n in outs if players.get(norm(n), {}).get("mpg", 0) >= 15)
             out_pts = sum(players.get(norm(n), {}).get("ppg", 0) for n in outs if players.get(norm(n), {}).get("mpg", 0) >= 15)
             boost_note = ""
@@ -172,8 +173,9 @@ def main():
             proj = rate * mins * (dfac if stat != "rebounds" else 1)
             sd = a_sd * proj + b_sd
             p_over = 1 - phi((line - proj) / sd)
-            io, iu = prob(po), (prob(pu) if pu is not None else 1 - prob(po) + 0.045)
+            io, iu = prob(po), prob(pu)
             nv_over = io / (io + iu)
+            p_over = CFG["model_weight"] * p_over + (1 - CFG["model_weight"]) * nv_over   # trust the market most
             side = "over" if p_over > nv_over else "under"
             edge = (p_over - nv_over) if side == "over" else ((1 - p_over) - (1 - nv_over))
             price = po if side == "over" else (pu if pu is not None else None)
@@ -223,12 +225,17 @@ def make_flags(edges, now):
     f = os.path.join(HERE, "autoflags.json")
     flags = json.load(open(f)) if os.path.exists(f) else []
     have = {x["key"] for x in flags}
+    day_count = {}
+    for x in flags: day_count[x["start"][:10]] = day_count.get(x["start"][:10], 0) + 1
     for e in edges:
         sig = signals(e)
         if e["edge"] < CFG["flag_edge"] or len(sig) < 2 or e["price"] is None: continue
         if not (CFG["price_min"] <= e["price"] <= CFG["price_max"]): continue
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
+        if day_count.get(e["start"][:10], 0) >= CFG["max_flags_per_day"]: continue
+        if any(x["player"] == e["player"] and x["start"][:10] == e["start"][:10] for x in flags): continue   # one per player per day
+        day_count[e["start"][:10]] = day_count.get(e["start"][:10], 0) + 1
         units = 1.0 if (e["edge"] >= 0.10 and len(sig) >= 3) else 0.5
         flags.append({"key": key, "created": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "game": e["game"], "start": e["start"],
                       "espn_event": e["espn_event"], "espn_id": e["espn_id"], "player": e["player"], "stat": e["stat"],
