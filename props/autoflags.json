@@ -26,7 +26,21 @@
   "net_units": -0.5,
   "graded_sent": false,
   "silent": true,
-  "trigger": "model-only"
+  "trigger": "model-only",
+  "sweat": {
+   "margin": -4.5,
+   "margin_rel": -0.191,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Cam Spencer|threePointersMade|over",
@@ -55,7 +69,21 @@
   "net_units": -0.5,
   "graded_sent": false,
   "silent": true,
-  "trigger": "model-only"
+  "trigger": "model-only",
+  "sweat": {
+   "margin": -0.5,
+   "margin_rel": -0.333,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Darius Acuff|points+rebounds+assists|over",
@@ -84,7 +112,21 @@
   "trigger": "model-only",
   "final": 33.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -1.5,
+   "margin_rel": -0.043,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Ziaire Williams|threePointersMade|over",
@@ -112,7 +154,21 @@
   "trigger": "model-only",
   "final": 2.0,
   "net_units": 0.64,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 0.5,
+   "margin_rel": 0.333,
+   "locked_at": 0.72,
+   "pct_winning": null,
+   "cashed_min": 131,
+   "label": "\ud83d\udfe2 Easy",
+   "note": "locked 72% into the game"
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Julian Champagnie|threePointersMade|over",
@@ -140,7 +196,21 @@
   "trigger": "model-only",
   "final": 2.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -0.5,
+   "margin_rel": -0.2,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Malik Monk|points+rebounds+assists|under",
@@ -169,7 +239,21 @@
   "silent": true,
   "final": 19.0,
   "net_units": 0.39,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 0.5,
+   "margin_rel": 0.026,
+   "locked_at": null,
+   "pct_winning": 0.75,
+   "cashed_min": null,
+   "label": "\ud83d\udd34 Sweat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history"
+  ]
  },
  {
   "key": "2026-11-07|Stephon Castle|points|under",
@@ -199,7 +283,22 @@
   "silent": true,
   "final": 19.0,
   "net_units": -1.0,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -1.5,
+   "margin_rel": -0.086,
+   "locked_at": null,
+   "pct_winning": 0.71,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way",
+   "\ud83e\uddea Blowout spot (untested)"
+  ]
  },
  {
   "key": "2026-11-07|Jrue Holiday|rebounds|over",
@@ -229,7 +328,22 @@
   "silent": true,
   "final": 1.0,
   "net_units": -1.0,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -2.5,
+   "margin_rel": -0.714,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Keldon Johnson|rebounds|over",
@@ -259,7 +373,22 @@
   "silent": true,
   "final": 6.0,
   "net_units": 0.88,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 1.5,
+   "margin_rel": 0.333,
+   "locked_at": 0.67,
+   "pct_winning": null,
+   "cashed_min": 122,
+   "label": "\ud83d\udfe2 Easy",
+   "note": "locked 67% into the game"
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Luka Don\u010di\u0107|points|over",
@@ -289,7 +418,22 @@
   "silent": true,
   "final": 53.0,
   "net_units": 0.81,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 18.5,
+   "margin_rel": 0.536,
+   "locked_at": 0.69,
+   "pct_winning": null,
+   "cashed_min": 128,
+   "label": "\ud83d\udfe2 Easy",
+   "note": "locked 69% into the game"
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Stephon Castle|assists|under",
@@ -318,7 +462,21 @@
   "silent": true,
   "final": 7.0,
   "net_units": -1.0,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -1.5,
+   "margin_rel": -0.273,
+   "locked_at": null,
+   "pct_winning": 0.46,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83e\uddea Blowout spot (untested)"
+  ]
  },
  {
   "key": "2026-11-07|Matisse Thybulle|points|over",
@@ -346,7 +504,20 @@
   "silent": true,
   "final": 2.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -4.5,
+   "margin_rel": -0.692,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection"
+  ]
  },
  {
   "key": "2026-11-07|Toumani Camara|threePointersMade|over",
@@ -376,7 +547,22 @@
   "silent": true,
   "final": 4.0,
   "net_units": 0.86,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 1.5,
+   "margin_rel": 0.6,
+   "locked_at": 0.98,
+   "pct_winning": null,
+   "cashed_min": 174,
+   "label": "\ud83d\udfe2 Easy",
+   "note": "locked 98% into the game"
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Emanuel Sharp|points|under",
@@ -406,7 +592,22 @@
   "silent": true,
   "final": 9.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -3.5,
+   "margin_rel": -0.636,
+   "locked_at": null,
+   "pct_winning": 0.19,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Walker Kessler|points|over",
@@ -435,7 +636,21 @@
   "silent": true,
   "final": 16.0,
   "net_units": 0.44,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 3.5,
+   "margin_rel": 0.28,
+   "locked_at": 0.78,
+   "pct_winning": null,
+   "cashed_min": 141,
+   "label": "\ud83d\udfe1 Normal",
+   "note": "locked 78% into the game"
+  },
+  "tags": [
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Sandro Mamukelashvili|points|over",
@@ -465,7 +680,22 @@
   "silent": true,
   "final": 7.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -0.5,
+   "margin_rel": -0.067,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Damian Lillard|rebounds|over",
@@ -495,7 +725,22 @@
   "silent": true,
   "final": 0.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -3.5,
+   "margin_rel": -1.0,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Ziaire Williams|rebounds|over",
@@ -525,7 +770,22 @@
   "silent": true,
   "final": 3.0,
   "net_units": 0.41,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": 0.5,
+   "margin_rel": 0.2,
+   "locked_at": 0.76,
+   "pct_winning": null,
+   "cashed_min": 139,
+   "label": "\ud83d\udd34 Sweat",
+   "note": "locked 76% into the game"
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Victor Wembanyama|threePointersMade|under",
@@ -553,7 +813,21 @@
   "silent": true,
   "final": 4.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -2.5,
+   "margin_rel": -1.667,
+   "locked_at": null,
+   "pct_winning": 0.21,
+   "cashed_min": null,
+   "label": "\u274c Clear loss",
+   "note": ""
+  },
+  "tags": [
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcb8 Line move our way",
+   "\ud83e\uddea Blowout spot (untested)"
+  ]
  },
  {
   "key": "2026-11-07|LIVE|Toronto Raptors",
@@ -579,7 +853,19 @@
    "live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em"
   ],
   "final": "121-107",
-  "net_units": 0.5
+  "net_units": 0.5,
+  "sweat": {
+   "margin": 14.0,
+   "margin_rel": null,
+   "locked_at": 0.7,
+   "pct_winning": 0.31,
+   "cashed_min": 114,
+   "label": "\ud83d\udfe2 Easy",
+   "note": "locked 70% into the game"
+  },
+  "tags": [
+   "\ud83d\udd34 Live: fav trailing"
+  ]
  },
  {
   "key": "2026-11-07|Austin Reaves|threePointersMade|over",
@@ -609,7 +895,22 @@
   "silent": true,
   "final": 1.0,
   "net_units": -1.0,
-  "graded_sent": false
+  "graded_sent": false,
+  "sweat": {
+   "margin": -0.5,
+   "margin_rel": -0.333,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null,
+   "label": "\ud83d\udc80 Bad beat",
+   "note": ""
+  },
+  "tags": [
+   "\ud83d\udcca Recent form (L5)",
+   "\ud83e\udd16 Model projection",
+   "\ud83d\udcda Fits your history",
+   "\ud83d\udcb8 Line move our way"
+  ]
  },
  {
   "key": "2026-11-07|Nikola Joki\u0107|rebounds|under",
@@ -812,6 +1113,136 @@
    "last 5 avg 4.2 vs line 3.5",
    "season avg 4.2",
    "model agrees: proj 4.2 (+4% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-08|Reed Sheppard|points|over",
+  "created": "2026-11-06 22:47 PT",
+  "game": "HOU @ PHX",
+  "start": "2026-11-08T02:00Z",
+  "espn_event": "401909943",
+  "espn_id": "4711272",
+  "player": "Reed Sheppard",
+  "stat": "points",
+  "side": "over",
+  "line": 8.5,
+  "price": -112.0,
+  "proj": 11.6,
+  "edge": 0.075,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 12.2 vs line 8.5",
+   "season avg 10.7",
+   "model agrees: proj 11.6 (+8% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-08|Fred VanVleet|points|over",
+  "created": "2026-11-06 22:47 PT",
+  "game": "HOU @ PHX",
+  "start": "2026-11-08T02:00Z",
+  "espn_event": "401909943",
+  "espn_id": "2991230",
+  "player": "Fred VanVleet",
+  "stat": "points",
+  "side": "over",
+  "line": 11.5,
+  "price": -106.0,
+  "proj": 13.9,
+  "edge": 0.059,
+  "signals": [
+   "last 5 avg 14.2 vs line 11.5",
+   "season avg 13.0",
+   "model agrees: proj 13.9 (+6% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-08|Dillon Brooks|points|over",
+  "created": "2026-11-06 22:47 PT",
+  "game": "HOU @ PHX",
+  "start": "2026-11-08T02:00Z",
+  "espn_event": "401909943",
+  "espn_id": "3155526",
+  "player": "Dillon Brooks",
+  "stat": "points",
+  "side": "over",
+  "line": 15.5,
+  "price": -126.0,
+  "proj": 17.5,
+  "edge": 0.029,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 19.6 vs line 15.5",
+   "season avg 17.6",
+   "market moving our way",
+   "model agrees: proj 17.5 (+3% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-08|Miles Bridges|points|over",
+  "created": "2026-11-06 22:47 PT",
+  "game": "HOU @ PHX",
+  "start": "2026-11-08T02:00Z",
+  "espn_event": "401909943",
+  "espn_id": "4066383",
+  "player": "Miles Bridges",
+  "stat": "points",
+  "side": "over",
+  "line": 16.5,
+  "price": -102.0,
+  "proj": 17.4,
+  "edge": 0.027,
+  "signals": [
+   "last 5 avg 19.6 vs line 16.5",
+   "market moving our way",
+   "model agrees: proj 17.4 (+3% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-08|Devin Booker|threePointersMade|over",
+  "created": "2026-11-06 22:47 PT",
+  "game": "HOU @ PHX",
+  "start": "2026-11-08T02:00Z",
+  "espn_event": "401909943",
+  "espn_id": "3136193",
+  "player": "Devin Booker",
+  "stat": "threePointersMade",
+  "side": "over",
+  "line": 1.5,
+  "price": -128.0,
+  "proj": 1.9,
+  "edge": 0.024,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 2.2 vs line 1.5",
+   "season avg 1.9",
+   "market moving our way",
+   "model agrees: proj 1.9 (+2% edge)"
   ],
   "units": 0.5,
   "sent": false,
