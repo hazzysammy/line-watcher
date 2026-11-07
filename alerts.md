@@ -1,5 +1,14 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 18:10 PT · 📈 Line move**  
+CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)  
+Spread LOU -36.5 → -38.5  
+(first seen: LOU -36.5, O/U 150.5)  
+💡 Money came in on Cardinals. If you like Cardinals, the value is mostly gone. If you like Eagles, you now get 2 more points than before.  
+✅ Spreads are your strongest market (15-4)  
+🔎 No news found in the last few hours → possibly sharp money. Check X before following.  
+👀 Next: College lineups aren't official until tip.
+
 **2026-11-06 18:05 PT · 📈 Line move**  
 CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)  
 Spread UCLA -34.5 → -32.5  
