@@ -1,5 +1,14 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 22:51 PT · 📈 Line move**  
+NBA Houston Rockets @ Phoenix Suns (Sat 6:00 PM PT)  
+ML Suns +199 → +249  
+ML Rockets -241 → -308  
+(opened PHX +6.5)  
+Now: PHX +7.5 · O/U 220.5 · ML HOU -308 / PHX +249  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ long-shot band: 24% for you · heavy-fav band: 91% of your legs win  
+👉 PASS — just watch statuses ~30–60 min before tip; I'll ping if news makes it a bet
+
 **2026-11-06 22:30 PT · 📈 Line move**  
 BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
 Total 3.5 → 4.5 (over money)  
@@ -1786,7 +1795,4 @@ L1 Strasbourg @ Toulouse (Fri 11:45 AM PT)
 ML TOU +110 → +130  
 ML STR +235 → +200  
 (first seen: TOU -0.5, O/U 2.5)
-
-**2026-11-05 22:47 PT · 🏥 NBA injury update**  
-🚨⭐ Gui Santos (Golden State Warriors): Out → Day-To-Day — Santos (knee) has been ruled out for Thursday's game against the Heat.
 
