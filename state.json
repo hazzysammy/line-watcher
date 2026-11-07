@@ -2964,7 +2964,7 @@
    "Carolina Panthers|Ryan Fitzgerald": "Active \u00a6 Fitzgerald made both field-goal attempts and converted his only extra-point try in Thursday's 27-19 loss to Gr",
    "Carolina Panthers|Tetairoa McMillan": "Active \u00a6 McMillan brought in six of 11 targets for 57 yards in the Panthers' 27-19 loss to the Packers on Thursday.",
    "Carolina Panthers|Torricelli Simpkins III": "Questionable \u00a6 questionable",
-   "Carolina Panthers|Will Lee III": "Out \u00a6 Lee (hamstring) did not practice Thursday, Steve Reed of the Associated Press reports.",
+   "Carolina Panthers|Will Lee III": "Out \u00a6 Lee has been ruled out for Sunday's game against Denver due to a hamstring injury.",
    "Carolina Panthers|Xavier Legette": "Injured Reserve \u00a6 Panthers head coach Dave Canales said Monday that Legette (knee) will \"potentially\" be designated for return f",
    "Carolina Panthers|Zakee Wheatley": "Active \u00a6 Wheatley recorded seven total tackles (four solo) and an interception during Thursday night's 27-19 loss to th",
    "Chicago Bears|Braxton Jones": "Injured Reserve \u00a6 Jones (knee) is out for the rest of the season, Brad Biggs of the Chicago Tribune reports.",
@@ -3098,7 +3098,7 @@
    "Detroit Lions|Brian Branch": "Active \u00a6 Branch (concussion) does not have any injury designation ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|Cade Mays": "Out \u00a6 out",
    "Detroit Lions|D.J. Reed": "Out \u00a6 Reed (hip) has been ruled out ahead of Sunday's game against the Dolphins.",
-   "Detroit Lions|DJ Wonnum": "Out \u00a6 out",
+   "Detroit Lions|DJ Wonnum": "Out \u00a6 Wonnum (concussion) has been ruled out ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|Ennis Rakestraw Jr.": "Active \u00a6 Rakestraw (ankle) does not have a game designation for Sunday's Week 8 tilt versus the Vikings.",
    "Detroit Lions|Isaac TeSlaa": "Active \u00a6 TeSlaa caught one of his two targets for 10 yards in the Lions' 20-17 win over the Packers on Sunday.",
    "Detroit Lions|Isiah Pacheco": "Injured Reserve \u00a6 Lions coach Dan Campbell said Friday that Pacheco (back) has a chance to return in late December, Justin Roger",
@@ -3357,7 +3357,7 @@
    "Minnesota Vikings|Isaiah Rodgers": "Active",
    "Minnesota Vikings|Jake Golday": "Active",
    "Minnesota Vikings|Jakobe Thomas": "Active",
-   "Minnesota Vikings|Jauan Jennings": "Questionable \u00a6 Jennings (calf) was limited in Thursday's practice.",
+   "Minnesota Vikings|Jauan Jennings": "Questionable \u00a6 Jennings (calf) did not participate in Friday's practice.",
    "Minnesota Vikings|Jay Ward": "Questionable \u00a6 questionable",
    "Minnesota Vikings|Jordan Addison": "Active \u00a6 Addison caught three of eight targets for 66 yards in Sunday's 19-15 loss to the Lions.",
    "Minnesota Vikings|Jordan Mason": "Active \u00a6 Mason rushed eight times for 20 yards in the Vikings' 19-15 loss to the Lions on Sunday.",
@@ -3536,10 +3536,10 @@
    "San Francisco 49ers|Kurtis Rourke": "Active",
    "San Francisco 49ers|Kyle Juszczyk": "Active \u00a6 Juszczyk caught all three of his targets for 11 yards and a touchdown during Sunday's 29-20 loss to Atlanta.",
    "San Francisco 49ers|Luke Gifford": "Active",
-   "San Francisco 49ers|Marques Sigle": "Active",
+   "San Francisco 49ers|Marques Sigle": "Active \u00a6 Sigle (ankle) does not carry an official injury designation ahead of Sunday's game versus the Raiders.",
    "San Francisco 49ers|Mike Evans": "Out \u00a6 Evans (Achilles) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN reports.",
    "San Francisco 49ers|Nate Hobbs": "Injured Reserve \u00a6 The 49ers designated Hobbs (groin) for return to practice from their injured reserve list Wednesday.",
-   "San Francisco 49ers|Nick Bosa": "Active",
+   "San Francisco 49ers|Nick Bosa": "Active \u00a6 Bosa (knee) does not carry an official injury designation ahead of Sunday's game versus Las Vegas.",
    "San Francisco 49ers|Siran Neal": "Questionable \u00a6 questionable",
    "San Francisco 49ers|Upton Stout": "Questionable \u00a6 Stout (shoulder) was only active as an emergency depth option during Sunday's loss to the Falcons, David Lomba",
    "Seattle Seahawks|AJ Barner": "Active \u00a6 Barner brought in two of five targets for 23 yards in the Seahawks' 34-17 loss to the Bears on Monday night.",
@@ -3644,7 +3644,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:30:17.648219-08:00",
+ "last_run": "2026-11-06T18:35:12.271868-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4203,7 +4203,9 @@
   "50404057",
   "50404061",
   "50404082",
-  "50404087"
+  "50404087",
+  "50404096",
+  "50404099"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4338,7 +4340,7 @@
  ],
  "props": {
   "T103": {
-   "checked": 1794016835.997842,
+   "checked": 1794018917.4978132,
    "closed": true,
    "clv_pct": 1.11,
    "dk_bet_line": -2.5,
@@ -4457,6 +4459,7 @@
   "nba537897",
   "nba537899",
   "nba537900",
+  "nba537902",
   "nfl646200",
   "nfl646201",
   "nfl646202",
@@ -4515,7 +4518,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 13
+  "2026-11": 14
  },
  "team_hist": {
   "13|2026-11-06": [
