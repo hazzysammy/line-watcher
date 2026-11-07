@@ -1443,6 +1443,11 @@
    "at": "2026-11-06 18:15 PT",
    "body": "Austin Reaves OVER 1.5 3-pointers (-199) \u00b7 POR @ LAL\nModel 2.1 vs line 1.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 1.8 vs line 1.5\n\u2022 season avg 2.3\n\u2022 market moving our way\n\u2022 model agrees: proj 2.1 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
    "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 18:20 PT",
+   "body": "Sam Merrill (Cleveland Cavaliers): NEW \u2192 Out \u2014 Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ\n\u2022 Sam Merrill: \ud83e\udde0 Means: Cavaliers play WITHOUT Sam Merrill. \ud83d\udc49 Do: if the line hasn't moved, look at the OTHER side's spread and the Cavaliers team-total UNDER. His minutes go to teammates, so check their points/assists OVERS before DK adjusts.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -2764,6 +2769,7 @@
    "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "Cleveland Cavaliers|Jarrett Allen": "Out \u00a6 Allen (knee) is out for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
+   "Cleveland Cavaliers|Sam Merrill": "Out \u00a6 Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
    "Dallas Mavericks|Tarik Biberovic": "Out \u00a6 Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -2951,7 +2957,7 @@
    "Carolina Panthers|Devin Lloyd": "Active \u00a6 Lloyd posted four tackles in Sunday's loss to the Buccaneers.",
    "Carolina Panthers|Haynes King": "Active",
    "Carolina Panthers|Ja'Tavion Sanders": "Active",
-   "Carolina Panthers|Jaelan Phillips": "Out \u00a6 out",
+   "Carolina Panthers|Jaelan Phillips": "Out \u00a6 Phillips (hamstring) has been ruled out for Sunday's Week 9 battle against the Broncos.",
    "Carolina Panthers|Jalen Coker": "Active \u00a6 Coker secured two of five targets for 37 yards and a touchdown in the Panthers' 27-19 loss to the Packers on T",
    "Carolina Panthers|John Metchie III": "Active \u00a6 Metchie recorded three receptions for 14 yards on three targets in Thursday's 27-19 loss to the Packers.",
    "Carolina Panthers|Jonathon Brooks": "Injured Reserve \u00a6 Brooks (core) was seen working off to the side during the Panthers' unofficial practice Tuesday, Joe Person of",
@@ -3089,7 +3095,7 @@
    "Detroit Lions|Ahmed Hassanein": "Active",
    "Detroit Lions|Amen Ogbongbemiga": "Active",
    "Detroit Lions|Amon-Ra St. Brown": "Questionable \u00a6 St. Brown (ribs) is questionable for Sunday's game against the Dolphins, Tim Twentyman of the Lions' official ",
-   "Detroit Lions|Brian Branch": "Active",
+   "Detroit Lions|Brian Branch": "Active \u00a6 Branch (concussion) does not have any injury designation ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|Cade Mays": "Out \u00a6 out",
    "Detroit Lions|D.J. Reed": "Out \u00a6 out",
    "Detroit Lions|DJ Wonnum": "Out \u00a6 out",
@@ -3552,13 +3558,13 @@
    "Seattle Seahawks|Jalen Milroe": "Active \u00a6 Milroe will get added reps at practice ahead of Sunday's matchup with the Cardinals, Gregg Bell of Sports Radi",
    "Seattle Seahawks|Jason Myers": "Active \u00a6 Myers missed his lone field-goal attempt and made one of two PATs in Monday night's 34-17 loss to the Bears.",
    "Seattle Seahawks|Jaxon Smith-Njigba": "Active \u00a6 Smith-Njigba brought in six of 11 targets for 118 yards and a touchdown in the Seahawks' 34-17 loss to the Bea",
-   "Seattle Seahawks|Leonard Williams": "Out \u00a6 Williams (shoulder) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official ",
+   "Seattle Seahawks|Leonard Williams": "Out \u00a6 Williams (shoulder) is officially listed as out for Sunday's game versus Arizona, John Boyle of the Seahawks' ",
    "Seattle Seahawks|Patrick O'Connell": "Active",
    "Seattle Seahawks|Quenton Nelson": "Out \u00a6 Nelson (knee) has been ruled out ahead of Sunday's game against the Cardinals, Gregg Bell of Sports Radio 93.3",
    "Seattle Seahawks|Rashid Shaheed": "Out \u00a6 Shaheed (knee) is listed as out for Sunday's game against the Cardinals, Gregg Bell of 933 KJR reports.",
    "Seattle Seahawks|Sam Darnold": "Out \u00a6 Darnold (quadriceps), who has been ruled out for Sunday's game against the Cardinals, is considered week-to-we",
    "Seattle Seahawks|Tory Horton": "Active \u00a6 Horton recorded three receptions for 26 yards on six targets in Monday's 34-17 loss to the Bears.",
-   "Seattle Seahawks|Uchenna Nwosu": "Out \u00a6 out",
+   "Seattle Seahawks|Uchenna Nwosu": "Out \u00a6 Nwosu (ankle) is officially listed as out for Sunday's game versus the Cardinals, John Boyle of the Seahawks' ",
    "Seattle Seahawks|Velus Jones Jr.": "Active",
    "Seattle Seahawks|Zach Charbonnet": "Active \u00a6 Charbonnet (knee) rushed six times for 23 yards and brought in three of four targets for six yards in the Seah",
    "Tampa Bay Buccaneers|Alex Anzalone": "Active \u00a6 Anzalone recorded six total tackles (three solo) and two interceptions in Sunday's 16-0 win over the Falcons.",
@@ -3638,7 +3644,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:15:12.929859-08:00",
+ "last_run": "2026-11-06T18:20:15.659505-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4181,7 +4187,14 @@
   "50403939",
   "50403942",
   "50403944",
-  "50403957"
+  "50403957",
+  "50403964",
+  "50403976",
+  "50403980",
+  "50403987",
+  "50403993",
+  "50403994",
+  "50403998"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4605,6 +4618,7 @@
    }
   ]
  },
+ "trig_budget": {},
  "wx": {
   "401860912:wx": 2,
   "401860913:wx": 1,

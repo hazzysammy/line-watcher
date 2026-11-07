@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 18:20 PT · 🏥 NBA injury update**  
+Sam Merrill (Cleveland Cavaliers): NEW → Out — Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ  
+• Sam Merrill: 🧠 Means: Cavaliers play WITHOUT Sam Merrill. 👉 Do: if the line hasn't moved, look at the OTHER side's spread and the Cavaliers team-total UNDER. His minutes go to teammates, so check their points/assists OVERS before DK adjusts.
+
 **2026-11-06 18:15 PT · 🤖 Alert Pick (paper)**  
 Austin Reaves OVER 1.5 3-pointers (-199) · POR @ LAL  
 Model 2.1 vs line 1.5 (secondary check)  
