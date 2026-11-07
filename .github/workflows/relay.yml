@@ -27,12 +27,12 @@ jobs:
           git config user.email "watcher-bot@users.noreply.github.com"
           # save ONLY this job's output files; never rewrite code files from an older checkout
           mkdir -p /tmp/keep
-          for p in relay/out; do [ -e "$p" ] && mkdir -p "/tmp/keep/$(dirname $p)" && cp -r "$p" "/tmp/keep/$(dirname $p)/"; done
+          for p in relay/out; do if [ -e "$p" ]; then mkdir -p "/tmp/keep/$(dirname $p)"; cp -r "$p" "/tmp/keep/$(dirname $p)/"; fi; done
           for i in 1 2 3 4; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            cp -r /tmp/keep/. .
-            git add relay/out
+            cp -r /tmp/keep/. . 2>/dev/null || true
+            for p in relay/out; do if [ -e "$p" ]; then git add "$p"; fi; done
             git diff --cached --quiet && exit 0
             git commit -qm "relay output"
             git push -q && exit 0

@@ -28,12 +28,12 @@ jobs:
           git config user.email "watcher-bot@users.noreply.github.com"
           # save ONLY this job's output files; never rewrite code files from an older checkout
           mkdir -p /tmp/keep
-          for p in state.json alerts.md props/autoflags.json props/lines.json; do [ -e "$p" ] && mkdir -p "/tmp/keep/$(dirname $p)" && cp -r "$p" "/tmp/keep/$(dirname $p)/"; done
+          for p in state.json alerts.md props/autoflags.json props/lines.json; do if [ -e "$p" ]; then mkdir -p "/tmp/keep/$(dirname $p)"; cp -r "$p" "/tmp/keep/$(dirname $p)/"; fi; done
           for i in 1 2 3 4; do
             git fetch -q origin main
             git reset -q --hard origin/main
-            cp -r /tmp/keep/. .
-            git add state.json alerts.md props/autoflags.json props/lines.json
+            cp -r /tmp/keep/. . 2>/dev/null || true
+            for p in state.json alerts.md props/autoflags.json props/lines.json; do if [ -e "$p" ]; then git add "$p"; fi; done
             git diff --cached --quiet && exit 0
             git commit -qm "state update"
             git push -q && exit 0
