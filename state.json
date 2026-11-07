@@ -3142,7 +3142,7 @@
    "Cincinnati Bengals|Boye Mafe": "Active \u00a6 Mafe finished Sunday's 35-13 win over the Ravens with five tackles (three solo), including 1.5 sacks.",
    "Cincinnati Bengals|Bryan Cook": "Active \u00a6 Cook recorded nine tackles (six solo), including 0.5 sacks, during the Bengals' 35-13 win over the Ravens on S",
    "Cincinnati Bengals|Cashius Howell": "Injured Reserve \u00a6 Howell (wrist) was placed on injured reserve by the Bengals on Tuesday.",
-   "Cincinnati Bengals|Cedric Johnson": "Questionable \u00a6 Johnson (ankle) is listed as questionable for Sunday's game against the Falcons in Madrid.",
+   "Cincinnati Bengals|Cedric Johnson": "Questionable \u00a6 Johnson (ankle) is listed as questionable for Sunday's game against the Falcons in Madrid, Spain.",
    "Cincinnati Bengals|Chase Brown": "Active \u00a6 Brown rushed 12 times for 55 yards and brought in eight of nine targets for 46 yards in the Bengals' 43-36 ove",
    "Cincinnati Bengals|Colbie Young": "Active \u00a6 Young went without a target while playing 19 of the Bengals' 74 snaps on offense in Sunday's 43-36 overtime wi",
    "Cincinnati Bengals|Connor Lew": "Active",
@@ -3155,7 +3155,7 @@
    "Cincinnati Bengals|Joe Burrow": "Active \u00a6 Burrow completed 38 of 48 passes for 462 yards with five touchdowns and three interceptions and added three ca",
    "Cincinnati Bengals|Joe Giles-Harris": "Active",
    "Cincinnati Bengals|Jordan Battle": "Active",
-   "Cincinnati Bengals|Kyle Dugger": "Out \u00a6 Dugger (quadriceps) has been ruled out ahead of Sunday's game against the Falcons in Madrid.",
+   "Cincinnati Bengals|Kyle Dugger": "Out \u00a6 Dugger (quadriceps) has been ruled out ahead of Sunday's game against the Falcons in Madrid, Spain.",
    "Cincinnati Bengals|Landon Robinson": "Active",
    "Cincinnati Bengals|Mike Gesicki": "Active \u00a6 Gesicki caught four of six targets for 76 yards and a touchdown during Sunday's 43-36 overtime win against the",
    "Cincinnati Bengals|Mitchell Tinsley": "Active",
@@ -3790,7 +3790,7 @@
   }
  },
  "last_grade": 1794030335.116035,
- "last_run": "2026-11-06T22:00:22.295521-08:00",
+ "last_run": "2026-11-06T22:05:12.553472-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4460,7 +4460,8 @@
   "50405405",
   "50405411",
   "50405419",
-  "50405442"
+  "50405442",
+  "50405461"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
