@@ -5,8 +5,10 @@ import json, os, re, sys, time, urllib.request, hashlib
 HERE = os.path.dirname(os.path.abspath(__file__))
 req = json.load(open(os.path.join(HERE, "request.json")))
 out_dir = os.path.join(HERE, "out"); os.makedirs(out_dir, exist_ok=True)
-for f in os.listdir(out_dir):
-    os.remove(os.path.join(out_dir, f))
+# keep earlier outputs (overwritten by name); clear only if asked
+if req.get("clear"):
+    for f in os.listdir(out_dir):
+        os.remove(os.path.join(out_dir, f))
 SGO = os.environ.get("SGO_API_KEY", "")
 res = {}
 for item in req.get("items", []):
