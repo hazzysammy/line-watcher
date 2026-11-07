@@ -1,17 +1,175 @@
 {
- "id": "r14",
+ "id": "r15",
  "items": [
   {
-   "name": "bt_odds_nba",
-   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/nba/events/401810433/competitions/401810433/odds"
+   "name": "sb_eng.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261106",
+   "sleep": 0.1
   },
   {
-   "name": "bt_odds_nfl",
-   "url": "https://sports.core.api.espn.com/v2/sports/football/leagues/nfl/events/401772944/competitions/401772944/odds"
+   "name": "sb_eng.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261107",
+   "sleep": 0.1
   },
   {
-   "name": "bt_sum_nba",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401810433"
+   "name": "sb_esp.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_esp.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ita.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ita.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ger.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ger.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_fra.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_fra.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_por.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_por.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ned.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ned.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_tur.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_tur.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_bel.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_bel.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_sco.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_sco.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_usa.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_usa.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ksa.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_ksa.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ksa.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_mex.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_mex.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/mex.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_bra.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_bra.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_arg.1_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_arg.1_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/arg.1/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_uefa.champions_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_uefa.champions_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.champions/scoreboard?dates=20261107",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_uefa.europa_20261106",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261106",
+   "sleep": 0.1
+  },
+  {
+   "name": "sb_uefa.europa_20261107",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261107",
+   "sleep": 0.1
   }
  ]
 }
