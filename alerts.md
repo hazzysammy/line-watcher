@@ -1,5 +1,13 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 03:50 PT · 📈 Line move**  
+CFB Iowa Hawkeyes @ Northwestern Wildcats (Sat 4:30 PM PT)  
+Total 45.5 → 42.5 (under money)  
+(opened NU -2.5)  
+Now: NU +2.5 · O/U 42.5 · ML IOWA -135 / NU +114  
+🧠 ❌ Doesn't meet any of our criteria · No news found → likely sharp money  
+👉 PASS — just watch late injury news; I'll ping if news makes it a bet
+
 **2026-11-07 03:10 PT · 📈 Line move**  
 EPL Aston Villa @ Manchester United (Sun 8:30 AM PT)  
 Total 3.5 → 2.5 (under money)  
@@ -2083,13 +2091,4 @@ Model 14.5 vs line 17.5 (secondary check)
 • blowout risk: 17.5-pt spread, starters sit late (under)  
 • model agrees: proj 14.5 (+6% edge)  
 Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Malik Monk UNDER 19.5 pts+reb+ast (-127) · SA @ SAC  
-Model 15.3 vs line 19.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 15.2 vs line 19.5  
-• season avg 12.7  
-• model agrees: proj 15.3 (+7% edge)  
-Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
