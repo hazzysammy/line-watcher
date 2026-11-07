@@ -1,8 +1,22 @@
 {
- "id": "r17",
- "done": "2026-11-07T02:21:13Z",
+ "id": "r18",
+ "done": "2026-11-07T05:00:50Z",
  "results": {
-  "live_nba": "ok",
-  "live_byu": "ok"
+  "n_sb": "ok",
+  "n_lal": "ok",
+  "n_sac": "ok",
+  "c_byu": "ok",
+  "sat_nba": "ok",
+  "sat_cfb": "ok",
+  "sat_cbb": "ok",
+  "nba_inj": "ok",
+  "sat_nhl": "ok",
+  "sat_eng.1": "ok",
+  "sat_esp.1": "ok",
+  "sat_fra.1": "ok",
+  "sat_tur.1": "ok",
+  "sat_eng.w.1": "ok",
+  "sat_fra.w.1": "ok",
+  "sat_esp.w.1": "ok"
  }
 }
