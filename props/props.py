@@ -71,7 +71,8 @@ def gamelog(aid):
     games.sort(key=lambda x: x["date"], reverse=True)
     return games
 
-def main():
+def run(teams=None, note=None):
+    """teams=None: full slate. teams={display names}: news-triggered re-price of just those games."""
     now = dt.datetime.now(dt.timezone.utc)
     today = now.astimezone(PT).date()
     # ---- slate (ESPN), yesterday for back-to-backs
@@ -84,7 +85,10 @@ def main():
             if (start - now).total_seconds() > CFG["lookahead_hours"] * 3600: continue
             c = e["competitions"][0]
             tm = {x["homeAway"]: x["team"] for x in c["competitors"]}
-            slate[e["id"]] = {"id": e["id"], "start": e["date"], "home": tm["home"]["displayName"], "away": tm["away"]["displayName"],
+            od = (c.get("odds") or [{}])[0]
+            gsp = od.get("spread")
+            if teams and not ({tm["home"]["displayName"], tm["away"]["displayName"]} & set(teams)): continue
+            slate[e["id"]] = {"id": e["id"], "start": e["date"], "spread": abs(float(gsp)) if gsp not in (None, "") else 0, "home": tm["home"]["displayName"], "away": tm["away"]["displayName"],
                               "hid": tm["home"]["id"], "aid": tm["away"]["id"], "hab": tm["home"]["abbreviation"], "aab": tm["away"]["abbreviation"]}
     played_yday = set()
     yb = get(f"{ESPN}/scoreboard?dates={today - dt.timedelta(days=1):%Y%m%d}") or {}
@@ -120,8 +124,17 @@ def main():
 
     # ---- DK props (SportsGameOdds): one call for the whole window
     t0 = now.strftime("%Y-%m-%dT%H:%M:%SZ"); t1 = (now + dt.timedelta(hours=CFG["lookahead_hours"])).strftime("%Y-%m-%dT%H:%M:%SZ")
-    sg = get(f"https://api.sportsgameodds.com/v2/events?leagueID=NBA&oddsAvailable=true&startsAfter={t0}&startsBefore={t1}&limit=20", sgo=True) or {}
-    sgo_events = sg.get("data", [])
+    if teams:
+        sgo_events = []
+        for g in slate.values():
+            tid = norm(g["home"]).upper().replace(" ", "_") + "_NBA"
+            d = (get(f"https://api.sportsgameodds.com/v2/events?leagueID=NBA&teamID={tid}&oddsAvailable=true&startsAfter={t0}&startsBefore={t1}&limit=1", sgo=True) or {}).get("data", [])
+            sgo_events += d
+    else:
+        sg = get(f"https://api.sportsgameodds.com/v2/events?leagueID=NBA&oddsAvailable=true&startsAfter={t0}&startsBefore={t1}&limit=20", sgo=True) or {}
+        sgo_events = sg.get("data", [])
+    snap_f = os.path.join(HERE, "lines.json")
+    snap = json.load(open(snap_f)) if os.path.exists(snap_f) else {}
     print("sgo events", len(sgo_events))
 
     edges, logs = [], {}
@@ -184,19 +197,29 @@ def main():
             moved = None
             if open_line is not None and line != open_line: moved = "up" if line > open_line else "down"
             elif open_over is not None and po != open_over: moved = "up" if prob(po) > prob(open_over) else "down"
-            edges.append({"game": f'{g["aab"]} @ {g["hab"]}', "espn_event": g["id"], "start": g["start"], "player": nm, "espn_id": info["id"],
+            prev = snap.get(oid)
+            unchanged = bool(prev) and prev[0] == line and abs(prob(prev[1]) - prob(po)) < 0.02
+            snap[oid] = [line, po, now.strftime("%Y-%m-%dT%H:%M:%SZ")]
+            edges.append({"unchanged": unchanged, "news": note if (teams and team in teams) else None, "game_spread": g["spread"], "starter": mins >= 28,
+                          "game": f'{g["aab"]} @ {g["hab"]}', "espn_event": g["id"], "start": g["start"], "player": nm, "espn_id": info["id"],
                           "team": team, "stat": stat, "line": line, "side": side, "price": price, "proj": round(proj, 1),
                           "p_model": round(p_over if side == "over" else 1 - p_over, 3), "p_book": round(nv_over if side == "over" else 1 - nv_over, 3),
                           "edge": round(edge, 3), "l5": round(l5avg, 1), "season_avg": round(sum(sum(x[f] for f in fields) for x in gl) / len(gl), 1),
                           "mins": round(mins, 1), "teammates_out": boost_note, "b2b": b2b, "opp_def": round(dfac, 3),
                           "moved": moved, "open_line": open_line, "odd_id": oid.replace("-over", "-" + side)})
     edges.sort(key=lambda x: -x["edge"])
-    json.dump({"generated": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "calls": calls, "edges": edges},
-              open(os.path.join(HERE, "edges.json"), "w"), indent=1)
-    write_md(edges, now)
-    make_flags(edges, now)
+    json.dump(snap, open(snap_f, "w"))
+    if not teams:
+        json.dump({"generated": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "calls": calls, "edges": edges},
+                  open(os.path.join(HERE, "edges.json"), "w"), indent=1)
+        write_md(edges, now)
+    new = make_flags(edges, now)
     grade_flags(now)
-    print("done", len(edges), "props", calls)
+    print("done", len(edges), "props", calls, "new flags", len(new))
+    return new
+
+def main():
+    run()
 
 def suspicious(e):
     """Line far from BOTH his season average and last-5 average -> the book likely knows something (minutes limit, injury return)."""
@@ -206,9 +229,13 @@ def suspicious(e):
 def against(e):
     return bool(e["moved"]) and ((e["side"] == "over" and e["moved"] == "down") or (e["side"] == "under" and e["moved"] == "up"))
 
+def blowout_risk(e):
+    """Big spread -> starters may sit the 4th quarter: no OVERS on starters."""
+    return e.get("game_spread", 0) >= CFG["blowout_spread"] and e.get("starter") and e["side"] == "over"
+
 def is_flag(e):
     return e["edge"] >= CFG["flag_edge"] and len(signals(e)) >= 2 and e["price"] is not None and not suspicious(e) and not against(e) \
-        and CFG["price_min"] <= e["price"] <= CFG["price_max"]
+        and not blowout_risk(e) and CFG["price_min"] <= e["price"] <= CFG["price_max"]
 
 def signals(e):
     s = []
@@ -218,6 +245,8 @@ def signals(e):
     if e["teammates_out"] and e["side"] == "over": s.append(e["teammates_out"])
     if e["moved"] and ((e["side"] == "over" and e["moved"] == "up") or (e["side"] == "under" and e["moved"] == "down")):
         s.append("market moving our way")
+    if e.get("news") and e.get("unchanged"):
+        s.append(f'⚡ {e["news"]}, and DK hasn\'t moved this line yet')
     return s
 
 STAT_NAME = {"points": "pts", "rebounds": "reb", "assists": "ast", "threePointersMade": "3PM", "points+rebounds+assists": "PRA"}
@@ -229,7 +258,7 @@ def write_md(edges, now):
          "| | Game | Player | Prop | Line | Side | Price | Proj | L5 | Edge | Notes |", "|---|---|---|---|---|---|---|---|---|---|---|"]
     for e in [x for x in edges if x["edge"] >= CFG["show_edge"]][:40]:
         sig = signals(e); flag = "🤖" if is_flag(e) else ""
-        notes = "; ".join(filter(None, ["⚠ line far off his averages — check news (minutes limit?)" if suspicious(e) else "", e["teammates_out"], "B2B" if e["b2b"] else "", f'moved {e["moved"]}' if e["moved"] else ""]))
+        notes = "; ".join(filter(None, ["⚠ blowout risk (starter over, big spread)" if blowout_risk(e) else "", "⚠ line far off his averages — check news (minutes limit?)" if suspicious(e) else "", e["teammates_out"], "B2B" if e["b2b"] else "", f'moved {e["moved"]}' if e["moved"] else ""]))
         if suspicious(e): flag = "⚠"
         elif against(e): notes = "market moving AGAINST this side; " + notes
         L.append(f'| {flag} | {e["game"]} | {e["player"]} | {STAT_NAME[e["stat"]]} | {e["line"]:g} | {e["side"]} | {fmt(e["price"]) if e["price"] is not None else "—"} | {e["proj"]} | {e["l5"]} | +{e["edge"]*100:.1f}% | {notes} |')
@@ -239,6 +268,7 @@ def make_flags(edges, now):
     f = os.path.join(HERE, "autoflags.json")
     flags = json.load(open(f)) if os.path.exists(f) else []
     have = {x["key"] for x in flags}
+    new = []
     day_count = {}
     for x in flags: day_count[x["start"][:10]] = day_count.get(x["start"][:10], 0) + 1
     for e in edges:
@@ -247,16 +277,17 @@ def make_flags(edges, now):
         if sum(1 for x in flags if x["game"] == e["game"] and x["start"] == e["start"]) >= CFG["max_flags_per_game"]: continue
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
-        if day_count.get(e["start"][:10], 0) >= CFG["max_flags_per_day"]: continue
+        if day_count.get(e["start"][:10], 0) >= CFG["max_flags_per_day"] and not e.get("news"): continue
         if any(x["player"] == e["player"] and x["start"][:10] == e["start"][:10] for x in flags): continue   # one per player per day
         day_count[e["start"][:10]] = day_count.get(e["start"][:10], 0) + 1
-        units = 1.0 if (e["edge"] >= 0.10 and len(sig) >= 3) else 0.5
+        units = 1.0 if ((e["edge"] >= 0.08 and len(sig) >= 3) or (e.get("news") and e.get("unchanged"))) else 0.5
         flags.append({"key": key, "created": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "game": e["game"], "start": e["start"],
                       "espn_event": e["espn_event"], "espn_id": e["espn_id"], "player": e["player"], "stat": e["stat"],
                       "side": e["side"], "line": e["line"], "price": e["price"], "proj": e["proj"], "edge": e["edge"],
-                      "signals": sig, "units": units, "sent": False, "result": None})
-        have.add(key)
+                      "signals": sig, "units": units, "sent": False, "result": None, "trigger": "news" if e.get("news") else "model"})
+        have.add(key); new.append(flags[-1])
     json.dump(flags, open(f, "w"), indent=1)
+    return new
 
 def grade_flags(now):
     f = os.path.join(HERE, "autoflags.json")
