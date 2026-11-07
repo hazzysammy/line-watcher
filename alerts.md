@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 01:25 PT · 📈 Line move**  
+BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
+Total 4.5 → 3.5 (under money)  
+Now: M05 +1.5 · O/U 3.5 · ML MUN -390 / M05 +700  
+🧠 ❌ Doesn't meet any of our criteria  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 01:21 PT · 🌦 Weather game**  
 CFB Texas State Bobcats @ Oregon State Beavers (Sat 7:30 PM PT)  
 Reser Stadium — 💨 wind 18 mph (gusts 39), 🌧 heavy rain 0.17 in/hr  
@@ -2087,10 +2094,4 @@ McCoy (knee) is unavailable for Saturday's matchup at Georgia Tech, per the ACC 
         Visit RotoWire.com for more analysis on this update.  
 Plays within 36h: Georgia Bulldogs  
 📊 Bulldogs @ Rebels: MISS +3.5, O/U 56.5 (first seen MISS +3.5, O/U 56.5) → ⏱️ hasn't moved yet. If this player matters, the early window is NOW.
-
-**2026-11-06 16:55 PT · 📏 Closing line**  
-76ers -2.5 @ CLE (T103)  
-You: -2.5 -110 · DK then -2.5 -110 (gap +0.0%)  
-DK close -2.5 -115 → ≈ -115 at your book  
-CLV +1.1% ✅ beat the close
 
