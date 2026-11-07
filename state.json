@@ -62,16 +62,6 @@
  "alert_log": [
   {
    "at": "2026-11-06 17:20 PT",
-   "body": "Stephon Castle UNDER 17.5 points (-107) \u00b7 SA @ SAC\nModel 14.5 vs line 17.5 (secondary check)\n\u2022 last 5 avg 12.4 vs line 17.5\n\u2022 season avg 15.0\n\u2022 market moving our way\n\u2022 blowout risk: 17.5-pt spread, starters sit late (under)\n\u2022 model agrees: proj 14.5 (+6% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
-   "title": "\ud83e\udd16 Alert Pick (paper)"
-  },
-  {
-   "at": "2026-11-06 17:20 PT",
-   "body": "Jrue Holiday OVER 3.5 rebounds (-181) \u00b7 POR @ LAL\nModel 4.7 vs line 3.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 5.2 vs line 3.5\n\u2022 season avg 4.4\n\u2022 market moving our way\n\u2022 model agrees: proj 4.7 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
-   "title": "\ud83e\udd16 Alert Pick (paper)"
-  },
-  {
-   "at": "2026-11-06 17:20 PT",
    "body": "Keldon Johnson OVER 4.5 rebounds (-113) \u00b7 SA @ SAC\nModel 5.5 vs line 4.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 5.6 vs line 4.5\n\u2022 season avg 5.5\n\u2022 market moving our way\n\u2022 model agrees: proj 5.5 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
    "title": "\ud83e\udd16 Alert Pick (paper)"
   },
@@ -1559,6 +1549,16 @@
    "at": "2026-11-07 03:50 PT",
    "body": "CFB Iowa Hawkeyes @ Northwestern Wildcats (Sat 4:30 PM PT)\nTotal 45.5 \u2192 42.5 (under money)\n(opened NU -2.5)\nNow: NU +2.5 \u00b7 O/U 42.5 \u00b7 ML IOWA -135 / NU +114\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 No news found \u2192 likely sharp money\n\ud83d\udc49 PASS \u2014 just watch late injury news; I'll ping if news makes it a bet",
    "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-07 05:00 PT",
+   "body": "CBB New Mexico State Aggies @ Gonzaga Bulldogs (Sat 2:00 PM PT)\nSpread GONZ -27.5 \u2192 -29.5 (money on Bulldogs)\nNow: GONZ -29.5 \u00b7 O/U 151.5 \u00b7 ML NMSU +2500 / GONZ -9000\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 No news found \u2192 likely sharp money\n\ud83d\udc49 PASS \u2014 just watch lineups at tip; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-07 05:00 PT",
+   "body": "BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)\nML Stuttgart -135 \u2192 -115\nNow: VFB -0.5 \u00b7 O/U 3.5 \u00b7 ML SVW +245 / VFB -115\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 slight-fav band (-101 to -149): only 47% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2691,7 +2691,7 @@
    "date": "2026-11-07T17:30Z",
    "ml_away": 265.0,
    "ml_draw": 340.0,
-   "ml_home": -135.0,
+   "ml_home": -115.0,
    "open": {
     "ml_away": 310.0,
     "ml_draw": 340.0,
@@ -3199,9 +3199,9 @@
   },
   "401928788": {
    "date": "2026-11-07T22:00Z",
-   "ml_away": 4000.0,
+   "ml_away": 2500.0,
    "ml_draw": null,
-   "ml_home": -50000.0,
+   "ml_home": -9000.0,
    "open": {
     "ml_away": 3500.0,
     "ml_draw": null,
@@ -3209,7 +3209,7 @@
     "spread_home": -27.5,
     "total": 148.5
    },
-   "spread_home": -27.5,
+   "spread_home": -29.5,
    "total": 151.5
   }
  },
@@ -4475,7 +4475,7 @@
   }
  },
  "last_grade": 1794052854.4782462,
- "last_run": "2026-11-07T04:55:12.652924-08:00",
+ "last_run": "2026-11-07T05:00:20.843422-08:00",
  "live_budget": {},
  "mo_report": "2026-11-06",
  "news_seen": [

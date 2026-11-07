@@ -1,5 +1,19 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:00 PT · 📈 Line move**  
+BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
+ML Stuttgart -135 → -115  
+Now: VFB -0.5 · O/U 3.5 · ML SVW +245 / VFB -115  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ slight-fav band (-101 to -149): only 47% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
+**2026-11-07 05:00 PT · 📈 Line move**  
+CBB New Mexico State Aggies @ Gonzaga Bulldogs (Sat 2:00 PM PT)  
+Spread GONZ -27.5 → -29.5 (money on Bulldogs)  
+Now: GONZ -29.5 · O/U 151.5 · ML NMSU +2500 / GONZ -9000  
+🧠 ❌ Doesn't meet any of our criteria · No news found → likely sharp money  
+👉 PASS — just watch lineups at tip; I'll ping if news makes it a bet
+
 **2026-11-07 03:50 PT · 📈 Line move**  
 CFB Iowa Hawkeyes @ Northwestern Wildcats (Sat 4:30 PM PT)  
 Total 45.5 → 42.5 (under money)  
@@ -2070,25 +2084,5 @@ Model 5.5 vs line 4.5 (secondary check)
 • season avg 5.5  
 • market moving our way  
 • model agrees: proj 5.5 (+5% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Jrue Holiday OVER 3.5 rebounds (-181) · POR @ LAL  
-Model 4.7 vs line 3.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 5.2 vs line 3.5  
-• season avg 4.4  
-• market moving our way  
-• model agrees: proj 4.7 (+5% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Stephon Castle UNDER 17.5 points (-107) · SA @ SAC  
-Model 14.5 vs line 17.5 (secondary check)  
-• last 5 avg 12.4 vs line 17.5  
-• season avg 15.0  
-• market moving our way  
-• blowout risk: 17.5-pt spread, starters sit late (under)  
-• model agrees: proj 14.5 (+6% edge)  
 Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
