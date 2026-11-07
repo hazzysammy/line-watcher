@@ -1,4 +1,4 @@
-# Efficiency data · 2026-11-07 01:07Z
+# Efficiency data · 2026-11-07 13:47Z
 
 _Used only for extreme cases (Sammy's rule). Defense EPA: lower is better._
 
