@@ -1,21 +1,21 @@
 {
- "id": "r11",
+ "id": "r12",
  "items": [
   {
-   "name": "t_gl_ucl",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/uefa.champions/athletes/253989/gamelog?season=2025"
+   "name": "g1",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2025&league=eng.1"
   },
   {
-   "name": "t_gl_s25",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/eng.1/athletes/253989/gamelog?season=2025"
+   "name": "g2",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2025&leagueId=eng.1"
   },
   {
-   "name": "t_teams_eng",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/teams"
+   "name": "g3",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/eng.1/athletes/253989/gamelog?season=2025&league=eng.1"
   },
   {
-   "name": "t_nfl_team",
-   "url": "https://github.com/nflverse/nflverse-data/releases/download/stats_team/stats_team_week_2026.csv"
+   "name": "g4",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2026&league=uefa.champions"
   }
  ]
 }
