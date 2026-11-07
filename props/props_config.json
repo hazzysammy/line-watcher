@@ -1,0 +1,12 @@
+{
+  "season": 2027,
+  "lookahead_hours": 30,
+  "league_avg_pa": 114.0,
+  "min_gp": 3,
+  "max_min_boost": 6,
+  "max_usage_boost": 1.15,
+  "show_edge": 0.04,
+  "flag_edge": 0.06,
+  "price_min": -200,
+  "price_max": 150
+}

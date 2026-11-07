@@ -1,0 +1,38 @@
+name: props
+on:
+  schedule:
+    - cron: "0 15 * * *"
+    - cron: "30 22 * * *"
+  push:
+    paths: ["props/run.txt"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: props
+  cancel-in-progress: false
+jobs:
+  model:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run prop model
+        env:
+          SGO_API_KEY: ${{ secrets.SGO_API_KEY }}
+        run: python props/props.py
+      - name: Save
+        run: |
+          git config user.name "watcher-bot"
+          git config user.email "watcher-bot@users.noreply.github.com"
+          git add props
+          git diff --cached --quiet && exit 0
+          git commit -qm "prop model output"
+          for i in 1 2 3; do
+            git push -q && exit 0
+            git fetch -q origin main
+            git rebase -q origin/main || { git rebase --abort; git reset -q --soft origin/main; git add props; git commit -qm "prop model output"; }
+          done
