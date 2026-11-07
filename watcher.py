@@ -879,7 +879,7 @@ def main():
                     tag = f'{p["A"]}>{p["B"]}>{ea["id"]}'
                     txt = (f'{p["B"]} scores after {p["A"]} scores: {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%) · {p["B"]} normally {p["B_base"]*100:.0f}%'
                            f'\nA: {ea["away"]} @ {ea["home"]} {ka.astimezone(PT):%a %-I:%M %p} · B: {eb["away"]} @ {eb["home"]} {kb.astimezone(PT):%a %-I:%M %p} PT')
-                    if ea["state"] == "pre" and tag + ":pre" not in ps and not both:
+                    if ea["state"] == "pre" and tag + ":pre" not in ps:   # 11/7: covered by the 7 AM / 9 PM 🔗 Pair digest, no single pings
                         silent_log.append({"tag": tag, "day": ka.astimezone(PT).strftime("%Y-%m-%d"), "A": p["A"], "B": p["B"], "note": "not both on today's list: tracked, no ping"})
                         ps.append(tag + ":pre")
                     if ea["state"] == "pre" and tag + ":pre" not in ps:
@@ -909,6 +909,80 @@ def main():
                                       "silent": not both})
                             if both: alerts.append((5, f'⚽ {p["A"]} scored → TAKE {p["B"]} to score', txt + f'\n✅ Trigger hit. Bet {p["B"]} anytime goal at {fmt(fair)} or better (0.5u, $5). Check he\'s in the starting XI first.'))
         state["pairs_sent"] = ps[-800:]; state["pairs_silent"] = silent_log[-500:]
+
+        # ---------- 🔗 Pair digest: 7 AM (today) and 9 PM (tomorrow), both players on the list ----------
+        slot = CFG.get("pair_digest_test") or ("am" if now.hour == 7 else "pm" if now.hour == 21 else None)
+        dkey = f'{now:%Y-%m-%d}-{slot}'
+        if slot and state.get("pair_digest") != dkey:
+            target = (now + dt.timedelta(days=1 if slot == "pm" else 0)).date()
+            day_of = lambda ev: dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(PT).date()
+            todays = [(lg, ev) for lg, ev in soccer_events if day_of(ev) == target and not womens(lg["path"])]
+            # finished games from the last ~36h (fetch yesterday + today scoreboards)
+            past = []
+            for lg in [l for l in CFG["leagues"] if l["sport"] == "soccer" and not womens(l["path"])]:
+                for dd in (now - dt.timedelta(days=1), now):
+                    for e in (get(API + lg["path"] + "/scoreboard?dates=" + dd.strftime("%Y%m%d")) or {}).get("events", []):
+                        ev = parse_event(e, lg)
+                        if ev and ev["state"] == "post": past.append((lg, ev))
+            rc = state.setdefault("roster_cache", {}); day = now.strftime("%Y-%m-%d")
+            def roster(lg, tid):
+                k = f"{tid}|{day}"
+                if k not in rc:
+                    j = get(f'{API}{lg["path"]}/teams/{tid}/roster') or {}
+                    rc[k] = [norm(a.get("displayName", "")) for a in j.get("athletes", [])]
+                return rc[k]
+            def listed(name, lg, ev, team):
+                if str(ev["id"]) in TL: return on_list(name, ev["id"])
+                tid = ev["hid"] if ev["home"] == team else ev["aid"]
+                n = norm(name); return any(n == r or (n.split()[-1] == r.split()[-1] and n[0] == r[:1]) for r in roster(lg, tid))
+            sc = state.setdefault("ev_scorers", {})
+            def scorers(lg, ev):
+                if ev["id"] not in sc:
+                    sm = get(API + lg["path"] + "/summary?event=" + ev["id"]) or {}
+                    nm = []
+                    for k in sm.get("keyEvents", []) or []:
+                        tx = ((k.get("type") or {}).get("text", "") + " " + (k.get("text") or "")).lower()
+                        if k.get("scoringPlay") and "own goal" not in tx and not k.get("shootout"):
+                            pa = (k.get("participants") or [{}])[0]
+                            nm.append(norm(((pa.get("athlete") or {}).get("displayName")) or ""))
+                    sc[ev["id"]] = nm
+                return sc[ev["id"]]
+            byteam = lambda evs: {t: (lg, ev) for lg, ev in evs for t in (ev["home"], ev["away"])}
+            T_now, T_past = byteam(todays), byteam(past)
+            live, upcoming = [], []
+            for p in pairs:
+                if p["B_team"] not in T_now: continue
+                lb, eb = T_now[p["B_team"]]
+                kb = dt.datetime.fromisoformat(eb["date"].replace("Z", "+00:00"))
+                if eb["state"] != "pre" or not listed(p["B"], lb, eb, p["B_team"]): continue
+                fair = american((p["n"] / (p["n"] + 25)) * p["rate"] + (1 - p["n"] / (p["n"] + 25)) * p["B_base"])
+                line = f'{p["B"]} ({kb.astimezone(PT):%-I:%M %p}) · {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%), normally {p["B_base"]*100:.0f}% · fair {fmt(fair)}'
+                if p["A_team"] in T_past:     # A already played: did he score?
+                    la, ea = T_past[p["A_team"]]
+                    ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
+                    gap = (kb - ka).total_seconds() / 3600
+                    if 2 <= gap <= 36 and listed(p["A"], la, ea, p["A_team"]):
+                        n = norm(p["A"])
+                        if any(n == x or (n.split()[-1] == x.split()[-1] and n[0] == x[:1]) for x in scorers(la, ea)):
+                            live.append((p["rate"], f'✅ {p["A"]} scored ({ka.astimezone(PT):%a}) → {line}'))
+                if p["A_team"] in T_now:      # A plays earlier the same day
+                    la, ea = T_now[p["A_team"]]
+                    ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
+                    gap = (kb - ka).total_seconds() / 3600
+                    need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
+                    if need <= gap <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
+                        upcoming.append((p["rate"], f'{p["A"]} ({ka.astimezone(PT):%-I:%M %p}) → {line}'))
+            if live or upcoming:
+                live.sort(key=lambda x: -x[0]); upcoming.sort(key=lambda x: -x[0])
+                body = f'{target:%a %b %-d} · both players on your FC27 list'
+                if live: body += "\n\n🟢 A ALREADY SCORED, B plays:\n" + "\n".join("• " + x[1] for x in live[:12]) + (f"\n+{len(live)-12} more" if len(live) > 12 else "")
+                if upcoming: body += "\n\n⏳ A plays first, B later (wait for A to score):\n" + "\n".join("• " + x[1] for x in upcoming[:12]) + (f"\n+{len(upcoming)-12} more" if len(upcoming) > 12 else "")
+                body += "\n\n👉 Only bet B at the fair price or better, 0.5u max (anytime goal is your weak market). Confirm B is in the XI ~1 hr before."
+                alerts.append((4, "🔗 Pair digest " + ("today" if slot == "am" else "tomorrow"), body))
+            state["pair_digest"] = dkey
+            for k in [k for k in rc if not k.endswith(day)]: rc.pop(k)
+            if len(sc) > 400:
+                for k in list(sc)[:-300]: sc.pop(k)
 
     # ---------- ⚡ news-triggered prop re-price (instant, budget-capped) ----------
     if triggers and os.environ.get("SGO_API_KEY"):
