@@ -198,8 +198,8 @@ def run(teams=None, note=None):
             l5avg = sum(sum(x[f] for f in fields) for x in l5) / len(l5)
             open_line = num(od.get("openBookOverUnder")); open_over = num(od.get("openBookOdds"))
             moved = None
-            if open_line is not None and line != open_line: moved = "up" if line > open_line else "down"
-            elif open_over is not None and po != open_over: moved = "up" if prob(po) > prob(open_over) else "down"
+            if open_line is not None and abs(line - open_line) >= 0.5: moved = "up" if line > open_line else "down"
+            elif open_over is not None and abs(prob(po) - prob(open_over)) >= 0.03: moved = "up" if prob(po) > prob(open_over) else "down"
             prev = snap.get(oid)
             unchanged = bool(prev) and prev[0] == line and abs(prob(prev[1]) - prob(po)) < 0.02
             snap[oid] = [line, po, now.strftime("%Y-%m-%dT%H:%M:%SZ")]
@@ -238,7 +238,7 @@ def blowout_risk(e):
 
 def is_flag(e):
     """Need 2+ of OUR signals, and the model must at least agree (secondary). Hard guards still apply."""
-    return len(primary(e)) >= 2 and e["edge"] >= CFG["model_confirm_edge"] and e["price"] is not None and not suspicious(e) \
+    return len([x for x in primary(e) if not x.startswith("fits your history")]) >= 2 and e["edge"] >= CFG["model_confirm_edge"] and e["price"] is not None and not suspicious(e) \
         and not against(e) and not blowout_risk(e) and CFG["price_min"] <= e["price"] <= CFG["price_max"]
 
 PROFILE = {"prop_record": "24-10"}
@@ -301,7 +301,8 @@ def make_flags(edges, now):
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
         day_count[e["start"][:10]] = day_count.get(e["start"][:10], 0) + 1
-        units = 1.0 if (len(primary(e)) >= 3 or (e.get("news") and e.get("unchanged"))) else 0.5
+        strong = [x for x in primary(e) if not x.startswith("fits your history")]
+        units = 1.0 if ((e.get("news") and e.get("unchanged")) or (len(strong) >= 3 and e["edge"] >= 0.04)) else 0.5
         flags.append({"key": key, "created": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "game": e["game"], "start": e["start"],
                       "espn_event": e["espn_event"], "espn_id": e["espn_id"], "player": e["player"], "stat": e["stat"],
                       "side": e["side"], "line": e["line"], "price": e["price"], "proj": e["proj"], "edge": e["edge"],
