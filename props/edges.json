@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06 17:14 PT",
+ "generated": "2026-11-06 17:15 PT",
  "calls": {
   "espn": 50,
   "sgo": 1
  },
  "edges": [
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -35,7 +35,7 @@
    "odd_id": "threePointersMade-DEVIN_VASSELL_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -64,7 +64,7 @@
    "odd_id": "assists-SCOOT_HENDERSON_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -93,7 +93,7 @@
    "odd_id": "assists-DARIUS_ACUFF_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -122,7 +122,7 @@
    "odd_id": "points-PRECIOUS_ACHIUWA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -151,7 +151,7 @@
    "odd_id": "rebounds-SIDY_CISSOKO_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -175,12 +175,12 @@
    "teammates_out": "De'Andre Hunter out",
    "b2b": false,
    "opp_def": 0.976,
-   "moved": "down",
+   "moved": null,
    "open_line": 19.5,
    "odd_id": "points+rebounds+assists-MALIK_MONK_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -209,7 +209,7 @@
    "odd_id": "threePointersMade-JRUE_HOLIDAY_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -238,7 +238,7 @@
    "odd_id": "threePointersMade-SCOOT_HENDERSON_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -267,7 +267,7 @@
    "odd_id": "threePointersMade-ZIAIRE_WILLIAMS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -291,12 +291,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 2.5,
    "odd_id": "assists-DEVIN_VASSELL_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -325,7 +325,7 @@
    "odd_id": "rebounds-DOMANTAS_SABONIS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -354,7 +354,7 @@
    "odd_id": "threePointersMade-JULIAN_CHAMPAGNIE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -383,7 +383,7 @@
    "odd_id": "threePointersMade-SANDRO_MAMUKELASHVILI_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -412,7 +412,7 @@
    "odd_id": "points-ZIAIRE_WILLIAMS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -441,7 +441,7 @@
    "odd_id": "threePointersMade-DAMIAN_LILLARD_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -465,12 +465,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 0.986,
-   "moved": "down",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "threePointersMade-MATISSE_THYBULLE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -499,7 +499,7 @@
    "odd_id": "points-ZACH_LAVINE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -523,12 +523,12 @@
    "teammates_out": "De'Andre Hunter out",
    "b2b": false,
    "opp_def": 0.976,
-   "moved": "down",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "assists-DOMANTAS_SABONIS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -557,7 +557,7 @@
    "odd_id": "points-STEPHON_CASTLE_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -581,12 +581,12 @@
    "teammates_out": "De'Andre Hunter out",
    "b2b": false,
    "opp_def": 0.976,
-   "moved": "down",
+   "moved": null,
    "open_line": 3.5,
    "odd_id": "rebounds-DARIUS_ACUFF_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -615,7 +615,7 @@
    "odd_id": "points-ROBERT_WILLIAMS_III_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -644,7 +644,7 @@
    "odd_id": "points-DARIUS_ACUFF_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -673,7 +673,7 @@
    "odd_id": "threePointersMade-LUKA_DONCIC_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -697,12 +697,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "down",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "assists-SIDY_CISSOKO_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -731,7 +731,7 @@
    "odd_id": "points+rebounds+assists-VICTOR_WEMBANYAMA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -760,7 +760,7 @@
    "odd_id": "rebounds-MALIK_MONK_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -789,7 +789,7 @@
    "odd_id": "points-DONOVAN_CLINGAN_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -818,7 +818,7 @@
    "odd_id": "rebounds-ROBERT_WILLIAMS_III_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -847,7 +847,7 @@
    "odd_id": "points-VICTOR_WEMBANYAMA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -876,7 +876,7 @@
    "odd_id": "rebounds-JRUE_HOLIDAY_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -905,7 +905,7 @@
    "odd_id": "rebounds-TOUMANI_CAMARA_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -934,7 +934,7 @@
    "odd_id": "rebounds-KELDON_JOHNSON_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -963,7 +963,7 @@
    "odd_id": "points+rebounds+assists-LUKA_DONCIC_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -992,7 +992,7 @@
    "odd_id": "points-LUKA_DONCIC_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1016,12 +1016,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "down",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "assists-STEPHON_CASTLE_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1045,12 +1045,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 0.986,
-   "moved": "up",
+   "moved": null,
    "open_line": 6.5,
    "odd_id": "points-MATISSE_THYBULLE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1079,7 +1079,7 @@
    "odd_id": "threePointersMade-TOUMANI_CAMARA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1103,12 +1103,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 3.5,
    "odd_id": "rebounds-DEAARON_FOX_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1137,7 +1137,7 @@
    "odd_id": "assists-AUSTIN_REAVES_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1166,7 +1166,7 @@
    "odd_id": "points-QUENTIN_GRIMES_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1190,12 +1190,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 0.986,
-   "moved": "up",
+   "moved": null,
    "open_line": 7.5,
    "odd_id": "rebounds-LUKA_DONCIC_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1224,7 +1224,7 @@
    "odd_id": "threePointersMade-DARIUS_ACUFF_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1253,7 +1253,7 @@
    "odd_id": "assists-LUKA_DONCIC_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1282,7 +1282,7 @@
    "odd_id": "points-JAKE_LARAVIA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1306,12 +1306,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "rebounds-STEPHON_CASTLE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1340,7 +1340,7 @@
    "odd_id": "threePointersMade-ZACH_LAVINE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1369,7 +1369,7 @@
    "odd_id": "rebounds-PRECIOUS_ACHIUWA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1398,7 +1398,7 @@
    "odd_id": "threePointersMade-STEPHON_CASTLE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1427,7 +1427,7 @@
    "odd_id": "points-DOMANTAS_SABONIS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1451,12 +1451,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "threePointersMade-DEAARON_FOX_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1485,7 +1485,7 @@
    "odd_id": "points+rebounds+assists-DYLAN_HARPER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1514,7 +1514,7 @@
    "odd_id": "rebounds-MATISSE_THYBULLE_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1538,12 +1538,12 @@
    "teammates_out": "De'Andre Hunter out",
    "b2b": false,
    "opp_def": 0.976,
-   "moved": "down",
+   "moved": null,
    "open_line": 2.5,
    "odd_id": "assists-ZACH_LAVINE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -1572,7 +1572,7 @@
    "odd_id": "points-JULIAN_CHAMPAGNIE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1601,7 +1601,7 @@
    "odd_id": "threePointersMade-DYLAN_HARPER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -1630,7 +1630,7 @@
    "odd_id": "points-EMANUEL_SHARP_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1659,7 +1659,7 @@
    "odd_id": "points-WALKER_KESSLER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1683,12 +1683,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "rebounds-DYLAN_HARPER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1717,7 +1717,7 @@
    "odd_id": "rebounds-DENI_AVDIJA_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1746,7 +1746,7 @@
    "odd_id": "points-SANDRO_MAMUKELASHVILI_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1775,7 +1775,7 @@
    "odd_id": "rebounds-AUSTIN_REAVES_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -1804,7 +1804,7 @@
    "odd_id": "points-KELDON_JOHNSON_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1833,7 +1833,7 @@
    "odd_id": "threePointersMade-QUENTIN_GRIMES_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1862,7 +1862,7 @@
    "odd_id": "rebounds-DAMIAN_LILLARD_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1891,7 +1891,7 @@
    "odd_id": "rebounds-ZIAIRE_WILLIAMS_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -1920,7 +1920,7 @@
    "odd_id": "rebounds-JAKE_LARAVIA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -1944,12 +1944,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 0.986,
-   "moved": "up",
+   "moved": null,
    "open_line": 10.5,
    "odd_id": "rebounds-WALKER_KESSLER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -1978,7 +1978,7 @@
    "odd_id": "rebounds-ZACH_LAVINE_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2007,7 +2007,7 @@
    "odd_id": "threePointersMade-VICTOR_WEMBANYAMA_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2031,12 +2031,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "up",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "points-SIDY_CISSOKO_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2065,7 +2065,7 @@
    "odd_id": "rebounds-VICTOR_WEMBANYAMA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2094,7 +2094,7 @@
    "odd_id": "rebounds-DEVIN_VASSELL_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -2123,7 +2123,7 @@
    "odd_id": "assists-DENI_AVDIJA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2152,7 +2152,7 @@
    "odd_id": "assists-VICTOR_WEMBANYAMA_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2181,7 +2181,7 @@
    "odd_id": "rebounds-QUENTIN_GRIMES_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2205,12 +2205,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "up",
+   "moved": null,
    "open_line": 4.5,
    "odd_id": "assists-JRUE_HOLIDAY_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2234,12 +2234,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 0.986,
-   "moved": "up",
+   "moved": null,
    "open_line": 4.5,
    "odd_id": "rebounds-SANDRO_MAMUKELASHVILI_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2263,12 +2263,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "up",
+   "moved": null,
    "open_line": 14.5,
    "odd_id": "points-DEAARON_FOX_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2292,12 +2292,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "down",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "assists-DONOVAN_CLINGAN_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -2321,12 +2321,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "down",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "assists-TOUMANI_CAMARA_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -2350,12 +2350,12 @@
    "teammates_out": "De'Andre Hunter out",
    "b2b": false,
    "opp_def": 0.976,
-   "moved": "down",
+   "moved": null,
    "open_line": 1.5,
    "odd_id": "threePointersMade-MALIK_MONK_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2384,7 +2384,7 @@
    "odd_id": "rebounds-DONOVAN_CLINGAN_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2413,7 +2413,7 @@
    "odd_id": "assists-DYLAN_HARPER_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2442,7 +2442,7 @@
    "odd_id": "rebounds-SCOOT_HENDERSON_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2466,12 +2466,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.041,
-   "moved": "down",
+   "moved": null,
    "open_line": 5.5,
    "odd_id": "assists-DEAARON_FOX_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2500,7 +2500,7 @@
    "odd_id": "points+rebounds+assists-DEAARON_FOX_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": true,
@@ -2529,7 +2529,7 @@
    "odd_id": "points-DEVIN_VASSELL_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -2558,7 +2558,7 @@
    "odd_id": "threePointersMade-DENI_AVDIJA_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
@@ -2587,7 +2587,7 @@
    "odd_id": "rebounds-JULIAN_CHAMPAGNIE_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -2611,12 +2611,12 @@
    "teammates_out": "",
    "b2b": false,
    "opp_def": 1.0,
-   "moved": "down",
+   "moved": null,
    "open_line": 4.5,
    "odd_id": "assists-DAMIAN_LILLARD_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": true,
@@ -2645,7 +2645,7 @@
    "odd_id": "threePointersMade-AUSTIN_REAVES_1_NBA-game-ou-under"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 3.5,
    "starter": false,
@@ -2674,7 +2674,7 @@
    "odd_id": "threePointersMade-DONOVAN_CLINGAN_1_NBA-game-ou-over"
   },
   {
-   "unchanged": false,
+   "unchanged": true,
    "news": null,
    "game_spread": 17.5,
    "starter": false,
