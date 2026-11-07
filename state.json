@@ -2285,6 +2285,21 @@
    "spread_home": 6.5,
    "total": 228.5
   },
+  "401909942": {
+   "date": "2026-11-08T01:30Z",
+   "ml_away": 191.0,
+   "ml_draw": null,
+   "ml_home": -230.0,
+   "open": {
+    "ml_away": 191.0,
+    "ml_draw": null,
+    "ml_home": -230.0,
+    "spread_home": -6.5,
+    "total": 220.5
+   },
+   "spread_home": -6.5,
+   "total": 220.5
+  },
   "401918948": {
    "date": "2026-11-07T17:00Z",
    "ml_away": null,
@@ -2685,6 +2700,7 @@
   "401909772": true,
   "401909785": true,
   "401909938": true,
+  "401909942": true,
   "401918948": true,
   "401920423": true,
   "401920685": true,
@@ -3050,7 +3066,7 @@
    "Detroit Lions|Isiah Pacheco": "Injured Reserve \u00a6 Lions coach Dan Campbell said Friday that Pacheco (back) has a chance to return in late December, Justin Roger",
    "Detroit Lions|Jack Campbell": "Out \u00a6 out",
    "Detroit Lions|Jackson Meeks": "Active",
-   "Detroit Lions|Jacob Saylors": "Questionable \u00a6 Saylors (neck) is not expected to practice Wednesday, Nolan Bianchi of The Detroit News reports.",
+   "Detroit Lions|Jacob Saylors": "Questionable \u00a6 Saylors (neck) is listed as questionable for Sunday's game against the Dolphins.",
    "Detroit Lions|Jahmyr Gibbs": "Active \u00a6 Gibbs rushed 23 times for 153 yards and a touchdown while bringing in two of four targets for 15 yards in the ",
    "Detroit Lions|Jake Bates": "Active \u00a6 Bates made two of his three field-goal attempts and his sole PAT in the Lions' 19-15 win over the Vikings on S",
    "Detroit Lions|Jameson Williams": "Active \u00a6 Williams brought in four of six targets for 70 yards and a touchdown in the Lions' 19-15 win over the Vikings ",
@@ -3061,7 +3077,7 @@
    "Detroit Lions|Roger McCreary": "Active \u00a6 McCreary (foot) is active for Sunday's game against the Vikings.",
    "Detroit Lions|Sam LaPorta": "Active \u00a6 LaPorta caught three of five targets for 33 yards in Sunday's 19-15 win over the Vikings. He added two rushing",
    "Detroit Lions|Seth McLaughlin": "Active",
-   "Detroit Lions|Sione Vaki": "Questionable \u00a6 questionable",
+   "Detroit Lions|Sione Vaki": "Questionable \u00a6 Vaki (ankle) is listed as questionable for Sunday's game against the Buccaneers.",
    "Detroit Lions|Tyleik Williams": "Active",
    "Green Bay Packers|Aaron Banks": "Active",
    "Green Bay Packers|Anthony Campbell": "Active",
@@ -3248,7 +3264,7 @@
    "Los Angeles Rams|Grant Stuard": "Questionable \u00a6 Stuard is battling a hamstring injury, Nate Atkins of The Athletic reports.",
    "Los Angeles Rams|Jaylen Watson": "Out \u00a6 Watson is expected to undergo shoulder surgery and to miss the remainder of the 2026 season, Gary Klein of the",
    "Los Angeles Rams|Joe Cardona": "Doubtful \u00a6 doubtful",
-   "Los Angeles Rams|Jordan Whittington": "Questionable \u00a6 Whittington (back) was a limited participant at the Rams' practice Wednesday, Sarah Barshop of ESPN.com report",
+   "Los Angeles Rams|Jordan Whittington": "Questionable \u00a6 Whittington (back) is questionable for Sunday's matchup against Washington, Sarah Barshop of ESPN.com reports.",
    "Los Angeles Rams|Joshua Karty": "Active \u00a6 The Rams signed Karty to their active roster Thursday.",
    "Los Angeles Rams|Kam Curl": "Questionable \u00a6 Curl (foot) is listed as questionable for Sunday's game against the Commanders, Nate Atkins of The Athletic re",
    "Los Angeles Rams|Keagen Trost": "Active",
@@ -3257,7 +3273,7 @@
    "Los Angeles Rams|Myles Garrett": "Injured Reserve \u00a6 Garrett (knee) doesn't have an injury designation for Sunday's game against the Commanders, Adam Caplan of Sir",
    "Los Angeles Rams|Puka Nacua": "Active \u00a6 Nacua secured 11 of 12 targets for 80 yards and a touchdown in the Rams' 24-9 win over the Chargers on Sunday.",
    "Los Angeles Rams|Quentin Lake": "Active \u00a6 Lake recorded seven total tackles (two solo) and two passes defensed, including an interception, during Sunday",
-   "Los Angeles Rams|Ronnie Rivers": "Injured Reserve \u00a6 Rivers (calf) was designated to return from injured reserve Wednesday, Greg Beacham of the Associated Press re",
+   "Los Angeles Rams|Ronnie Rivers": "Injured Reserve \u00a6 Rivers (calf) does not have a designation for Sunday's clash against the Commanders, Sarah Barshop of ESPN.com",
    "Los Angeles Rams|Steve Avila": "Active",
    "Los Angeles Rams|Terrance Ferguson": "Injured Reserve \u00a6 Ferguson (ankle) was expected to return for Sunday's game against Washington, but he's been ruled out after in",
    "Los Angeles Rams|Trent McDuffie": "Questionable \u00a6 McDuffie (back) is listed as questionable for Sunday's game against the Commanders, Nate Atkins of The Athleti",
@@ -3590,7 +3606,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:55:11.504354-08:00",
+ "last_run": "2026-11-06T18:00:22.956383-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4259,7 +4275,7 @@
  ],
  "props": {
   "T103": {
-   "checked": 1794015029.6563761,
+   "checked": 1794016835.997842,
    "closed": true,
    "clv_pct": 1.11,
    "dk_bet_line": -2.5,
@@ -4436,7 +4452,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 12
+  "2026-11": 13
  },
  "team_hist": {
   "13|2026-11-06": [
@@ -4565,35 +4581,35 @@
   "401856849": 1794016538.903759,
   "401856850": 1794016541.4224977,
   "401856851": 1794013825.520257,
-  "401856852": 1794012945.6945095,
+  "401856852": 1794016833.0340776,
   "401856853": 1794016539.1053433,
   "401856854": 1794016540.5596106,
   "401856855": 1794016538.8386652,
   "401856856": 1794013953.2430317,
   "401858286": 1794016540.0282626,
-  "401858287": 1794012946.0886161,
+  "401858287": 1794016833.6788285,
   "401858288": 1794009020.4478433,
   "401858289": 1794016539.4953668,
   "401858290": 1794013825.0936067,
   "401858291": 1794016543.387313,
   "401858292": 1794016539.8925033,
   "401858510": 1794012916.6454892,
-  "401858511": 1794012946.4725664,
+  "401858511": 1794016834.3470116,
   "401858512": 1794016539.036807,
-  "401858513": 1794012945.4364874,
+  "401858513": 1794016832.734806,
   "401858514": 1794013824.9771473,
   "401858515": 1794016540.097214,
   "401858516": 1794013825.931185,
   "401858517": 1794016542.7959337,
   "401860911": 1794013827.2213297,
-  "401860912": 1794012947.2788937,
+  "401860912": 1794016835.2634964,
   "401860913": 1794013953.5189018,
   "401862818": 1794009021.12255,
   "401862819": 1794013826.0503616,
   "401862820": 1794013826.1657906,
   "401862821": 1794016541.814936,
   "401862822": 1794016539.958352,
-  "401862823": 1794012946.9060068,
+  "401862823": 1794016834.9594996,
   "401864532": 1794013953.709127,
   "401864533": 1794016538.7699385,
   "401864534": 1794016541.8794816,
