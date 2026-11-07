@@ -1,10 +1,5 @@
 {
  "af_graded": [
-  "2026-11-07|Cam Spencer|threePointersMade|over",
-  "2026-11-07|Cedric Coward|points+rebounds+assists|over",
-  "2026-11-07|LIVE|Toronto Raptors"
- ],
- "af_sent": [
   "2026-11-07|Austin Reaves|threePointersMade|over",
   "2026-11-07|Cam Spencer|threePointersMade|over",
   "2026-11-07|Cedric Coward|points+rebounds+assists|over",
@@ -18,6 +13,37 @@
   "2026-11-07|Luka Don\u010di\u0107|points|over",
   "2026-11-07|Malik Monk|points+rebounds+assists|under",
   "2026-11-07|Matisse Thybulle|points|over",
+  "2026-11-07|Sandro Mamukelashvili|points|over",
+  "2026-11-07|Stephon Castle|assists|under",
+  "2026-11-07|Stephon Castle|points|under",
+  "2026-11-07|Toumani Camara|threePointersMade|over",
+  "2026-11-07|Victor Wembanyama|threePointersMade|under",
+  "2026-11-07|Walker Kessler|points|over",
+  "2026-11-07|Ziaire Williams|rebounds|over",
+  "2026-11-07|Ziaire Williams|threePointersMade|over"
+ ],
+ "af_sent": [
+  "2026-11-07|Austin Reaves|threePointersMade|over",
+  "2026-11-07|Cam Spencer|threePointersMade|over",
+  "2026-11-07|Cameron Johnson|points+rebounds+assists|under",
+  "2026-11-07|Cameron Johnson|points|under",
+  "2026-11-07|Cameron Johnson|rebounds|over",
+  "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "2026-11-07|Christian Braun|rebounds|under",
+  "2026-11-07|Damian Lillard|rebounds|over",
+  "2026-11-07|Darius Acuff|points+rebounds+assists|over",
+  "2026-11-07|Emanuel Sharp|points|under",
+  "2026-11-07|Jamal Murray|rebounds|over",
+  "2026-11-07|Jrue Holiday|rebounds|over",
+  "2026-11-07|Julian Champagnie|threePointersMade|over",
+  "2026-11-07|Keldon Johnson|rebounds|over",
+  "2026-11-07|LIVE|Toronto Raptors",
+  "2026-11-07|Luka Don\u010di\u0107|points|over",
+  "2026-11-07|Malik Monk|points+rebounds+assists|under",
+  "2026-11-07|Matisse Thybulle|points|over",
+  "2026-11-07|Nikola Joki\u0107|points+rebounds+assists|under",
+  "2026-11-07|Nikola Joki\u0107|points|under",
+  "2026-11-07|Nikola Joki\u0107|rebounds|under",
   "2026-11-07|Sandro Mamukelashvili|points|over",
   "2026-11-07|Stephon Castle|assists|under",
   "2026-11-07|Stephon Castle|points|under",
@@ -3790,7 +3816,7 @@
   }
  },
  "last_grade": 1794030335.116035,
- "last_run": "2026-11-06T22:10:14.561504-08:00",
+ "last_run": "2026-11-06T22:15:14.119140-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
