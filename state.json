@@ -61,11 +61,6 @@
  "alert_log": [
   {
    "at": "2026-11-06 16:25 PT",
-   "body": "CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)\nSpread ISU -30.5 \u2192 -32.5\n(first seen: ISU -30.5, O/U 150.5)",
-   "title": "\ud83d\udcc8 Line move"
-  },
-  {
-   "at": "2026-11-06 16:25 PT",
    "body": "Rylan Griffen: Good to go Friday\nGriffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Northern Kentucky Norse\n\u2192 Check the line NOW before it moves.",
    "title": "\u26a1 NCAAB news (RotoWire)"
   },
@@ -1558,6 +1553,11 @@
    "at": "2026-11-07 00:00 PT",
    "body": "Borja Iglesias scores after Denis Bouanga scores: 4/8 (50%) \u00b7 Borja Iglesias normally 27%\nA: LAFC @ Seattle Sounders FC Sat 4:00 PM \u00b7 B: Levante @ Celta Vigo Sun 9:30 AM PT\n\u2192 A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).",
    "title": "\ud83d\udd17 Scorer pair today"
+  },
+  {
+   "at": "2026-11-07 00:08 PT",
+   "body": "Sat Nov 7 \u00b7 both players on your FC27 list\n\n\u23f3 A plays first, B later (wait for A to score):\n\u2022 Victor Osimhen (8:00 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 11/14 (79%), normally 59% \u00b7 fair -196\n\u2022 Eberechi Eze (7:00 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 6/8 (75%), normally 59% \u00b7 fair -170\n\u2022 Bukayo Saka (7:00 AM) \u2192 Erling Haaland (9:30 AM) \u00b7 6/8 (75%), normally 52% \u00b7 fair -138\n\u2022 Jamal Musiala (6:30 AM) \u2192 Ante Budimir (9:30 AM) \u00b7 6/8 (75%), normally 44% \u00b7 fair -106\n\u2022 Serge Gnabry (6:30 AM) \u2192 Denis Bouanga (4:00 PM) \u00b7 8/11 (73%), normally 47% \u00b7 fair -123\n\u2022 Lionel Messi (1:00 PM) \u2192 Denis Bouanga (4:00 PM) \u00b7 21/29 (72%), normally 47% \u00b7 fair -155\n\u2022 Phil Foden (9:30 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 7/10 (70%), normally 59% \u00b7 fair -165\n\u2022 Ermedin Demirovi\u0107 (9:30 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 7/10 (70%), normally 59% \u00b7 fair -165\n\u2022 Serge Gnabry (6:30 AM) \u2192 Erling Haaland (9:30 AM) \u00b7 7/10 (70%), normally 52% \u00b7 fair -135\n\u2022 Ante Budimir (9:30 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 9/13 (69%), normally 59% \u00b7 fair -168\n\u2022 Jonathan Burkardt (6:30 AM) \u2192 Ante Budimir (9:30 AM) \u00b7 10/15 (67%), normally 44% \u00b7 fair -110\n\u2022 Yoane Wissa (7:00 AM) \u2192 Kylian Mbapp\u00e9 (12:00 PM) \u00b7 6/9 (67%), normally 59% \u00b7 fair -158\n+63 more\n\n\ud83d\udc49 Only bet B at the fair price or better, 0.5u max (anytime goal is your weak market). Confirm B is in the XI ~1 hr before.",
+   "title": "\ud83d\udd17 Pair digest today"
   }
  ],
  "base": {
@@ -3212,6 +3212,15 @@
    "total": 151.5
   }
  },
+ "ev_scorers": {
+  "401884739": [
+   "miro muheim",
+   "robin hack",
+   "shafiq nandja",
+   "albert gr\u00f8nbaek"
+  ],
+  "401900442": []
+ },
  "fired": [
   "401876407ml_home:cut",
   "401922219:off"
@@ -4445,7 +4454,7 @@
   }
  },
  "last_grade": 1794037822.4878352,
- "last_run": "2026-11-07T00:05:13.788623-08:00",
+ "last_run": "2026-11-07T00:08:46.682936-08:00",
  "live_budget": {},
  "mo_report": "2026-11-06",
  "news_seen": [
@@ -5138,6 +5147,7 @@
   "50406079",
   "50406171"
  ],
+ "pair_digest": "2026-11-07-am",
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
   "Morgan Rogers>Lionel Messi>401902869:pre",
@@ -5424,6 +5434,78 @@
   }
  },
  "queue": [],
+ "roster_cache": {
+  "268|2026-11-07": [
+   "tobias sippel",
+   "daniel batz",
+   "moritz nicolas",
+   "jan olschowsky",
+   "kevin diks",
+   "kou itakura",
+   "daiki hashioka",
+   "joe scally",
+   "yukhym konoplia",
+   "lion schweers",
+   "fabio chiarodia",
+   "david herold",
+   "lukas ullrich",
+   "jan leszczynski",
+   "kevin stoger",
+   "franck honorat",
+   "florian neuhaus",
+   "robin hack",
+   "philipp sander",
+   "jens castrop",
+   "hugo bolin",
+   "zento uno",
+   "enzo leopold",
+   "mathieu nguefack",
+   "wael mohya",
+   "fritz fleck",
+   "tim kleindienst",
+   "isac lidberg",
+   "nicolas kuhn",
+   "shuto machino",
+   "josiah kaled uwakhonye",
+   "iaia manco danfa"
+  ],
+  "817|2026-11-07": [
+   "bento",
+   "nawaf al-aqidi",
+   "mubarak al buainain",
+   "abdulrahman al otaibi",
+   "abdulhadi al-alwan",
+   "sultan abdullah saad al mas",
+   "inigo martinez",
+   "abdulelah al-amri",
+   "sultan al-ghannam",
+   "mohamed simakan",
+   "saad al nasser",
+   "nawaf boushal",
+   "nader al sharari",
+   "salem al najdi",
+   "aser abdulftah hwsawi",
+   "majed qasheesh",
+   "awad aman",
+   "yassine gays munsif sallem",
+   "samu costa",
+   "sami al-najei",
+   "abdullah al-khaibari",
+   "aiman yahya",
+   "hayder abdulkareem",
+   "cristiano ronaldo",
+   "sadio mane",
+   "kingsley coman",
+   "abdulrahman ghareeb",
+   "joao felix",
+   "abdullah al-hamdan",
+   "mohammed maran",
+   "angelo gabriel",
+   "saad haqawi",
+   "abdulrahman sufyani",
+   "rakan al ghamdi"
+  ]
+ },
  "rw_seen": [
   "cbb164521",
   "cbb164528",

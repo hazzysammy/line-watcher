@@ -1,5 +1,25 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 00:08 PT · 🔗 Pair digest today**  
+Sat Nov 7 · both players on your FC27 list  
+  
+⏳ A plays first, B later (wait for A to score):  
+• Victor Osimhen (8:00 AM) → Kylian Mbappé (12:00 PM) · 11/14 (79%), normally 59% · fair -196  
+• Eberechi Eze (7:00 AM) → Kylian Mbappé (12:00 PM) · 6/8 (75%), normally 59% · fair -170  
+• Bukayo Saka (7:00 AM) → Erling Haaland (9:30 AM) · 6/8 (75%), normally 52% · fair -138  
+• Jamal Musiala (6:30 AM) → Ante Budimir (9:30 AM) · 6/8 (75%), normally 44% · fair -106  
+• Serge Gnabry (6:30 AM) → Denis Bouanga (4:00 PM) · 8/11 (73%), normally 47% · fair -123  
+• Lionel Messi (1:00 PM) → Denis Bouanga (4:00 PM) · 21/29 (72%), normally 47% · fair -155  
+• Phil Foden (9:30 AM) → Kylian Mbappé (12:00 PM) · 7/10 (70%), normally 59% · fair -165  
+• Ermedin Demirović (9:30 AM) → Kylian Mbappé (12:00 PM) · 7/10 (70%), normally 59% · fair -165  
+• Serge Gnabry (6:30 AM) → Erling Haaland (9:30 AM) · 7/10 (70%), normally 52% · fair -135  
+• Ante Budimir (9:30 AM) → Kylian Mbappé (12:00 PM) · 9/13 (69%), normally 59% · fair -168  
+• Jonathan Burkardt (6:30 AM) → Ante Budimir (9:30 AM) · 10/15 (67%), normally 44% · fair -110  
+• Yoane Wissa (7:00 AM) → Kylian Mbappé (12:00 PM) · 6/9 (67%), normally 59% · fair -158  
++63 more  
+  
+👉 Only bet B at the fair price or better, 0.5u max (anytime goal is your weak market). Confirm B is in the XI ~1 hr before.
+
 **2026-11-07 00:00 PT · 🔗 Scorer pair today**  
 Borja Iglesias scores after Denis Bouanga scores: 4/8 (50%) · Borja Iglesias normally 27%  
 A: LAFC @ Seattle Sounders FC Sat 4:00 PM · B: Levante @ Celta Vigo Sun 9:30 AM PT  
@@ -1643,9 +1663,4 @@ Griffen (not injury related) is starting for Texas A&amp;M on Friday night again
         Visit RotoWire.com for more analysis on this update.  
 Plays within 36h: Northern Kentucky Norse  
 → Check the line NOW before it moves.
-
-**2026-11-06 16:25 PT · 📈 Line move**  
-CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)  
-Spread ISU -30.5 → -32.5  
-(first seen: ISU -30.5, O/U 150.5)
 
