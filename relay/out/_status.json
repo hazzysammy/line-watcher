@@ -1,10 +1,10 @@
 {
- "id": "r11",
- "done": "2026-11-07T00:59:31Z",
+ "id": "r12",
+ "done": "2026-11-07T01:00:05Z",
  "results": {
-  "t_gl_ucl": "ok",
-  "t_gl_s25": "ok",
-  "t_teams_eng": "ok",
-  "t_nfl_team": "ok"
+  "g1": "ok",
+  "g2": "ok",
+  "g3": "ok",
+  "g4": "ok"
  }
 }
