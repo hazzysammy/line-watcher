@@ -1,0 +1,35 @@
+name: efficiency
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  push:
+    paths: ["efficiency/run.txt"]
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  eff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build efficiency data
+        run: python efficiency/efficiency.py
+      - name: Save
+        run: |
+          git config user.name "watcher-bot"
+          git config user.email "watcher-bot@users.noreply.github.com"
+          mkdir -p /tmp/keep/efficiency && cp efficiency/nfl.json efficiency/efficiency.md /tmp/keep/efficiency/
+          for i in 1 2 3 4; do
+            git fetch -q origin main
+            git reset -q --hard origin/main
+            cp -r /tmp/keep/. .
+            git add efficiency/nfl.json efficiency/efficiency.md
+            git diff --cached --quiet && exit 0
+            git commit -qm "efficiency output"
+            git push -q && exit 0
+            sleep 3
+          done
