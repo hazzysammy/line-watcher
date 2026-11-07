@@ -518,6 +518,27 @@ def main():
         for k in [k for k in evids if not k.endswith(day)]:
             evids.pop(k)
 
+    # ---------- 🤖 Alert Picks from the prop model (props/autoflags.json) ----------
+    afp = os.path.join(HERE, "props", "autoflags.json")
+    if os.path.exists(afp):
+        sent = set(state.setdefault("af_sent", [])); graded = set(state.setdefault("af_graded", []))
+        SN = {"points": "points", "rebounds": "rebounds", "assists": "assists", "threePointersMade": "3-pointers", "points+rebounds+assists": "pts+reb+ast"}
+        for x in json.load(open(afp)):
+            nm = f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})'
+            if x["key"] not in sent and not x.get("result"):
+                st = dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00"))
+                if st > dt.datetime.now(dt.timezone.utc):
+                    u = x["units"]
+                    alerts.append((4, "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\nModel {x["proj"]} vs line {x["line"]:g} · edge +{x["edge"]*100:.0f}%\n'
+                                   + "\n".join("• " + s for s in x["signals"])
+                                   + f'\nSize: {u:g}u (${u*10:g}) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.'))
+                sent.add(x["key"])
+            if x.get("result") and x["key"] not in graded:
+                icon = {"Win": "✅", "Loss": "❌"}.get(x["result"], "➖")
+                alerts.append((2, f"{icon} Alert Pick graded: {x['result']}", f'{nm}\nFinal: {x.get("final")} · {x.get("net_units", 0):+g}u'))
+                graded.add(x["key"])
+        state["af_sent"] = sorted(sent)[-500:]; state["af_graded"] = sorted(graded)[-500:]
+
     # injuries
     for sport, path in CFG["injury_feeds"].items():
         j = inj_cache.get(sport) if sport in inj_cache else get(API + path + "/injuries")
