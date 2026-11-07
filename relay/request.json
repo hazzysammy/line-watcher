@@ -1,33 +1,9 @@
 {
- "id": "r8",
+ "id": "r7",
  "items": [
   {
-   "name": "s_hsv",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/summary?event=401884739"
-  },
-  {
-   "name": "s_tou",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/summary?event=401876405"
-  },
-  {
-   "name": "s_eve",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/summary?event=401879242"
-  },
-  {
-   "name": "nba_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
-  },
-  {
-   "name": "nba_inj",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
-  },
-  {
-   "name": "nfl_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
-  },
-  {
-   "name": "sgo_sf",
-   "url": "https://api.sportsgameodds.com/v2/events?leagueID=NFL&teamID=SAN_FRANCISCO_49ERS_NFL&oddsAvailable=true&limit=1"
+   "name": "sgo_ncaab_eve",
+   "url": "https://api.sportsgameodds.com/v2/events?leagueID=NCAAB&oddsAvailable=true&startsAfter=2026-11-07T00:30:00Z&startsBefore=2026-11-07T03:00:00Z&limit=25"
   }
  ]
 }
