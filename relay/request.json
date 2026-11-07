@@ -1,21 +1,33 @@
 {
- "id": "r9",
+ "id": "r10",
  "items": [
   {
-   "name": "t_gamelog",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/athletes/4431678/gamelog"
+   "name": "t_torvik",
+   "url": "https://barttorvik.com/2027_team_results.json"
   },
   {
-   "name": "t_team",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/20"
+   "name": "t_torvik26",
+   "url": "https://barttorvik.com/2026_team_results.json"
   },
   {
-   "name": "t_sum",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909937"
+   "name": "t_nflverse",
+   "url": "https://github.com/nflverse/nflverse-data/releases/download/player_stats/player_stats_2026.csv"
   },
   {
-   "name": "t_sgo_nba",
-   "url": "https://api.sportsgameodds.com/v2/events?leagueID=NBA&oddsAvailable=true&startsAfter=2026-11-07T01:30:00Z&startsBefore=2026-11-07T04:00:00Z&limit=2"
+   "name": "t_understat",
+   "url": "https://understat.com/league/EPL/2026"
+  },
+  {
+   "name": "t_soc_gl",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog"
+  },
+  {
+   "name": "t_soc_gl2",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/eng.1/athletes/253989/gamelog"
+  },
+  {
+   "name": "t_cfbd",
+   "url": "https://api.collegefootballdata.com/ppa/teams?year=2026"
   }
  ]
 }
