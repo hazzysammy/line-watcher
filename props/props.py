@@ -331,16 +331,30 @@ def make_flags(edges, now):
     json.dump(flags, open(f, "w"), indent=1)
     return new
 
+def _sweat(s, x):
+    try:
+        import sys as _s; _s.path.insert(0, os.path.join(os.path.dirname(HERE), "grade")); from sweat import sweat, tags_for
+        mk = {"spread": "spread", "live_ml": "ml", "goal": "goal"}.get(x["stat"], x["stat"])
+        sp = (x.get("league") or "basketball/nba").split("/")[-1]
+        sp = {"nba": "nba", "mens-college-basketball": "ncaab", "nfl": "nfl", "college-football": "ncaaf"}.get(sp, "soccer" if "soccer" in (x.get("league") or "") else "nba")
+        r = sweat(s, {"sport": sp, "market": mk, "side": x["side"], "line": x.get("line") or 0, "player_id": x.get("espn_id"), "final": x.get("final") if mk not in ("spread", "ml", "goal") else None})
+        x["sweat"] = r; x["tags"] = tags_for(" / ".join(x.get("signals") or []) + " " + x.get("trigger", ""))
+    except Exception as e:
+        x["sweat"] = {"label": None, "note": "sweat error: " + str(e)[:80]}
+
 def grade_flags(now):
     f = os.path.join(HERE, "autoflags.json")
     flags = json.load(open(f)) if os.path.exists(f) else []
     boxes = {}
     for x in flags:
-        if x["result"] or dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00")) > now - dt.timedelta(hours=3): continue
+        if x["result"] and ("sweat" in x or str(x["result"]).startswith("Void")): continue
+        if dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00")) > now - dt.timedelta(hours=3): continue
         ev = x["espn_event"]
         if ev not in boxes:
             boxes[ev] = get(f"https://site.api.espn.com/apis/site/v2/sports/{x['league']}/summary?event={ev}") if x.get("league") else get(f"{ESPN}/summary?event={ev}")
         s = boxes[ev] or {}
+        if x["result"]:          # already graded earlier: backfill the sweat grade only
+            _sweat(s, x); continue
         if (s.get("header", {}).get("competitions", [{}])[0].get("status", {}).get("type", {}).get("state")) != "post": continue
         if x["stat"] == "goal":
             scored = False
@@ -353,7 +367,7 @@ def grade_flags(now):
             x["result"] = "Win" if scored else "Loss"; x["final"] = "scored" if scored else "no goal"
             p = x.get("fair") or 100
             x["net_units"] = round(x["units"] * (p / 100 if p > 0 else 100 / -p), 2) if scored else -x["units"]   # graded at the fair price
-            continue
+            _sweat(s, x); continue
         if x["stat"] == "live_ml":
             comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
             sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}
@@ -361,7 +375,7 @@ def grade_flags(now):
             mine, other = (sc["home"], sc["away"]) if x["side"] == "home" else (sc["away"], sc["home"])
             x["result"] = "Win" if mine > other else "Loss"; x["final"] = f"{int(mine)}-{int(other)}"
             x["net_units"] = round(x["units"], 2) if x["result"] == "Win" else -x["units"]   # assumes ~even live price
-            continue
+            _sweat(s, x); continue
         if x["stat"] == "spread":
             comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
             sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}
@@ -370,7 +384,7 @@ def grade_flags(now):
             d = mine - other + x["line"]
             x["result"] = "Win" if d > 0 else "Loss" if d < 0 else "Push"; x["final"] = f"{int(mine)}-{int(other)}"
             x["net_units"] = round(x["units"] * 100 / 110, 2) if x["result"] == "Win" else (-x["units"] if x["result"] == "Loss" else 0)
-            continue
+            _sweat(s, x); continue
         val = None; played = False
         for t in s.get("boxscore", {}).get("players", []):
             st = t["statistics"][0]; keys = st.get("keys", [])
@@ -391,6 +405,7 @@ def grade_flags(now):
         p = x["price"]
         x["net_units"] = round(x["units"] * (p / 100 if p > 0 else 100 / -p), 2) if x["result"] == "Win" else (-x["units"] if x["result"] == "Loss" else 0)
         x["graded_sent"] = False
+        _sweat(s, x)
     json.dump(flags, open(f, "w"), indent=1)
 
 if __name__ == "__main__":

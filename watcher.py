@@ -945,6 +945,9 @@ def main():
             sys.path.insert(0, os.path.join(HERE, "props"))
             import props as P2
             P2.grade_flags(dt.datetime.now(dt.timezone.utc))
+            try:
+                import runpy; runpy.run_path(os.path.join(HERE, "grade", "patterns.py"))
+            except Exception as e: print("patterns error", e)
             state["last_grade"] = time.time()
         except Exception as e:
             print("grading failed", e)
@@ -971,7 +974,8 @@ def main():
                 sent.add(x["key"])
             if x.get("result") and x["key"] not in graded:
                 icon = {"Win": "✅", "Loss": "❌"}.get(x["result"], "➖")
-                alerts.append((2, f"{icon} Alert Pick graded: {x['result']}", f'{nm}\nFinal: {x.get("final")} · {x.get("net_units", 0):+g}u'))
+                alerts.append((2, f"{icon} Alert Pick graded: {x['result']}", f'{nm}\nFinal: {x.get("final")} · {x.get("net_units", 0):+g}u'
+                               + (f'\n{x["sweat"]["label"]} · margin {x["sweat"].get("margin")}' + (f' · {x["sweat"]["note"]}' if x["sweat"].get("note") else "") if (x.get("sweat") or {}).get("label") else "")))
                 graded.add(x["key"])
         state["af_sent"] = sorted(sent)[-500:]; state["af_graded"] = sorted(graded)[-500:]
 
