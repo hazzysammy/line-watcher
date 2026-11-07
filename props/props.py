@@ -203,6 +203,13 @@ def suspicious(e):
     base = max(e["line"], 1.0)
     return abs(e["season_avg"] - e["line"]) / base > CFG["suspicious_gap"] and abs(e["l5"] - e["line"]) / base > CFG["suspicious_gap"]
 
+def against(e):
+    return bool(e["moved"]) and ((e["side"] == "over" and e["moved"] == "down") or (e["side"] == "under" and e["moved"] == "up"))
+
+def is_flag(e):
+    return e["edge"] >= CFG["flag_edge"] and len(signals(e)) >= 2 and e["price"] is not None and not suspicious(e) and not against(e) \
+        and CFG["price_min"] <= e["price"] <= CFG["price_max"]
+
 def signals(e):
     s = []
     if e["edge"] >= CFG["flag_edge"]: s.append(f'model edge +{e["edge"]*100:.0f}% (proj {e["proj"]} vs {e["line"]})')
@@ -221,9 +228,10 @@ def write_md(edges, now):
          "Edge = model win % minus DraftKings' no-vig %. Not picks by themselves — 🤖 = Alert Pick (2+ signals)._", "",
          "| | Game | Player | Prop | Line | Side | Price | Proj | L5 | Edge | Notes |", "|---|---|---|---|---|---|---|---|---|---|---|"]
     for e in [x for x in edges if x["edge"] >= CFG["show_edge"]][:40]:
-        sig = signals(e); flag = "🤖" if len(sig) >= 2 and e["edge"] >= CFG["flag_edge"] else ""
+        sig = signals(e); flag = "🤖" if is_flag(e) else ""
         notes = "; ".join(filter(None, ["⚠ line far off his averages — check news (minutes limit?)" if suspicious(e) else "", e["teammates_out"], "B2B" if e["b2b"] else "", f'moved {e["moved"]}' if e["moved"] else ""]))
         if suspicious(e): flag = "⚠"
+        elif against(e): notes = "market moving AGAINST this side; " + notes
         L.append(f'| {flag} | {e["game"]} | {e["player"]} | {STAT_NAME[e["stat"]]} | {e["line"]:g} | {e["side"]} | {fmt(e["price"]) if e["price"] is not None else "—"} | {e["proj"]} | {e["l5"]} | +{e["edge"]*100:.1f}% | {notes} |')
     open(os.path.join(HERE, "edges.md"), "w").write("\n".join(L) + "\n")
 
@@ -235,8 +243,8 @@ def make_flags(edges, now):
     for x in flags: day_count[x["start"][:10]] = day_count.get(x["start"][:10], 0) + 1
     for e in edges:
         sig = signals(e)
-        if e["edge"] < CFG["flag_edge"] or len(sig) < 2 or e["price"] is None or suspicious(e): continue
-        if not (CFG["price_min"] <= e["price"] <= CFG["price_max"]): continue
+        if not is_flag(e): continue
+        if sum(1 for x in flags if x["game"] == e["game"] and x["start"] == e["start"]) >= CFG["max_flags_per_game"]: continue
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
         if day_count.get(e["start"][:10], 0) >= CFG["max_flags_per_day"]: continue
