@@ -1,5 +1,8 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:10 PT · 🏥 NBA injury update**  
+Jarrett Allen (Cleveland Cavaliers): Day-To-Day → Out — Allen (knee) is out for Friday's game against the 76ers.
+
 **2026-11-06 16:05 PT · 🏥 NBA injury update**  
 Peyton Watson (Cleveland Cavaliers): Day-To-Day → removed from report (likely available)  
 Kyle Anderson (Toronto Raptors): Day-To-Day → removed from report (likely available)

@@ -196,15 +196,5 @@
     "cold_f": 20
   },
   "grade_check_minutes": 30,
-  "_notes_quiet": "quiet_hours [24,0] = never quiet (Sammy wants alerts 24/7)",
-  "profile": {
-    "spread": "15-4",
-    "prop": "24-10",
-    "dc": "6-1",
-    "heavy": "91%",
-    "fav": "70% of your legs win",
-    "slight": "47%",
-    "dog": "36%",
-    "long": "24%"
-  }
+  "_notes_quiet": "quiet_hours [24,0] = never quiet (Sammy wants alerts 24/7)"
 }
