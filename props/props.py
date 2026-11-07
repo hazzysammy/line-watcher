@@ -319,9 +319,22 @@ def grade_flags(now):
     for x in flags:
         if x["result"] or dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00")) > now - dt.timedelta(hours=3): continue
         ev = x["espn_event"]
-        if ev not in boxes: boxes[ev] = get(f"{ESPN}/summary?event={ev}")
+        if ev not in boxes:
+            boxes[ev] = get(f"https://site.api.espn.com/apis/site/v2/sports/{x['league']}/summary?event={ev}") if x.get("league") else get(f"{ESPN}/summary?event={ev}")
         s = boxes[ev] or {}
         if (s.get("header", {}).get("competitions", [{}])[0].get("status", {}).get("type", {}).get("state")) != "post": continue
+        if x["stat"] == "goal":
+            scored = False
+            for k in s.get("keyEvents", []) or []:
+                tx = ((k.get("type") or {}).get("text", "") + " " + (k.get("text") or "")).lower()
+                if "goal" in tx and "own goal" not in tx:
+                    for pa in k.get("participants", []) or []:
+                        nm = ((pa.get("athlete") or {}).get("displayName") or "")
+                        if nm and norm(nm).split()[-1] == norm(x["player"]).split()[-1]: scored = True
+            x["result"] = "Win" if scored else "Loss"; x["final"] = "scored" if scored else "no goal"
+            p = x.get("fair") or 100
+            x["net_units"] = round(x["units"] * (p / 100 if p > 0 else 100 / -p), 2) if scored else -x["units"]   # graded at the fair price
+            continue
         if x["stat"] == "live_ml":
             comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
             sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}

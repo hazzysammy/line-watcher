@@ -841,7 +841,18 @@ def main():
                                     if nm and norm(nm).split()[-1] == norm(p["A"]).split()[-1]: scored = True
                         ps.append(tag + ":post")
                         if scored:
-                            alerts.append((5, f'⚽ {p["A"]} scored → {p["B"]} is live', txt + f'\n✅ Trigger hit. {p["B"]} has scored in {p["rate"]*100:.0f}% of these spots. Check his anytime price before kickoff (0.5u max; weak market for you).'))
+                            # shrink the pair rate toward B's normal rate (small samples) -> fair price
+                            w8 = p["n"] / (p["n"] + 25)     # e.g. 29 cases -> trust the pair 54%, B's normal rate 46%
+                            pr = w8 * p["rate"] + (1 - w8) * p["B_base"]
+                            fair = american(pr)
+                            add_flag({"key": f'{eb["date"][:10]}|GOAL|{p["B"]}', "created": now.strftime("%Y-%m-%d %H:%M PT"),
+                                      "game": f'{eb["away"]} @ {eb["home"]}', "start": eb["date"], "espn_event": eb["id"], "league": lb["path"],
+                                      "espn_id": None, "player": p["B"], "stat": "goal", "side": "anytime", "line": 0.5, "price": None,
+                                      "fair": fair, "proj": None, "edge": 0, "units": 0.5, "sent": False, "result": None, "trigger": "pair",
+                                      "signals": [f'{p["A"]} scored today', f'{p["B"]} scores after {p["A"]} scores: {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%) vs his normal {p["B_base"]*100:.0f}%',
+                                                  f'our honest estimate (small samples shrunk): {pr*100:.0f}% → TAKE at {fmt(fair)} or better',
+                                                  "⚠ anytime goals are your weak market (7-9): 0.5u max; confirm he's in the XI (~1 hr before)"]})
+                            alerts.append((5, f'⚽ {p["A"]} scored → TAKE {p["B"]} to score', txt + f'\n✅ Trigger hit. Bet {p["B"]} anytime goal at {fmt(fair)} or better (0.5u, $5). Check he\'s in the starting XI first.'))
         state["pairs_sent"] = ps[-800:]
 
     # ---------- ⚡ news-triggered prop re-price (instant, budget-capped) ----------
@@ -877,13 +888,13 @@ def main():
         sent = set(state.setdefault("af_sent", [])); graded = set(state.setdefault("af_graded", []))
         SN = {"points": "points", "rebounds": "rebounds", "assists": "assists", "threePointersMade": "3-pointers", "points+rebounds+assists": "pts+reb+ast"}
         for x in json.load(open(afp)):
-            nm = (f'{x["player"]} LIVE moneyline' if x["stat"] == "live_ml" else f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
+            nm = (f'{x["player"]} to score (anytime), take at {fmt(x["fair"])} or better' if x["stat"] == "goal" else f'{x["player"]} LIVE moneyline' if x["stat"] == "live_ml" else f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
                   else f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})')
             if x["key"] not in sent and not x.get("result"):
                 st = dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00"))
                 if st > dt.datetime.now(dt.timezone.utc) or x.get("trigger") == "live":
                     u = x["units"]
-                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🔴🤖 LIVE Alert Pick" if x.get("trigger") == "live" else "📈🤖 Trend Alert Pick" if x.get("trigger") == "trend" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
+                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🔴🤖 LIVE Alert Pick" if x.get("trigger") == "live" else "⚽🤖 Pair Alert Pick" if x.get("trigger") == "pair" else "📈🤖 Trend Alert Pick" if x.get("trigger") == "trend" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
                                    + (f'Model {x["proj"]} vs line {x["line"]:g} (secondary check)\n' if x.get("proj") is not None else "")
                                    + "\n".join("• " + s for s in x["signals"])
                                    + f'\nSize: {u:g}u (${u*10:g}) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.'))
