@@ -1,13 +1,5 @@
 # Watcher alert log (newest first)
 
-**2026-11-06 16:45 PT · ⚡ NBA news (RotoWire)**  
-Jamal Shead: Starting Friday  
-Shead will start Friday against the Bucks, Esfandiar Baraheni of The Athletic reports.  
-  
-        Visit RotoWire.com for more analysis on this update.  
-Plays within 36h: Milwaukee Bucks  
-→ Check the line NOW before it moves.
-
 **2026-11-06 16:25 PT · ⚡ NCAAB news (RotoWire)**  
 Rylan Griffen: Good to go Friday  
 Griffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.  
