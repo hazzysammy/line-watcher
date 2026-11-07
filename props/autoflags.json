@@ -79,9 +79,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "silent": true,
-  "trigger": "model-only"
+  "trigger": "model-only",
+  "final": 33.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Ziaire Williams|threePointersMade|over",
@@ -104,9 +107,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "silent": true,
-  "trigger": "model-only"
+  "trigger": "model-only",
+  "final": 2.0,
+  "net_units": 0.64,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Julian Champagnie|threePointersMade|over",
@@ -129,9 +135,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "silent": true,
-  "trigger": "model-only"
+  "trigger": "model-only",
+  "final": 2.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Malik Monk|points+rebounds+assists|under",
@@ -155,9 +164,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 19.0,
+  "net_units": 0.39,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Stephon Castle|points|under",
@@ -182,9 +194,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 19.0,
+  "net_units": -1.0,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Jrue Holiday|rebounds|over",
@@ -209,9 +224,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 1.0,
+  "net_units": -1.0,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Keldon Johnson|rebounds|over",
@@ -236,9 +254,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 6.0,
+  "net_units": 0.88,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Luka Don\u010di\u0107|points|over",
@@ -263,9 +284,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 53.0,
+  "net_units": 0.81,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Stephon Castle|assists|under",
@@ -289,9 +313,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 7.0,
+  "net_units": -1.0,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Matisse Thybulle|points|over",
@@ -314,9 +341,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 2.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Toumani Camara|threePointersMade|over",
@@ -341,9 +371,12 @@
   ],
   "units": 1.0,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 4.0,
+  "net_units": 0.86,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Emanuel Sharp|points|under",
@@ -368,9 +401,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 9.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Walker Kessler|points|over",
@@ -394,9 +430,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 16.0,
+  "net_units": 0.44,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Sandro Mamukelashvili|points|over",
@@ -421,9 +460,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 7.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Damian Lillard|rebounds|over",
@@ -448,9 +490,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 0.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Ziaire Williams|rebounds|over",
@@ -475,9 +520,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Win",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 3.0,
+  "net_units": 0.41,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|Victor Wembanyama|threePointersMade|under",
@@ -500,9 +548,12 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null,
+  "result": "Loss",
   "trigger": "model-only",
-  "silent": true
+  "silent": true,
+  "final": 4.0,
+  "net_units": -0.5,
+  "graded_sent": false
  },
  {
   "key": "2026-11-07|LIVE|Toronto Raptors",
@@ -552,6 +603,217 @@
    "model agrees: proj 2.1 (+5% edge)"
   ],
   "units": 1.0,
+  "sent": false,
+  "result": "Loss",
+  "trigger": "model-only",
+  "silent": true,
+  "final": 1.0,
+  "net_units": -1.0,
+  "graded_sent": false
+ },
+ {
+  "key": "2026-11-07|Nikola Joki\u0107|rebounds|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3112335",
+  "player": "Nikola Joki\u0107",
+  "stat": "rebounds",
+  "side": "under",
+  "line": 11.5,
+  "price": -110.0,
+  "proj": 9.5,
+  "edge": 0.067,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 9.2 vs line 11.5",
+   "season avg 9.7",
+   "market moving our way",
+   "model agrees: proj 9.5 (+7% edge)"
+  ],
+  "units": 1.0,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Nikola Joki\u0107|points+rebounds+assists|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3112335",
+  "player": "Nikola Joki\u0107",
+  "stat": "points+rebounds+assists",
+  "side": "under",
+  "line": 48.5,
+  "price": -116.0,
+  "proj": 42.5,
+  "edge": 0.065,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 42.4 vs line 48.5",
+   "season avg 42.4",
+   "model agrees: proj 42.5 (+6% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Christian Braun|rebounds|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "4431767",
+  "player": "Christian Braun",
+  "stat": "rebounds",
+  "side": "under",
+  "line": 4.5,
+  "price": -121.0,
+  "proj": 3.3,
+  "edge": 0.061,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 2.6 vs line 4.5",
+   "season avg 3.9",
+   "model agrees: proj 3.3 (+6% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Cameron Johnson|points|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3138196",
+  "player": "Cameron Johnson",
+  "stat": "points",
+  "side": "under",
+  "line": 11.5,
+  "price": -128.0,
+  "proj": 9.0,
+  "edge": 0.056,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 9.0 vs line 11.5",
+   "season avg 9.0",
+   "model agrees: proj 9.0 (+6% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Cameron Johnson|points+rebounds+assists|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3138196",
+  "player": "Cameron Johnson",
+  "stat": "points+rebounds+assists",
+  "side": "under",
+  "line": 17.5,
+  "price": -109.0,
+  "proj": 15.3,
+  "edge": 0.051,
+  "signals": [
+   "last 5 avg 15.2 vs line 17.5",
+   "season avg 15.2",
+   "model agrees: proj 15.3 (+5% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Nikola Joki\u0107|points|under",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3112335",
+  "player": "Nikola Joki\u0107",
+  "stat": "points",
+  "side": "under",
+  "line": 26.5,
+  "price": -116.0,
+  "proj": 23.4,
+  "edge": 0.047,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 23.2 vs line 26.5",
+   "season avg 23.4",
+   "model agrees: proj 23.4 (+5% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Jamal Murray|rebounds|over",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3936299",
+  "player": "Jamal Murray",
+  "stat": "rebounds",
+  "side": "over",
+  "line": 4.5,
+  "price": -110.0,
+  "proj": 5.3,
+  "edge": 0.039,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 5.0 vs line 4.5",
+   "season avg 5.4",
+   "model agrees: proj 5.3 (+4% edge)"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "model-only",
+  "silent": true
+ },
+ {
+  "key": "2026-11-07|Cameron Johnson|rebounds|over",
+  "created": "2026-11-06 22:11 PT",
+  "game": "DEN @ IND",
+  "start": "2026-11-07T22:00Z",
+  "espn_event": "401909938",
+  "espn_id": "3138196",
+  "player": "Cameron Johnson",
+  "stat": "rebounds",
+  "side": "over",
+  "line": 3.5,
+  "price": -166.0,
+  "proj": 4.2,
+  "edge": 0.039,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 4.2 vs line 3.5",
+   "season avg 4.2",
+   "model agrees: proj 4.2 (+4% edge)"
+  ],
+  "units": 0.5,
   "sent": false,
   "result": null,
   "trigger": "model-only",
