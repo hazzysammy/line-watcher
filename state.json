@@ -2799,6 +2799,7 @@
    "Milwaukee Bucks|Kam Jones": "Day-To-Day \u00a6 Jones (ankle/two-way player) is out for Friday's game against Toronto.",
    "Minnesota Timberwolves|Anthony Edwards": "Out \u00a6 Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
    "Minnesota Timberwolves|Donte DiVincenzo": "Out \u00a6 DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The At",
+   "Minnesota Timberwolves|Joan Beringer": "Out \u00a6 Beringer was ruled out for the second half of Friday's game against the Pelicans due to a nasal fracture, Dane",
    "Minnesota Timberwolves|Terrence Shannon Jr.": "Out \u00a6 Shannon (hip) has been ruled out for Friday's game against New Orleans.",
    "New Orleans Pelicans|Yves Missi": "Out \u00a6 Missi (knee) is out for Friday's game against Minnesota.",
    "New York Knicks|Josh Hart": "Out \u00a6 Hart is out for Saturday's game against the Cavaliers due to right ankle soreness.",
@@ -3644,7 +3645,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:40:13.934928-08:00",
+ "last_run": "2026-11-06T18:45:14.151835-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4211,7 +4212,8 @@
   "50404134",
   "50404137",
   "50404145",
-  "50404149"
+  "50404149",
+  "50404152"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4466,6 +4468,9 @@
   "nba537899",
   "nba537900",
   "nba537902",
+  "nba537903",
+  "nba537904",
+  "nba537907",
   "nfl646200",
   "nfl646201",
   "nfl646202",
