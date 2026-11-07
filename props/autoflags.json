@@ -473,5 +473,29 @@
   "sent": false,
   "result": null,
   "trigger": "model"
+ },
+ {
+  "key": "2026-11-07|LIVE|Toronto Raptors",
+  "created": "2026-11-06 17:30 PT",
+  "game": "TOR @ MIL",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909292",
+  "espn_id": null,
+  "player": "Toronto Raptors",
+  "stat": "live_ml",
+  "side": "away",
+  "line": 0,
+  "price": null,
+  "proj": null,
+  "edge": 0,
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "live",
+  "signals": [
+   "Raptors were 7.5-pt favorites before tip",
+   "now down 11 in Q1 (6:31)",
+   "live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em"
+  ]
  }
 ]

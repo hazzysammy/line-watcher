@@ -9,6 +9,7 @@
   "2026-11-07|Jrue Holiday|rebounds|over",
   "2026-11-07|Julian Champagnie|threePointersMade|over",
   "2026-11-07|Keldon Johnson|rebounds|over",
+  "2026-11-07|LIVE|Toronto Raptors",
   "2026-11-07|Luka Don\u010di\u0107|points|over",
   "2026-11-07|Malik Monk|points+rebounds+assists|under",
   "2026-11-07|Matisse Thybulle|points|over",
@@ -836,6 +837,11 @@
    "at": "2026-11-06 17:25 PT",
    "body": "Trey'Dez Green: Status murky for Saturday\nGreen has been given a questionable status for Saturday's contest versus Alabama, per the SEC availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: North Texas Mean Green\n\ud83e\udde0 Means: Trey'Dez Green is uncertain (50/50).\n\ud83d\udc49 Do: don't bet his props or this game yet. Final status usually comes 30\u201360 min before tip/kickoff, and the watcher will ping you the moment it changes.",
    "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 17:30 PT",
+   "body": "Toronto Raptors LIVE moneyline \u00b7 TOR @ MIL\n\u2022 Raptors were 7.5-pt favorites before tip\n\u2022 now down 11 in Q1 (6:31)\n\u2022 live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83d\udd34\ud83e\udd16 LIVE Alert Pick"
   }
  ],
  "base": {
@@ -2983,8 +2989,10 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:25:13.474967-08:00",
- "live_budget": {},
+ "last_run": "2026-11-06T17:30:18.077830-08:00",
+ "live_budget": {
+  "2026-11-06": 1
+ },
  "news_seen": [
   "29098001",
   "40699880",
@@ -3519,7 +3527,7 @@
  ],
  "props": {
   "T103": {
-   "checked": 1794012947.9975486,
+   "checked": 1794015029.6563761,
    "closed": true,
    "clv_pct": 1.11,
    "dk_bet_line": -2.5,
@@ -3598,6 +3606,7 @@
   "cfb238619",
   "cfb238620",
   "cfb238621",
+  "cfb238622",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -3691,7 +3700,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 11
+  "2026-11": 12
  },
  "team_hist": {
   "13|2026-11-06": [

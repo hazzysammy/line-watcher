@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 17:30 PT · 🔴🤖 LIVE Alert Pick**  
+Toronto Raptors LIVE moneyline · TOR @ MIL  
+• Raptors were 7.5-pt favorites before tip  
+• now down 11 in Q1 (6:31)  
+• live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
 **2026-11-06 17:25 PT · ⚡ NCAAF news (RotoWire)**  
 Trey'Dez Green: Status murky for Saturday  
 Green has been given a questionable status for Saturday's contest versus Alabama, per the SEC availability report.  
