@@ -1,5 +1,11 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 19:45 PT · ❌ Bet graded: Loss**  
+76ers -2.5 @ CLE (T103)  
+Final: 95-119  
+Net: $-11  
+CLV +1.1%
+
 **2026-11-06 19:40 PT · 📈 Line move**  
 CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)  
 Spread LOU -38.5 → -36.5  

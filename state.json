@@ -1458,6 +1458,11 @@
    "at": "2026-11-06 19:40 PT",
    "body": "CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)\nSpread LOU -38.5 \u2192 -36.5\n(first seen: LOU -36.5, O/U 150.5)\n\ud83d\udca1 Money came in on Eagles. If you like Eagles, the value is mostly gone. If you like Cardinals, you now lay 2 fewer points than before.\n\u2705 Spreads are your strongest market (15-4)\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: College lineups aren't official until tip.",
    "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 19:45 PT",
+   "body": "76ers -2.5 @ CLE (T103)\nFinal: 95-119\nNet: $-11\nCLV +1.1%",
+   "title": "\u274c Bet graded: Loss"
   }
  ],
  "base": {
@@ -3405,7 +3410,7 @@
    "Miami Dolphins|Jaylin Simpson": "Active",
    "Miami Dolphins|Jordyn Brooks": "Active \u00a6 Brooks recorded 11 tackles (six solo) in Sunday's 24-19 loss to the Patriots.",
    "Miami Dolphins|Justin Joly": "Active",
-   "Miami Dolphins|Kadyn Proctor": "Active",
+   "Miami Dolphins|Kadyn Proctor": "Active \u00a6 Proctor (concussion) does not have a designation for Sunday's Week 9 matchup versus Detroit, David Furones of ",
    "Miami Dolphins|Kaytron Allen": "Questionable \u00a6 Allen (quadriceps) is officially listed as questionable for Sunday's game versus the Lions, David Furones of t",
    "Miami Dolphins|Kevin Coleman Jr.": "Active \u00a6 Coleman caught all three of his targets for 46 yards and a touchdown during Sunday's 24-19 loss to the Patriot",
    "Miami Dolphins|Malik Herring": "Questionable \u00a6 Herring (neck) is listed as questionable for Sunday's game against the Lions, David Furones of the South Flori",
@@ -3720,7 +3725,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T19:40:14.894379-08:00",
+ "last_run": "2026-11-06T19:45:15.511518-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4320,9 +4325,14 @@
   "50404556",
   "50404565",
   "50404580",
+  "50404582",
   "50404591",
   "50404597",
-  "50404599"
+  "50404599",
+  "50404607",
+  "50404610",
+  "50404614",
+  "50404622"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4457,17 +4467,21 @@
  ],
  "props": {
   "T103": {
-   "checked": 1794021056.5358436,
+   "checked": 1794023125.1262274,
    "closed": true,
    "clv_pct": 1.11,
    "dk_bet_line": -2.5,
    "dk_bet_price": -110.0,
    "dk_close_line": -2.5,
    "dk_close_price": -115.0,
+   "final": "95-119",
    "gap_pct": 0.0,
+   "graded": true,
    "line": -2.5,
    "my_book_close_est": -115,
+   "net": -11,
    "price": -115.0,
+   "result": "Loss",
    "starts": "2026-11-07T00:30:00.000Z"
   }
  },
@@ -4591,6 +4605,7 @@
   "nba537907",
   "nba537908",
   "nba537909",
+  "nba537911",
   "nfl646200",
   "nfl646201",
   "nfl646202",
@@ -4649,7 +4664,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 15
+  "2026-11": 16
  },
  "team_hist": {
   "13|2026-11-06": [
