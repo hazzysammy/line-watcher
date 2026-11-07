@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 06:18 PT · 📈 Line move**  
+BUND FC Augsburg @ RB Leipzig (Sat 6:30 AM PT)  
+Total 4.5 → 3.5 (under money)  
+Now: RBL -1.5 · O/U 3.5 · ML FCA +475 / RBL -255  
+🧠 ❌ Doesn't meet any of our criteria  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 05:55 PT · 📈 Line move**  
 CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)  
 Spread LOU -36.5 → -38.5 (money on Cardinals)  
@@ -2058,14 +2065,5 @@ Model 8.7 vs line 7.5 (secondary check)
 • season avg 9.0  
 • market moving our way  
 • model agrees: proj 8.7 (+3% edge)  
-Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Walker Kessler OVER 12.5 points (-113) · POR @ LAL  
-Model 13.8 vs line 12.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• season avg 14.4  
-• market moving our way  
-• model agrees: proj 13.8 (+3% edge)  
 Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
