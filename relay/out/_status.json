@@ -1,15 +1,18 @@
 {
- "id": "r4",
- "done": "2026-11-07T00:05:52Z",
+ "id": "r5",
+ "done": "2026-11-07T00:07:19Z",
  "results": {
-  "nba_byath": "ok",
-  "nba_inj": "ok",
-  "nba_sb": "ok",
-  "cbb_sb": "ok",
-  "cfb_sb": "ok",
-  "oma_team": "ok",
-  "oma_sched": "ok",
-  "oma_roster": "ok",
-  "byu_sched": "ok"
+  "cbbro_ala": "ok",
+  "cbbro_uconn": "ok",
+  "cbbro_mich": "ok",
+  "cbbro_isu": "ok",
+  "cbbro_mia": "ok",
+  "cbbro_ku": "ok",
+  "cbbro_byu": "ok",
+  "cbbro_ucla": "ok",
+  "oma_g1": "ok",
+  "oma_t26": "ok",
+  "byu_t26": "ok",
+  "oma_sched26": "ok"
  }
 }
