@@ -1,10 +1,13 @@
 {
- "id": "r9",
- "done": "2026-11-07T00:42:27Z",
+ "id": "r10",
+ "done": "2026-11-07T00:58:42Z",
  "results": {
-  "t_gamelog": "ok",
-  "t_team": "ok",
-  "t_sum": "ok",
-  "t_sgo_nba": "ok"
+  "t_torvik": "ERR HTTP Error 403: Forbidden",
+  "t_torvik26": "ERR HTTP Error 403: Forbidden",
+  "t_nflverse": "ERR HTTP Error 404: Not Found",
+  "t_understat": "ok",
+  "t_soc_gl": "ok",
+  "t_soc_gl2": "ok",
+  "t_cfbd": "ERR HTTP Error 401: Unauthorized"
  }
 }
