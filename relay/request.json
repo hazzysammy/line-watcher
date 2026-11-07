@@ -1,21 +1,21 @@
 {
- "id": "r12",
+ "id": "r13",
  "items": [
   {
-   "name": "g1",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2025&league=eng.1"
+   "name": "bt_nba",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20260115"
   },
   {
-   "name": "g2",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2025&leagueId=eng.1"
+   "name": "bt_nba24",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20250115"
   },
   {
-   "name": "g3",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/eng.1/athletes/253989/gamelog?season=2025&league=eng.1"
+   "name": "bt_nfl",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard?dates=2025&seasontype=2&week=10"
   },
   {
-   "name": "g4",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/soccer/athletes/253989/gamelog?season=2026&league=uefa.champions"
+   "name": "bt_soc",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20260117"
   }
  ]
 }
