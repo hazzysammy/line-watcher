@@ -1,13 +1,13 @@
 # Watcher alert log (newest first)
 
-**2026-11-06 21:59 PT · 📈 Line move**  
+**2026-11-06 22:00 PT · 📈 Line move**  
 SERIEA Bologna @ Parma (Sat 9:00 AM PT)  
 ML Bologna -120 → -140  
 Now: PAR +0.5 · O/U 2.5 · ML BOL -140 / PAR +360  
 🧠 ❌ Doesn't meet any of our criteria · ⚠ slight-fav band (-101 to -149): only 47% for you  
 👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
 
-**2026-11-06 21:59 PT · 📈 Line move**  
+**2026-11-06 22:00 PT · 📈 Line move**  
 SERIEA Frosinone @ Cagliari (Sat 6:00 AM PT)  
 ML Cagliari +165 → +190  
 ML Frosinone +135 → +115  
