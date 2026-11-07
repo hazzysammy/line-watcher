@@ -1,5 +1,15 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 18:15 PT · 🤖 Alert Pick (paper)**  
+Austin Reaves OVER 1.5 3-pointers (-199) · POR @ LAL  
+Model 2.1 vs line 1.5 (secondary check)  
+• fits your history: stat props 24-10, favorite-priced  
+• last 5 avg 1.8 vs line 1.5  
+• season avg 2.3  
+• market moving our way  
+• model agrees: proj 2.1 (+5% edge)  
+Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
 **2026-11-06 18:10 PT · 📈 Line move**  
 CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)  
 Spread LOU -36.5 → -38.5  

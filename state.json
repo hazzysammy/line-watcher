@@ -1,6 +1,7 @@
 {
  "af_graded": [],
  "af_sent": [
+  "2026-11-07|Austin Reaves|threePointersMade|over",
   "2026-11-07|Cam Spencer|threePointersMade|over",
   "2026-11-07|Cedric Coward|points+rebounds+assists|over",
   "2026-11-07|Damian Lillard|rebounds|over",
@@ -1437,6 +1438,11 @@
    "at": "2026-11-06 18:10 PT",
    "body": "CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)\nSpread LOU -36.5 \u2192 -38.5\n(first seen: LOU -36.5, O/U 150.5)\n\ud83d\udca1 Money came in on Cardinals. If you like Cardinals, the value is mostly gone. If you like Eagles, you now get 2 more points than before.\n\u2705 Spreads are your strongest market (15-4)\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: College lineups aren't official until tip.",
    "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 18:15 PT",
+   "body": "Austin Reaves OVER 1.5 3-pointers (-199) \u00b7 POR @ LAL\nModel 2.1 vs line 1.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 1.8 vs line 1.5\n\u2022 season avg 2.3\n\u2022 market moving our way\n\u2022 model agrees: proj 2.1 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
   }
  ],
  "base": {
@@ -3632,7 +3638,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:10:14.633675-08:00",
+ "last_run": "2026-11-06T18:15:12.929859-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4170,7 +4176,12 @@
   "50403870",
   "50403872",
   "50403884",
-  "50403922"
+  "50403922",
+  "50403932",
+  "50403939",
+  "50403942",
+  "50403944",
+  "50403957"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4601,7 +4612,7 @@
  },
  "wx_checked": {
   "401856738": 1794016540.4909415,
-  "401856739": 1794013952.409349,
+  "401856739": 1794017719.388022,
   "401856740": 1794017426.652068,
   "401856741": 1794016543.7792592,
   "401856742": 1794016542.7301154,
@@ -4615,7 +4626,7 @@
   "401856853": 1794016539.1053433,
   "401856854": 1794016540.5596106,
   "401856855": 1794016538.8386652,
-  "401856856": 1794013953.2430317,
+  "401856856": 1794017720.18901,
   "401858286": 1794016540.0282626,
   "401858287": 1794016833.6788285,
   "401858288": 1794009020.4478433,
@@ -4633,14 +4644,14 @@
   "401858517": 1794016542.7959337,
   "401860911": 1794017430.0725093,
   "401860912": 1794016835.2634964,
-  "401860913": 1794013953.5189018,
+  "401860913": 1794017720.703802,
   "401862818": 1794009021.12255,
   "401862819": 1794017428.4115593,
   "401862820": 1794017428.6018686,
   "401862821": 1794016541.814936,
   "401862822": 1794016539.958352,
   "401862823": 1794016834.9594996,
-  "401864532": 1794013953.709127,
+  "401864532": 1794017721.109668,
   "401864533": 1794016538.7699385,
   "401864534": 1794016541.8794816,
   "401869927": 1794016541.3449156,
@@ -4648,7 +4659,7 @@
   "401869945": 1794016540.9530685,
   "401869951": 1794017429.1352835,
   "401869968": 1794017429.5160317,
-  "401870795": 1794013952.9671555,
+  "401870795": 1794017719.9394631,
   "401871073": 1794017426.1118207,
   "401871074": 1794016542.2728426,
   "401871075": 1794016542.992995,
