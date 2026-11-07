@@ -1,5 +1,29 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
+Steve Angeli: Trending toward playing in Week 10  
+Angeli (undisclosed) is listed as probable for Saturday's clash with Clemson, per the ACC availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Clemson Tigers  
+→ Check the line NOW before it moves.
+
+**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
+Isaac Brown: Question mark to play Saturday  
+Brown (undisclosed) has been downgraded to questionable for Saturday's game versus Georgia Tech, per the ACC availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Georgia Bulldogs  
+📊 Bulldogs @ Rebels: MISS +3.5, O/U 56.5 (first seen MISS +3.5, O/U 56.5) → ⏱️ hasn't moved yet. If this player matters, the early window is NOW.
+
+**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
+Lawayne McCoy: Will sit out Saturday  
+McCoy (knee) is unavailable for Saturday's matchup at Georgia Tech, per the ACC availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Georgia Bulldogs  
+📊 Bulldogs @ Rebels: MISS +3.5, O/U 56.5 (first seen MISS +3.5, O/U 56.5) → ⏱️ hasn't moved yet. If this player matters, the early window is NOW.
+
 **2026-11-06 16:55 PT · 📏 Closing line**  
 76ers -2.5 @ CLE (T103)  
 You: -2.5 -110 · DK then -2.5 -110 (gap +0.0%)  
