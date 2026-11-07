@@ -2270,6 +2270,21 @@
    "spread_home": -29.5,
    "total": 156.5
   },
+  "401909938": {
+   "date": "2026-11-07T22:00Z",
+   "ml_away": -237.0,
+   "ml_draw": null,
+   "ml_home": 196.0,
+   "open": {
+    "ml_away": -237.0,
+    "ml_draw": null,
+    "ml_home": 196.0,
+    "spread_home": 6.5,
+    "total": 228.5
+   },
+   "spread_home": 6.5,
+   "total": 228.5
+  },
   "401918948": {
    "date": "2026-11-07T17:00Z",
    "ml_away": null,
@@ -2669,6 +2684,7 @@
   "401909295": true,
   "401909772": true,
   "401909785": true,
+  "401909938": true,
   "401918948": true,
   "401920423": true,
   "401920685": true,
@@ -3574,7 +3590,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:35:12.679543-08:00",
+ "last_run": "2026-11-06T17:40:14.160763-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4281,6 +4297,8 @@
   "cbb164583",
   "cbb164585",
   "cbb164589",
+  "cbb164593",
+  "cbb164594",
   "cfb238565",
   "cfb238566",
   "cfb238567",
