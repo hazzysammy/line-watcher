@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:55 PT · 📈 Line move**  
+CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)  
+Spread LOU -36.5 → -38.5 (money on Cardinals)  
+Now: LOU -38.5 · O/U 152.5 · ML MORE — / LOU —  
+🧠 ❌ Doesn't meet any of our criteria · No news found → likely sharp money  
+👉 PASS — just watch lineups at tip; I'll ping if news makes it a bet
+
 **2026-11-07 05:45 PT · 📈 Line move**  
 BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
 ML Mainz +550 → +750  
@@ -2060,15 +2067,5 @@ Model 13.8 vs line 12.5 (secondary check)
 • season avg 14.4  
 • market moving our way  
 • model agrees: proj 13.8 (+3% edge)  
-Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Emanuel Sharp UNDER 5.5 points (-115) · SA @ SAC  
-Model 4.6 vs line 5.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 3.8 vs line 5.5  
-• season avg 4.4  
-• market moving our way  
-• model agrees: proj 4.6 (+3% edge)  
 Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
