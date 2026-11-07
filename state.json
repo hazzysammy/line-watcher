@@ -2736,7 +2736,7 @@
    "Seattle Seahawks|Sam Darnold": "Out \u00a6 Darnold (quadriceps), who has been ruled out for Sunday's game against the Cardinals, is considered week-to-we",
    "Seattle Seahawks|Tory Horton": "Active \u00a6 Horton recorded three receptions for 26 yards on six targets in Monday's 34-17 loss to the Bears.",
    "Seattle Seahawks|Uchenna Nwosu": "Out \u00a6 out",
-   "Seattle Seahawks|Velus Jones Jr.": "Questionable \u00a6 questionable",
+   "Seattle Seahawks|Velus Jones Jr.": "Active",
    "Seattle Seahawks|Zach Charbonnet": "Active \u00a6 Charbonnet (knee) rushed six times for 23 yards and brought in three of four targets for six yards in the Seah",
    "Tampa Bay Buccaneers|Alex Anzalone": "Active \u00a6 Anzalone recorded six total tackles (three solo) and two interceptions in Sunday's 16-0 win over the Falcons.",
    "Tampa Bay Buccaneers|Antoine Winfield Jr.": "Active \u00a6 Winfield (ribs) was a full participant in Wednesday's practice, Brianna Dix of the Buccaneers' official site r",
@@ -2815,7 +2815,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T16:35:14.196631-08:00",
+ "last_run": "2026-11-06T16:40:19.571421-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3338,7 +3338,8 @@
   "50402905",
   "50403107",
   "50403192",
-  "50403210"
+  "50403210",
+  "50403255"
  ],
  "props": {
   "T103": {
