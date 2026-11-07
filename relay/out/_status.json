@@ -1,13 +1,10 @@
 {
- "id": "r10",
- "done": "2026-11-07T00:58:42Z",
+ "id": "r11",
+ "done": "2026-11-07T00:59:31Z",
  "results": {
-  "t_torvik": "ERR HTTP Error 403: Forbidden",
-  "t_torvik26": "ERR HTTP Error 403: Forbidden",
-  "t_nflverse": "ERR HTTP Error 404: Not Found",
-  "t_understat": "ok",
-  "t_soc_gl": "ok",
-  "t_soc_gl2": "ok",
-  "t_cfbd": "ERR HTTP Error 401: Unauthorized"
+  "t_gl_ucl": "ok",
+  "t_gl_s25": "ok",
+  "t_teams_eng": "ok",
+  "t_nfl_team": "ok"
  }
 }
