@@ -24,7 +24,9 @@
   "result": "Loss",
   "final": 19.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "silent": true,
+  "trigger": "model-only"
  },
  {
   "key": "2026-11-07|Cam Spencer|threePointersMade|over",
@@ -51,7 +53,9 @@
   "result": "Loss",
   "final": 1.0,
   "net_units": -0.5,
-  "graded_sent": false
+  "graded_sent": false,
+  "silent": true,
+  "trigger": "model-only"
  },
  {
   "key": "2026-11-07|Darius Acuff|points+rebounds+assists|over",
@@ -75,7 +79,9 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null
+  "result": null,
+  "silent": true,
+  "trigger": "model-only"
  },
  {
   "key": "2026-11-07|Ziaire Williams|threePointersMade|over",
@@ -98,7 +104,9 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null
+  "result": null,
+  "silent": true,
+  "trigger": "model-only"
  },
  {
   "key": "2026-11-07|Julian Champagnie|threePointersMade|over",
@@ -121,7 +129,9 @@
   ],
   "units": 0.5,
   "sent": false,
-  "result": null
+  "result": null,
+  "silent": true,
+  "trigger": "model-only"
  },
  {
   "key": "2026-11-07|Malik Monk|points+rebounds+assists|under",
@@ -146,7 +156,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Stephon Castle|points|under",
@@ -172,7 +183,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Jrue Holiday|rebounds|over",
@@ -198,7 +210,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Keldon Johnson|rebounds|over",
@@ -224,7 +237,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Luka Don\u010di\u0107|points|over",
@@ -250,7 +264,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Stephon Castle|assists|under",
@@ -275,7 +290,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Matisse Thybulle|points|over",
@@ -299,7 +315,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Toumani Camara|threePointersMade|over",
@@ -325,7 +342,8 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Emanuel Sharp|points|under",
@@ -351,7 +369,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Walker Kessler|points|over",
@@ -376,7 +395,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Sandro Mamukelashvili|points|over",
@@ -402,7 +422,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Damian Lillard|rebounds|over",
@@ -428,7 +449,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Ziaire Williams|rebounds|over",
@@ -454,7 +476,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|Victor Wembanyama|threePointersMade|under",
@@ -478,7 +501,8 @@
   "units": 0.5,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  },
  {
   "key": "2026-11-07|LIVE|Toronto Raptors",
@@ -530,6 +554,7 @@
   "units": 1.0,
   "sent": false,
   "result": null,
-  "trigger": "model"
+  "trigger": "model-only",
+  "silent": true
  }
 ]

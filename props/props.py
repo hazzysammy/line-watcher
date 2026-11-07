@@ -237,6 +237,18 @@ def blowout_risk(e):
     """Big spread -> starters may sit the 4th quarter: no OVERS on starters."""
     return e.get("game_spread", 0) >= CFG["blowout_spread"] and e.get("starter") and e["side"] == "over"
 
+def edge_signals(e):
+    """v3: something the line might be WRONG about. Averages/model are support only."""
+    s = []
+    if e.get("news") and e.get("unchanged"): s.append(f'⚡ {e["news"]}, and DK hasn\'t moved this line yet')
+    if e["side"] == "over" and e.get("heavy_last") and e["stat"] in ("points", "points+rebounds+assists"):
+        s.append("📈 backtested: 38+ min last night → +2.0 pts next night (n=208)")
+    if e.get("game_spread", 0) >= CFG["blowout_spread"]:
+        if e["side"] == "under" and e.get("starter"): s.append(f'🧪 untested idea (approved): blowout spot, {e["game_spread"]:g}-pt spread, starter sits late')
+        if e["side"] == "over" and not e.get("starter") and e["stat"] in ("points", "rebounds", "points+rebounds+assists"):
+            s.append(f'🧪 untested idea (approved): blowout spot, {e["game_spread"]:g}-pt spread, bench gets extra minutes')
+    return s
+
 def is_flag(e):
     """Need 2+ of OUR signals, and the model must at least agree (secondary). Hard guards still apply."""
     return len([x for x in primary(e) if not x.startswith("fits your history")]) >= 2 and e["edge"] >= CFG["model_confirm_edge"] and e["price"] is not None and not suspicious(e) \
@@ -298,16 +310,23 @@ def make_flags(edges, now):
     for x in flags: day_count[x["start"][:10]] = day_count.get(x["start"][:10], 0) + 1
     for e in edges:
         sig = signals(e)
-        if not is_flag(e): continue
+        guards_ok = e["price"] is not None and not suspicious(e) and not against(e) and not blowout_risk(e) \
+            and CFG["price_min"] <= e["price"] <= CFG["price_max"]
+        support = [x for x in primary(e) if not x.startswith("fits your history")] + (["model agrees"] if e["edge"] >= CFG["model_confirm_edge"] else [])
+        edge_pick = guards_ok and bool(edge_signals(e)) and len(support) >= 1
+        if not (edge_pick or is_flag(e)): continue
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
         day_count[e["start"][:10]] = day_count.get(e["start"][:10], 0) + 1
+        edges_ = edge_signals(e)
         strong = [x for x in primary(e) if not x.startswith("fits your history")]
         units = 1.0 if ((e.get("news") and e.get("unchanged")) or (len(strong) >= 3 and e["edge"] >= 0.04)) else 0.5
         flags.append({"key": key, "created": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "game": e["game"], "start": e["start"],
                       "espn_event": e["espn_event"], "espn_id": e["espn_id"], "player": e["player"], "stat": e["stat"],
                       "side": e["side"], "line": e["line"], "price": e["price"], "proj": e["proj"], "edge": e["edge"],
-                      "signals": sig, "units": units, "sent": False, "result": None, "trigger": "news" if e.get("news") else "model"})
+                      "signals": (edges_ + [s for s in sig if s not in edges_]), "units": units, "sent": False, "result": None,
+                      "trigger": "news" if (e.get("news") and e.get("unchanged")) else ("edge" if edges_ else "model-only"),
+                      "silent": not edges_})
         have.add(key); new.append(flags[-1])
     json.dump(flags, open(f, "w"), indent=1)
     return new

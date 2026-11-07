@@ -881,6 +881,22 @@ def main():
                 print("trigger re-price failed", e)
         for k in [k for k in tb if k < day]: tb.pop(k)
 
+    # ---------- 📒 daily silent "model only" report (9 AM PT) ----------
+    afp0 = os.path.join(HERE, "props", "autoflags.json")
+    if now.hour >= 9 and state.get("mo_report") != now.strftime("%Y-%m-%d") and os.path.exists(afp0):
+        fl = json.load(open(afp0))
+        def rec(rows):
+            w_ = sum(1 for r in rows if r.get("result") == "Win"); l_ = sum(1 for r in rows if r.get("result") == "Loss")
+            u_ = round(sum(r.get("net_units", 0) or 0 for r in rows if r.get("result")), 2)
+            return f"{w_}-{l_} ({u_:+g}u)"
+        yday = (now - dt.timedelta(days=1)).strftime("%Y-%m-%d")
+        mo = [r for r in fl if r.get("silent") or r.get("trigger") == "model"]
+        ed = [r for r in fl if not (r.get("silent") or r.get("trigger") == "model")]
+        mo_y = [r for r in mo if r["start"][:10] <= yday and dt.datetime.fromisoformat(r["start"].replace("Z", "+00:00")).astimezone(PT).strftime("%Y-%m-%d") == yday]
+        alerts.append((2, "📒 Daily Alert Pick report", f"Model-only picks (silent) yesterday: {rec(mo_y)} · all-time: {rec(mo)}\n"
+                       f"Edge Alert Picks (the ones you get pinged for) all-time: {rec(ed)}\nFull list: Sammy's Bet Tracker → Alert Pick track record"))
+        state["mo_report"] = now.strftime("%Y-%m-%d")
+
     # ---------- grade finished Alert Picks hourly (ESPN only, free) ----------
     if time.time() - state.get("last_grade", 0) > 3600 and os.path.exists(os.path.join(HERE, "props", "autoflags.json")):
         try:
@@ -899,11 +915,14 @@ def main():
         for x in json.load(open(afp)):
             nm = (f'{x["player"]} to score (anytime), take at {fmt(x["fair"])} or better' if x["stat"] == "goal" else f'{x["player"]} LIVE moneyline' if x["stat"] == "live_ml" else f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
                   else f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})')
+            if x.get("silent"):
+                sent.add(x["key"]); graded.add(x["key"]) if x.get("result") else None
+                continue
             if x["key"] not in sent and not x.get("result"):
                 st = dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00"))
                 if st > dt.datetime.now(dt.timezone.utc) or x.get("trigger") == "live":
                     u = x["units"]
-                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🔴🤖 LIVE Alert Pick" if x.get("trigger") == "live" else "⚽🤖 Pair Alert Pick" if x.get("trigger") == "pair" else "📈🤖 Trend Alert Pick" if x.get("trigger") == "trend" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
+                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🎯🤖 Alert Pick" if x.get("trigger") == "edge" else "🔴🤖 LIVE Alert Pick" if x.get("trigger") == "live" else "⚽🤖 Pair Alert Pick" if x.get("trigger") == "pair" else "📈🤖 Trend Alert Pick" if x.get("trigger") == "trend" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
                                    + (f'Model {x["proj"]} vs line {x["line"]:g} (secondary check)\n' if x.get("proj") is not None else "")
                                    + "\n".join("• " + s for s in x["signals"])
                                    + f'\nSize: {u:g}u (${u*10:g}) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.'))
