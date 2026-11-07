@@ -264,5 +264,7 @@
   "star_ppg": 18,
   "live_fav_spread": 6,
   "live_deficit": 10,
-  "live_budget_per_day": 10
+  "live_budget_per_day": 10,
+  "pair_digest_test": "am",
+  "pair_digest_nonce": "t2"
 }

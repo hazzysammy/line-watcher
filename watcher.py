@@ -912,7 +912,7 @@ def main():
 
         # ---------- 🔗 Pair digest: 7 AM (today) and 9 PM (tomorrow), both players on the list ----------
         slot = CFG.get("pair_digest_test") or ("am" if now.hour == 7 else "pm" if now.hour == 21 else None)
-        dkey = f'{now:%Y-%m-%d}-{slot}'
+        dkey = f'{now:%Y-%m-%d}-{slot}' + CFG.get("pair_digest_nonce", "")
         if slot and state.get("pair_digest") != dkey:
             target = (now + dt.timedelta(days=1 if slot == "pm" else 0)).date()
             day_of = lambda ev: dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(PT).date()
@@ -949,38 +949,59 @@ def main():
                 return sc[ev["id"]]
             byteam = lambda evs: {t: (lg, ev) for lg, ev in evs for t in (ev["home"], ev["away"])}
             T_now, T_past = byteam(todays), byteam(past)
-            live, upcoming = [], []
+            entries = []   # one per qualifying pair
+            short = lambda n: n if len(n.split()) == 1 else (" ".join(n.split()[1:]) if n.split()[1][:1].islower() else n.split()[-1])
             for p in pairs:
                 if p["B_team"] not in T_now: continue
                 lb, eb = T_now[p["B_team"]]
                 kb = dt.datetime.fromisoformat(eb["date"].replace("Z", "+00:00"))
                 if eb["state"] != "pre" or not listed(p["B"], lb, eb, p["B_team"]): continue
-                fair = american((p["n"] / (p["n"] + 25)) * p["rate"] + (1 - p["n"] / (p["n"] + 25)) * p["B_base"])
-                line = f'{p["B"]} ({kb.astimezone(PT):%-I:%M %p}) · {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%), normally {p["B_base"]*100:.0f}% · fair {fmt(fair)}'
+                w8 = p["n"] / (p["n"] + 25)
+                e0 = {"B": p["B"], "B_team": p["B_team"], "kb": kb, "base": p["B_base"], "A": p["A"], "hits": p["hits"], "n": p["n"], "rate": p["rate"],
+                      "fair": american(w8 * p["rate"] + (1 - w8) * p["B_base"])}
                 if p["A_team"] in T_past:     # A already played: did he score?
                     la, ea = T_past[p["A_team"]]
                     ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
-                    gap = (kb - ka).total_seconds() / 3600
-                    if 2 <= gap <= 36 and listed(p["A"], la, ea, p["A_team"]):
-                        n = norm(p["A"])
-                        if any(n == x or (n.split()[-1] == x.split()[-1] and n[0] == x[:1]) for x in scorers(la, ea)):
-                            live.append((p["rate"], f'✅ {p["A"]} scored ({ka.astimezone(PT):%a}) → {line}'))
+                    if 2 <= (kb - ka).total_seconds() / 3600 <= 36 and listed(p["A"], la, ea, p["A_team"]):
+                        n_ = norm(p["A"])
+                        if any(n_ == x or (n_.split()[-1] == x.split()[-1] and n_[0] == x[:1]) for x in scorers(la, ea)):
+                            entries.append({**e0, "kind": "live", "ka": ka})
                 if p["A_team"] in T_now:      # A plays earlier the same day
                     la, ea = T_now[p["A_team"]]
                     ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
-                    gap = (kb - ka).total_seconds() / 3600
                     need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
-                    if need <= gap <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
-                        upcoming.append((p["rate"], f'{p["A"]} ({ka.astimezone(PT):%-I:%M %p}) → {line}'))
-            if live or upcoming:
-                live.sort(key=lambda x: -x[0]); upcoming.sort(key=lambda x: -x[0])
-                body = f'{target:%a %b %-d} · both players on your FC27 list'
-                if live: body += "\n\n🟢 A ALREADY SCORED, B plays:\n" + "\n".join("• " + x[1] for x in live[:12]) + (f"\n+{len(live)-12} more" if len(live) > 12 else "")
-                if upcoming: body += "\n\n⏳ A plays first, B later (wait for A to score):\n" + "\n".join("• " + x[1] for x in upcoming[:12]) + (f"\n+{len(upcoming)-12} more" if len(upcoming) > 12 else "")
-                body += "\n\n👉 Only bet B at the fair price or better, 0.5u max (anytime goal is your weak market). Confirm B is in the XI ~1 hr before."
-                alerts.append((4, "🔗 Pair digest " + ("today" if slot == "am" else "tomorrow"), body))
-                full = [f"# 🔗 Pair digest · {target:%a %b %-d}", "", "Both players on your FC27 list.", "", "## A already scored, B plays"] + ["- " + x[1] for x in live] + ["", "## A plays first, B later"] + ["- " + x[1] for x in upcoming]
-                open(os.path.join(HERE, "pairs", "digest.md"), "w").write("\n".join(full))
+                    if need <= (kb - ka).total_seconds() / 3600 <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
+                        entries.append({**e0, "kind": "upcoming", "ka": ka})
+            if entries:
+                tm = lambda d: d.astimezone(PT).strftime("%-I:%M %p")
+                blocks = []
+                for kind, head in (("live", "🟢 TRIGGERED: A already scored → bet B"), ("upcoming", "⏳ WATCH: A plays first → bet B only if A scores")):
+                    es = [e for e in entries if e["kind"] == kind]
+                    if not es: continue
+                    blocks.append(head)
+                    byB = {}
+                    for e in es: byB.setdefault(e["B"], []).append(e)
+                    for B, rows in sorted(byB.items(), key=lambda kv: (kv[1][0]["kb"], kv[0])):
+                        rows.sort(key=lambda r: (-r["rate"], -r["n"]))
+                        r0 = rows[0]
+                        lines = [f'⚽ {B.upper()} · {short(r0["B_team"]) if len(r0["B_team"]) > 14 else r0["B_team"]} {tm(r0["kb"])} · normally {r0["base"]*100:.0f}%']
+                        for r in rows:
+                            when = r["ka"].astimezone(PT).strftime("%a") if kind == "live" else tm(r["ka"])
+                            lines.append(f'   ← {short(r["A"])} ({when}) · {r["hits"]}/{r["n"]} = {r["rate"]*100:.0f}% · fair {fmt(r["fair"])}')
+                        blocks.append("\n".join(lines))
+                foot = "👉 Bet B only at the fair price or better · 0.5u max · confirm B starts ~1 hr before"
+                # split into ntfy-sized parts (~3,500 bytes)
+                parts, cur = [], ""
+                for blk in blocks:
+                    if cur and len((cur + "\n\n" + blk).encode()) > 3500: parts.append(cur); cur = blk
+                    else: cur = (cur + "\n\n" + blk) if cur else blk
+                parts.append(cur)
+                nB = len({e["B"] for e in entries})
+                for i, part in enumerate(parts, 1):
+                    ttl = f'🔗 Pair digest {"today" if slot == "am" else "tomorrow"} · {target:%a %b %-d}' + (f" ({i}/{len(parts)})" if len(parts) > 1 else "")
+                    top = f'{len(entries)} pairs · {nB} Player Bs · both on your FC27 list\n\n' if i == 1 else ""
+                    alerts.append((4, ttl, top + part + ("\n\n" + foot if i == len(parts) else "")))
+                open(os.path.join(HERE, "pairs", "digest.md"), "w").write(f"# 🔗 Pair digest · {target:%a %b %-d}\n\n" + "\n\n".join(b.replace("\n", "  \n") for b in blocks))
             state["pair_digest"] = dkey
             for k in [k for k in rc if not k.endswith(day)]: rc.pop(k)
             if len(sc) > 400:
