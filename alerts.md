@@ -1,5 +1,11 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:40 PT · 🌦 Weather game**  
+CFB Fresno State Bulldogs @ Utah State Aggies (Sat 6:30 PM PT)  
+Maverik Stadium — 💨 wind 14 mph (gusts 35)  
+Total 43.5 · USU +1.5  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
 **2026-11-07 05:25 PT · 🌦 Weather game**  
 CFB Florida State Seminoles @ Boston College Eagles (Sat 9:00 AM PT)  
 Alumni Stadium (Chestnut Hill, MA) — 💨 wind 15 mph (gusts 22)  
@@ -2068,12 +2074,4 @@ Model 3.3 vs line 2.5 (secondary check)
 • market moving our way  
 • model agrees: proj 3.3 (+4% edge)  
 Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Matisse Thybulle OVER 6.5 points (-108) · POR @ LAL  
-Model 7.9 vs line 6.5 (secondary check)  
-• last 5 avg 8.0 vs line 6.5  
-• season avg 8.0  
-• model agrees: proj 7.9 (+4% edge)  
-Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
