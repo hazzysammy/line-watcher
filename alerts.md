@@ -1,5 +1,13 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 02:15 PT · 📈 Line move**  
+BUND Eintracht Frankfurt @ SC Paderborn 07 (Sat 6:30 AM PT)  
+ML 07 +195 → +165  
+ML Frankfurt +110 → +130  
+Now: SCP +0.5 · O/U 3.5 · ML SGE +130 / SCP +165  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ underdog band: 36% for you · ⚠ underdog band: 36% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 01:25 PT · 📈 Line move**  
 BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
 Total 4.5 → 3.5 (under money)  
@@ -2082,14 +2090,6 @@ Plays within 36h: Clemson Tigers
 **2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
 Isaac Brown: Question mark to play Saturday  
 Brown (undisclosed) has been downgraded to questionable for Saturday's game versus Georgia Tech, per the ACC availability report.  
-  
-        Visit RotoWire.com for more analysis on this update.  
-Plays within 36h: Georgia Bulldogs  
-📊 Bulldogs @ Rebels: MISS +3.5, O/U 56.5 (first seen MISS +3.5, O/U 56.5) → ⏱️ hasn't moved yet. If this player matters, the early window is NOW.
-
-**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
-Lawayne McCoy: Will sit out Saturday  
-McCoy (knee) is unavailable for Saturday's matchup at Georgia Tech, per the ACC availability report.  
   
         Visit RotoWire.com for more analysis on this update.  
 Plays within 36h: Georgia Bulldogs  
