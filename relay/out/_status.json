@@ -1,13 +1,10 @@
 {
- "id": "r8",
- "done": "2026-11-07T00:30:39Z",
+ "id": "r9",
+ "done": "2026-11-07T00:42:27Z",
  "results": {
-  "s_hsv": "ok",
-  "s_tou": "ok",
-  "s_eve": "ok",
-  "nba_sb": "ok",
-  "nba_inj": "ok",
-  "nfl_sb": "ok",
-  "sgo_sf": "ok"
+  "t_gamelog": "ok",
+  "t_team": "ok",
+  "t_sum": "ok",
+  "t_sgo_nba": "ok"
  }
 }
