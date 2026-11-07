@@ -1517,6 +1517,16 @@
    "at": "2026-11-06 21:30 PT",
    "body": "Model-only picks (silent) yesterday: 0-0 (+0u) \u00b7 all-time: 0-2 (-1u)\nEdge Alert Picks (the ones you get pinged for) all-time: 1-0 (+0.5u)\nFull list: Sammy's Bet Tracker \u2192 Alert Pick track record",
    "title": "\ud83d\udcd2 Daily Alert Pick report"
+  },
+  {
+   "at": "2026-11-06 21:59 PT",
+   "body": "SERIEA Frosinone @ Cagliari (Sat 6:00 AM PT)\nML Cagliari +165 \u2192 +190\nML Frosinone +135 \u2192 +115\nNow: CAG +0.5 \u00b7 O/U 3.5 \u00b7 ML FRO +115 / CAG +190\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 underdog band: 36% for you \u00b7 \u26a0 underdog band: 36% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 21:59 PT",
+   "body": "SERIEA Bologna @ Parma (Sat 9:00 AM PT)\nML Bologna -120 \u2192 -140\nNow: PAR +0.5 \u00b7 O/U 2.5 \u00b7 ML BOL -140 / PAR +360\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 slight-fav band (-101 to -149): only 47% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -1792,9 +1802,9 @@
   },
   "401874791": {
    "date": "2026-11-07T14:00Z",
-   "ml_away": 135.0,
+   "ml_away": 115.0,
    "ml_draw": 255.0,
-   "ml_home": 165.0,
+   "ml_home": 190.0,
    "open": {
     "ml_away": 135.0,
     "ml_draw": 255.0,
@@ -1852,7 +1862,7 @@
   },
   "401874974": {
    "date": "2026-11-07T17:00Z",
-   "ml_away": -120.0,
+   "ml_away": -140.0,
    "ml_draw": 240.0,
    "ml_home": 330.0,
    "open": {
@@ -3005,7 +3015,7 @@
    "Atlanta Falcons|Andy Dalton": "Active",
    "Atlanta Falcons|Anterio Thompson": "Out \u00a6 Thompson posted on social media this week that he was diagnosed with a genetic mutation on his spinal cord in ",
    "Atlanta Falcons|Avieon Terrell": "Active \u00a6 Terrell (back/illness) is active for Sunday's game against Tampa Bay.",
-   "Atlanta Falcons|Beaux Collins": "Injured Reserve \u00a6 Collins (hip) is listed as questionable for Sunday's game against the Bengals in Madrid, Tori McElhaney of the",
+   "Atlanta Falcons|Beaux Collins": "Injured Reserve \u00a6 Collins (hip) is listed as questionable for Sunday's game against the Bengals in Madrid, Spain,, Tori McElhane",
    "Atlanta Falcons|Bijan Robinson": "Active \u00a6 Robinson rushed 19 times for 76 yards and failed to bring in his only target in the Falcons' 16-0 loss to the ",
    "Atlanta Falcons|Billy Bowman Jr.": "Active \u00a6 Bowman was estimated as a full participant in Wednesday's practice.",
    "Atlanta Falcons|Brian Robinson Jr.": "Out \u00a6 Robinson (hamstring) has been ruled out for Sunday's game against the Bengals, Tori McElhaney of the Falcons' ",
@@ -3780,7 +3790,7 @@
   }
  },
  "last_grade": 1794030335.116035,
- "last_run": "2026-11-06T21:55:12.964939-08:00",
+ "last_run": "2026-11-06T21:59:57.505775-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4447,7 +4457,10 @@
   "50405324",
   "50405330",
   "50405401",
-  "50405405"
+  "50405405",
+  "50405411",
+  "50405419",
+  "50405442"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",

@@ -1,5 +1,20 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 21:59 PT · 📈 Line move**  
+SERIEA Bologna @ Parma (Sat 9:00 AM PT)  
+ML Bologna -120 → -140  
+Now: PAR +0.5 · O/U 2.5 · ML BOL -140 / PAR +360  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ slight-fav band (-101 to -149): only 47% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
+**2026-11-06 21:59 PT · 📈 Line move**  
+SERIEA Frosinone @ Cagliari (Sat 6:00 AM PT)  
+ML Cagliari +165 → +190  
+ML Frosinone +135 → +115  
+Now: CAG +0.5 · O/U 3.5 · ML FRO +115 / CAG +190  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ underdog band: 36% for you · ⚠ underdog band: 36% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-06 21:30 PT · 📒 Daily Alert Pick report**  
 Model-only picks (silent) yesterday: 0-0 (+0u) · all-time: 0-2 (-1u)  
 Edge Alert Picks (the ones you get pinged for) all-time: 1-0 (+0.5u)  
