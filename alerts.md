@@ -1,5 +1,8 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:20 PT · 🏥 NBA injury update**  
+Spencer Jones (Denver Nuggets): Out → removed from report (likely available)
+
 **2026-11-06 16:12 PT · ⚡ NCAAB news (RotoWire)**  
 Jack Karasinski: Ruled out Friday  
 Karasinski (concussion) is out for Friday's game against Stony Brook, according to Northwestern's announcement.  
