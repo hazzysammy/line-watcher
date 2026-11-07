@@ -10,5 +10,6 @@
  "price_min": -200,
  "price_max": 150,
  "model_weight": 0.4,
- "max_flags_per_day": 5
+ "max_flags_per_day": 5,
+ "suspicious_gap": 0.3
 }
