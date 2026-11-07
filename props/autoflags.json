@@ -1,1 +1,120 @@
-[]
+[
+ {
+  "key": "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "created": "2026-11-06 16:47 PT",
+  "game": "OKC @ MEM",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909291",
+  "espn_id": "4903027",
+  "player": "Cedric Coward",
+  "stat": "points+rebounds+assists",
+  "side": "over",
+  "line": 23.5,
+  "price": -114.0,
+  "proj": 30.0,
+  "edge": 0.088,
+  "signals": [
+   "model edge +9% (proj 30.0 vs 23.5)",
+   "last 5 avg 27.0",
+   "Isaiah Stewart, Scotty Pippen Jr. out",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Cam Spencer|threePointersMade|over",
+  "created": "2026-11-06 16:47 PT",
+  "game": "OKC @ MEM",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909291",
+  "espn_id": "4433083",
+  "player": "Cam Spencer",
+  "stat": "threePointersMade",
+  "side": "over",
+  "line": 1.5,
+  "price": 131.0,
+  "proj": 2.0,
+  "edge": 0.081,
+  "signals": [
+   "model edge +8% (proj 2.0 vs 1.5)",
+   "last 5 avg 1.6",
+   "Isaiah Stewart, Scotty Pippen Jr. out",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Darius Acuff|points+rebounds+assists|over",
+  "created": "2026-11-06 16:47 PT",
+  "game": "SA @ SAC",
+  "start": "2026-11-07T03:00Z",
+  "espn_event": "401909295",
+  "espn_id": "5142620",
+  "player": "Darius Acuff",
+  "stat": "points+rebounds+assists",
+  "side": "over",
+  "line": 34.5,
+  "price": -107.0,
+  "proj": 41.1,
+  "edge": 0.074,
+  "signals": [
+   "model edge +7% (proj 41.1 vs 34.5)",
+   "last 5 avg 40.4",
+   "De'Andre Hunter out",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Ziaire Williams|threePointersMade|over",
+  "created": "2026-11-06 16:47 PT",
+  "game": "POR @ LAL",
+  "start": "2026-11-07T03:00Z",
+  "espn_event": "401909294",
+  "espn_id": "4433137",
+  "player": "Ziaire Williams",
+  "stat": "threePointersMade",
+  "side": "over",
+  "line": 1.5,
+  "price": 128.0,
+  "proj": 1.9,
+  "edge": 0.068,
+  "signals": [
+   "model edge +7% (proj 1.9 vs 1.5)",
+   "last 5 avg 2.0",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Julian Champagnie|threePointersMade|over",
+  "created": "2026-11-06 16:47 PT",
+  "game": "SA @ SAC",
+  "start": "2026-11-07T03:00Z",
+  "espn_event": "401909295",
+  "espn_id": "4592479",
+  "player": "Julian Champagnie",
+  "stat": "threePointersMade",
+  "side": "over",
+  "line": 2.5,
+  "price": 126.0,
+  "proj": 3.0,
+  "edge": 0.065,
+  "signals": [
+   "model edge +6% (proj 3.0 vs 2.5)",
+   "last 5 avg 3.0",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ }
+]
