@@ -1,7 +1,13 @@
 {
- "id": "r7",
- "done": "2026-11-07T00:08:41Z",
+ "id": "r8",
+ "done": "2026-11-07T00:30:39Z",
  "results": {
-  "sgo_ncaab_eve": "ok"
+  "s_hsv": "ok",
+  "s_tou": "ok",
+  "s_eve": "ok",
+  "nba_sb": "ok",
+  "nba_inj": "ok",
+  "nfl_sb": "ok",
+  "sgo_sf": "ok"
  }
 }
