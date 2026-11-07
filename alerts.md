@@ -1,5 +1,590 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Maximilian Beier scores: 4/8 (50%) · Anders Dreyer normally 38%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Antoine Semenyo scores: 4/8 (50%) · Anders Dreyer normally 38%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Antoine Semenyo scores: 4/8 (50%) · Anders Dreyer normally 38%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Cole Palmer scores: 4/8 (50%) · Denis Bouanga normally 47%  
+A: Everton @ Chelsea Sat 4:45 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Viktor Gyökeres scores: 4/8 (50%) · Denis Bouanga normally 47%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Jude Bellingham scores: 4/8 (50%) · Denis Bouanga normally 47%  
+A: Real Madrid @ Valencia Sat 12:00 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ermedin Demirović scores after Eberechi Eze scores: 4/8 (50%) · Ermedin Demirović normally 31%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Son Heung Min scores after Danny Welbeck scores: 4/8 (50%) · Son Heung Min normally 33%  
+A: Everton @ Chelsea Sat 4:45 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Son Heung Min scores after Jonathan Burkardt scores: 4/8 (50%) · Son Heung Min normally 33%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Rodrigo Zalazar scores after Jonathan Burkardt scores: 4/8 (50%) · Rodrigo Zalazar normally 34%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Nico Williams scores after Harvey Barnes scores: 4/8 (50%) · Nico Williams normally 17%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Eberechi Eze scores: 4/8 (50%) · Deniz Undav normally 35%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Victor Osimhen scores after Erling Haaland scores: 4/8 (50%) · Victor Osimhen normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Amed SFK @ Galatasaray Sat 8:00 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Yoane Wissa scores: 4/8 (50%) · Lionel Messi normally 59%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Jude Bellingham scores after Yoane Wissa scores: 4/8 (50%) · Jude Bellingham normally 24%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Maximilian Beier scores: 4/8 (50%) · Erling Haaland normally 52%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Eberechi Eze scores: 5/10 (50%) · Anders Dreyer normally 38%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Maximilian Beier scores: 5/10 (50%) · Denis Bouanga normally 47%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Rodrigo Zalazar scores: 5/10 (50%) · Denis Bouanga normally 47%  
+A: Moreirense @ Sporting CP Sat 12:30 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Eberechi Eze scores: 5/10 (50%) · Denis Bouanga normally 47%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Erling Haaland scores: 5/10 (50%) · Deniz Undav normally 35%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Maximilian Beier scores: 5/10 (50%) · Lionel Messi normally 59%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Serge Gnabry scores: 5/10 (50%) · Kylian Mbappé normally 59%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Danny Welbeck scores: 6/12 (50%) · Anders Dreyer normally 38%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Antoine Semenyo scores: 6/12 (50%) · Denis Bouanga normally 47%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Antoine Semenyo scores: 6/12 (50%) · Denis Bouanga normally 47%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Ermedin Demirović scores: 7/14 (50%) · Anders Dreyer normally 38%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Son Heung Min scores after Kylian Mbappé scores: 7/14 (50%) · Son Heung Min normally 33%  
+A: Real Madrid @ Valencia Sat 12:00 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Rodrigo Zalazar scores after Ante Budimir scores: 7/14 (50%) · Rodrigo Zalazar normally 34%  
+A: Athletic Club @ Osasuna Sat 9:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Danny Welbeck scores: 8/16 (50%) · Denis Bouanga normally 47%  
+A: Everton @ Chelsea Sat 4:45 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Victor Osimhen scores: 9/18 (50%) · Denis Bouanga normally 47%  
+A: Amed SFK @ Galatasaray Sat 8:00 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Erling Haaland scores: 11/22 (50%) · Denis Bouanga normally 47%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Erling Haaland scores: 11/22 (50%) · Denis Bouanga normally 47%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Harry Kane scores: 15/30 (50%) · Lionel Messi normally 59%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Victor Osimhen scores: 8/15 (53%) · Lionel Messi normally 59%  
+A: Amed SFK @ Galatasaray Sat 8:00 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Rodrigo Zalazar scores after Ermedin Demirović scores: 7/13 (54%) · Rodrigo Zalazar normally 34%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Ante Budimir scores: 7/13 (54%) · Lionel Messi normally 59%  
+A: Athletic Club @ Osasuna Sat 9:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Harry Kane scores: 13/24 (54%) · Deniz Undav normally 35%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Deniz Undav scores: 6/11 (55%) · Anders Dreyer normally 38%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ermedin Demirović scores after Danny Welbeck scores: 6/11 (55%) · Ermedin Demirović normally 31%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ermedin Demirović scores after Erling Haaland scores: 6/11 (55%) · Ermedin Demirović normally 31%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Danny Welbeck scores: 6/11 (55%) · Ante Budimir normally 44%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Rodrigo Zalazar scores after Deniz Undav scores: 6/11 (55%) · Rodrigo Zalazar normally 34%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Danny Welbeck scores: 6/11 (55%) · Deniz Undav normally 35%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Jonathan Burkardt scores: 6/11 (55%) · Deniz Undav normally 35%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Antoine Semenyo scores: 6/11 (55%) · Lionel Messi normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Antoine Semenyo scores: 6/11 (55%) · Lionel Messi normally 59%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Harry Kane scores: 11/20 (55%) · Ante Budimir normally 44%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Serge Gnabry scores: 5/9 (56%) · Anders Dreyer normally 38%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Yoane Wissa scores: 5/9 (56%) · Denis Bouanga normally 47%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Deniz Undav scores after Antoine Semenyo scores: 5/9 (56%) · Deniz Undav normally 35%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Werder Bremen @ VfB Stuttgart Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Bukayo Saka scores: 5/9 (56%) · Lionel Messi normally 59%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Viktor Gyökeres scores: 5/9 (56%) · Erling Haaland normally 52%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Harvey Barnes scores: 5/9 (56%) · Kylian Mbappé normally 59%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Ermedin Demirović scores: 9/16 (56%) · Lionel Messi normally 59%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Jonathan Burkardt scores: 9/16 (56%) · Lionel Messi normally 59%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Harry Kane scores: 13/23 (56%) · Erling Haaland normally 52%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Ermedin Demirović scores: 8/14 (57%) · Denis Bouanga normally 47%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Bukayo Saka scores: 8/14 (57%) · Denis Bouanga normally 47%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Kylian Mbappé scores: 15/26 (58%) · Denis Bouanga normally 47%  
+A: Real Madrid @ Valencia Sat 12:00 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Erling Haaland scores: 11/19 (58%) · Lionel Messi normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Erling Haaland scores: 11/19 (58%) · Lionel Messi normally 59%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Anders Dreyer scores after Rodrigo Zalazar scores: 7/12 (58%) · Anders Dreyer normally 38%  
+A: Moreirense @ Sporting CP Sat 12:30 PM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Ante Budimir scores: 7/12 (58%) · Denis Bouanga normally 47%  
+A: Athletic Club @ Osasuna Sat 9:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Serhou Guirassy scores: 7/12 (58%) · Ante Budimir normally 44%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Erling Haaland scores: 7/12 (58%) · Ante Budimir normally 44%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Donyell Malen scores after Victor Osimhen scores: 7/12 (58%) · Donyell Malen normally 50%  
+A: Amed SFK @ Galatasaray Sat 8:00 AM · B: Sassuolo @ AS Roma Sat 11:45 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Deniz Undav scores: 7/12 (58%) · Lionel Messi normally 59%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Danny Welbeck scores: 7/12 (58%) · Erling Haaland normally 52%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Jonathan Burkardt scores: 7/12 (58%) · Erling Haaland normally 52%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Antoine Semenyo scores: 7/12 (58%) · Kylian Mbappé normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Antoine Semenyo scores: 7/12 (58%) · Kylian Mbappé normally 59%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Jonathan Burkardt scores: 10/17 (59%) · Kylian Mbappé normally 59%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Deniz Undav scores: 6/10 (60%) · Denis Bouanga normally 47%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Rodrigo Zalazar scores after João Pedro scores: 6/10 (60%) · Rodrigo Zalazar normally 34%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Donyell Malen scores after Harry Kane scores: 9/15 (60%) · Donyell Malen normally 50%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Sassuolo @ AS Roma Sat 11:45 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Serhou Guirassy scores: 9/15 (60%) · Erling Haaland normally 52%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Erling Haaland scores: 12/20 (60%) · Kylian Mbappé normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Erling Haaland scores: 12/20 (60%) · Kylian Mbappé normally 59%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Luis Javier Suárez scores: 11/18 (61%) · Denis Bouanga normally 47%  
+A: Moreirense @ Sporting CP Sat 12:30 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Maximilian Beier scores: 5/8 (62%) · Ante Budimir normally 44%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Morgan Rogers scores: 5/8 (62%) · Erling Haaland normally 52%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Harry Wilson scores: 5/8 (62%) · Kylian Mbappé normally 59%  
+A: Tottenham Hotspur @ Leeds United Sat 4:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Jonathan Burkardt scores: 10/16 (62%) · Denis Bouanga normally 47%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Serhou Guirassy scores: 15/24 (62%) · Lionel Messi normally 59%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Harry Kane scores: 19/30 (63%) · Kylian Mbappé normally 59%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Victor Osimhen scores: 7/11 (64%) · Luis Javier Suárez normally 60%  
+A: Amed SFK @ Galatasaray Sat 8:00 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Serhou Guirassy scores: 14/22 (64%) · Kylian Mbappé normally 59%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Danny Welbeck scores: 9/14 (64%) · Lionel Messi normally 59%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Serge Gnabry scores: 6/9 (67%) · Ante Budimir normally 44%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Yoane Wissa scores: 6/9 (67%) · Kylian Mbappé normally 59%  
+A: Newcastle United @ Fulham Sat 7:00 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Jonathan Burkardt scores: 10/15 (67%) · Ante Budimir normally 44%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after João Pedro scores: 9/13 (69%) · Lionel Messi normally 59%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Ante Budimir scores: 9/13 (69%) · Kylian Mbappé normally 59%  
+A: Athletic Club @ Osasuna Sat 9:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Serge Gnabry scores: 7/10 (70%) · Erling Haaland normally 52%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Ermedin Demirović scores: 7/10 (70%) · Kylian Mbappé normally 59%  
+A: Werder Bremen @ VfB Stuttgart Sat 9:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Phil Foden scores: 7/10 (70%) · Kylian Mbappé normally 59%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Phil Foden scores: 7/10 (70%) · Kylian Mbappé normally 59%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Lionel Messi scores: 21/29 (72%) · Denis Bouanga normally 47%  
+A: Charlotte FC @ Inter Miami CF Sat 1:00 PM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Denis Bouanga scores after Serge Gnabry scores: 8/11 (73%) · Denis Bouanga normally 47%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: LAFC @ Seattle Sounders FC Sat 4:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after João Pedro scores: 8/11 (73%) · Ante Budimir normally 44%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Jamal Musiala scores: 6/8 (75%) · Ante Budimir normally 44%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Danny Welbeck scores: 6/8 (75%) · Luis Javier Suárez normally 60%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Cole Palmer scores: 6/8 (75%) · Erling Haaland normally 52%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after Bukayo Saka scores: 6/8 (75%) · Erling Haaland normally 52%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Eberechi Eze scores: 6/8 (75%) · Kylian Mbappé normally 59%  
+A: Hull City @ Arsenal Sat 7:00 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Erling Haaland scores after João Pedro scores: 12/16 (75%) · Erling Haaland normally 52%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Manchester City @ Nottingham Forest Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Harry Kane scores: 15/20 (75%) · Luis Javier Suárez normally 60%  
+A: Bayern Munich @ Mainz Sat 6:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Ante Budimir scores after Cole Palmer scores: 7/9 (78%) · Ante Budimir normally 44%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Athletic Club @ Osasuna Sat 9:30 AM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Serhou Guirassy scores: 7/9 (78%) · Luis Javier Suárez normally 60%  
+A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Morgan Rogers scores: 7/9 (78%) · Kylian Mbappé normally 59%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Kylian Mbappé scores after Victor Osimhen scores: 11/14 (79%) · Kylian Mbappé normally 59%  
+A: Amed SFK @ Galatasaray Sat 8:00 AM · B: Real Madrid @ Valencia Sat 12:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Erling Haaland scores: 9/11 (82%) · Luis Javier Suárez normally 60%  
+A: West Ham United @ Manchester City Sat 4:45 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Erling Haaland scores: 9/11 (82%) · Luis Javier Suárez normally 60%  
+A: Manchester City @ Nottingham Forest Sat 9:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Ante Budimir scores: 7/8 (88%) · Luis Javier Suárez normally 60%  
+A: Athletic Club @ Osasuna Sat 9:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Lionel Messi scores after Morgan Rogers scores: 7/8 (88%) · Lionel Messi normally 59%  
+A: Everton @ Chelsea Sat 4:45 AM · B: Charlotte FC @ Inter Miami CF Sat 1:00 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
+**2026-11-06 17:35 PT · 🔗 Scorer pair today**  
+Luis Javier Suárez scores after Jonathan Burkardt scores: 9/9 (100%) · Luis Javier Suárez normally 60%  
+A: Eintracht Frankfurt @ SC Paderborn 07 Sat 6:30 AM · B: Moreirense @ Sporting CP Sat 12:30 PM PT  
+→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).
+
 **2026-11-06 17:30 PT · 🔴🤖 LIVE Alert Pick**  
 Toronto Raptors LIVE moneyline · TOR @ MIL  
 • Raptors were 7.5-pt favorites before tip  
