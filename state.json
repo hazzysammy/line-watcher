@@ -3015,6 +3015,7 @@
    "Baltimore Ravens|Devontez Walker": "Active \u00a6 Walker didn't garner a target in Thursday night's 33-10 loss to the Jaguars.",
    "Baltimore Ravens|Elijah Sarratt": "Out \u00a6 inactive",
    "Baltimore Ravens|Emery Jones Jr.": "Out \u00a6 inactive",
+   "Baltimore Ravens|Ja'Kobi Lane": "Active \u00a6 Lane did not draw a target Thursday in a loss to Jacksonville.",
    "Baltimore Ravens|Jacoby Brissett": "Active \u00a6 The Ravens acquired Brissett and a 2027 fifth-round pick from the Cardinals on Friday in exchange for a 2027 f",
    "Baltimore Ravens|Jake Moody": "Active \u00a6 Moody reverted to Baltimore's practice squad Friday, per the NFL's transaction log.",
    "Baltimore Ravens|Jaylinn Hawkins": "Out \u00a6 Hawkins (knee) is officially listed as out for Thursday's game versus the Jaguars, Ryan Mink of the Ravens' of",
@@ -3026,7 +3027,6 @@
    "Baltimore Ravens|Kedon Slovis": "Out \u00a6 Slovis (coach's decision) is inactive for Thursday's game against Jacksonville but will serve as the team's em",
    "Baltimore Ravens|Kyle Hamilton": "Questionable \u00a6 Hamilton (hip) has been ruled out for the remainder of Thursday night's contest against the Jaguars.",
    "Baltimore Ravens|Lamar Jackson": "Injured Reserve \u00a6 The Ravens have officially placed Jackson (thumb) on injured reserve.",
-   "Baltimore Ravens|Malaki Starks": "Active \u00a6 Starks finished Sunday's loss to Buffalo with 10 tackles (five solo).",
    "Baltimore Ravens|Mark Andrews": "Active \u00a6 Andrews secured both targets for 19 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night.",
    "Baltimore Ravens|Nate Wiggins": "Out \u00a6 Wiggins (illness) is inactive for Thursday's game versus the Jaguars.",
    "Baltimore Ravens|Rashod Bateman": "Active \u00a6 Bateman caught one of two targets for six yards in Thursday night's 33-10 loss to the Jaguars.",
@@ -3319,7 +3319,6 @@
    "Jacksonville Jaguars|Cam Little": "Active \u00a6 Little made all four of his field-goal attempts and all three of his extra-point tries in a 33-10 win over Bal",
    "Jacksonville Jaguars|Cam'Ron Silmon-Craig": "Out \u00a6 inactive",
    "Jacksonville Jaguars|Chris Rodriguez Jr.": "Active \u00a6 Rodriguez rushed 10 times for 19 yards and a touchdown and brought in both targets for 13 yards in the Jaguars",
-   "Jacksonville Jaguars|DaVon Hamilton": "Injured Reserve \u00a6 The Jaguars placed Hamilton (knee) on their injured reserve list Tuesday.",
    "Jacksonville Jaguars|Eric Murray": "Injured Reserve \u00a6 The Jaguars placed Murray (elbow) on their injured reserve list Tuesday.",
    "Jacksonville Jaguars|Ezra Cleveland": "Active",
    "Jacksonville Jaguars|Foyesade Oluokun": "Active \u00a6 Oluokun recorded nine total tackles (five solo), including 1.0 sacks, during Sunday's 42-7 win against the Col",
@@ -3329,6 +3328,7 @@
    "Jacksonville Jaguars|Nate Boerkircher": "Active \u00a6 Boerkircher hauled in two of three targets for 61 yards in Thursday night's 33-10 win over Baltimore.",
    "Jacksonville Jaguars|Parker Washington": "Active \u00a6 Washington secured two of seven targets for 61 yards and a touchdown in the Jaguars' 33-10 win over the Ravens",
    "Jacksonville Jaguars|Rayuan Lane III": "Active \u00a6 Lane recorded four total tackles (one solo) and three passes defensed, including a pick-six, during Sunday's 4",
+   "Jacksonville Jaguars|Tanner Koziol": "Active \u00a6 Koziol finished Thursday's 33-10 win over Baltimore with two catches for 15 yards on two targets.",
    "Jacksonville Jaguars|Travis Hunter": "Active \u00a6 Hunter caught his only target for minus-1 yard and lost a fumble in Thursday night's 33-10 win over the Ravens",
    "Jacksonville Jaguars|Travon Walker": "Active \u00a6 Walker (ribs) is available for Thursday's game against Baltimore.",
    "Jacksonville Jaguars|Trevor Lawrence": "Active \u00a6 Lawrence completed 16 of 26 passes for 242 yards with a touchdown and no interceptions while rushing once for ",
@@ -3761,7 +3761,7 @@
   }
  },
  "last_grade": 1794026428.6954005,
- "last_run": "2026-11-06T20:50:14.207794-08:00",
+ "last_run": "2026-11-06T20:55:12.093612-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4411,7 +4411,8 @@
   "50405014",
   "50405019",
   "50405045",
-  "50405060"
+  "50405060",
+  "50405104"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
