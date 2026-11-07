@@ -3754,7 +3754,7 @@
    "Washington Commanders|Chig Okonkwo": "Active \u00a6 Okonkwo tallied two catches (on four targets) for 32 yards during Sunday's 27-10 win versus the Eagles.",
    "Washington Commanders|Daron Payne": "Injured Reserve \u00a6 Payne (foot) underwent season-ending surgery Wednesday, Ben Standig of The Team 980 Washington D.C. reports.",
    "Washington Commanders|Drew Stevens": "Active \u00a6 Stevens made four of his five field-goal attempts and converted his only extra-point try during Sunday's 27-10",
-   "Washington Commanders|Dyami Brown": "Out \u00a6 Brown has been ruled out for Sunday's game against the Rams due to a calf injury.",
+   "Washington Commanders|Dyami Brown": "Out \u00a6 Brown (calf) was injured in practice Thursday, Martenzie Johnson of The Washington Sun reports.",
    "Washington Commanders|Fabian Moreau": "Active",
    "Washington Commanders|Isaac Yiadom": "Active",
    "Washington Commanders|Javon Kinlaw": "Injured Reserve \u00a6 Kinlaw underwent season-ending surgery Tuesday to repair his MCL, Nicki Jhabvala of The Athletic reports.",
@@ -3775,7 +3775,7 @@
   }
  },
  "last_grade": 1794026428.6954005,
- "last_run": "2026-11-06T21:20:14.530942-08:00",
+ "last_run": "2026-11-06T21:25:13.064906-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4433,7 +4433,10 @@
   "50405169",
   "50405225",
   "50405228",
-  "50405254"
+  "50405254",
+  "50405279",
+  "50405289",
+  "50405299"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4890,7 +4893,7 @@
  },
  "wx_checked": {
   "401856738": 1794027932.9760406,
-  "401856739": 1794025518.1298769,
+  "401856739": 1794029120.326015,
   "401856740": 1794028533.7571545,
   "401856741": 1794027960.1293104,
   "401856742": 1794027936.3959987,
@@ -4904,7 +4907,7 @@
   "401856853": 1794027930.1872344,
   "401856854": 1794027933.6479826,
   "401856855": 1794020424.851455,
-  "401856856": 1794025519.1138809,
+  "401856856": 1794029120.5909963,
   "401858286": 1794027931.677879,
   "401858287": 1794027961.2763243,
   "401858288": 1794009020.4478433,
@@ -4922,14 +4925,14 @@
   "401858517": 1794027936.8889823,
   "401860911": 1794028536.7057843,
   "401860912": 1794027962.4389777,
-  "401860913": 1794025519.674048,
+  "401860913": 1794029120.6571252,
   "401862818": 1794009021.12255,
   "401862819": 1794028534.4977133,
   "401862820": 1794028534.9543102,
   "401862821": 1794027935.089941,
   "401862822": 1794027931.3726919,
   "401862823": 1794027962.291732,
-  "401864532": 1794025520.2969687,
+  "401864532": 1794029121.0567534,
   "401864533": 1794016538.7699385,
   "401864534": 1794027935.2130258,
   "401869927": 1794027934.692828,
@@ -4937,7 +4940,7 @@
   "401869945": 1794027934.1779513,
   "401869951": 1794028535.083533,
   "401869968": 1794028536.1847827,
-  "401870795": 1794025518.549931,
+  "401870795": 1794029120.3993726,
   "401871073": 1794028533.6630821,
   "401871074": 1794027935.3671827,
   "401871075": 1794027937.4168727,
