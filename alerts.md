@@ -1,5 +1,23 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 17:25 PT · ⚡ NCAAF news (RotoWire)**  
+Trey'Dez Green: Status murky for Saturday  
+Green has been given a questionable status for Saturday's contest versus Alabama, per the SEC availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: North Texas Mean Green  
+🧠 Means: Trey'Dez Green is uncertain (50/50).  
+👉 Do: don't bet his props or this game yet. Final status usually comes 30–60 min before tip/kickoff, and the watcher will ping you the moment it changes.
+
+**2026-11-06 17:25 PT · ⚡ NCAAF news (RotoWire)**  
+Rocky Beers: Will play Saturday  
+Beers (undisclosed) has been given the green light for Saturday's matchup versus Florida, per the SEC availability report.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: North Texas Mean Green  
+🧠 Means: Rocky Beers PLAYS.  
+👉 Do: if he was doubtful/questionable, the line may move back toward Green. His minutes go UP (his overs); the teammates who covered for him go DOWN (their unders).
+
 **2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
 Victor Wembanyama UNDER 1.5 3-pointers (+121) · SA @ SAC  
 Model 1.6 vs line 1.5 (secondary check)  

@@ -826,6 +826,16 @@
    "at": "2026-11-06 17:20 PT",
    "body": "Victor Wembanyama UNDER 1.5 3-pointers (+121) \u00b7 SA @ SAC\nModel 1.6 vs line 1.5 (secondary check)\n\u2022 market moving our way\n\u2022 blowout risk: 17.5-pt spread, starters sit late (under)\n\u2022 model agrees: proj 1.6 (+2% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
    "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 17:25 PT",
+   "body": "Rocky Beers: Will play Saturday\nBeers (undisclosed) has been given the green light for Saturday's matchup versus Florida, per the SEC availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: North Texas Mean Green\n\ud83e\udde0 Means: Rocky Beers PLAYS.\n\ud83d\udc49 Do: if he was doubtful/questionable, the line may move back toward Green. His minutes go UP (his overs); the teammates who covered for him go DOWN (their unders).",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 17:25 PT",
+   "body": "Trey'Dez Green: Status murky for Saturday\nGreen has been given a questionable status for Saturday's contest versus Alabama, per the SEC availability report.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: North Texas Mean Green\n\ud83e\udde0 Means: Trey'Dez Green is uncertain (50/50).\n\ud83d\udc49 Do: don't bet his props or this game yet. Final status usually comes 30\u201360 min before tip/kickoff, and the watcher will ping you the moment it changes.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
   }
  ],
  "base": {
@@ -2492,7 +2502,7 @@
    "Houston Texans|Naquan Jones": "Active \u00a6 The Texans signed Jones on Monday.",
    "Houston Texans|Nate Thomas": "Active",
    "Houston Texans|Nico Collins": "Active \u00a6 Collins caught two of five targets for six yards in Sunday's 27-21 overtime loss to the Giants.",
-   "Houston Texans|Reed Blankenship": "Out \u00a6 out",
+   "Houston Texans|Reed Blankenship": "Out \u00a6 Blankenship (concussion/hand) has been ruled out to face the Chargers on Sunday.",
    "Houston Texans|Tank Dell": "Active \u00a6 Dell caught his only target for 43 yards and added a two-yard rush during Sunday's 27-21 overtime loss to the ",
    "Houston Texans|Woody Marks": "Active \u00a6 With David Montgomery (groin) again ruled out for Week 9, Marks is expected to remain the Texans' clear RB1 fo",
    "Houston Texans|Xavier Hutchinson": "Active \u00a6 Hutchinson caught three of six targets for 17 yards and a touchdown in Sunday's 27-21 overtime loss to the Gia",
@@ -2973,7 +2983,8 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:20:13.904671-08:00",
+ "last_run": "2026-11-06T17:25:13.474967-08:00",
+ "live_budget": {},
  "news_seen": [
   "29098001",
   "40699880",
@@ -3582,6 +3593,11 @@
   "cfb238614",
   "cfb238615",
   "cfb238616",
+  "cfb238617",
+  "cfb238618",
+  "cfb238619",
+  "cfb238620",
+  "cfb238621",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -3676,6 +3692,116 @@
  },
  "sgo_usage": {
   "2026-11": 11
+ },
+ "team_hist": {
+  "13|2026-11-06": [
+   {
+    "date": "2026-10-29T02:30Z",
+    "margin": 16.0,
+    "opp": "12"
+   },
+   {
+    "date": "2026-10-31T02:00Z",
+    "margin": -17.0,
+    "opp": "9"
+   },
+   {
+    "date": "2026-11-02T02:00Z",
+    "margin": 6.0,
+    "opp": "28"
+   },
+   {
+    "date": "2026-11-03T03:00Z",
+    "margin": 21.0,
+    "opp": "14"
+   },
+   {
+    "date": "2026-11-05T03:00Z",
+    "margin": 13.0,
+    "opp": "23"
+   }
+  ],
+  "22|2026-11-06": [
+   {
+    "date": "2026-10-28T03:00Z",
+    "margin": 7.0,
+    "opp": "13"
+   },
+   {
+    "date": "2026-10-30T02:00Z",
+    "margin": -21.0,
+    "opp": "29"
+   },
+   {
+    "date": "2026-10-31T19:00Z",
+    "margin": 22.0,
+    "opp": "26"
+   },
+   {
+    "date": "2026-11-03T02:00Z",
+    "margin": 8.0,
+    "opp": "7"
+   },
+   {
+    "date": "2026-11-05T02:00Z",
+    "margin": 13.0,
+    "opp": "21"
+   }
+  ],
+  "23|2026-11-06": [
+   {
+    "date": "2026-10-28T00:00Z",
+    "margin": -27.0,
+    "opp": "24"
+   },
+   {
+    "date": "2026-10-30T00:00Z",
+    "margin": -12.0,
+    "opp": "3"
+   },
+   {
+    "date": "2026-11-01T00:00Z",
+    "margin": -31.0,
+    "opp": "29"
+   },
+   {
+    "date": "2026-11-03T01:00Z",
+    "margin": 15.0,
+    "opp": "6"
+   },
+   {
+    "date": "2026-11-05T03:00Z",
+    "margin": -13.0,
+    "opp": "13"
+   }
+  ],
+  "24|2026-11-06": [
+   {
+    "date": "2026-10-28T00:00Z",
+    "margin": 27.0,
+    "opp": "23"
+   },
+   {
+    "date": "2026-10-29T01:00Z",
+    "margin": 6.0,
+    "opp": "26"
+   },
+   {
+    "date": "2026-11-01T00:00Z",
+    "margin": 10.0,
+    "opp": "16"
+   },
+   {
+    "date": "2026-11-03T01:30Z",
+    "margin": 22.0,
+    "opp": "26"
+   },
+   {
+    "date": "2026-11-05T02:30Z",
+    "margin": 1.0,
+    "opp": "6"
+   }
+  ]
  },
  "wx": {
   "401860912:wx": 2,
