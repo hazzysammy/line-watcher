@@ -1,34 +1,90 @@
 {
  "all": {
-  "n": 2,
-  "W": 2,
-  "L": 0,
-  "easy": 2,
-  "normal": 0,
-  "sweat": 0,
-  "bad_beat": 0,
-  "clear_loss": 0,
-  "easy_pct": 1.0,
-  "avg_lock": 0.69,
-  "avg_margin_rel": 0.536,
-  "units": 0.81
+  "n": 23,
+  "W": 10,
+  "L": 13,
+  "easy": 7,
+  "normal": 1,
+  "sweat": 2,
+  "bad_beat": 6,
+  "clear_loss": 7,
+  "easy_pct": 0.3,
+  "avg_lock": 0.74,
+  "avg_margin_rel": -0.13,
+  "units": -2.76
  },
  "by_tag": {
   "\ud83d\udcca Recent form (L5)": {
-   "n": 2,
-   "W": 2,
-   "L": 0,
-   "easy": 2,
+   "n": 20,
+   "W": 8,
+   "L": 12,
+   "easy": 6,
    "normal": 0,
-   "sweat": 0,
-   "bad_beat": 0,
-   "clear_loss": 0,
-   "easy_pct": 1.0,
-   "avg_lock": 0.69,
-   "avg_margin_rel": 0.536,
-   "units": 0.81
+   "sweat": 2,
+   "bad_beat": 6,
+   "clear_loss": 6,
+   "easy_pct": 0.3,
+   "avg_lock": 0.74,
+   "avg_margin_rel": -0.073,
+   "units": -3.2
+  },
+  "\ud83e\udd16 Model projection": {
+   "n": 20,
+   "W": 7,
+   "L": 13,
+   "easy": 4,
+   "normal": 1,
+   "sweat": 2,
+   "bad_beat": 6,
+   "clear_loss": 7,
+   "easy_pct": 0.2,
+   "avg_lock": 0.77,
+   "avg_margin_rel": -0.196,
+   "units": -4.07
+  },
+  "\ud83d\udcb8 Line move our way": {
+   "n": 17,
+   "W": 6,
+   "L": 11,
+   "easy": 4,
+   "normal": 1,
+   "sweat": 1,
+   "bad_beat": 6,
+   "clear_loss": 5,
+   "easy_pct": 0.24,
+   "avg_lock": 0.77,
+   "avg_margin_rel": -0.176,
+   "units": -2.96
   },
   "\ud83d\udcda Fits your history": {
+   "n": 12,
+   "W": 7,
+   "L": 5,
+   "easy": 4,
+   "normal": 1,
+   "sweat": 2,
+   "bad_beat": 2,
+   "clear_loss": 3,
+   "easy_pct": 0.33,
+   "avg_lock": 0.76,
+   "avg_margin_rel": -0.02,
+   "units": 0.29
+  },
+  "\ud83e\uddea Blowout spot (untested)": {
+   "n": 3,
+   "W": 0,
+   "L": 3,
+   "easy": 0,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 1,
+   "clear_loss": 2,
+   "easy_pct": 0.0,
+   "avg_lock": null,
+   "avg_margin_rel": -0.675,
+   "units": -2.5
+  },
+  "\ud83d\udd34 Live: fav trailing": {
    "n": 1,
    "W": 1,
    "L": 0,
@@ -38,9 +94,9 @@
    "bad_beat": 0,
    "clear_loss": 0,
    "easy_pct": 1.0,
-   "avg_lock": 0.69,
-   "avg_margin_rel": 0.536,
-   "units": 0
+   "avg_lock": 0.7,
+   "avg_margin_rel": null,
+   "units": 0.5
   },
   "\ud83d\udd01 Role up (teammate out)": {
    "n": 1,
@@ -58,6 +114,34 @@
   }
  },
  "by_type": {
+  "\ud83e\udd16 Alert Pick (silent)": {
+   "n": 20,
+   "W": 7,
+   "L": 13,
+   "easy": 4,
+   "normal": 1,
+   "sweat": 2,
+   "bad_beat": 6,
+   "clear_loss": 7,
+   "easy_pct": 0.2,
+   "avg_lock": 0.77,
+   "avg_margin_rel": -0.196,
+   "units": -4.07
+  },
+  "\ud83e\udd16 Alert Pick": {
+   "n": 1,
+   "W": 1,
+   "L": 0,
+   "easy": 1,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 0,
+   "clear_loss": 0,
+   "easy_pct": 1.0,
+   "avg_lock": 0.7,
+   "avg_margin_rel": null,
+   "units": 0.5
+  },
   "\ud83e\uddd1 Your bet": {
    "n": 1,
    "W": 1,
@@ -88,6 +172,370 @@
   }
  },
  "rows": [
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Cedric Coward over 23.5 points+rebounds+assists",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -4.5,
+   "margin_rel": -0.191,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Cam Spencer over 1.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": -0.333,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Darius Acuff over 34.5 points+rebounds+assists",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -1.5,
+   "margin_rel": -0.043,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Ziaire Williams over 1.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.64,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 0.5,
+   "margin_rel": 0.333,
+   "locked_at": 0.72,
+   "cashed_min": 131
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Julian Champagnie over 2.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": -0.2,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Malik Monk under 19.5 points+rebounds+assists",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.39,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history"
+   ],
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": 0.026,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Stephon Castle under 17.5 points",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -1.0,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way",
+    "\ud83e\uddea Blowout spot (untested)"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -1.5,
+   "margin_rel": -0.086,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Jrue Holiday over 3.5 rebounds",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -1.0,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -2.5,
+   "margin_rel": -0.714,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Keldon Johnson over 4.5 rebounds",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.88,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 1.5,
+   "margin_rel": 0.333,
+   "locked_at": 0.67,
+   "cashed_min": 122
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Luka Don\u010di\u0107 over 34.5 points",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.81,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 18.5,
+   "margin_rel": 0.536,
+   "locked_at": 0.69,
+   "cashed_min": 128
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Stephon Castle under 5.5 assists",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -1.0,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83e\uddea Blowout spot (untested)"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -1.5,
+   "margin_rel": -0.273,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Matisse Thybulle over 6.5 points",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -4.5,
+   "margin_rel": -0.692,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Toumani Camara over 2.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.86,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 1.5,
+   "margin_rel": 0.6,
+   "locked_at": 0.98,
+   "cashed_min": 174
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Emanuel Sharp under 5.5 points",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -3.5,
+   "margin_rel": -0.636,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Walker Kessler over 12.5 points",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.44,
+   "tags": [
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udfe1 Normal",
+   "margin": 3.5,
+   "margin_rel": 0.28,
+   "locked_at": 0.78,
+   "cashed_min": 141
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Sandro Mamukelashvili over 7.5 points",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": -0.067,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Damian Lillard over 3.5 rebounds",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -3.5,
+   "margin_rel": -1.0,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Ziaire Williams over 2.5 rebounds",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.41,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": 0.2,
+   "locked_at": 0.76,
+   "cashed_min": 139
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Victor Wembanyama under 1.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcb8 Line move our way",
+    "\ud83e\uddea Blowout spot (untested)"
+   ],
+   "label": "\u274c Clear loss",
+   "margin": -2.5,
+   "margin_rel": -1.667,
+   "locked_at": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick",
+   "pick": "Toronto Raptors away 0 live_ml",
+   "date": "2026-11-07",
+   "result": "Win",
+   "units": 0.5,
+   "tags": [
+    "\ud83d\udd34 Live: fav trailing"
+   ],
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 14.0,
+   "margin_rel": null,
+   "locked_at": 0.7,
+   "cashed_min": 114
+  },
+  {
+   "type": "\ud83e\udd16 Alert Pick (silent)",
+   "pick": "Austin Reaves over 1.5 threePointersMade",
+   "date": "2026-11-07",
+   "result": "Loss",
+   "units": -1.0,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83e\udd16 Model projection",
+    "\ud83d\udcda Fits your history",
+    "\ud83d\udcb8 Line move our way"
+   ],
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": -0.333,
+   "locked_at": null,
+   "cashed_min": null
+  },
   {
    "type": "\ud83e\uddd1 Your bet",
    "pick": "Luka Don\u010di\u0107 over 34.5 pts (T106 leg)",
