@@ -192,7 +192,7 @@ def band_note(p):
     return f"⚠ long-shot band: {pr.get('long','')} for you"
 
 def news_for(ev, log):
-    """Recent news/injury alerts mentioning either team (city or nickname)."""
+    """Real news lines (not game labels) mentioning either team."""
     keys = set()
     for t in (ev["home"], ev["away"]):
         w = t.split()
@@ -201,38 +201,81 @@ def news_for(ev, log):
     hits = []
     for a in log[-80:]:
         if not any(x in a["title"] for x in ("news", "injury", "Weather", "pulled")): continue
-        body = a["body"].lower()
-        if any(k in body for k in keys):
-            line = a["body"].split("\n")[0].replace("🚨⭐ ", "")
-            if line not in hits: hits.append(line)
+        for line in a["body"].split("\n"):
+            l = line.replace("🚨⭐ ", "").strip()
+            if not l or (" @ " in l and "PT)" in l) or l.startswith(("📊", "•", "🧠", "👉")): continue   # skip game labels / our own notes
+            if any(k in l.lower() for k in keys) and l not in hits: hits.append(l[:90])
     return hits[-2:]
 
-def explain_move(ev, mv, o, op, sport, log):
+def _short(t): return t.split()[-1]
+
+def explain_move(ev, mv, o, op, sport, log, state=None):
+    """Compact: what moved, current lines, does it fit our criteria, what to do."""
     if not mv: return ""
-    out = []
+    out, take, do = [], [], None
+    money_on = None
     for kind, old, new in mv:
         if kind == "spread":
-            d = new - old   # home spread got more negative => money on home
-            team, other = (ev["home"], ev["away"]) if d < 0 else (ev["away"], ev["home"])
-            n = abs(d)
-            osp = new if other == ev["home"] else -new
-            better = f"you now lay {n:g} fewer points" if osp < 0 else f"you now get {n:g} more points"
-            out.append(f"💡 Money came in on {team.split()[-1]}. If you like {team.split()[-1]}, the value is mostly gone. "
-                       f"If you like {other.split()[-1]}, {better} than before.")
-            out.append("✅ Spreads are your strongest market (" + CFG.get("profile", {}).get("spread", "") + ")")
+            money_on = ev["home"] if new - old < 0 else ev["away"]
+            out.append(f"Spread {ev['hab']} {fmt(old)} → {fmt(new)} (money on {_short(money_on)})")
         elif kind == "total":
-            if new < old: out.append(f"💡 The market expects LESS scoring (−{old-new:g}). Under value is mostly gone; the over is now {old-new:g} pts cheaper.")
-            else: out.append(f"💡 The market expects MORE scoring (+{new-old:g}). Over value is mostly gone; the under now gets {new-old:g} extra pts.")
+            out.append(f"Total {old:g} → {new:g} ({'under' if new < old else 'over'} money)")
         else:
             team = ev["home"] if kind == "ml_home" else ev["away"]
-            out.append(f"💡 {team.split()[-1]} moneyline {fmt(old)} → {fmt(new)}: " + band_note(new))
+            out.append(f"ML {_short(team)} {fmt(old)} → {fmt(new)}")
+    if op and op.get("spread_home") is not None and op.get("spread_home") != o.get("spread_home") and not any(k == "spread" and op.get("spread_home") == old for k, old, _ in mv):
+        out.append(f"(opened {ev['hab']} {fmt(op.get('spread_home'))})")
+    out.append(f"Now: {ev['hab']} {fmt(o.get('spread_home'))} · O/U {o.get('total') or '—'} · ML {ev['aab']} {fmt(o.get('ml_away'))} / {ev['hab']} {fmt(o.get('ml_home'))}")
+
+    # 1) our backtested NBA trend
+    if sport == "nba" and state is not None and money_on:
+        try:
+            tr = team_trends(ev, state)
+        except Exception:
+            tr = {"home": [], "away": []}
+        for side in ("home", "away"):
+            if not tr.get(side): continue
+            tm = ev[side]; sp = o.get("spread_home"); line = sp if side == "home" else (-sp if sp is not None else None)
+            sig = tr[side][0].split(" (")[0]
+            if tm == money_on:
+                take.append(f"✅ Fits our trend: {_short(tm)} {sig} (55.7% ATS) + money agrees")
+                do = f"BET {_short(tm)} {fmt(line)} 0.5u (Trend Alert Pick)"
+            else:
+                take.append(f"⚠ Trend team {_short(tm)} ({sig}) — money went the OTHER way")
+                do = f"WATCH: {_short(tm)} is now a better number ({fmt(line)}), but trend + market disagree → no bet"
+    # 2) Alert Picks already on this game
+    afp = os.path.join(HERE, "props", "autoflags.json")
+    try:
+        flags = json.load(open(afp)) if os.path.exists(afp) else []
+    except Exception:
+        flags = []
+    for f in flags:
+        if str(f.get("espn_event")) != str(ev["id"]) or f.get("result") or f.get("silent"): continue
+        if f.get("stat") == "spread" and money_on:
+            good = f.get("player") == money_on
+            take.append(f"🤖 Your Alert Pick {_short(f['player'])} {fmt(f.get('line'))}: move is {'WITH it ✅' if good else 'AGAINST it ❌'}")
+        elif f.get("stat") not in ("spread", "live_ml"):
+            take.append(f"🤖 Prop Alert Pick on this game: {f.get('player')} {f.get('side')} {f.get('line')} {f.get('stat')}")
+    # 3) news vs no news
     hits = news_for(ev, log)
-    out.append("🔎 Likely cause: " + " / ".join(hits) if hits else "🔎 No news found in the last few hours → possibly sharp money. Check X before following.")
-    nxt = {"nba": "NBA statuses finalize ~30–60 min before tip.", "nfl": "NFL inactives post 90 min before kickoff.",
-           "soccer": "Lineups post ~60 min before kickoff.", "ncaab": "College lineups aren't official until tip.",
-           "ncaaf": "College injury news often breaks late; check X.", "nhl": "Starting goalies confirm ~1 hr before."}.get(sport, "")
-    if nxt: out.append("👀 Next: " + nxt)
-    return "\n" + "\n".join(out)
+    if hits:
+        take.append("📰 Cause: " + " / ".join(hits))
+        do = do or "PASS — news is already priced in; don't chase the move"
+    else:
+        big = any((k == "spread" and abs(n - o_) >= 2) or (k == "total" and abs(n - o_) >= 3) for k, o_, n in mv)
+        if big: take.append("No news found → likely sharp money")
+    for kind, old, new in mv:
+        if kind.startswith("ml_"):
+            bn = band_note(new)
+            if bn: take.append(bn)
+    if is_fav(ev["home"]) or is_fav(ev["away"]): take.append("⭐ your team")
+    if not [t for t in take if t.startswith(("✅", "⚠ Trend", "🤖"))]:
+        take.insert(0, "❌ Doesn't meet any of our criteria")
+    nxt = {"nba": "statuses ~30–60 min before tip", "nfl": "inactives 90 min before kickoff",
+           "soccer": "lineups ~60 min before kickoff", "ncaab": "lineups at tip",
+           "ncaaf": "late injury news", "nhl": "goalies ~1 hr before"}.get(sport, "news")
+    do = do or f"PASS — just watch {nxt}; I'll ping if news makes it a bet"
+    return "\n" + "\n".join(out) + "\n🧠 " + " · ".join(take) + "\n👉 " + do
 
 PLAYERS = {}
 def load_players():
@@ -422,9 +465,8 @@ def main():
                     b[side] = o[side]
             if msgs:
                 op = b.get("open", {})
-                alerts.append((3, "📈 Line move", f'{label(ev)}\n' + "\n".join(msgs) +
-                               f'\n(first seen: {ev["hab"]} {fmt(op.get("spread_home"))}, O/U {op.get('total') or '—'})'
-                               + explain_move(ev, mv, o, op, lg["sport"], state.get("alert_log", []) + [{"title": a[1], "body": a[2]} for a in alerts])))
+                alerts.append((3, "📈 Line move", label(ev)
+                               + explain_move(ev, mv, o, op, lg["sport"], state.get("alert_log", []) + [{"title": a[1], "body": a[2]} for a in alerts], state)))
             # watchlist rules
             for w in watch:
                 if w.get("type") in ("prop", "bet") or not w.get("active", True) or w.get("id") in fired: continue
