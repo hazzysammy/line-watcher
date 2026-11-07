@@ -1,102 +1,124 @@
 # 🔗 Pair digest · Sat Nov 7
 
-⏳ A PLAYS FIRST → bet B only if A scores
+⏳ IF PLAYER A SCORES → best Player Bs later today
 
-⚽ BUDIMIR 9:30a (normally 44%)  
-  Musiala 6:30a · 6/8 75% · -106  
-  Burkardt 6:30a · 10/15 67% · -110  
-  Gnabry 6:30a · 6/9 67% · +101  
-  Beier 6:30a · 5/8 62% · +107  
-  Guirassy 6:30a · 7/12 58% · +106  
-  Kane 6:30a · 11/20 55% · +105
+🅰️ WILSON 4:30a → if he scores:  
+  Mbappé 12p · 5/8 62% · -150
 
-⚽ UNDAV 9:30a (normally 35%)  
-  Burkardt 6:30a · 6/11 55% · +143  
-  Kane 6:30a · 13/24 54% · +124  
-  Eze 7a · 4/8 50% · +157
+🅰️ MUSIALA 6:30a ⚠ not in last squad → if he scores:  
+  Budimir 9:30a · 6/8 75% · -106
 
-⚽ HAALAND 9:30a (normally 52%)  
-  Saka 7a · 6/8 75% · -138  
-  Gnabry 6:30a · 7/10 70% · -135  
-  Guirassy 6:30a · 9/15 60% · -124  
-  Burkardt 6:30a · 7/12 58% · -119  
-  Kane 6:30a · 13/23 56% · -119  
-  Gyökeres 7a · 5/9 56% · -114  
-  Beier 6:30a · 4/8 50% · -108
+🅰️ GNABRY 6:30a ⚠ not in last squad → if he scores:  
+  Bouanga 4p · 8/11 73% · -123  
+  Haaland 9:30a · 7/10 70% · -135  
+  Budimir 9:30a · 6/9 67% · +101  
+  Dreyer 4p · 5/9 56% · +133  
+  Mbappé 12p · 5/10 50% · -130
 
-⚽ DEMIROVIĆ 9:30a (normally 31%)  
-  Eze 7a · 4/8 50% · +183
+🅰️ BURKARDT 6:30a → if he scores:  
+  Budimir 9:30a · 10/15 67% · -110  
+  Bouanga 4p · 10/16 62% · -114  
+  Mbappé 12p · 10/17 59% · -144  
+  Haaland 9:30a · 7/12 58% · -119  
+  Messi 1p · 9/16 56% · -138  
+  Undav 9:30a · 6/11 55% · +143  
+  Zalazar 12:30p · 4/8 50% · +161
 
-⚽ WILLIAMS 9:30a (normally 17%)  
-  Barnes 7a · 4/8 50% · +300
+🅰️ GUIRASSY 6:30a → if he scores:  
+  Mbappé 12p · 14/22 64% · -158  
+  Messi 1p · 15/24 62% · -155  
+  Haaland 9:30a · 9/15 60% · -124  
+  Budimir 9:30a · 7/12 58% · +106
 
-⚽ MALEN 11:45a (normally 50%)  
-  Kane 6:30a · 9/15 60% · -116  
-  Osimhen 8a · 7/12 58% · -111
+🅰️ KANE 6:30a → if he scores:  
+  Mbappé 12p · 19/30 63% · -159  
+  Malen 11:45a · 9/15 60% · -116  
+  Haaland 9:30a · 13/23 56% · -119  
+  Budimir 9:30a · 11/20 55% · +105  
+  Undav 9:30a · 13/24 54% · +124  
+  Messi 1p · 15/30 50% · -118
 
-⚽ BELLINGHAM 12p (normally 24%)  
-  Wissa 7a · 4/8 50% · +228
+🅰️ BEIER 6:30a → if he scores:  
+  Budimir 9:30a · 5/8 62% · +107  
+  Messi 1p · 5/10 50% · -130  
+  Bouanga 4p · 5/10 50% · +108  
+  Haaland 9:30a · 4/8 50% · -108  
+  Dreyer 4p · 4/8 50% · +143
 
-⚽ MBAPPÉ 12p (normally 59%)  
-  Osimhen 8a · 11/14 79% · -196  
-  Eze 7a · 6/8 75% · -170  
-  Foden 9:30a · 7/10 70% · -165  
-  Demirović 9:30a · 7/10 70% · -165  
-  Budimir 9:30a · 9/13 69% · -168  
-  Wissa 7a · 6/9 67% · -158  
-  Guirassy 6:30a · 14/22 64% · -158  
-  Kane 6:30a · 19/30 63% · -159  
-  Wilson 4:30a · 5/8 62% · -150  
-  Haaland 9:30a · 12/20 60% · -147  
-  Burkardt 6:30a · 10/17 59% · -144  
-  Semenyo 9:30a · 7/12 58% · -143  
-  Barnes 7a · 5/9 56% · -140  
-  Gnabry 6:30a · 5/10 50% · -130
+🅰️ EZE 7a → if he scores:  
+  Mbappé 12p · 6/8 75% · -170  
+  Bouanga 4p · 5/10 50% · +108  
+  Dreyer 4p · 5/10 50% · +140  
+  Undav 9:30a · 4/8 50% · +157  
+  Demirović 9:30a · 4/8 50% · +183
 
-⚽ ZALAZAR 12:30p (normally 34%)  
-  Undav 9:30a · 6/11 55% · +146  
-  Demirović 9:30a · 7/13 54% · +143  
-  Budimir 9:30a · 7/14 50% · +150  
-  Burkardt 6:30a · 4/8 50% · +161
+🅰️ SAKA 7a ⚠ not in last squad → if he scores:  
+  Haaland 9:30a · 6/8 75% · -138  
+  Bouanga 4p · 8/14 57% · -104  
+  Messi 1p · 5/9 56% · -139
 
-⚽ MESSI 1p (normally 59%)  
-  Guirassy 6:30a · 15/24 62% · -155  
-  Undav 9:30a · 7/12 58% · -143  
-  Haaland 9:30a · 11/19 58% · -141  
-  Burkardt 6:30a · 9/16 56% · -138  
-  Demirović 9:30a · 9/16 56% · -138  
-  Saka 7a · 5/9 56% · -139  
-  Semenyo 9:30a · 6/11 55% · -136  
-  Budimir 9:30a · 7/13 54% · -134  
-  Osimhen 8a · 8/15 53% · -132  
-  Kane 6:30a · 15/30 50% · -118  
-  Beier 6:30a · 5/10 50% · -130  
-  Wissa 7a · 4/8 50% · -132
+🅰️ WISSA 7a → if he scores:  
+  Mbappé 12p · 6/9 67% · -158  
+  Bouanga 4p · 5/9 56% · +102  
+  Bellingham 12p · 4/8 50% · +228  
+  Messi 1p · 4/8 50% · -132
 
-⚽ DREYER 4p (normally 38%)  
-  Zalazar 12:30p · 7/12 58% · +123  
-  Gnabry 6:30a · 5/9 56% · +133  
-  Undav 9:30a · 6/11 55% · +131  
-  Demirović 9:30a · 7/14 50% · +135  
-  Eze 7a · 5/10 50% · +140  
-  Semenyo 9:30a · 4/8 50% · +143  
-  Beier 6:30a · 4/8 50% · +143
+🅰️ BARNES 7a → if he scores:  
+  Mbappé 12p · 5/9 56% · -140  
+  Williams 9:30a · 4/8 50% · +300
 
-⚽ BOUANGA 4p (normally 47%)  
-  Gnabry 6:30a · 8/11 73% · -123  
-  Messi 1p · 21/29 72% · -155  
-  Burkardt 6:30a · 10/16 62% · -114  
-  Undav 9:30a · 6/10 60% · -104  
-  Budimir 9:30a · 7/12 58% · -104  
-  Mbappé 12p · 15/26 58% · -111  
-  Saka 7a · 8/14 57% · -104  
-  Demirović 9:30a · 8/14 57% · -104  
-  Wissa 7a · 5/9 56% · +102  
-  Haaland 9:30a · 11/22 50% · +106  
-  Osimhen 8a · 9/18 50% · +106  
-  Semenyo 9:30a · 6/12 50% · +107  
-  Eze 7a · 5/10 50% · +108  
-  Zalazar 12:30p · 5/10 50% · +108  
-  Beier 6:30a · 5/10 50% · +108  
-  Bellingham 12p · 4/8 50% · +108  
-  Gyökeres 7a · 4/8 50% · +108
+🅰️ GYÖKERES 7a → if he scores:  
+  Haaland 9:30a · 5/9 56% · -114  
+  Bouanga 4p · 4/8 50% · +108
+
+🅰️ OSIMHEN 8a → if he scores:  
+  Mbappé 12p · 11/14 79% · -196  
+  Malen 11:45a · 7/12 58% · -111  
+  Messi 1p · 8/15 53% · -132  
+  Bouanga 4p · 9/18 50% · +106
+
+🅰️ FODEN 9:30a → if he scores:  
+  Mbappé 12p · 7/10 70% · -165
+
+🅰️ DEMIROVIĆ 9:30a → if he scores:  
+  Mbappé 12p · 7/10 70% · -165  
+  Bouanga 4p · 8/14 57% · -104  
+  Messi 1p · 9/16 56% · -138  
+  Zalazar 12:30p · 7/13 54% · +143  
+  Dreyer 4p · 7/14 50% · +135
+
+🅰️ BUDIMIR 9:30a → if he scores:  
+  Mbappé 12p · 9/13 69% · -168  
+  Bouanga 4p · 7/12 58% · -104  
+  Messi 1p · 7/13 54% · -134  
+  Zalazar 12:30p · 7/14 50% · +150
+
+🅰️ HAALAND 9:30a → if he scores:  
+  Mbappé 12p · 12/20 60% · -147  
+  Messi 1p · 11/19 58% · -141  
+  Bouanga 4p · 11/22 50% · +106
+
+🅰️ UNDAV 9:30a → if he scores:  
+  Bouanga 4p · 6/10 60% · -104  
+  Messi 1p · 7/12 58% · -143  
+  Zalazar 12:30p · 6/11 55% · +146  
+  Dreyer 4p · 6/11 55% · +131
+
+🅰️ SEMENYO 9:30a ⚠ not in last squad → if he scores:  
+  Mbappé 12p · 7/12 58% · -143  
+  Messi 1p · 6/11 55% · -136  
+  Bouanga 4p · 6/12 50% · +107  
+  Dreyer 4p · 4/8 50% · +143
+
+🅰️ MBAPPÉ 12p → if he scores:  
+  Bouanga 4p · 15/26 58% · -111
+
+🅰️ BELLINGHAM 12p → if he scores:  
+  Bouanga 4p · 4/8 50% · +108
+
+🅰️ ZALAZAR 12:30p → if he scores:  
+  Dreyer 4p · 7/12 58% · +123  
+  Bouanga 4p · 5/10 50% · +108
+
+🅰️ MESSI 1p → if he scores:  
+  Bouanga 4p · 21/29 72% · -155
