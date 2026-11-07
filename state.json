@@ -2896,7 +2896,6 @@
    "Baltimore Ravens|Adam Randall": "Injured Reserve \u00a6 Randall (neck) is officially listed as questionable for Thursday's game versus the Jaguars, Ryan Mink of the R",
    "Baltimore Ravens|Adisa Isaac": "Questionable \u00a6 Isaac (hamstring) is questionable to return to Thursday night's contest against the Jaguars.",
    "Baltimore Ravens|Aeneas Peebles": "Out \u00a6 inactive",
-   "Baltimore Ravens|Austin Reed": "Active \u00a6 Reed was signed off the practice squad to the 53-man roster ahead of Thursday's game against Jacksonville.",
    "Baltimore Ravens|Derrick Henry": "Active \u00a6 Henry rushed 17 times for 57 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night. He also complet",
    "Baltimore Ravens|Devontez Walker": "Active \u00a6 Walker didn't garner a target in Thursday night's 33-10 loss to the Jaguars.",
    "Baltimore Ravens|Elijah Sarratt": "Out \u00a6 inactive",
@@ -2912,6 +2911,7 @@
    "Baltimore Ravens|Kedon Slovis": "Out \u00a6 Slovis (coach's decision) is inactive for Thursday's game against Jacksonville but will serve as the team's em",
    "Baltimore Ravens|Kyle Hamilton": "Questionable \u00a6 Hamilton (hip) has been ruled out for the remainder of Thursday night's contest against the Jaguars.",
    "Baltimore Ravens|Lamar Jackson": "Injured Reserve \u00a6 The Ravens have officially placed Jackson (thumb) on injured reserve.",
+   "Baltimore Ravens|Malaki Starks": "Active \u00a6 Starks finished Sunday's loss to Buffalo with 10 tackles (five solo).",
    "Baltimore Ravens|Mark Andrews": "Active \u00a6 Andrews secured both targets for 19 yards in the Ravens' 33-10 loss to the Jaguars on Thursday night.",
    "Baltimore Ravens|Nate Wiggins": "Out \u00a6 Wiggins (illness) is inactive for Thursday's game versus the Jaguars.",
    "Baltimore Ravens|Rashod Bateman": "Active \u00a6 Bateman caught one of two targets for six yards in Thursday night's 33-10 loss to the Jaguars.",
@@ -3645,7 +3645,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:51:26.910540-08:00",
+ "last_run": "2026-11-06T18:55:12.569730-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4216,7 +4216,10 @@
   "50404152",
   "50404194",
   "50404196",
-  "50404201"
+  "50404201",
+  "50404217",
+  "50404219",
+  "50404225"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
