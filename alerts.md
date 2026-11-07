@@ -1,5 +1,13 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 20:45 PT · 📈 Line move**  
+BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
+ML VFB -155 → -135  
+(first seen: VFB -0.5, O/U 3.5)  
+💡 Stuttgart moneyline -155 → -135: ⚠ slight-fav band (-101 to -149): only 47% for you  
+🔎 No news found in the last few hours → possibly sharp money. Check X before following.  
+👀 Next: Lineups post ~60 min before kickoff.
+
 **2026-11-06 20:40 PT · ✅ Alert Pick graded: Win**  
 Toronto Raptors LIVE moneyline  
 Final: 121-107 · +0.5u
