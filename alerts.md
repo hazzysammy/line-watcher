@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 22:30 PT · 📈 Line move**  
+BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
+Total 3.5 → 4.5 (over money)  
+Now: M05 +1.5 · O/U 4.5 · ML MUN -350 / M05 +650  
+🧠 ❌ Doesn't meet any of our criteria  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-06 22:10 PT · 📈 Line move**  
 CBB New Mexico State Aggies @ Gonzaga Bulldogs (Sat 2:00 PM PT)  
 Total 148.5 → 151.5 (over money)  
@@ -1782,10 +1789,4 @@ ML STR +235 → +200
 
 **2026-11-05 22:47 PT · 🏥 NBA injury update**  
 🚨⭐ Gui Santos (Golden State Warriors): Out → Day-To-Day — Santos (knee) has been ruled out for Thursday's game against the Heat.
-
-**2026-11-05 22:47 PT · 📰 NCAAB news**  
-Krivas scores 30, No. 5 Arizona bounces back from opening loss with 104-84 rout of Cal Poly  
-— Motiejus Krivas scored 30 points, freshman Caleb Holt added 21 and No. 5 Arizona bounced back from a season-opening loss to blow out Cal Poly 104-84 on Thursday night.  
-Plays within 36h: Villanova Wildcats  
-→ Check the line NOW before it moves.
 
