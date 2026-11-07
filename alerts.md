@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 22:10 PT · 📈 Line move**  
+CBB New Mexico State Aggies @ Gonzaga Bulldogs (Sat 2:00 PM PT)  
+Total 148.5 → 151.5 (over money)  
+Now: GONZ -27.5 · O/U 151.5 · ML NMSU +4000 / GONZ -50000  
+🧠 ❌ Doesn't meet any of our criteria · No news found → likely sharp money  
+👉 PASS — just watch lineups at tip; I'll ping if news makes it a bet
+
 **2026-11-06 22:00 PT · 📈 Line move**  
 SERIEA Bologna @ Parma (Sat 9:00 AM PT)  
 ML Bologna -120 → -140  
@@ -1780,10 +1787,5 @@ ML STR +235 → +200
 Krivas scores 30, No. 5 Arizona bounces back from opening loss with 104-84 rout of Cal Poly  
 — Motiejus Krivas scored 30 points, freshman Caleb Holt added 21 and No. 5 Arizona bounced back from a season-opening loss to blow out Cal Poly 104-84 on Thursday night.  
 Plays within 36h: Villanova Wildcats  
-→ Check the line NOW before it moves.
-
-**2026-11-05 22:47 PT · 📰 NBA news**  
-🚨⭐ Stephen Curry scores 29 points as Warriors win 6th straight since 0-3 start, 120-100 over Heat  
-— Stephen Curry scored 29 points, Yaxel Lendeborg added 17 points, eight rebounds and six assists, and the Golden State Warriors won their sixth straight game by beating the Miami Heat 120-100 on Thursday night.  
 → Check the line NOW before it moves.
 
