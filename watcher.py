@@ -979,6 +979,8 @@ def main():
                 if upcoming: body += "\n\n⏳ A plays first, B later (wait for A to score):\n" + "\n".join("• " + x[1] for x in upcoming[:12]) + (f"\n+{len(upcoming)-12} more" if len(upcoming) > 12 else "")
                 body += "\n\n👉 Only bet B at the fair price or better, 0.5u max (anytime goal is your weak market). Confirm B is in the XI ~1 hr before."
                 alerts.append((4, "🔗 Pair digest " + ("today" if slot == "am" else "tomorrow"), body))
+                full = [f"# 🔗 Pair digest · {target:%a %b %-d}", "", "Both players on your FC27 list.", "", "## A already scored, B plays"] + ["- " + x[1] for x in live] + ["", "## A plays first, B later"] + ["- " + x[1] for x in upcoming]
+                open(os.path.join(HERE, "pairs", "digest.md"), "w").write("\n".join(full))
             state["pair_digest"] = dkey
             for k in [k for k in rc if not k.endswith(day)]: rc.pop(k)
             if len(sc) > 400:
