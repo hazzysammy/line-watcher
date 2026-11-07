@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 03:10 PT · 📈 Line move**  
+EPL Aston Villa @ Manchester United (Sun 8:30 AM PT)  
+Total 3.5 → 2.5 (under money)  
+Now: MAN -0.5 · O/U 2.5 · ML AVL +220 / MAN +115  
+🧠 ❌ Doesn't meet any of our criteria  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 03:00 PT · 📈🤖 Trend Alert Pick**  
 New York Knicks -4.5 (-110) · NY @ CLE  
 • coming off a 30-pt WIN (backtest: 55.7% ATS over 567 games, z 2.7)  
@@ -2085,12 +2092,4 @@ Model 15.3 vs line 19.5 (secondary check)
 • season avg 12.7  
 • model agrees: proj 15.3 (+7% edge)  
 Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
-Steve Angeli: Trending toward playing in Week 10  
-Angeli (undisclosed) is listed as probable for Saturday's clash with Clemson, per the ACC availability report.  
-  
-        Visit RotoWire.com for more analysis on this update.  
-Plays within 36h: Clemson Tigers  
-→ Check the line NOW before it moves.
 
