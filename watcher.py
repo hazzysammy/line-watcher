@@ -305,9 +305,8 @@ def team_trends(ev, state):
         sig = []
         if last:
             g = last[-1]
-            if g["margin"] >= 20: sig.append(f'coming off a {g["margin"]:.0f}-pt WIN (our stat: teams cover 61% next game, n=217)')
-            if g["opp"] == str(opp):
-                sig.append("won game 1 of this rematch (our stat: covers 58.5%)" if g["margin"] > 0 else "lost game 1 of this rematch (our stat: only 43.6% cover → fade)")
+            if g["margin"] >= 20: sig.append(f'coming off a {g["margin"]:.0f}-pt WIN (backtest: 55.7% ATS over 567 games, z 2.7)')
+            # rematch angle removed 11/6: 2-season backtest = noise (winners 47.3%, losers 53.3%)
         out[side] = sig
     for k2 in [k2 for k2 in cache if not k2.endswith(day)]: cache.pop(k2)
     return out
