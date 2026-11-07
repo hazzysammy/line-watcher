@@ -1,1 +1,116 @@
-[]
+[
+ {
+  "key": "2026-11-07|Cam Spencer|points+rebounds+assists|over",
+  "created": "2026-11-06 16:46 PT",
+  "game": "OKC @ MEM",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909291",
+  "espn_id": "4433083",
+  "player": "Cam Spencer",
+  "stat": "points+rebounds+assists",
+  "side": "over",
+  "line": 15.5,
+  "price": -120.0,
+  "proj": 22.9,
+  "edge": 0.108,
+  "signals": [
+   "model edge +11% (proj 22.9 vs 15.5)",
+   "last 5 avg 22.2",
+   "Isaiah Stewart, Scotty Pippen Jr. out"
+  ],
+  "units": 1.0,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Ty Jerome|points+rebounds+assists|over",
+  "created": "2026-11-06 16:46 PT",
+  "game": "OKC @ MEM",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909291",
+  "espn_id": "4065733",
+  "player": "Ty Jerome",
+  "stat": "points+rebounds+assists",
+  "side": "over",
+  "line": 29.5,
+  "price": -132.0,
+  "proj": 39.6,
+  "edge": 0.104,
+  "signals": [
+   "model edge +10% (proj 39.6 vs 29.5)",
+   "last 5 avg 32.2",
+   "Isaiah Stewart, Scotty Pippen Jr. out"
+  ],
+  "units": 1.0,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Jeremiah Fears|assists|over",
+  "created": "2026-11-06 16:46 PT",
+  "game": "MIN @ NO",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909293",
+  "espn_id": "5144091",
+  "player": "Jeremiah Fears",
+  "stat": "assists",
+  "side": "over",
+  "line": 3.5,
+  "price": 116.0,
+  "proj": 5.1,
+  "edge": 0.101,
+  "signals": [
+   "model edge +10% (proj 5.1 vs 3.5)",
+   "last 5 avg 6.4"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Malik Monk|points|under",
+  "created": "2026-11-06 16:46 PT",
+  "game": "SA @ SAC",
+  "start": "2026-11-07T03:00Z",
+  "espn_event": "401909295",
+  "espn_id": "4066262",
+  "player": "Malik Monk",
+  "stat": "points",
+  "side": "under",
+  "line": 11.5,
+  "price": -125.0,
+  "proj": 8.6,
+  "edge": 0.093,
+  "signals": [
+   "model edge +9% (proj 8.6 vs 11.5)",
+   "last 5 avg 10.0"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ },
+ {
+  "key": "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "created": "2026-11-06 16:46 PT",
+  "game": "OKC @ MEM",
+  "start": "2026-11-07T01:00Z",
+  "espn_event": "401909291",
+  "espn_id": "4903027",
+  "player": "Cedric Coward",
+  "stat": "points+rebounds+assists",
+  "side": "over",
+  "line": 23.5,
+  "price": -114.0,
+  "proj": 30.0,
+  "edge": 0.088,
+  "signals": [
+   "model edge +9% (proj 30.0 vs 23.5)",
+   "last 5 avg 27.0",
+   "Isaiah Stewart, Scotty Pippen Jr. out",
+   "market moving our way"
+  ],
+  "units": 0.5,
+  "sent": false,
+  "result": null
+ }
+]
