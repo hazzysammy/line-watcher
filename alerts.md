@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 20:30 PT · ⛔ Line pulled**  
+NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
+DK line came OFF the board — check injury/lineup news.
+
 **2026-11-06 19:45 PT · ❌ Bet graded: Loss**  
 76ers -2.5 @ CLE (T103)  
 Final: 95-119  

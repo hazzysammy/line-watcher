@@ -1463,6 +1463,11 @@
    "at": "2026-11-06 19:45 PT",
    "body": "76ers -2.5 @ CLE (T103)\nFinal: 95-119\nNet: $-11\nCLV +1.1%",
    "title": "\u274c Bet graded: Loss"
+  },
+  {
+   "at": "2026-11-06 20:30 PT",
+   "body": "NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
+   "title": "\u26d4 Line pulled"
   }
  ],
  "base": {
@@ -2534,6 +2539,7 @@
  },
  "fired": [
   "401876407ml_home:cut",
+  "401909944:off",
   "401922219:off"
  ],
  "geo": {
@@ -3725,7 +3731,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T20:25:53.015570-08:00",
+ "last_run": "2026-11-06T20:30:26.865533-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4363,7 +4369,10 @@
   "50404897",
   "50404940",
   "50404942",
-  "50404949"
+  "50404949",
+  "50404957",
+  "50404958",
+  "50404979"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4641,6 +4650,7 @@
   "nba537918",
   "nba537919",
   "nba537921",
+  "nba537922",
   "nfl646200",
   "nfl646201",
   "nfl646202",
