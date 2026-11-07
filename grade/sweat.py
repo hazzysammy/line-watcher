@@ -55,8 +55,10 @@ def _score_timeline(plays, sport):
             last = (h, a)
     return out
 
-def _label(win, margin, market, locked_at, line):
-    tol = TOL.get(market, 1)
+def _label(win, margin, market, locked_at, line, tol=None):
+    tol = TOL.get(market, 1) if tol is None else tol
+    if market == "goal" and win:
+        return "🟢 Easy" if locked_at is not None and locked_at <= 0.5 else "🟡 Normal" if locked_at is not None and locked_at <= 0.75 else "🔴 Sweat"
     rel = abs(margin) / max(abs(line), 1) if line else None
     if win is None: return "➖ Push"
     if not win: return "💀 Bad beat" if abs(margin) <= tol else "❌ Clear loss"
@@ -76,6 +78,14 @@ def sweat(summary, bet):
     res = {"margin": None, "margin_rel": None, "locked_at": None, "pct_winning": None, "cashed_min": None, "label": None, "note": ""}
     if m in ("spread", "ml", "total", "team_total"):
         tl = _score_timeline(plays, sport)
+        if not tl and summary.get("keyEvents"):   # soccer: goals from key events
+            hid = next((c["team"]["id"] for c in comp.get("competitors", []) if c.get("homeAway") == "home"), None)
+            h = a = 0.0
+            for k in summary["keyEvents"]:
+                if not k.get("scoringPlay") or k.get("shootout"): continue
+                if (k.get("team") or {}).get("id") == hid: h += 1
+                else: a += 1
+                tl.append((min(1.0, ((k.get("clock") or {}).get("value") or 0) / 5400), h, a, _wall(k)))
         if not tl:   # football: use scoringPlays
             tl = [(_frac(sport, (p.get("period") or {}).get("number", 1), _clock(p)), float(p.get("homeScore", 0)), float(p.get("awayScore", 0)), None)
                   for p in summary.get("scoringPlays", [])]
@@ -87,11 +97,13 @@ def sweat(summary, bet):
                 t = h if bet.get("team_side") == "home" else a
                 return (t - line) if side == "over" else (line - t)
             mine, oth = (h, a) if side == "home" else (a, h)
+            if bet.get("soccer_mkt") == "draw": return 0.5 - abs(mine - oth)
             return mine - oth + (line if m == "spread" else 0)
         final = val(sc["home"], sc["away"])
         res["margin"] = round(final, 1)
         # share of game time in a winning spot + moment it went winning for good
-        prev_f, prev_v, win_time, lock = 0.0, val(0, 0), 0.0, None
+        prev_f, prev_v, win_time = 0.0, val(0, 0), 0.0
+        lock = (0.0, None) if prev_v > 0 else None
         for f, h, a, w in tl:
             if prev_v > 0: win_time += f - prev_f
             v = val(h, a)
@@ -131,7 +143,7 @@ def sweat(summary, bet):
             near = next((f for f, v, w in tl if v >= line - TOL.get(m, 1)), None)
             res["pct_winning"] = round(near if near is not None else 1.0, 2)
     res["margin_rel"] = round(res["margin"] / abs(line), 3) if res["margin"] is not None and line else None
-    res["label"] = _label(win, res["margin"] or 0, m, res["locked_at"], line)
+    res["label"] = _label(win, res["margin"] or 0, m, res["locked_at"], line, 0.5 if sport == "soccer" and m in ("spread", "total", "team_total", "ml") else None)
     if res["locked_at"] is not None:
         res["note"] = (res["note"] + " " if res["note"] else "") + f"locked {int(res['locked_at']*100)}% into the game"
     return res

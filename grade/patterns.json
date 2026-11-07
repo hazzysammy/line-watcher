@@ -1,46 +1,46 @@
 {
  "all": {
-  "n": 23,
-  "W": 10,
-  "L": 13,
-  "easy": 7,
+  "n": 49,
+  "W": 24,
+  "L": 25,
+  "easy": 16,
   "normal": 1,
-  "sweat": 2,
-  "bad_beat": 6,
-  "clear_loss": 7,
-  "easy_pct": 0.3,
-  "avg_lock": 0.74,
-  "avg_margin_rel": -0.13,
-  "units": -2.76
+  "sweat": 7,
+  "bad_beat": 9,
+  "clear_loss": 16,
+  "easy_pct": 0.33,
+  "avg_lock": 0.65,
+  "avg_margin_rel": 0.038,
+  "units": -3.26
  },
  "by_tag": {
   "\ud83d\udcca Recent form (L5)": {
-   "n": 20,
+   "n": 21,
    "W": 8,
-   "L": 12,
+   "L": 13,
    "easy": 6,
    "normal": 0,
    "sweat": 2,
-   "bad_beat": 6,
+   "bad_beat": 7,
    "clear_loss": 6,
-   "easy_pct": 0.3,
+   "easy_pct": 0.29,
    "avg_lock": 0.74,
-   "avg_margin_rel": -0.073,
-   "units": -3.2
+   "avg_margin_rel": -0.074,
+   "units": -3.7
   },
   "\ud83e\udd16 Model projection": {
-   "n": 20,
-   "W": 7,
+   "n": 21,
+   "W": 8,
    "L": 13,
-   "easy": 4,
+   "easy": 5,
    "normal": 1,
    "sweat": 2,
    "bad_beat": 6,
    "clear_loss": 7,
-   "easy_pct": 0.2,
-   "avg_lock": 0.77,
-   "avg_margin_rel": -0.196,
-   "units": -4.07
+   "easy_pct": 0.24,
+   "avg_lock": 0.76,
+   "avg_margin_rel": -0.161,
+   "units": -3.26
   },
   "\ud83d\udcb8 Line move our way": {
    "n": 17,
@@ -57,18 +57,18 @@
    "units": -2.96
   },
   "\ud83d\udcda Fits your history": {
-   "n": 12,
+   "n": 13,
    "W": 7,
-   "L": 5,
+   "L": 6,
    "easy": 4,
    "normal": 1,
    "sweat": 2,
-   "bad_beat": 2,
+   "bad_beat": 3,
    "clear_loss": 3,
-   "easy_pct": 0.33,
+   "easy_pct": 0.31,
    "avg_lock": 0.76,
-   "avg_margin_rel": -0.02,
-   "units": 0.29
+   "avg_margin_rel": -0.025,
+   "units": -0.21
   },
   "\ud83e\uddea Blowout spot (untested)": {
    "n": 3,
@@ -98,19 +98,117 @@
    "avg_margin_rel": null,
    "units": 0.5
   },
-  "\ud83d\udd01 Role up (teammate out)": {
-   "n": 1,
-   "W": 1,
+  "\ud83c\udff7 Moneyline": {
+   "n": 10,
+   "W": 5,
+   "L": 5,
+   "easy": 2,
+   "normal": 0,
+   "sweat": 3,
+   "bad_beat": 1,
+   "clear_loss": 4,
+   "easy_pct": 0.2,
+   "avg_lock": 0.58,
+   "avg_margin_rel": 0.333,
+   "units": 0
+  },
+  "\ud83c\udff7 Player goal/assist": {
+   "n": 3,
+   "W": 3,
    "L": 0,
    "easy": 1,
+   "normal": 0,
+   "sweat": 2,
+   "bad_beat": 0,
+   "clear_loss": 0,
+   "easy_pct": 0.33,
+   "avg_lock": 0.73,
+   "avg_margin_rel": null,
+   "units": 0
+  },
+  "\ud83c\udff7 Total": {
+   "n": 1,
+   "W": 0,
+   "L": 1,
+   "easy": 0,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 1,
+   "clear_loss": 0,
+   "easy_pct": 0.0,
+   "avg_lock": null,
+   "avg_margin_rel": -0.2,
+   "units": 0
+  },
+  "\ud83c\udff7 Spread": {
+   "n": 3,
+   "W": 1,
+   "L": 2,
+   "easy": 1,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 0,
+   "clear_loss": 2,
+   "easy_pct": 0.33,
+   "avg_lock": 0.51,
+   "avg_margin_rel": -3.006,
+   "units": 0
+  },
+  "\ud83c\udff7 Player prop": {
+   "n": 2,
+   "W": 1,
+   "L": 1,
+   "easy": 1,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 0,
+   "clear_loss": 1,
+   "easy_pct": 0.5,
+   "avg_lock": 0.81,
+   "avg_margin_rel": 0.76,
+   "units": 0
+  },
+  "\ud83c\udff7 Double chance": {
+   "n": 2,
+   "W": 2,
+   "L": 0,
+   "easy": 2,
    "normal": 0,
    "sweat": 0,
    "bad_beat": 0,
    "clear_loss": 0,
    "easy_pct": 1.0,
-   "avg_lock": 0.69,
-   "avg_margin_rel": 0.536,
-   "units": 0.81
+   "avg_lock": 0.31,
+   "avg_margin_rel": 5.0,
+   "units": 0
+  },
+  "\ud83c\udff7 Totals & other": {
+   "n": 1,
+   "W": 0,
+   "L": 1,
+   "easy": 0,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 0,
+   "clear_loss": 1,
+   "easy_pct": 0.0,
+   "avg_lock": null,
+   "avg_margin_rel": -0.039,
+   "units": 0
+  },
+  "\ud83c\udff7 Player stat prop": {
+   "n": 6,
+   "W": 4,
+   "L": 2,
+   "easy": 4,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 1,
+   "clear_loss": 1,
+   "easy_pct": 0.67,
+   "avg_lock": 0.68,
+   "avg_margin_rel": 0.327,
+   "units": 0.31
   }
  },
  "by_type": {
@@ -143,17 +241,17 @@
    "units": 0.5
   },
   "\ud83e\uddd1 Your bet": {
-   "n": 1,
-   "W": 1,
-   "L": 0,
-   "easy": 1,
+   "n": 25,
+   "W": 14,
+   "L": 11,
+   "easy": 9,
    "normal": 0,
-   "sweat": 0,
-   "bad_beat": 0,
-   "clear_loss": 0,
-   "easy_pct": 1.0,
-   "avg_lock": 0.69,
-   "avg_margin_rel": 0.536,
+   "sweat": 5,
+   "bad_beat": 2,
+   "clear_loss": 9,
+   "easy_pct": 0.36,
+   "avg_lock": 0.6,
+   "avg_margin_rel": 0.263,
    "units": 0
   },
   "\ud83e\udde0 Claude Pick": {
@@ -169,6 +267,20 @@
    "avg_lock": 0.69,
    "avg_margin_rel": 0.536,
    "units": 0.81
+  },
+  "\u2b50 Suggested Bet": {
+   "n": 2,
+   "W": 1,
+   "L": 1,
+   "easy": 1,
+   "normal": 0,
+   "sweat": 0,
+   "bad_beat": 1,
+   "clear_loss": 0,
+   "easy_pct": 0.5,
+   "avg_lock": 0.69,
+   "avg_margin_rel": 0.225,
+   "units": -0.5
   }
  },
  "rows": [
@@ -538,35 +650,541 @@
   },
   {
    "type": "\ud83e\uddd1 Your bet",
-   "pick": "Luka Don\u010di\u0107 over 34.5 pts (T106 leg)",
+   "id": "T093-0",
+   "pick": "Real Madrid",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -465,
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": 1.0,
+   "locked_at": 1.0,
+   "pct_winning": 0.0,
+   "cashed_min": 111
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T093-1",
+   "pick": "Arsenal",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -385,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 0.5,
+   "margin_rel": 1.0,
+   "locked_at": 0.09,
+   "pct_winning": 0.91,
+   "cashed_min": 10
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T093-2",
+   "pick": "Liverpool",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -230,
+   "label": "\u274c Clear loss",
+   "margin": -1.5,
+   "margin_rel": -3.0,
+   "locked_at": null,
+   "pct_winning": 0.09,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T093-3",
+   "pick": "Man City",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -185,
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": 1.0,
+   "locked_at": 0.86,
+   "pct_winning": 0.31,
+   "cashed_min": 97
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T094-0",
+   "pick": "Mbappe",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player goal/assist"
+   ],
+   "market": "Player goal/assist",
+   "odds": -266,
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": null,
+   "locked_at": 0.87,
+   "pct_winning": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T094-1",
+   "pick": "Haaland",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player goal/assist"
+   ],
+   "market": "Player goal/assist",
+   "odds": -160,
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": null,
+   "locked_at": 0.87,
+   "pct_winning": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T095-0",
+   "pick": "Nico Paz",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player goal/assist"
+   ],
+   "market": "Player goal/assist",
+   "odds": 130,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 2.5,
+   "margin_rel": null,
+   "locked_at": 0.44,
+   "pct_winning": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T096-0",
+   "pick": "Grizzlies",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -255,
+   "label": "\u274c Clear loss",
+   "margin": -4.0,
+   "margin_rel": null,
+   "locked_at": null,
+   "pct_winning": 0.5,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T096-2",
+   "pick": "Wizards",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": 120,
+   "label": "\u274c Clear loss",
+   "margin": -15.0,
+   "margin_rel": null,
+   "locked_at": null,
+   "pct_winning": 0.13,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T097-0",
+   "pick": "Dortmund vs Betis Draw",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": 309,
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": null,
+   "locked_at": null,
+   "pct_winning": 0.6,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T097-1",
+   "pick": "Dortmund/Betis Under 2.5",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Total"
+   ],
+   "market": "Total",
+   "odds": 161,
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -0.5,
+   "margin_rel": -0.2,
+   "locked_at": null,
+   "pct_winning": 0.79,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T098-0",
+   "pick": "Cleveland Cavaliers +3.5",
+   "date": "2026-11-04",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Spread"
+   ],
+   "market": "Spread",
+   "odds": -106,
+   "label": "\u274c Clear loss",
+   "margin": -4.5,
+   "margin_rel": -1.286,
+   "locked_at": null,
+   "pct_winning": 0.07,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T099-0",
+   "pick": "Man City",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -186,
+   "label": "\ud83d\udd34 Sweat",
+   "margin": 0.5,
+   "margin_rel": 1.0,
+   "locked_at": 0.86,
+   "pct_winning": 0.31,
+   "cashed_min": 97
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T099-1",
+   "pick": "Arsenal",
+   "date": "2026-11-04",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": -421,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 0.5,
+   "margin_rel": 1.0,
+   "locked_at": 0.09,
+   "pct_winning": 0.91,
+   "cashed_min": 10
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T102-0",
+   "pick": "Patrik Schick",
+   "date": "2026-11-05",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player prop"
+   ],
+   "market": "Player prop",
+   "odds": -160,
+   "label": "\u274c Clear loss",
+   "margin": -0.5,
+   "margin_rel": null,
+   "locked_at": null,
+   "pct_winning": null,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T100-0",
+   "pick": "Davion Mitchell Over 12.5 pts",
+   "date": "2026-11-05",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player prop"
+   ],
+   "market": "Player prop",
+   "odds": -121,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 9.5,
+   "margin_rel": 0.76,
+   "locked_at": 0.81,
+   "pct_winning": null,
+   "cashed_min": 132
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T104-0",
+   "pick": "Hamburg SV or Draw",
    "date": "2026-11-06",
    "result": "Win",
    "units": 0,
    "tags": [
-    "\ud83d\udcca Recent form (L5)",
-    "\ud83d\udcda Fits your history"
+    "\ud83c\udff7 Double chance"
    ],
+   "market": "Double chance",
+   "odds": -265,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 2.5,
+   "margin_rel": 5.0,
+   "locked_at": 0.0,
+   "pct_winning": 1.0,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T104-1",
+   "pick": "Everton or Draw",
+   "date": "2026-11-06",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Double chance"
+   ],
+   "market": "Double chance",
+   "odds": -634,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 2.5,
+   "margin_rel": 5.0,
+   "locked_at": 0.62,
+   "pct_winning": 0.95,
+   "cashed_min": 75
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T104-2",
+   "pick": "Toulouse vs Strasbourg Draw",
+   "date": "2026-11-06",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Moneyline"
+   ],
+   "market": "Moneyline",
+   "odds": 256,
+   "label": "\u274c Clear loss",
+   "margin": -1.5,
+   "margin_rel": null,
+   "locked_at": null,
+   "pct_winning": 0.5,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T103-0",
+   "pick": "Philadelphia 76ers -2.5",
+   "date": "2026-11-06",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Spread"
+   ],
+   "market": "Spread",
+   "odds": -110,
+   "label": "\u274c Clear loss",
+   "margin": -26.5,
+   "margin_rel": -10.6,
+   "locked_at": null,
+   "pct_winning": 0.0,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T105-0",
+   "pick": "Nebraska Omaha team total Under 64.5 (live)",
+   "date": "2026-11-06",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Totals & other"
+   ],
+   "market": "Totals & other",
+   "odds": -223,
+   "label": "\u274c Clear loss",
+   "margin": -2.5,
+   "margin_rel": -0.039,
+   "locked_at": null,
+   "pct_winning": 0.97,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T105-1",
+   "pick": "Toronto Raptors +7.5 (live)",
+   "date": "2026-11-06",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Spread"
+   ],
+   "market": "Spread",
+   "odds": -193,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 21.5,
+   "margin_rel": 2.867,
+   "locked_at": 0.51,
+   "pct_winning": 0.75,
+   "cashed_min": 88
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T106-1",
+   "pick": "Stephon Castle Under 5.5 assists",
+   "date": "2026-11-06",
+   "result": "Loss",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player stat prop"
+   ],
+   "market": "Player stat prop",
+   "odds": 113,
+   "label": "\u274c Clear loss",
+   "margin": -1.5,
+   "margin_rel": -0.273,
+   "locked_at": null,
+   "pct_winning": 0.46,
+   "cashed_min": null
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T106-2",
+   "pick": "Keldon Johnson Over 3.5 rebounds",
+   "date": "2026-11-06",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player stat prop"
+   ],
+   "market": "Player stat prop",
+   "odds": -220,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 2.5,
+   "margin_rel": 0.714,
+   "locked_at": 0.66,
+   "pct_winning": null,
+   "cashed_min": 120
+  },
+  {
+   "type": "\ud83e\uddd1 Your bet",
+   "id": "T106-3",
+   "pick": "Luka Don\u010di\u0107 Over 34.5 points",
+   "date": "2026-11-06",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83c\udff7 Player stat prop"
+   ],
+   "market": "Player stat prop",
+   "odds": -123,
    "label": "\ud83d\udfe2 Easy",
    "margin": 18.5,
    "margin_rel": 0.536,
    "locked_at": 0.69,
+   "pct_winning": null,
    "cashed_min": 128
   },
   {
    "type": "\ud83e\udde0 Claude Pick",
-   "pick": "CP006 Luka Don\u010di\u0107 over 34.5 pts",
+   "id": "CP006",
+   "pick": "Luka Don\u010di\u0107 over 34.5 pts",
    "date": "2026-11-06",
    "result": "Win",
    "units": 0.81,
    "tags": [
     "\ud83d\udcca Recent form (L5)",
-    "\ud83d\udd01 Role up (teammate out)"
+    "\ud83e\udd16 Model projection",
+    "\ud83c\udff7 Player stat prop"
    ],
+   "market": "Player stat prop",
+   "odds": -123,
    "label": "\ud83d\udfe2 Easy",
    "margin": 18.5,
    "margin_rel": 0.536,
    "locked_at": 0.69,
+   "pct_winning": null,
    "cashed_min": 128
+  },
+  {
+   "type": "\u2b50 Suggested Bet",
+   "id": "SB001-1",
+   "pick": "Luka Don\u010di\u0107 o34.5 pts (SB001 leg)",
+   "date": "2026-11-06",
+   "result": "Win",
+   "units": 0,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83d\udcda Fits your history",
+    "\ud83c\udff7 Player stat prop"
+   ],
+   "market": "Player stat prop",
+   "odds": -123,
+   "label": "\ud83d\udfe2 Easy",
+   "margin": 18.5,
+   "margin_rel": 0.536,
+   "locked_at": 0.69,
+   "pct_winning": null,
+   "cashed_min": 128
+  },
+  {
+   "type": "\u2b50 Suggested Bet",
+   "id": "SB001-2",
+   "pick": "Stephon Castle u17.5 pts (SB001 leg)",
+   "date": "2026-11-06",
+   "result": "Loss",
+   "units": -0.5,
+   "tags": [
+    "\ud83d\udcca Recent form (L5)",
+    "\ud83d\udcda Fits your history",
+    "\ud83c\udff7 Player stat prop"
+   ],
+   "market": "Player stat prop",
+   "odds": -107,
+   "label": "\ud83d\udc80 Bad beat",
+   "margin": -1.5,
+   "margin_rel": -0.086,
+   "locked_at": null,
+   "pct_winning": 0.71,
+   "cashed_min": null
   }
  ]
 }
