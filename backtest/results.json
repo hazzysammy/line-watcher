@@ -1,0 +1,174 @@
+{
+ "generated": "2026-11-07 01:30Z",
+ "nba_games": 2592,
+ "nfl_games": 544,
+ "nba": [
+  {
+   "spot": "Underdogs (baseline)",
+   "w": 1294,
+   "l": 1292,
+   "push": 0,
+   "cover": 0.5,
+   "z": 0.04,
+   "verdict": "noise"
+  },
+  {
+   "spot": "All teams (baseline)",
+   "w": 2586,
+   "l": 2586,
+   "push": 0,
+   "cover": 0.5,
+   "z": 0.0,
+   "verdict": "noise"
+  },
+  {
+   "spot": "After a 20+ pt WIN",
+   "w": 316,
+   "l": 251,
+   "push": 0,
+   "cover": 0.557,
+   "z": 2.73,
+   "verdict": "REAL (strong)"
+  },
+  {
+   "spot": "Lost as 8+ fav, now an underdog",
+   "w": 32,
+   "l": 19,
+   "push": 0,
+   "cover": 0.627,
+   "z": 1.82,
+   "verdict": "weak lean"
+  },
+  {
+   "spot": "Revenge: lost last meeting by 15+",
+   "w": 324,
+   "l": 367,
+   "push": 0,
+   "cover": 0.469,
+   "z": -1.64,
+   "verdict": "weak lean"
+  },
+  {
+   "spot": "2nd night of back-to-back",
+   "w": 455,
+   "l": 477,
+   "push": 0,
+   "cover": 0.488,
+   "z": -0.72,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Road team at altitude (DEN/UTA)",
+   "w": 91,
+   "l": 82,
+   "push": 0,
+   "cover": 0.526,
+   "z": 0.68,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Immediate rematch: lost game 1",
+   "w": 57,
+   "l": 50,
+   "push": 0,
+   "cover": 0.533,
+   "z": 0.68,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Immediate rematch: won game 1",
+   "w": 52,
+   "l": 58,
+   "push": 0,
+   "cover": 0.473,
+   "z": -0.57,
+   "verdict": "noise"
+  },
+  {
+   "spot": "3+ days rest",
+   "w": 377,
+   "l": 364,
+   "push": 0,
+   "cover": 0.509,
+   "z": 0.48,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Road team at altitude on a back-to-back",
+   "w": 16,
+   "l": 14,
+   "push": 0,
+   "cover": 0.533,
+   "z": 0.37,
+   "verdict": "noise"
+  },
+  {
+   "spot": "After a 20+ pt LOSS",
+   "w": 287,
+   "l": 280,
+   "push": 0,
+   "cover": 0.506,
+   "z": 0.29,
+   "verdict": "noise"
+  },
+  {
+   "spot": "3rd game in 4 nights",
+   "w": 691,
+   "l": 695,
+   "push": 0,
+   "cover": 0.499,
+   "z": -0.11,
+   "verdict": "noise"
+  }
+ ],
+ "nfl": [
+  {
+   "spot": "All NFL teams (baseline)",
+   "w": 543,
+   "l": 543,
+   "cover": 0.5,
+   "z": 0.0,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Road underdogs (baseline)",
+   "w": 161,
+   "l": 162,
+   "cover": 0.498,
+   "z": -0.06,
+   "verdict": "noise"
+  },
+  {
+   "spot": "1,500+ mile road trip underdog (any rest)",
+   "w": 27,
+   "l": 37,
+   "cover": 0.422,
+   "z": -1.25,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Short week (Thursday after Sunday)",
+   "w": 37,
+   "l": 38,
+   "cover": 0.493,
+   "z": -0.12,
+   "verdict": "noise"
+  },
+  {
+   "spot": "Short week road underdog",
+   "w": 11,
+   "l": 10,
+   "cover": 0.524,
+   "z": 0.22,
+   "verdict": "too few games"
+  },
+  {
+   "spot": "Short week + 1,500+ mile road trip underdog",
+   "w": 0,
+   "l": 1,
+   "cover": 0.0,
+   "z": -1.0,
+   "verdict": "too few games"
+  }
+ ]
+}
