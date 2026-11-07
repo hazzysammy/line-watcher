@@ -912,7 +912,7 @@ def main():
 
         # ---------- 🔗 Pair digest: 7 AM (today) and 9 PM (tomorrow), both players on the list ----------
         slot = CFG.get("pair_digest_test") or ("am" if now.hour == 7 else "pm" if now.hour == 21 else None)
-        dkey = f'{now:%Y-%m-%d}-{slot}' + CFG.get("pair_digest_nonce", "")
+        dkey = f'{now:%Y-%m-%d}-{slot}' + str(CFG.get("pair_digest_test_id", "")) + CFG.get("pair_digest_nonce", "")
         if slot and state.get("pair_digest") != dkey:
             target = (now + dt.timedelta(days=1 if slot == "pm" else 0)).date()
             day_of = lambda ev: dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00")).astimezone(PT).date()
@@ -973,9 +973,9 @@ def main():
                     if need <= (kb - ka).total_seconds() / 3600 <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
                         entries.append({**e0, "kind": "upcoming", "ka": ka})
             if entries:
-                tm = lambda d: d.astimezone(PT).strftime("%-I:%M %p")
+                tm = lambda d: d.astimezone(PT).strftime("%-I:%M%p").lower().replace(":00", "")[:-1]   # 6:30a, 9a, 12p
                 blocks = []
-                for kind, head in (("live", "🟢 TRIGGERED: A already scored → bet B"), ("upcoming", "⏳ WATCH: A plays first → bet B only if A scores")):
+                for kind, head in (("live", "🟢 A ALREADY SCORED → bet B"), ("upcoming", "⏳ A PLAYS FIRST → bet B only if A scores")):
                     es = [e for e in entries if e["kind"] == kind]
                     if not es: continue
                     blocks.append(head)
@@ -984,23 +984,24 @@ def main():
                     for B, rows in sorted(byB.items(), key=lambda kv: (kv[1][0]["kb"], kv[0])):
                         rows.sort(key=lambda r: (-r["rate"], -r["n"]))
                         r0 = rows[0]
-                        lines = [f'⚽ {B.upper()} · {short(r0["B_team"]) if len(r0["B_team"]) > 14 else r0["B_team"]} {tm(r0["kb"])} · normally {r0["base"]*100:.0f}%']
+                        lines = [f'⚽ {short(B).upper()} {tm(r0["kb"])} (normally {r0["base"]*100:.0f}%)']
                         for r in rows:
                             when = r["ka"].astimezone(PT).strftime("%a") if kind == "live" else tm(r["ka"])
-                            lines.append(f'   ← {short(r["A"])} ({when}) · {r["hits"]}/{r["n"]} = {r["rate"]*100:.0f}% · fair {fmt(r["fair"])}')
+                            lines.append(f'  {short(r["A"])} {when} · {r["hits"]}/{r["n"]} {r["rate"]*100:.0f}% · {fmt(r["fair"])}')
                         blocks.append("\n".join(lines))
-                foot = "👉 Bet B only at the fair price or better · 0.5u max · confirm B starts ~1 hr before"
-                # split into ntfy-sized parts (~3,500 bytes)
-                parts, cur = [], ""
-                for blk in blocks:
-                    if cur and len((cur + "\n\n" + blk).encode()) > 3500: parts.append(cur); cur = blk
-                    else: cur = (cur + "\n\n" + blk) if cur else blk
-                parts.append(cur)
                 nB = len({e["B"] for e in entries})
-                for i, part in enumerate(parts, 1):
-                    ttl = f'🔗 Pair digest {"today" if slot == "am" else "tomorrow"} · {target:%a %b %-d}' + (f" ({i}/{len(parts)})" if len(parts) > 1 else "")
-                    top = f'{len(entries)} pairs · {nB} Player Bs · both on your FC27 list\n\n' if i == 1 else ""
-                    alerts.append((4, ttl, top + part + ("\n\n" + foot if i == len(parts) else "")))
+                top = f'{len(entries)} pairs · {nB} Player Bs · both on your FC27 list\nformat: Player A, kickoff · record · B fair price'
+                foot = "👉 Bet B only at the fair price or better · 0.5u max · confirm B starts ~1 hr before"
+                body = top + "\n\n" + "\n\n".join(blocks) + "\n\n" + foot
+                ttl = f'🔗 Pair digest {"today" if slot == "am" else "tomorrow"} · {target:%a %b %-d}'
+                url = "https://github.com/hazzysammy/line-watcher/blob/main/pairs/digest.md"
+                if len(body.encode()) > 3950:      # ntfy's single-message limit: keep ONE notification, full list one tap away
+                    keep, used = [], len((top + foot).encode()) + 200
+                    for blk in blocks:
+                        if used + len(blk.encode()) + 2 > 3950: break
+                        keep.append(blk); used += len(blk.encode()) + 2
+                    body = top + "\n\n" + "\n\n".join(keep) + f"\n\n…{len(blocks) - len(keep)} more groups: tap this notification for the full list\n\n" + foot
+                alerts.append((4, ttl, body, {"click": url}))
                 open(os.path.join(HERE, "pairs", "digest.md"), "w").write(f"# 🔗 Pair digest · {target:%a %b %-d}\n\n" + "\n\n".join(b.replace("\n", "  \n") for b in blocks))
             state["pair_digest"] = dkey
             for k in [k for k in rc if not k.endswith(day)]: rc.pop(k)
@@ -1104,7 +1105,7 @@ def main():
     stamp = now.strftime("%-I:%M %p PT")
     if first_run:
         alerts = [(3, "✅ Watcher is live", f"Seeded {len(base)} games. You'll get alerts for line moves, pulled lines, injuries and watchlist hits. ({stamp})")]
-    msgs = [(p, t, b + f"\n⏱ {stamp}") for p, t, b in alerts]
+    msgs = [(a_[0], a_[1], a_[2] + f"\n⏱ {stamp}", *a_[3:]) for a_ in alerts]
 
     qs, qe = CFG.get("quiet_hours", [23, 7])
     quiet = now.hour >= qs or now.hour < qe
@@ -1115,18 +1116,20 @@ def main():
     state["queue"] = queue[-50:]
 
     log = state.setdefault("alert_log", [])
-    for p, t, b in alerts:
+    for a_ in alerts:
+        p, t, b = a_[:3]
         log.append({"at": now.strftime("%Y-%m-%d %H:%M PT"), "title": t, "body": b})
     state["alert_log"] = log[-300:]
     with open(os.path.join(HERE, "alerts.md"), "w") as f:
         f.write("# Watcher alert log (newest first)\n\n")
         for a in reversed(state["alert_log"]):
             f.write(f'**{a["at"]} · {a["title"]}**  \n' + a["body"].replace("\n", "  \n") + "\n\n")
-    for p, t, b in msgs:
+    for m_ in msgs:
+        p, t, b = m_[:3]; extra = m_[3] if len(m_) > 3 else {}
         print("ALERT", t, "|", b.replace("\n", " | "))
         if TOPIC:
             try:
-                payload = json.dumps({"topic": TOPIC, "title": t, "message": b, "priority": p}).encode()
+                payload = json.dumps({"topic": TOPIC, "title": t, "message": b, "priority": p, **extra}).encode()
                 req = urllib.request.Request("https://ntfy.sh/", data=payload,
                         headers={"Content-Type": "application/json"})
                 urllib.request.urlopen(req, timeout=15)
