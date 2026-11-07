@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07 01:32Z",
+ "generated": "2026-11-07 08:25Z",
  "players": 111,
  "pairs": [
   {
@@ -29,11 +29,11 @@
    "A_team": "Borussia Dortmund",
    "B": "Victor Osimhen",
    "B_team": "Galatasaray",
-   "hits": 13,
-   "n": 14,
-   "rate": 0.929,
+   "hits": 12,
+   "n": 13,
+   "rate": 0.923,
    "B_base": 0.588,
-   "lift": 0.341
+   "lift": 0.336
   },
   {
    "A": "Kylian Mbapp\u00e9",
@@ -47,19 +47,8 @@
    "lift": 0.317
   },
   {
-   "A": "Lamine Yamal",
-   "A_team": "Barcelona",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 10,
-   "n": 11,
-   "rate": 0.909,
-   "B_base": 0.613,
-   "lift": 0.296
-  },
-  {
-   "A": "Nico Paz",
-   "A_team": "Como",
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
    "B": "Kylian Mbapp\u00e9",
    "B_team": "Real Madrid",
    "hits": 9,
@@ -69,19 +58,8 @@
    "lift": 0.308
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 9,
-   "n": 10,
-   "rate": 0.9,
-   "B_base": 0.613,
-   "lift": 0.287
-  },
-  {
-   "A": "Alexander S\u00f8rloth",
-   "A_team": "Atl\u00e9tico Madrid",
+   "A": "Nico Paz",
+   "A_team": "Como",
    "B": "Kylian Mbapp\u00e9",
    "B_team": "Real Madrid",
    "hits": 8,
@@ -124,8 +102,19 @@
    "lift": 0.282
   },
   {
-   "A": "Est\u00e9ban Lepaul",
-   "A_team": "Stade Rennais",
+   "A": "Alexander S\u00f8rloth",
+   "A_team": "Atl\u00e9tico Madrid",
+   "B": "Kylian Mbapp\u00e9",
+   "B_team": "Real Madrid",
+   "hits": 7,
+   "n": 8,
+   "rate": 0.875,
+   "B_base": 0.592,
+   "lift": 0.283
+  },
+  {
+   "A": "Hans Vanaken",
+   "A_team": "Club Brugge",
    "B": "Lamine Yamal",
    "B_team": "Barcelona",
    "hits": 7,
@@ -133,6 +122,17 @@
    "rate": 0.875,
    "B_base": 0.415,
    "lift": 0.46
+  },
+  {
+   "A": "Lamine Yamal",
+   "A_team": "Barcelona",
+   "B": "Harry Kane",
+   "B_team": "Bayern Munich",
+   "hits": 7,
+   "n": 8,
+   "rate": 0.875,
+   "B_base": 0.613,
+   "lift": 0.262
   },
   {
    "A": "Morgan Rogers",
@@ -179,17 +179,6 @@
    "lift": 0.293
   },
   {
-   "A": "Christian Pulisic",
-   "A_team": "AC Milan",
-   "B": "Lionel Messi",
-   "B_team": "Inter Miami CF",
-   "hits": 9,
-   "n": 11,
-   "rate": 0.818,
-   "B_base": 0.591,
-   "lift": 0.227
-  },
-  {
    "A": "Kylian Mbapp\u00e9",
    "A_team": "Real Madrid",
    "B": "Juli\u00e1n Qui\u00f1ones",
@@ -221,6 +210,17 @@
    "rate": 0.812,
    "B_base": 0.607,
    "lift": 0.205
+  },
+  {
+   "A": "Christian Pulisic",
+   "A_team": "AC Milan",
+   "B": "Lionel Messi",
+   "B_team": "Inter Miami CF",
+   "hits": 8,
+   "n": 10,
+   "rate": 0.8,
+   "B_base": 0.591,
+   "lift": 0.209
   },
   {
    "A": "Alexander Isak",
@@ -256,17 +256,6 @@
    "lift": 0.193
   },
   {
-   "A": "Victor Osimhen",
-   "A_team": "Galatasaray",
-   "B": "Kylian Mbapp\u00e9",
-   "B_team": "Real Madrid",
-   "hits": 11,
-   "n": 14,
-   "rate": 0.786,
-   "B_base": 0.592,
-   "lift": 0.194
-  },
-  {
    "A": "Morgan Rogers",
    "A_team": "Chelsea",
    "B": "Kylian Mbapp\u00e9",
@@ -289,15 +278,37 @@
    "lift": 0.186
   },
   {
-   "A": "Hans Vanaken",
-   "A_team": "Club Brugge",
-   "B": "Lamine Yamal",
-   "B_team": "Barcelona",
+   "A": "Ermedin Demirovi\u0107",
+   "A_team": "VfB Stuttgart",
+   "B": "Kylian Mbapp\u00e9",
+   "B_team": "Real Madrid",
    "hits": 7,
    "n": 9,
    "rate": 0.778,
-   "B_base": 0.415,
-   "lift": 0.363
+   "B_base": 0.592,
+   "lift": 0.186
+  },
+  {
+   "A": "Juli\u00e1n Alvarez",
+   "A_team": "Atl\u00e9tico Madrid",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 7,
+   "n": 9,
+   "rate": 0.778,
+   "B_base": 0.525,
+   "lift": 0.253
+  },
+  {
+   "A": "Serge Gnabry",
+   "A_team": "Bayern Munich",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 7,
+   "n": 9,
+   "rate": 0.778,
+   "B_base": 0.525,
+   "lift": 0.253
   },
   {
    "A": "Jo\u00e3o F\u00e9lix",
@@ -309,17 +320,6 @@
    "rate": 0.778,
    "B_base": 0.591,
    "lift": 0.187
-  },
-  {
-   "A": "Juli\u00e1n Alvarez",
-   "A_team": "Atl\u00e9tico Madrid",
-   "B": "Serhou Guirassy",
-   "B_team": "Borussia Dortmund",
-   "hits": 7,
-   "n": 9,
-   "rate": 0.778,
-   "B_base": 0.455,
-   "lift": 0.322
   },
   {
    "A": "Erling Haaland",
@@ -410,6 +410,17 @@
    "lift": 0.178
   },
   {
+   "A": "Lionel Messi",
+   "A_team": "Inter Miami CF",
+   "B": "Denis Bouanga",
+   "B_team": "LAFC",
+   "hits": 18,
+   "n": 24,
+   "rate": 0.75,
+   "B_base": 0.474,
+   "lift": 0.276
+  },
+  {
    "A": "Harry Kane",
    "A_team": "Bayern Munich",
    "B": "Luis Javier Su\u00e1rez",
@@ -430,17 +441,6 @@
    "rate": 0.75,
    "B_base": 0.525,
    "lift": 0.225
-  },
-  {
-   "A": "Erling Haaland",
-   "A_team": "Manchester City",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 12,
-   "n": 16,
-   "rate": 0.75,
-   "B_base": 0.613,
-   "lift": 0.137
   },
   {
    "A": "Antoine Semenyo",
@@ -542,6 +542,17 @@
    "lift": 0.335
   },
   {
+   "A": "Andrej Kramari\u0107",
+   "A_team": "TSG Hoffenheim",
+   "B": "Harry Kane",
+   "B_team": "Bayern Munich",
+   "hits": 6,
+   "n": 8,
+   "rate": 0.75,
+   "B_base": 0.613,
+   "lift": 0.137
+  },
+  {
    "A": "Cole Palmer",
    "A_team": "Chelsea",
    "B": "Raphinha",
@@ -551,6 +562,28 @@
    "rate": 0.75,
    "B_base": 0.436,
    "lift": 0.314
+  },
+  {
+   "A": "Raphinha",
+   "A_team": "Barcelona",
+   "B": "Alexander Isak",
+   "B_team": "Liverpool",
+   "hits": 6,
+   "n": 8,
+   "rate": 0.75,
+   "B_base": 0.403,
+   "lift": 0.347
+  },
+  {
+   "A": "Juli\u00e1n Alvarez",
+   "A_team": "Atl\u00e9tico Madrid",
+   "B": "Serhou Guirassy",
+   "B_team": "Borussia Dortmund",
+   "hits": 6,
+   "n": 8,
+   "rate": 0.75,
+   "B_base": 0.455,
+   "lift": 0.295
   },
   {
    "A": "Patrik Schick",
@@ -597,17 +630,6 @@
    "lift": 0.15
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Jonathan Burkardt",
-   "B_team": "Eintracht Frankfurt",
-   "hits": 6,
-   "n": 8,
-   "rate": 0.75,
-   "B_base": 0.449,
-   "lift": 0.301
-  },
-  {
    "A": "Cristiano Ronaldo",
    "A_team": "Al Nassr",
    "B": "Marco Asensio",
@@ -617,17 +639,6 @@
    "rate": 0.75,
    "B_base": 0.267,
    "lift": 0.483
-  },
-  {
-   "A": "Jude Bellingham",
-   "A_team": "Real Madrid",
-   "B": "Ante Budimir",
-   "B_team": "Osasuna",
-   "hits": 6,
-   "n": 8,
-   "rate": 0.75,
-   "B_base": 0.438,
-   "lift": 0.312
   },
   {
    "A": "Jamal Musiala",
@@ -641,48 +652,15 @@
    "lift": 0.312
   },
   {
-   "A": "Jude Bellingham",
-   "A_team": "Real Madrid",
-   "B": "Samu",
-   "B_team": "FC Porto",
-   "hits": 6,
-   "n": 8,
-   "rate": 0.75,
-   "B_base": 0.451,
-   "lift": 0.299
-  },
-  {
-   "A": "Vangelis Pavlidis",
-   "A_team": "Benfica",
-   "B": "Kylian Mbapp\u00e9",
-   "B_team": "Real Madrid",
+   "A": "Erling Haaland",
+   "A_team": "Manchester City",
+   "B": "Harry Kane",
+   "B_team": "Bayern Munich",
    "hits": 11,
    "n": 15,
    "rate": 0.733,
-   "B_base": 0.592,
-   "lift": 0.142
-  },
-  {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 11,
-   "n": 15,
-   "rate": 0.733,
-   "B_base": 0.525,
-   "lift": 0.208
-  },
-  {
-   "A": "Ayoze",
-   "A_team": "Villarreal",
-   "B": "Kylian Mbapp\u00e9",
-   "B_team": "Real Madrid",
-   "hits": 8,
-   "n": 11,
-   "rate": 0.727,
-   "B_base": 0.592,
-   "lift": 0.136
+   "B_base": 0.613,
+   "lift": 0.12
   },
   {
    "A": "Tim Kleindienst",
@@ -694,17 +672,6 @@
    "rate": 0.727,
    "B_base": 0.592,
    "lift": 0.136
-  },
-  {
-   "A": "Juli\u00e1n Alvarez",
-   "A_team": "Atl\u00e9tico Madrid",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 8,
-   "n": 11,
-   "rate": 0.727,
-   "B_base": 0.525,
-   "lift": 0.202
   },
   {
    "A": "Oyarzabal",
@@ -727,17 +694,6 @@
    "rate": 0.727,
    "B_base": 0.607,
    "lift": 0.12
-  },
-  {
-   "A": "Juli\u00e1n Qui\u00f1ones",
-   "A_team": "Al Qadsiah",
-   "B": "Jo\u00e3o Pedro",
-   "B_team": "Chelsea",
-   "hits": 8,
-   "n": 11,
-   "rate": 0.727,
-   "B_base": 0.337,
-   "lift": 0.39
   },
   {
    "A": "Vangelis Pavlidis",
@@ -773,17 +729,6 @@
    "lift": 0.253
   },
   {
-   "A": "Lionel Messi",
-   "A_team": "Inter Miami CF",
-   "B": "Denis Bouanga",
-   "B_team": "LAFC",
-   "hits": 21,
-   "n": 29,
-   "rate": 0.724,
-   "B_base": 0.474,
-   "lift": 0.25
-  },
-  {
    "A": "Ivan Toney",
    "A_team": "Al Ahli",
    "B": "Vangelis Pavlidis",
@@ -806,15 +751,15 @@
    "lift": 0.123
   },
   {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Juli\u00e1n Qui\u00f1ones",
-   "B_team": "Al Qadsiah",
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
    "hits": 10,
    "n": 14,
    "rate": 0.714,
-   "B_base": 0.607,
-   "lift": 0.107
+   "B_base": 0.525,
+   "lift": 0.189
   },
   {
    "A": "Ivan Toney",
@@ -850,8 +795,8 @@
    "lift": 0.108
   },
   {
-   "A": "Ermedin Demirovi\u0107",
-   "A_team": "VfB Stuttgart",
+   "A": "Ante Budimir",
+   "A_team": "Osasuna",
    "B": "Kylian Mbapp\u00e9",
    "B_team": "Real Madrid",
    "hits": 7,
@@ -861,26 +806,15 @@
    "lift": 0.108
   },
   {
-   "A": "Jude Bellingham",
-   "A_team": "Real Madrid",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
+   "A": "Ayoze",
+   "A_team": "Villarreal",
+   "B": "Kylian Mbapp\u00e9",
+   "B_team": "Real Madrid",
    "hits": 7,
    "n": 10,
    "rate": 0.7,
-   "B_base": 0.525,
-   "lift": 0.175
-  },
-  {
-   "A": "Serge Gnabry",
-   "A_team": "Bayern Munich",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 7,
-   "n": 10,
-   "rate": 0.7,
-   "B_base": 0.525,
-   "lift": 0.175
+   "B_base": 0.592,
+   "lift": 0.108
   },
   {
    "A": "Deniz Undav",
@@ -892,17 +826,6 @@
    "rate": 0.7,
    "B_base": 0.415,
    "lift": 0.285
-  },
-  {
-   "A": "Cole Palmer",
-   "A_team": "Chelsea",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 7,
-   "n": 10,
-   "rate": 0.7,
-   "B_base": 0.613,
-   "lift": 0.087
   },
   {
    "A": "Vangelis Pavlidis",
@@ -971,15 +894,15 @@
    "lift": 0.112
   },
   {
-   "A": "Ermedin Demirovi\u0107",
-   "A_team": "VfB Stuttgart",
-   "B": "Serhou Guirassy",
-   "B_team": "Borussia Dortmund",
+   "A": "Cristiano Ronaldo",
+   "A_team": "Al Nassr",
+   "B": "Juli\u00e1n Qui\u00f1ones",
+   "B_team": "Al Qadsiah",
    "hits": 7,
    "n": 10,
    "rate": 0.7,
-   "B_base": 0.455,
-   "lift": 0.245
+   "B_base": 0.607,
+   "lift": 0.093
   },
   {
    "A": "Serhou Guirassy",
@@ -1026,6 +949,17 @@
    "lift": 0.163
   },
   {
+   "A": "Juli\u00e1n Qui\u00f1ones",
+   "A_team": "Al Qadsiah",
+   "B": "Jo\u00e3o Pedro",
+   "B_team": "Chelsea",
+   "hits": 7,
+   "n": 10,
+   "rate": 0.7,
+   "B_base": 0.337,
+   "lift": 0.363
+  },
+  {
    "A": "Hans Vanaken",
    "A_team": "Club Brugge",
    "B": "Denis Bouanga",
@@ -1037,8 +971,8 @@
    "lift": 0.226
   },
   {
-   "A": "Ante Budimir",
-   "A_team": "Osasuna",
+   "A": "Vangelis Pavlidis",
+   "A_team": "Benfica",
    "B": "Kylian Mbapp\u00e9",
    "B_team": "Real Madrid",
    "hits": 9,
@@ -1046,6 +980,17 @@
    "rate": 0.692,
    "B_base": 0.592,
    "lift": 0.101
+  },
+  {
+   "A": "Serhou Guirassy",
+   "A_team": "Borussia Dortmund",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 9,
+   "n": 13,
+   "rate": 0.692,
+   "B_base": 0.525,
+   "lift": 0.167
   },
   {
    "A": "Jo\u00e3o Pedro",
@@ -1070,15 +1015,15 @@
    "lift": 0.105
   },
   {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
-   "B": "Vangelis Pavlidis",
-   "B_team": "Benfica",
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Juli\u00e1n Qui\u00f1ones",
+   "B_team": "Al Qadsiah",
    "hits": 9,
    "n": 13,
    "rate": 0.692,
-   "B_base": 0.409,
-   "lift": 0.283
+   "B_base": 0.607,
+   "lift": 0.085
   },
   {
    "A": "Juli\u00e1n Qui\u00f1ones",
@@ -1114,17 +1059,6 @@
    "lift": 0.229
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Victor Osimhen",
-   "B_team": "Galatasaray",
-   "hits": 8,
-   "n": 12,
-   "rate": 0.667,
-   "B_base": 0.588,
-   "lift": 0.079
-  },
-  {
    "A": "Patrik Schick",
    "A_team": "Bayer Leverkusen",
    "B": "Victor Osimhen",
@@ -1134,6 +1068,17 @@
    "rate": 0.667,
    "B_base": 0.588,
    "lift": 0.079
+  },
+  {
+   "A": "Raphinha",
+   "A_team": "Barcelona",
+   "B": "Vangelis Pavlidis",
+   "B_team": "Benfica",
+   "hits": 8,
+   "n": 12,
+   "rate": 0.667,
+   "B_base": 0.409,
+   "lift": 0.257
   },
   {
    "A": "Igor Thiago",
@@ -1158,6 +1103,17 @@
    "lift": 0.075
   },
   {
+   "A": "Jude Bellingham",
+   "A_team": "Real Madrid",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 6,
+   "n": 9,
+   "rate": 0.667,
+   "B_base": 0.525,
+   "lift": 0.142
+  },
+  {
    "A": "Denis Bouanga",
    "A_team": "LAFC",
    "B": "Erling Haaland",
@@ -1180,8 +1136,8 @@
    "lift": 0.251
   },
   {
-   "A": "Andrej Kramari\u0107",
-   "A_team": "TSG Hoffenheim",
+   "A": "Cole Palmer",
+   "A_team": "Chelsea",
    "B": "Harry Kane",
    "B_team": "Bayern Munich",
    "hits": 6,
@@ -1235,6 +1191,17 @@
    "lift": 0.079
   },
   {
+   "A": "Danny Welbeck",
+   "A_team": "Chelsea",
+   "B": "Deniz Undav",
+   "B_team": "VfB Stuttgart",
+   "hits": 6,
+   "n": 9,
+   "rate": 0.667,
+   "B_base": 0.354,
+   "lift": 0.313
+  },
+  {
    "A": "Patrik Schick",
    "A_team": "Bayer Leverkusen",
    "B": "Cristiano Ronaldo",
@@ -1279,8 +1246,8 @@
    "lift": 0.365
   },
   {
-   "A": "Jo\u00e3o F\u00e9lix",
-   "A_team": "Al Nassr",
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
    "B": "Luis Javier Su\u00e1rez",
    "B_team": "Sporting CP",
    "hits": 6,
@@ -1290,15 +1257,15 @@
    "lift": 0.067
   },
   {
-   "A": "Lamine Yamal",
-   "A_team": "Barcelona",
-   "B": "Ante Budimir",
-   "B_team": "Osasuna",
+   "A": "Jo\u00e3o F\u00e9lix",
+   "A_team": "Al Nassr",
+   "B": "Luis Javier Su\u00e1rez",
+   "B_team": "Sporting CP",
    "hits": 6,
    "n": 9,
    "rate": 0.667,
-   "B_base": 0.438,
-   "lift": 0.229
+   "B_base": 0.6,
+   "lift": 0.067
   },
   {
    "A": "Serge Gnabry",
@@ -1334,15 +1301,15 @@
    "lift": 0.215
   },
   {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Cristiano Ronaldo",
-   "B_team": "Al Nassr",
-   "hits": 13,
-   "n": 20,
-   "rate": 0.65,
-   "B_base": 0.644,
-   "lift": 0.006
+   "A": "Cristiano Ronaldo",
+   "A_team": "Al Nassr",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 11,
+   "n": 17,
+   "rate": 0.647,
+   "B_base": 0.525,
+   "lift": 0.122
   },
   {
    "A": "Erling Haaland",
@@ -1354,6 +1321,17 @@
    "rate": 0.647,
    "B_base": 0.415,
    "lift": 0.232
+  },
+  {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Harry Kane",
+   "B_team": "Bayern Munich",
+   "hits": 11,
+   "n": 17,
+   "rate": 0.647,
+   "B_base": 0.613,
+   "lift": 0.034
   },
   {
    "A": "Lamine Yamal",
@@ -1400,8 +1378,8 @@
    "lift": 0.111
   },
   {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
+   "A": "Viktor Gy\u00f6keres",
+   "A_team": "Arsenal",
    "B": "Harry Kane",
    "B_team": "Bayern Munich",
    "hits": 7,
@@ -1409,17 +1387,6 @@
    "rate": 0.636,
    "B_base": 0.613,
    "lift": 0.023
-  },
-  {
-   "A": "Jude Bellingham",
-   "A_team": "Real Madrid",
-   "B": "Lionel Messi",
-   "B_team": "Inter Miami CF",
-   "hits": 7,
-   "n": 11,
-   "rate": 0.636,
-   "B_base": 0.591,
-   "lift": 0.045
   },
   {
    "A": "Erling Haaland",
@@ -1433,26 +1400,26 @@
    "lift": 0.029
   },
   {
-   "A": "Cristiano Ronaldo",
-   "A_team": "Al Nassr",
-   "B": "Juli\u00e1n Qui\u00f1ones",
-   "B_team": "Al Qadsiah",
+   "A": "Serhou Guirassy",
+   "A_team": "Borussia Dortmund",
+   "B": "Ademola Lookman",
+   "B_team": "Atl\u00e9tico Madrid",
    "hits": 7,
    "n": 11,
    "rate": 0.636,
-   "B_base": 0.607,
-   "lift": 0.029
+   "B_base": 0.304,
+   "lift": 0.333
   },
   {
-   "A": "Victor Osimhen",
-   "A_team": "Galatasaray",
-   "B": "Luis Javier Su\u00e1rez",
-   "B_team": "Sporting CP",
+   "A": "Serhou Guirassy",
+   "A_team": "Borussia Dortmund",
+   "B": "Ante Budimir",
+   "B_team": "Osasuna",
    "hits": 7,
    "n": 11,
    "rate": 0.636,
-   "B_base": 0.6,
-   "lift": 0.036
+   "B_base": 0.438,
+   "lift": 0.199
   },
   {
    "A": "Folarin Balogun",
@@ -1475,17 +1442,6 @@
    "rate": 0.633,
    "B_base": 0.592,
    "lift": 0.042
-  },
-  {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 12,
-   "n": 19,
-   "rate": 0.632,
-   "B_base": 0.613,
-   "lift": 0.018
   },
   {
    "A": "Cristiano Ronaldo",
@@ -1519,6 +1475,17 @@
    "rate": 0.625,
    "B_base": 0.591,
    "lift": 0.034
+  },
+  {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Cristiano Ronaldo",
+   "B_team": "Al Nassr",
+   "hits": 10,
+   "n": 16,
+   "rate": 0.625,
+   "B_base": 0.644,
+   "lift": -0.019
   },
   {
    "A": "Lionel Messi",
@@ -1587,17 +1554,6 @@
    "lift": 0.1
   },
   {
-   "A": "Luis Javier Su\u00e1rez",
-   "A_team": "Sporting CP",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 5,
-   "n": 8,
-   "rate": 0.625,
-   "B_base": 0.525,
-   "lift": 0.1
-  },
-  {
    "A": "Jean-Philippe Mateta",
    "A_team": "Crystal Palace",
    "B": "Erling Haaland",
@@ -1607,17 +1563,6 @@
    "rate": 0.625,
    "B_base": 0.525,
    "lift": 0.1
-  },
-  {
-   "A": "Yannick Carrasco",
-   "A_team": "Al Shabab",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 5,
-   "n": 8,
-   "rate": 0.625,
-   "B_base": 0.613,
-   "lift": 0.012
   },
   {
    "A": "Hans Vanaken",
@@ -1664,28 +1609,6 @@
    "lift": 0.037
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Serhou Guirassy",
-   "B_team": "Borussia Dortmund",
-   "hits": 5,
-   "n": 8,
-   "rate": 0.625,
-   "B_base": 0.455,
-   "lift": 0.17
-  },
-  {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
-   "B": "Deniz Undav",
-   "B_team": "VfB Stuttgart",
-   "hits": 5,
-   "n": 8,
-   "rate": 0.625,
-   "B_base": 0.354,
-   "lift": 0.271
-  },
-  {
    "A": "Lionel Messi",
    "A_team": "Inter Miami CF",
    "B": "Juli\u00e1n Qui\u00f1ones",
@@ -1728,17 +1651,6 @@
    "rate": 0.625,
    "B_base": 0.537,
    "lift": 0.088
-  },
-  {
-   "A": "Ivan Peri\u0161i\u0107",
-   "A_team": "PSV Eindhoven",
-   "B": "Alexander S\u00f8rloth",
-   "B_team": "Atl\u00e9tico Madrid",
-   "hits": 5,
-   "n": 8,
-   "rate": 0.625,
-   "B_base": 0.271,
-   "lift": 0.354
   },
   {
    "A": "Tim Kleindienst",
@@ -1796,6 +1708,17 @@
    "lift": 0.323
   },
   {
+   "A": "Lamine Yamal",
+   "A_team": "Barcelona",
+   "B": "Ante Budimir",
+   "B_team": "Osasuna",
+   "hits": 5,
+   "n": 8,
+   "rate": 0.625,
+   "B_base": 0.438,
+   "lift": 0.188
+  },
+  {
    "A": "Lionel Messi",
    "A_team": "Inter Miami CF",
    "B": "Ante Budimir",
@@ -1816,6 +1739,17 @@
    "rate": 0.625,
    "B_base": 0.438,
    "lift": 0.188
+  },
+  {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Est\u00e9ban Lepaul",
+   "B_team": "Stade Rennais",
+   "hits": 5,
+   "n": 8,
+   "rate": 0.625,
+   "B_base": 0.383,
+   "lift": 0.242
   },
   {
    "A": "Vangelis Pavlidis",
@@ -1862,6 +1796,17 @@
    "lift": 0.174
   },
   {
+   "A": "Yoane Wissa",
+   "A_team": "Newcastle United",
+   "B": "Denis Bouanga",
+   "B_team": "LAFC",
+   "hits": 5,
+   "n": 8,
+   "rate": 0.625,
+   "B_base": 0.474,
+   "lift": 0.151
+  },
+  {
    "A": "Jo\u00e3o F\u00e9lix",
    "A_team": "Al Nassr",
    "B": "Anders Dreyer",
@@ -1895,28 +1840,6 @@
    "lift": 0.339
   },
   {
-   "A": "Cristiano Ronaldo",
-   "A_team": "Al Nassr",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 11,
-   "n": 18,
-   "rate": 0.611,
-   "B_base": 0.525,
-   "lift": 0.086
-  },
-  {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Ante Budimir",
-   "B_team": "Osasuna",
-   "hits": 11,
-   "n": 18,
-   "rate": 0.611,
-   "B_base": 0.438,
-   "lift": 0.174
-  },
-  {
    "A": "Luis Javier Su\u00e1rez",
    "A_team": "Sporting CP",
    "B": "Denis Bouanga",
@@ -1937,6 +1860,17 @@
    "rate": 0.609,
    "B_base": 0.592,
    "lift": 0.017
+  },
+  {
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Denis Bouanga",
+   "B_team": "LAFC",
+   "hits": 15,
+   "n": 25,
+   "rate": 0.6,
+   "B_base": 0.474,
+   "lift": 0.126
   },
   {
    "A": "Erling Haaland",
@@ -1961,17 +1895,6 @@
    "lift": 0.145
   },
   {
-   "A": "Serhou Guirassy",
-   "A_team": "Borussia Dortmund",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 9,
-   "n": 15,
-   "rate": 0.6,
-   "B_base": 0.525,
-   "lift": 0.075
-  },
-  {
    "A": "Harry Kane",
    "A_team": "Bayern Munich",
    "B": "Donyell Malen",
@@ -1983,6 +1906,17 @@
    "lift": 0.1
   },
   {
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Ante Budimir",
+   "B_team": "Osasuna",
+   "hits": 9,
+   "n": 15,
+   "rate": 0.6,
+   "B_base": 0.438,
+   "lift": 0.162
+  },
+  {
    "A": "Gerard Moreno",
    "A_team": "Villarreal",
    "B": "Kylian Mbapp\u00e9",
@@ -1992,6 +1926,17 @@
    "rate": 0.6,
    "B_base": 0.592,
    "lift": 0.008
+  },
+  {
+   "A": "Jonathan Burkardt",
+   "A_team": "Eintracht Frankfurt",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.525,
+   "lift": 0.075
   },
   {
    "A": "Igor Thiago",
@@ -2016,6 +1961,17 @@
    "lift": -0.013
   },
   {
+   "A": "Jude Bellingham",
+   "A_team": "Real Madrid",
+   "B": "Lionel Messi",
+   "B_team": "Inter Miami CF",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.591,
+   "lift": 0.009
+  },
+  {
    "A": "Ivan Peri\u0161i\u0107",
    "A_team": "PSV Eindhoven",
    "B": "Lionel Messi",
@@ -2038,8 +1994,8 @@
    "lift": 0.009
   },
   {
-   "A": "Maximilian Beier",
-   "A_team": "Borussia Dortmund",
+   "A": "Luis Javier Su\u00e1rez",
+   "A_team": "Sporting CP",
    "B": "Raphinha",
    "B_team": "Barcelona",
    "hits": 6,
@@ -2049,15 +2005,15 @@
    "lift": 0.164
   },
   {
-   "A": "Ayoze",
-   "A_team": "Villarreal",
-   "B": "Juli\u00e1n Alvarez",
-   "B_team": "Atl\u00e9tico Madrid",
+   "A": "Maximilian Beier",
+   "A_team": "Borussia Dortmund",
+   "B": "Raphinha",
+   "B_team": "Barcelona",
    "hits": 6,
    "n": 10,
    "rate": 0.6,
-   "B_base": 0.336,
-   "lift": 0.264
+   "B_base": 0.436,
+   "lift": 0.164
   },
   {
    "A": "Denis Bouanga",
@@ -2071,6 +2027,17 @@
    "lift": 0.412
   },
   {
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Victor Osimhen",
+   "B_team": "Galatasaray",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.588,
+   "lift": 0.012
+  },
+  {
    "A": "Vangelis Pavlidis",
    "A_team": "Benfica",
    "B": "Victor Osimhen",
@@ -2080,6 +2047,17 @@
    "rate": 0.6,
    "B_base": 0.588,
    "lift": 0.012
+  },
+  {
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Cole Palmer",
+   "B_team": "Chelsea",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.252,
+   "lift": 0.348
   },
   {
    "A": "Lamine Yamal",
@@ -2102,6 +2080,28 @@
    "rate": 0.6,
    "B_base": 0.644,
    "lift": -0.044
+  },
+  {
+   "A": "Juli\u00e1n Qui\u00f1ones",
+   "A_team": "Al Qadsiah",
+   "B": "Ivan Toney",
+   "B_team": "Al Ahli",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.537,
+   "lift": 0.063
+  },
+  {
+   "A": "Jonathan Burkardt",
+   "A_team": "Eintracht Frankfurt",
+   "B": "Patrik Schick",
+   "B_team": "Bayer Leverkusen",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.406,
+   "lift": 0.194
   },
   {
    "A": "Jo\u00e3o Pedro",
@@ -2148,6 +2148,28 @@
    "lift": 0.0
   },
   {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Mateo Retegui",
+   "B_team": "Al Qadsiah",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.511,
+   "lift": 0.089
+  },
+  {
+   "A": "Erling Haaland",
+   "A_team": "Manchester City",
+   "B": "Ermedin Demirovi\u0107",
+   "B_team": "VfB Stuttgart",
+   "hits": 6,
+   "n": 10,
+   "rate": 0.6,
+   "B_base": 0.307,
+   "lift": 0.293
+  },
+  {
    "A": "Jamal Musiala",
    "A_team": "Bayern Munich",
    "B": "Samu",
@@ -2179,6 +2201,17 @@
    "rate": 0.6,
    "B_base": 0.474,
    "lift": 0.126
+  },
+  {
+   "A": "Harry Kane",
+   "A_team": "Bayern Munich",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 13,
+   "n": 22,
+   "rate": 0.591,
+   "B_base": 0.525,
+   "lift": 0.066
   },
   {
    "A": "Jonathan Burkardt",
@@ -2214,17 +2247,6 @@
    "lift": -0.008
   },
   {
-   "A": "Jonathan Burkardt",
-   "A_team": "Eintracht Frankfurt",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.525,
-   "lift": 0.058
-  },
-  {
    "A": "Danny Welbeck",
    "A_team": "Chelsea",
    "B": "Erling Haaland",
@@ -2234,17 +2256,6 @@
    "rate": 0.583,
    "B_base": 0.525,
    "lift": 0.058
-  },
-  {
-   "A": "Viktor Gy\u00f6keres",
-   "A_team": "Arsenal",
-   "B": "Harry Kane",
-   "B_team": "Bayern Munich",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.613,
-   "lift": -0.03
   },
   {
    "A": "Deniz Undav",
@@ -2258,28 +2269,6 @@
    "lift": -0.008
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Ivan Toney",
-   "B_team": "Al Ahli",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.537,
-   "lift": 0.046
-  },
-  {
-   "A": "Juli\u00e1n Qui\u00f1ones",
-   "A_team": "Al Qadsiah",
-   "B": "Ivan Toney",
-   "B_team": "Al Ahli",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.537,
-   "lift": 0.046
-  },
-  {
    "A": "Victor Osimhen",
    "A_team": "Galatasaray",
    "B": "Donyell Malen",
@@ -2291,17 +2280,6 @@
    "lift": 0.083
   },
   {
-   "A": "Serhou Guirassy",
-   "A_team": "Borussia Dortmund",
-   "B": "Ademola Lookman",
-   "B_team": "Atl\u00e9tico Madrid",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.304,
-   "lift": 0.28
-  },
-  {
    "A": "Erling Haaland",
    "A_team": "Manchester City",
    "B": "Ante Budimir",
@@ -2311,28 +2289,6 @@
    "rate": 0.583,
    "B_base": 0.438,
    "lift": 0.146
-  },
-  {
-   "A": "Serhou Guirassy",
-   "A_team": "Borussia Dortmund",
-   "B": "Ante Budimir",
-   "B_team": "Osasuna",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.438,
-   "lift": 0.146
-  },
-  {
-   "A": "Ricardo Horta",
-   "A_team": "Braga",
-   "B": "Samu",
-   "B_team": "FC Porto",
-   "hits": 7,
-   "n": 12,
-   "rate": 0.583,
-   "B_base": 0.451,
-   "lift": 0.132
   },
   {
    "A": "Ante Budimir",
@@ -2377,17 +2333,6 @@
    "rate": 0.579,
    "B_base": 0.591,
    "lift": -0.012
-  },
-  {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Denis Bouanga",
-   "B_team": "LAFC",
-   "hits": 15,
-   "n": 26,
-   "rate": 0.577,
-   "B_base": 0.474,
-   "lift": 0.102
   },
   {
    "A": "Luis Javier Su\u00e1rez",
@@ -2478,17 +2423,6 @@
    "lift": 0.189
   },
   {
-   "A": "Harry Kane",
-   "A_team": "Bayern Munich",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 13,
-   "n": 23,
-   "rate": 0.565,
-   "B_base": 0.525,
-   "lift": 0.04
-  },
-  {
    "A": "Jonathan Burkardt",
    "A_team": "Eintracht Frankfurt",
    "B": "Lionel Messi",
@@ -2511,15 +2445,37 @@
    "lift": -0.028
   },
   {
-   "A": "Jo\u00e3o Pedro",
-   "A_team": "Chelsea",
-   "B": "Est\u00e9ban Lepaul",
-   "B_team": "Stade Rennais",
+   "A": "Cristiano Ronaldo",
+   "A_team": "Al Nassr",
+   "B": "Jo\u00e3o Pedro",
+   "B_team": "Chelsea",
    "hits": 9,
    "n": 16,
    "rate": 0.562,
-   "B_base": 0.383,
-   "lift": 0.18
+   "B_base": 0.337,
+   "lift": 0.226
+  },
+  {
+   "A": "Deniz Undav",
+   "A_team": "VfB Stuttgart",
+   "B": "Ricardo Horta",
+   "B_team": "Braga",
+   "hits": 9,
+   "n": 16,
+   "rate": 0.562,
+   "B_base": 0.302,
+   "lift": 0.261
+  },
+  {
+   "A": "Patrik Schick",
+   "A_team": "Bayer Leverkusen",
+   "B": "Erling Haaland",
+   "B_team": "Manchester City",
+   "hits": 10,
+   "n": 18,
+   "rate": 0.556,
+   "B_base": 0.525,
+   "lift": 0.031
   },
   {
    "A": "Harvey Barnes",
@@ -2533,8 +2489,8 @@
    "lift": -0.036
   },
   {
-   "A": "Viktor Gy\u00f6keres",
-   "A_team": "Arsenal",
+   "A": "Ante Budimir",
+   "A_team": "Osasuna",
    "B": "Erling Haaland",
    "B_team": "Manchester City",
    "hits": 5,
@@ -2546,17 +2502,6 @@
   {
    "A": "Andrej Kramari\u0107",
    "A_team": "TSG Hoffenheim",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 5,
-   "n": 9,
-   "rate": 0.556,
-   "B_base": 0.525,
-   "lift": 0.031
-  },
-  {
-   "A": "Ermedin Demirovi\u0107",
-   "A_team": "VfB Stuttgart",
    "B": "Erling Haaland",
    "B_team": "Manchester City",
    "hits": 5,
@@ -2610,6 +2555,28 @@
    "lift": 0.14
   },
   {
+   "A": "Ayoze",
+   "A_team": "Villarreal",
+   "B": "Lamine Yamal",
+   "B_team": "Barcelona",
+   "hits": 5,
+   "n": 9,
+   "rate": 0.556,
+   "B_base": 0.415,
+   "lift": 0.14
+  },
+  {
+   "A": "Raphinha",
+   "A_team": "Barcelona",
+   "B": "Harry Kane",
+   "B_team": "Bayern Munich",
+   "hits": 5,
+   "n": 9,
+   "rate": 0.556,
+   "B_base": 0.613,
+   "lift": -0.058
+  },
+  {
    "A": "Jo\u00e3o Pedro",
    "A_team": "Chelsea",
    "B": "Harry Kane",
@@ -2654,7 +2621,7 @@
    "lift": 0.119
   },
   {
-   "A": "Antoine Semenyo",
+   "A": "Erling Haaland",
    "A_team": "Manchester City",
    "B": "Deniz Undav",
    "B_team": "VfB Stuttgart",
@@ -2665,26 +2632,15 @@
    "lift": 0.202
   },
   {
-   "A": "Dani Olmo",
-   "A_team": "Barcelona",
-   "B": "Oyarzabal",
-   "B_team": "Real Sociedad",
+   "A": "Antoine Semenyo",
+   "A_team": "Manchester City",
+   "B": "Deniz Undav",
+   "B_team": "VfB Stuttgart",
    "hits": 5,
    "n": 9,
    "rate": 0.556,
-   "B_base": 0.277,
-   "lift": 0.279
-  },
-  {
-   "A": "Vangelis Pavlidis",
-   "A_team": "Benfica",
-   "B": "Nico Williams",
-   "B_team": "Athletic Club",
-   "hits": 5,
-   "n": 9,
-   "rate": 0.556,
-   "B_base": 0.17,
-   "lift": 0.385
+   "B_base": 0.354,
+   "lift": 0.202
   },
   {
    "A": "Oyarzabal",
@@ -2731,6 +2687,17 @@
    "lift": 0.386
   },
   {
+   "A": "Borja Iglesias",
+   "A_team": "Celta Vigo",
+   "B": "Alexander S\u00f8rloth",
+   "B_team": "Atl\u00e9tico Madrid",
+   "hits": 5,
+   "n": 9,
+   "rate": 0.556,
+   "B_base": 0.271,
+   "lift": 0.284
+  },
+  {
    "A": "Est\u00e9ban Lepaul",
    "A_team": "Stade Rennais",
    "B": "Ricardo Horta",
@@ -2762,28 +2729,6 @@
    "rate": 0.556,
    "B_base": 0.449,
    "lift": 0.106
-  },
-  {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "\u00c1ngel Di Mar\u00eda",
-   "B_team": "Rosario Central",
-   "hits": 5,
-   "n": 9,
-   "rate": 0.556,
-   "B_base": 0.358,
-   "lift": 0.197
-  },
-  {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Est\u00e9ban Lepaul",
-   "B_team": "Stade Rennais",
-   "hits": 5,
-   "n": 9,
-   "rate": 0.556,
-   "B_base": 0.383,
-   "lift": 0.173
   },
   {
    "A": "Anders Dreyer",
@@ -2852,17 +2797,6 @@
    "lift": 0.081
   },
   {
-   "A": "Yoane Wissa",
-   "A_team": "Newcastle United",
-   "B": "Denis Bouanga",
-   "B_team": "LAFC",
-   "hits": 5,
-   "n": 9,
-   "rate": 0.556,
-   "B_base": 0.474,
-   "lift": 0.081
-  },
-  {
    "A": "Georges Mikautadze",
    "A_team": "Villarreal",
    "B": "Denis Bouanga",
@@ -2896,6 +2830,17 @@
    "lift": 0.113
   },
   {
+   "A": "Patrik Schick",
+   "A_team": "Bayer Leverkusen",
+   "B": "Est\u00e9ban Lepaul",
+   "B_team": "Stade Rennais",
+   "hits": 11,
+   "n": 20,
+   "rate": 0.55,
+   "B_base": 0.383,
+   "lift": 0.167
+  },
+  {
    "A": "Ivan Toney",
    "A_team": "Al Ahli",
    "B": "Erling Haaland",
@@ -2918,17 +2863,6 @@
    "lift": -0.045
   },
   {
-   "A": "Luis Javier Su\u00e1rez",
-   "A_team": "Sporting CP",
-   "B": "Raphinha",
-   "B_team": "Barcelona",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.436,
-   "lift": 0.109
-  },
-  {
    "A": "Jonathan Burkardt",
    "A_team": "Eintracht Frankfurt",
    "B": "Juli\u00e1n Alvarez",
@@ -2940,15 +2874,37 @@
    "lift": 0.209
   },
   {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
-   "B": "Alexander Isak",
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
+   "B": "Dominik Szoboszlai",
    "B_team": "Liverpool",
    "hits": 6,
    "n": 11,
    "rate": 0.545,
-   "B_base": 0.403,
-   "lift": 0.143
+   "B_base": 0.211,
+   "lift": 0.335
+  },
+  {
+   "A": "Luis Javier Su\u00e1rez",
+   "A_team": "Sporting CP",
+   "B": "Ferm\u00edn",
+   "B_team": "Barcelona",
+   "hits": 6,
+   "n": 11,
+   "rate": 0.545,
+   "B_base": 0.188,
+   "lift": 0.357
+  },
+  {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Victor Osimhen",
+   "B_team": "Galatasaray",
+   "hits": 6,
+   "n": 11,
+   "rate": 0.545,
+   "B_base": 0.588,
+   "lift": -0.042
   },
   {
    "A": "Ante Budimir",
@@ -2984,15 +2940,15 @@
    "lift": 0.192
   },
   {
-   "A": "Danny Welbeck",
-   "A_team": "Chelsea",
-   "B": "Deniz Undav",
-   "B_team": "VfB Stuttgart",
+   "A": "Kylian Mbapp\u00e9",
+   "A_team": "Real Madrid",
+   "B": "Ivan Toney",
+   "B_team": "Al Ahli",
    "hits": 6,
    "n": 11,
    "rate": 0.545,
-   "B_base": 0.354,
-   "lift": 0.192
+   "B_base": 0.537,
+   "lift": 0.008
   },
   {
    "A": "Serhou Guirassy",
@@ -3017,28 +2973,6 @@
    "lift": 0.14
   },
   {
-   "A": "Jonathan Burkardt",
-   "A_team": "Eintracht Frankfurt",
-   "B": "Patrik Schick",
-   "B_team": "Bayer Leverkusen",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.406,
-   "lift": 0.14
-  },
-  {
-   "A": "Deniz Undav",
-   "A_team": "VfB Stuttgart",
-   "B": "Rodrigo Zalazar",
-   "B_team": "Sporting CP",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.345,
-   "lift": 0.201
-  },
-  {
    "A": "Ivan Toney",
    "A_team": "Al Ahli",
    "B": "Rodrigo Zalazar",
@@ -3050,17 +2984,6 @@
    "lift": 0.201
   },
   {
-   "A": "Yannick Carrasco",
-   "A_team": "Al Shabab",
-   "B": "Vangelis Pavlidis",
-   "B_team": "Benfica",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.409,
-   "lift": 0.136
-  },
-  {
    "A": "Morgan Rogers",
    "A_team": "Chelsea",
    "B": "Ricardo Horta",
@@ -3070,28 +2993,6 @@
    "rate": 0.545,
    "B_base": 0.302,
    "lift": 0.244
-  },
-  {
-   "A": "Lamine Yamal",
-   "A_team": "Barcelona",
-   "B": "Luis Javier Su\u00e1rez",
-   "B_team": "Sporting CP",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.6,
-   "lift": -0.055
-  },
-  {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
-   "B": "Ante Budimir",
-   "B_team": "Osasuna",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.438,
-   "lift": 0.108
   },
   {
    "A": "Danny Welbeck",
@@ -3116,52 +3017,8 @@
    "lift": 0.108
   },
   {
-   "A": "Juli\u00e1n Qui\u00f1ones",
-   "A_team": "Al Qadsiah",
-   "B": "Isma\u00efla Sarr",
-   "B_team": "Crystal Palace",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.265,
-   "lift": 0.28
-  },
-  {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Mateo Retegui",
-   "B_team": "Al Qadsiah",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.511,
-   "lift": 0.034
-  },
-  {
    "A": "Kylian Mbapp\u00e9",
    "A_team": "Real Madrid",
-   "B": "Ermedin Demirovi\u0107",
-   "B_team": "VfB Stuttgart",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.307,
-   "lift": 0.239
-  },
-  {
-   "A": "Erling Haaland",
-   "A_team": "Manchester City",
-   "B": "Ermedin Demirovi\u0107",
-   "B_team": "VfB Stuttgart",
-   "hits": 6,
-   "n": 11,
-   "rate": 0.545,
-   "B_base": 0.307,
-   "lift": 0.239
-  },
-  {
-   "A": "Danny Welbeck",
-   "A_team": "Chelsea",
    "B": "Ermedin Demirovi\u0107",
    "B_team": "VfB Stuttgart",
    "hits": 6,
@@ -3204,17 +3061,6 @@
    "lift": 0.163
   },
   {
-   "A": "Harry Kane",
-   "A_team": "Bayern Munich",
-   "B": "Deniz Undav",
-   "B_team": "VfB Stuttgart",
-   "hits": 13,
-   "n": 24,
-   "rate": 0.542,
-   "B_base": 0.354,
-   "lift": 0.188
-  },
-  {
    "A": "Kylian Mbapp\u00e9",
    "A_team": "Real Madrid",
    "B": "Lionel Messi",
@@ -3248,50 +3094,6 @@
    "lift": 0.202
   },
   {
-   "A": "Victor Osimhen",
-   "A_team": "Galatasaray",
-   "B": "Dominik Szoboszlai",
-   "B_team": "Liverpool",
-   "hits": 7,
-   "n": 13,
-   "rate": 0.538,
-   "B_base": 0.211,
-   "lift": 0.328
-  },
-  {
-   "A": "Luis Javier Su\u00e1rez",
-   "A_team": "Sporting CP",
-   "B": "Ferm\u00edn",
-   "B_team": "Barcelona",
-   "hits": 7,
-   "n": 13,
-   "rate": 0.538,
-   "B_base": 0.188,
-   "lift": 0.35
-  },
-  {
-   "A": "Ivan Toney",
-   "A_team": "Al Ahli",
-   "B": "Victor Osimhen",
-   "B_team": "Galatasaray",
-   "hits": 7,
-   "n": 13,
-   "rate": 0.538,
-   "B_base": 0.588,
-   "lift": -0.049
-  },
-  {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Cole Palmer",
-   "B_team": "Chelsea",
-   "hits": 7,
-   "n": 13,
-   "rate": 0.538,
-   "B_base": 0.252,
-   "lift": 0.286
-  },
-  {
    "A": "Raphinha",
    "A_team": "Barcelona",
    "B": "Cole Palmer",
@@ -3314,15 +3116,15 @@
    "lift": 0.185
   },
   {
-   "A": "Ermedin Demirovi\u0107",
-   "A_team": "VfB Stuttgart",
-   "B": "Rodrigo Zalazar",
-   "B_team": "Sporting CP",
+   "A": "Jonathan Burkardt",
+   "A_team": "Eintracht Frankfurt",
+   "B": "Eberechi Eze",
+   "B_team": "Arsenal",
    "hits": 7,
    "n": 13,
    "rate": 0.538,
-   "B_base": 0.345,
-   "lift": 0.194
+   "B_base": 0.185,
+   "lift": 0.354
   },
   {
    "A": "Antoine Semenyo",
@@ -3349,6 +3151,17 @@
   {
    "A": "Victor Osimhen",
    "A_team": "Galatasaray",
+   "B": "Est\u00e9ban Lepaul",
+   "B_team": "Stade Rennais",
+   "hits": 7,
+   "n": 13,
+   "rate": 0.538,
+   "B_base": 0.383,
+   "lift": 0.156
+  },
+  {
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
    "B": "Lionel Messi",
    "B_team": "Inter Miami CF",
    "hits": 8,
@@ -3356,28 +3169,6 @@
    "rate": 0.533,
    "B_base": 0.591,
    "lift": -0.058
-  },
-  {
-   "A": "Jonathan Burkardt",
-   "A_team": "Eintracht Frankfurt",
-   "B": "Eberechi Eze",
-   "B_team": "Arsenal",
-   "hits": 8,
-   "n": 15,
-   "rate": 0.533,
-   "B_base": 0.185,
-   "lift": 0.348
-  },
-  {
-   "A": "Juli\u00e1n Qui\u00f1ones",
-   "A_team": "Al Qadsiah",
-   "B": "Cristiano Ronaldo",
-   "B_team": "Al Nassr",
-   "hits": 8,
-   "n": 15,
-   "rate": 0.533,
-   "B_base": 0.644,
-   "lift": -0.11
   },
   {
    "A": "Ivan Toney",
@@ -3393,35 +3184,35 @@
   {
    "A": "Jo\u00e3o Pedro",
    "A_team": "Chelsea",
-   "B": "Lamine Yamal",
-   "B_team": "Barcelona",
-   "hits": 9,
-   "n": 17,
-   "rate": 0.529,
-   "B_base": 0.415,
-   "lift": 0.114
+   "B": "Est\u00e9ban Lepaul",
+   "B_team": "Stade Rennais",
+   "hits": 8,
+   "n": 15,
+   "rate": 0.533,
+   "B_base": 0.383,
+   "lift": 0.151
   },
   {
-   "A": "Ante Budimir",
-   "A_team": "Osasuna",
-   "B": "Lamine Yamal",
-   "B_team": "Barcelona",
+   "A": "Lamine Yamal",
+   "A_team": "Barcelona",
+   "B": "Lionel Messi",
+   "B_team": "Inter Miami CF",
    "hits": 9,
    "n": 17,
    "rate": 0.529,
-   "B_base": 0.415,
-   "lift": 0.114
+   "B_base": 0.591,
+   "lift": -0.061
   },
   {
-   "A": "Cristiano Ronaldo",
-   "A_team": "Al Nassr",
-   "B": "Jo\u00e3o Pedro",
-   "B_team": "Chelsea",
+   "A": "Erling Haaland",
+   "A_team": "Manchester City",
+   "B": "Ivan Toney",
+   "B_team": "Al Ahli",
    "hits": 9,
    "n": 17,
    "rate": 0.529,
-   "B_base": 0.337,
-   "lift": 0.193
+   "B_base": 0.537,
+   "lift": -0.008
   },
   {
    "A": "Vangelis Pavlidis",
@@ -3433,17 +3224,6 @@
    "rate": 0.529,
    "B_base": 0.383,
    "lift": 0.147
-  },
-  {
-   "A": "Patrik Schick",
-   "A_team": "Bayer Leverkusen",
-   "B": "Erling Haaland",
-   "B_team": "Manchester City",
-   "hits": 10,
-   "n": 19,
-   "rate": 0.526,
-   "B_base": 0.525,
-   "lift": 0.001
   },
   {
    "A": "Patrik Schick",
@@ -3468,15 +3248,15 @@
    "lift": 0.087
   },
   {
-   "A": "Patrik Schick",
-   "A_team": "Bayer Leverkusen",
-   "B": "Est\u00e9ban Lepaul",
-   "B_team": "Stade Rennais",
-   "hits": 11,
-   "n": 21,
-   "rate": 0.524,
-   "B_base": 0.383,
-   "lift": 0.141
+   "A": "Harry Kane",
+   "A_team": "Bayern Munich",
+   "B": "Deniz Undav",
+   "B_team": "VfB Stuttgart",
+   "hits": 12,
+   "n": 23,
+   "rate": 0.522,
+   "B_base": 0.354,
+   "lift": 0.168
   },
   {
    "A": "Cristiano Ronaldo",
@@ -3501,17 +3281,6 @@
    "lift": -0.091
   },
   {
-   "A": "Kylian Mbapp\u00e9",
-   "A_team": "Real Madrid",
-   "B": "Samu",
-   "B_team": "FC Porto",
-   "hits": 11,
-   "n": 22,
-   "rate": 0.5,
-   "B_base": 0.451,
-   "lift": 0.049
-  },
-  {
    "A": "Erling Haaland",
    "A_team": "Manchester City",
    "B": "Denis Bouanga",
@@ -3523,15 +3292,15 @@
    "lift": 0.026
   },
   {
-   "A": "Patrik Schick",
-   "A_team": "Bayer Leverkusen",
-   "B": "Vangelis Pavlidis",
-   "B_team": "Benfica",
+   "A": "Cristiano Ronaldo",
+   "A_team": "Al Nassr",
+   "B": "Kylian Mbapp\u00e9",
+   "B_team": "Real Madrid",
    "hits": 10,
    "n": 20,
    "rate": 0.5,
-   "B_base": 0.409,
-   "lift": 0.091
+   "B_base": 0.592,
+   "lift": -0.092
   },
   {
    "A": "Patrik Schick",
@@ -3543,50 +3312,6 @@
    "rate": 0.5,
    "B_base": 0.415,
    "lift": 0.085
-  },
-  {
-   "A": "Lamine Yamal",
-   "A_team": "Barcelona",
-   "B": "Lionel Messi",
-   "B_team": "Inter Miami CF",
-   "hits": 9,
-   "n": 18,
-   "rate": 0.5,
-   "B_base": 0.591,
-   "lift": -0.091
-  },
-  {
-   "A": "Serhou Guirassy",
-   "A_team": "Borussia Dortmund",
-   "B": "Juli\u00e1n Alvarez",
-   "B_team": "Atl\u00e9tico Madrid",
-   "hits": 9,
-   "n": 18,
-   "rate": 0.5,
-   "B_base": 0.336,
-   "lift": 0.164
-  },
-  {
-   "A": "Erling Haaland",
-   "A_team": "Manchester City",
-   "B": "Ivan Toney",
-   "B_team": "Al Ahli",
-   "hits": 9,
-   "n": 18,
-   "rate": 0.5,
-   "B_base": 0.537,
-   "lift": -0.037
-  },
-  {
-   "A": "Deniz Undav",
-   "A_team": "VfB Stuttgart",
-   "B": "Ricardo Horta",
-   "B_team": "Braga",
-   "hits": 9,
-   "n": 18,
-   "rate": 0.5,
-   "B_base": 0.302,
-   "lift": 0.198
   },
   {
    "A": "Vangelis Pavlidis",
@@ -3611,26 +3336,26 @@
    "lift": 0.026
   },
   {
-   "A": "Ante Budimir",
-   "A_team": "Osasuna",
-   "B": "Raphinha",
+   "A": "Jo\u00e3o Pedro",
+   "A_team": "Chelsea",
+   "B": "Lamine Yamal",
    "B_team": "Barcelona",
    "hits": 8,
    "n": 16,
    "rate": 0.5,
-   "B_base": 0.436,
-   "lift": 0.064
+   "B_base": 0.415,
+   "lift": 0.085
   },
   {
    "A": "Ante Budimir",
    "A_team": "Osasuna",
-   "B": "Oyarzabal",
-   "B_team": "Real Sociedad",
+   "B": "Lamine Yamal",
+   "B_team": "Barcelona",
    "hits": 8,
    "n": 16,
    "rate": 0.5,
-   "B_base": 0.277,
-   "lift": 0.223
+   "B_base": 0.415,
+   "lift": 0.085
   },
   {
    "A": "Juli\u00e1n Qui\u00f1ones",
@@ -3668,6 +3393,28 @@
   {
    "A": "Ante Budimir",
    "A_team": "Osasuna",
+   "B": "Oyarzabal",
+   "B_team": "Real Sociedad",
+   "hits": 7,
+   "n": 14,
+   "rate": 0.5,
+   "B_base": 0.277,
+   "lift": 0.223
+  },
+  {
+   "A": "Cristiano Ronaldo",
+   "A_team": "Al Nassr",
+   "B": "Ivan Toney",
+   "B_team": "Al Ahli",
+   "hits": 7,
+   "n": 14,
+   "rate": 0.5,
+   "B_base": 0.537,
+   "lift": -0.037
+  },
+  {
+   "A": "Ante Budimir",
+   "A_team": "Osasuna",
    "B": "Rodrigo Zalazar",
    "B_team": "Sporting CP",
    "hits": 7,
@@ -3697,28 +3444,6 @@
    "rate": 0.5,
    "B_base": 0.327,
    "lift": 0.173
-  },
-  {
-   "A": "Victor Osimhen",
-   "A_team": "Galatasaray",
-   "B": "Est\u00e9ban Lepaul",
-   "B_team": "Stade Rennais",
-   "hits": 7,
-   "n": 14,
-   "rate": 0.5,
-   "B_base": 0.383,
-   "lift": 0.117
-  },
-  {
-   "A": "Cristiano Ronaldo",
-   "A_team": "Al Nassr",
-   "B": "Yoane Wissa",
-   "B_team": "Newcastle United",
-   "hits": 7,
-   "n": 14,
-   "rate": 0.5,
-   "B_base": 0.259,
-   "lift": 0.241
   },
   {
    "A": "Patrik Schick",
@@ -3752,6 +3477,17 @@
    "rate": 0.5,
    "B_base": 0.302,
    "lift": 0.198
+  },
+  {
+   "A": "Ivan Toney",
+   "A_team": "Al Ahli",
+   "B": "Florian Thauvin",
+   "B_team": "Lens",
+   "hits": 6,
+   "n": 12,
+   "rate": 0.5,
+   "B_base": 0.353,
+   "lift": 0.147
   },
   {
    "A": "Antoine Semenyo",
@@ -3796,28 +3532,6 @@
    "rate": 0.5,
    "B_base": 0.525,
    "lift": -0.025
-  },
-  {
-   "A": "Ayoze",
-   "A_team": "Villarreal",
-   "B": "Lamine Yamal",
-   "B_team": "Barcelona",
-   "hits": 5,
-   "n": 10,
-   "rate": 0.5,
-   "B_base": 0.415,
-   "lift": 0.085
-  },
-  {
-   "A": "Borja Iglesias",
-   "A_team": "Celta Vigo",
-   "B": "Lamine Yamal",
-   "B_team": "Barcelona",
-   "hits": 5,
-   "n": 10,
-   "rate": 0.5,
-   "B_base": 0.415,
-   "lift": 0.085
   },
   {
    "A": "Folarin Balogun",
@@ -3930,8 +3644,8 @@
    "lift": -0.088
   },
   {
-   "A": "Erling Haaland",
-   "A_team": "Manchester City",
+   "A": "Serhou Guirassy",
+   "A_team": "Borussia Dortmund",
    "B": "Deniz Undav",
    "B_team": "VfB Stuttgart",
    "hits": 5,
@@ -3941,15 +3655,15 @@
    "lift": 0.146
   },
   {
-   "A": "Victor Osimhen",
-   "A_team": "Galatasaray",
-   "B": "Juli\u00e1n Qui\u00f1ones",
-   "B_team": "Al Qadsiah",
+   "A": "Erling Haaland",
+   "A_team": "Manchester City",
+   "B": "Nico Paz",
+   "B_team": "Como",
    "hits": 5,
    "n": 10,
    "rate": 0.5,
-   "B_base": 0.607,
-   "lift": -0.107
+   "B_base": 0.247,
+   "lift": 0.253
   },
   {
    "A": "Serhou Guirassy",
@@ -3961,6 +3675,17 @@
    "rate": 0.5,
    "B_base": 0.607,
    "lift": -0.107
+  },
+  {
+   "A": "Borja Iglesias",
+   "A_team": "Celta Vigo",
+   "B": "Oyarzabal",
+   "B_team": "Real Sociedad",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.277,
+   "lift": 0.223
   },
   {
    "A": "Dominik Szoboszlai",
@@ -3985,17 +3710,6 @@
    "lift": 0.241
   },
   {
-   "A": "Borja Iglesias",
-   "A_team": "Celta Vigo",
-   "B": "Alexander S\u00f8rloth",
-   "B_team": "Atl\u00e9tico Madrid",
-   "hits": 5,
-   "n": 10,
-   "rate": 0.5,
-   "B_base": 0.271,
-   "lift": 0.229
-  },
-  {
    "A": "Victor Osimhen",
    "A_team": "Galatasaray",
    "B": "Patrik Schick",
@@ -4005,6 +3719,28 @@
    "rate": 0.5,
    "B_base": 0.406,
    "lift": 0.094
+  },
+  {
+   "A": "Ayoze",
+   "A_team": "Villarreal",
+   "B": "Sancet",
+   "B_team": "Athletic Club",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.233,
+   "lift": 0.267
+  },
+  {
+   "A": "Deniz Undav",
+   "A_team": "VfB Stuttgart",
+   "B": "Rodrigo Zalazar",
+   "B_team": "Sporting CP",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.345,
+   "lift": 0.155
   },
   {
    "A": "Morgan Rogers",
@@ -4018,8 +3754,19 @@
    "lift": 0.091
   },
   {
-   "A": "Est\u00e9ban Lepaul",
-   "A_team": "Stade Rennais",
+   "A": "Yannick Carrasco",
+   "A_team": "Al Shabab",
+   "B": "Vangelis Pavlidis",
+   "B_team": "Benfica",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.409,
+   "lift": 0.091
+  },
+  {
+   "A": "Luis Javier Su\u00e1rez",
+   "A_team": "Sporting CP",
    "B": "Vangelis Pavlidis",
    "B_team": "Benfica",
    "hits": 5,
@@ -4062,6 +3809,17 @@
    "lift": 0.16
   },
   {
+   "A": "Lamine Yamal",
+   "A_team": "Barcelona",
+   "B": "Luis Javier Su\u00e1rez",
+   "B_team": "Sporting CP",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.6,
+   "lift": -0.1
+  },
+  {
    "A": "Ivan Toney",
    "A_team": "Al Ahli",
    "B": "Luis Javier Su\u00e1rez",
@@ -4071,6 +3829,17 @@
    "rate": 0.5,
    "B_base": 0.6,
    "lift": -0.1
+  },
+  {
+   "A": "Erling Haaland",
+   "A_team": "Manchester City",
+   "B": "Jonathan Burkardt",
+   "B_team": "Eintracht Frankfurt",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.449,
+   "lift": 0.051
   },
   {
    "A": "Lionel Messi",
@@ -4095,6 +3864,17 @@
    "lift": 0.147
   },
   {
+   "A": "Raphinha",
+   "A_team": "Barcelona",
+   "B": "Ante Budimir",
+   "B_team": "Osasuna",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.438,
+   "lift": 0.062
+  },
+  {
    "A": "Alexander Isak",
    "A_team": "Liverpool",
    "B": "Ante Budimir",
@@ -4106,8 +3886,30 @@
    "lift": 0.062
   },
   {
+   "A": "Juli\u00e1n Qui\u00f1ones",
+   "A_team": "Al Qadsiah",
+   "B": "Isma\u00efla Sarr",
+   "B_team": "Crystal Palace",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.265,
+   "lift": 0.235
+  },
+  {
    "A": "Alexander S\u00f8rloth",
    "A_team": "Atl\u00e9tico Madrid",
+   "B": "Est\u00e9ban Lepaul",
+   "B_team": "Stade Rennais",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.383,
+   "lift": 0.117
+  },
+  {
+   "A": "Yoane Wissa",
+   "A_team": "Newcastle United",
    "B": "Est\u00e9ban Lepaul",
    "B_team": "Stade Rennais",
    "hits": 5,
@@ -4128,6 +3930,17 @@
    "lift": 0.295
   },
   {
+   "A": "Jamal Musiala",
+   "A_team": "Bayern Munich",
+   "B": "Ermedin Demirovi\u0107",
+   "B_team": "VfB Stuttgart",
+   "hits": 5,
+   "n": 10,
+   "rate": 0.5,
+   "B_base": 0.307,
+   "lift": 0.193
+  },
+  {
    "A": "Luis Javier Su\u00e1rez",
    "A_team": "Sporting CP",
    "B": "Borja Iglesias",
@@ -4137,17 +3950,6 @@
    "rate": 0.5,
    "B_base": 0.268,
    "lift": 0.232
-  },
-  {
-   "A": "Alexander Isak",
-   "A_team": "Liverpool",
-   "B": "Samu",
-   "B_team": "FC Porto",
-   "hits": 5,
-   "n": 10,
-   "rate": 0.5,
-   "B_base": 0.451,
-   "lift": 0.049
   },
   {
    "A": "Jean-Philippe Mateta",
@@ -4260,8 +4062,8 @@
    "lift": -0.092
   },
   {
-   "A": "Deniz Undav",
-   "A_team": "VfB Stuttgart",
+   "A": "Viktor Gy\u00f6keres",
+   "A_team": "Arsenal",
    "B": "Erling Haaland",
    "B_team": "Manchester City",
    "hits": 4,
@@ -4304,8 +4106,8 @@
    "lift": 0.085
   },
   {
-   "A": "Rodrigo Zalazar",
-   "A_team": "Sporting CP",
+   "A": "Borja Iglesias",
+   "A_team": "Celta Vigo",
    "B": "Lamine Yamal",
    "B_team": "Barcelona",
    "hits": 4,
@@ -4392,17 +4194,6 @@
    "lift": 0.064
   },
   {
-   "A": "Samu",
-   "A_team": "FC Porto",
-   "B": "Raphinha",
-   "B_team": "Barcelona",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.436,
-   "lift": 0.064
-  },
-  {
    "A": "Eberechi Eze",
    "A_team": "Arsenal",
    "B": "Juli\u00e1n Alvarez",
@@ -4414,8 +4205,8 @@
    "lift": 0.164
   },
   {
-   "A": "Est\u00e9ban Lepaul",
-   "A_team": "Stade Rennais",
+   "A": "Samu",
+   "A_team": "FC Porto",
    "B": "Juli\u00e1n Alvarez",
    "B_team": "Atl\u00e9tico Madrid",
    "hits": 4,
@@ -4456,28 +4247,6 @@
    "rate": 0.5,
    "B_base": 0.252,
    "lift": 0.248
-  },
-  {
-   "A": "Alexander Isak",
-   "A_team": "Liverpool",
-   "B": "Serhou Guirassy",
-   "B_team": "Borussia Dortmund",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.455,
-   "lift": 0.045
-  },
-  {
-   "A": "Eberechi Eze",
-   "A_team": "Arsenal",
-   "B": "Deniz Undav",
-   "B_team": "VfB Stuttgart",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.354,
-   "lift": 0.146
   },
   {
    "A": "Luis Javier Su\u00e1rez",
@@ -4524,6 +4293,17 @@
    "lift": 0.223
   },
   {
+   "A": "Vangelis Pavlidis",
+   "A_team": "Benfica",
+   "B": "Nico Williams",
+   "B_team": "Athletic Club",
+   "hits": 4,
+   "n": 8,
+   "rate": 0.5,
+   "B_base": 0.17,
+   "lift": 0.33
+  },
+  {
    "A": "Harvey Barnes",
    "A_team": "Newcastle United",
    "B": "Nico Williams",
@@ -4535,26 +4315,15 @@
    "lift": 0.33
   },
   {
-   "A": "Lamine Yamal",
-   "A_team": "Barcelona",
-   "B": "Ivan Toney",
-   "B_team": "Al Ahli",
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
+   "B": "Cristiano Ronaldo",
+   "B_team": "Al Nassr",
    "hits": 4,
    "n": 8,
    "rate": 0.5,
-   "B_base": 0.537,
-   "lift": -0.037
-  },
-  {
-   "A": "Raphinha",
-   "A_team": "Barcelona",
-   "B": "Ivan Toney",
-   "B_team": "Al Ahli",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.537,
-   "lift": -0.037
+   "B_base": 0.644,
+   "lift": -0.144
   },
   {
    "A": "Est\u00e9ban Lepaul",
@@ -4568,41 +4337,8 @@
    "lift": -0.037
   },
   {
-   "A": "Igor Thiago",
-   "A_team": "Brentford",
-   "B": "Christian Pulisic",
-   "B_team": "AC Milan",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.273,
-   "lift": 0.227
-  },
-  {
-   "A": "Andrej Kramari\u0107",
-   "A_team": "TSG Hoffenheim",
-   "B": "Serge Gnabry",
-   "B_team": "Bayern Munich",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.17,
-   "lift": 0.33
-  },
-  {
    "A": "Patrik Schick",
    "A_team": "Bayer Leverkusen",
-   "B": "Ademola Lookman",
-   "B_team": "Atl\u00e9tico Madrid",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.304,
-   "lift": 0.196
-  },
-  {
-   "A": "Folarin Balogun",
-   "A_team": "AS Monaco",
    "B": "Ademola Lookman",
    "B_team": "Atl\u00e9tico Madrid",
    "hits": 4,
@@ -4625,6 +4361,17 @@
   {
    "A": "Nico Paz",
    "A_team": "Como",
+   "B": "Sancet",
+   "B_team": "Athletic Club",
+   "hits": 4,
+   "n": 8,
+   "rate": 0.5,
+   "B_base": 0.233,
+   "lift": 0.267
+  },
+  {
+   "A": "Harvey Barnes",
+   "A_team": "Newcastle United",
    "B": "Sancet",
    "B_team": "Athletic Club",
    "hits": 4,
@@ -4678,6 +4425,17 @@
    "lift": 0.091
   },
   {
+   "A": "Est\u00e9ban Lepaul",
+   "A_team": "Stade Rennais",
+   "B": "Vangelis Pavlidis",
+   "B_team": "Benfica",
+   "hits": 4,
+   "n": 8,
+   "rate": 0.5,
+   "B_base": 0.409,
+   "lift": 0.091
+  },
+  {
    "A": "Oyarzabal",
    "A_team": "Real Sociedad",
    "B": "Ricardo Horta",
@@ -4709,39 +4467,6 @@
    "rate": 0.5,
    "B_base": 0.34,
    "lift": 0.16
-  },
-  {
-   "A": "Luis Javier Su\u00e1rez",
-   "A_team": "Sporting CP",
-   "B": "Florian Thauvin",
-   "B_team": "Lens",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.353,
-   "lift": 0.147
-  },
-  {
-   "A": "Georges Mikautadze",
-   "A_team": "Villarreal",
-   "B": "Florian Thauvin",
-   "B_team": "Lens",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.353,
-   "lift": 0.147
-  },
-  {
-   "A": "Vangelis Pavlidis",
-   "A_team": "Benfica",
-   "B": "Igor Thiago",
-   "B_team": "Brentford",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.344,
-   "lift": 0.156
   },
   {
    "A": "Jo\u00e3o F\u00e9lix",
@@ -4788,8 +4513,8 @@
    "lift": 0.062
   },
   {
-   "A": "Yannick Carrasco",
-   "A_team": "Al Shabab",
+   "A": "Est\u00e9ban Lepaul",
+   "A_team": "Stade Rennais",
    "B": "Ante Budimir",
    "B_team": "Osasuna",
    "hits": 4,
@@ -4821,26 +4546,15 @@
    "lift": 0.173
   },
   {
-   "A": "Ayoze",
-   "A_team": "Villarreal",
-   "B": "Jean-Philippe Mateta",
-   "B_team": "Crystal Palace",
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
+   "B": "Andrej Kramari\u0107",
+   "B_team": "TSG Hoffenheim",
    "hits": 4,
    "n": 8,
    "rate": 0.5,
-   "B_base": 0.262,
-   "lift": 0.238
-  },
-  {
-   "A": "Borja Iglesias",
-   "A_team": "Celta Vigo",
-   "B": "Jean-Philippe Mateta",
-   "B_team": "Crystal Palace",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.262,
-   "lift": 0.238
+   "B_base": 0.222,
+   "lift": 0.278
   },
   {
    "A": "Vangelis Pavlidis",
@@ -4854,8 +4568,8 @@
    "lift": -0.011
   },
   {
-   "A": "Mateo Retegui",
-   "A_team": "Al Qadsiah",
+   "A": "Jean-Philippe Mateta",
+   "A_team": "Crystal Palace",
    "B": "Est\u00e9ban Lepaul",
    "B_team": "Stade Rennais",
    "hits": 4,
@@ -4885,17 +4599,6 @@
    "rate": 0.5,
    "B_base": 0.205,
    "lift": 0.295
-  },
-  {
-   "A": "Eberechi Eze",
-   "A_team": "Arsenal",
-   "B": "Ermedin Demirovi\u0107",
-   "B_team": "VfB Stuttgart",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.307,
-   "lift": 0.193
   },
   {
    "A": "Juli\u00e1n Qui\u00f1ones",
@@ -4929,6 +4632,17 @@
    "rate": 0.5,
    "B_base": 0.268,
    "lift": 0.232
+  },
+  {
+   "A": "Victor Osimhen",
+   "A_team": "Galatasaray",
+   "B": "Folarin Balogun",
+   "B_team": "AS Monaco",
+   "hits": 4,
+   "n": 8,
+   "rate": 0.5,
+   "B_base": 0.338,
+   "lift": 0.162
   },
   {
    "A": "Juli\u00e1n Qui\u00f1ones",
@@ -4988,17 +4702,6 @@
   {
    "A": "Ivan Peri\u0161i\u0107",
    "A_team": "PSV Eindhoven",
-   "B": "Denis Bouanga",
-   "B_team": "LAFC",
-   "hits": 4,
-   "n": 8,
-   "rate": 0.5,
-   "B_base": 0.474,
-   "lift": 0.026
-  },
-  {
-   "A": "Anders Dreyer",
-   "A_team": "San Diego FC",
    "B": "Denis Bouanga",
    "B_team": "LAFC",
    "hits": 4,
