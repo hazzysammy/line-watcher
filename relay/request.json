@@ -1,85 +1,13 @@
 {
- "id": "r1",
+ "id": "r2",
  "items": [
   {
-   "name": "nba_phi",
-   "url": "https://www.espn.com/nba/team/stats/_/name/phi"
+   "name": "nba_byath",
+   "url": "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/statistics/byathlete?region=us&lang=en&contentorigin=espn&isqualified=false&page=1&limit=600&sort=general.avgMinutes%3Adesc&season=2027&seasontype=2"
   },
   {
-   "name": "nba_cle",
-   "url": "https://www.espn.com/nba/team/stats/_/name/cle"
-  },
-  {
-   "name": "nba_utah",
-   "url": "https://www.espn.com/nba/team/stats/_/name/utah"
-  },
-  {
-   "name": "nba_dal",
-   "url": "https://www.espn.com/nba/team/stats/_/name/dal"
-  },
-  {
-   "name": "nba_okc",
-   "url": "https://www.espn.com/nba/team/stats/_/name/okc"
-  },
-  {
-   "name": "nba_mem",
-   "url": "https://www.espn.com/nba/team/stats/_/name/mem"
-  },
-  {
-   "name": "nba_tor",
-   "url": "https://www.espn.com/nba/team/stats/_/name/tor"
-  },
-  {
-   "name": "nba_mil",
-   "url": "https://www.espn.com/nba/team/stats/_/name/mil"
-  },
-  {
-   "name": "nba_min",
-   "url": "https://www.espn.com/nba/team/stats/_/name/min"
-  },
-  {
-   "name": "nba_no",
-   "url": "https://www.espn.com/nba/team/stats/_/name/no"
-  },
-  {
-   "name": "nba_por",
-   "url": "https://www.espn.com/nba/team/stats/_/name/por"
-  },
-  {
-   "name": "nba_lal",
-   "url": "https://www.espn.com/nba/team/stats/_/name/lal"
-  },
-  {
-   "name": "nba_sa",
-   "url": "https://www.espn.com/nba/team/stats/_/name/sa"
-  },
-  {
-   "name": "nba_sac",
-   "url": "https://www.espn.com/nba/team/stats/_/name/sac"
-  },
-  {
-   "name": "nba_wsh",
-   "url": "https://www.espn.com/nba/team/stats/_/name/wsh"
-  },
-  {
-   "name": "nba_atl",
-   "url": "https://www.espn.com/nba/team/stats/_/name/atl"
-  },
-  {
-   "name": "nba_inj",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
-  },
-  {
-   "name": "nba_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
-  },
-  {
-   "name": "cbb_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?groups=50&limit=400&dates=20261106"
-  },
-  {
-   "name": "cfb_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&dates=20261106"
+   "name": "nba_roster_phi",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/teams/phi/roster"
   }
  ]
 }
