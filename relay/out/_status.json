@@ -1,0 +1,26 @@
+{
+ "id": "r1",
+ "done": "2026-11-07T00:03:03Z",
+ "results": {
+  "nba_phi": "ok",
+  "nba_cle": "ok",
+  "nba_utah": "ok",
+  "nba_dal": "ok",
+  "nba_okc": "ok",
+  "nba_mem": "ok",
+  "nba_tor": "ok",
+  "nba_mil": "ok",
+  "nba_min": "ok",
+  "nba_no": "ok",
+  "nba_por": "ok",
+  "nba_lal": "ok",
+  "nba_sa": "ok",
+  "nba_sac": "ok",
+  "nba_wsh": "ok",
+  "nba_atl": "ok",
+  "nba_inj": "ok",
+  "nba_sb": "ok",
+  "cbb_sb": "ok",
+  "cfb_sb": "ok"
+ }
+}
