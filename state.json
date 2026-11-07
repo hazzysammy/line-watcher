@@ -1448,6 +1448,11 @@
    "at": "2026-11-06 18:20 PT",
    "body": "Sam Merrill (Cleveland Cavaliers): NEW \u2192 Out \u2014 Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ\n\u2022 Sam Merrill: \ud83e\udde0 Means: Cavaliers play WITHOUT Sam Merrill. \ud83d\udc49 Do: if the line hasn't moved, look at the OTHER side's spread and the Cavaliers team-total UNDER. His minutes go to teammates, so check their points/assists OVERS before DK adjusts.",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 19:35 PT",
+   "body": "CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
+   "title": "\u26d4 Line pulled"
   }
  ],
  "base": {
@@ -2518,7 +2523,8 @@
   }
  },
  "fired": [
-  "401876407ml_home:cut"
+  "401876407ml_home:cut",
+  "401922219:off"
  ],
  "geo": {
   "Ann Arbor, MI": [
@@ -3148,7 +3154,7 @@
    "Denver Broncos|Jonah Coleman": "Active \u00a6 Coleman carried the ball 11 times for 41 yards and a touchdown and caught four of five targets for 63 yards in",
    "Denver Broncos|Jordan Jackson": "Active",
    "Denver Broncos|Kage Casey": "Active",
-   "Denver Broncos|Kris Abrams-Draine": "Out \u00a6 out",
+   "Denver Broncos|Kris Abrams-Draine": "Out \u00a6 Abrams-Draine (ankle) has been ruled out ahead of Sunday's game against the Panthers.",
    "Denver Broncos|Nate Adkins": "Active \u00a6 Adkins caught both of his targets for four yards and a touchdown in Sunday's 28-24 win over the Chiefs.",
    "Denver Broncos|Pat Bryant": "Injured Reserve \u00a6 Coach Sean Payton said Friday that Bryant (ankle) is in line to play in Sunday's game against the Panthers, Ch",
    "Denver Broncos|Sam Ehlinger": "Active \u00a6 Ehlinger (coach's decision) is inactive but will be the third emergency quarterback against the Chiefs on Sund",
@@ -3397,7 +3403,7 @@
    "Miami Dolphins|Kadyn Proctor": "Active",
    "Miami Dolphins|Kaytron Allen": "Questionable \u00a6 Allen (quadriceps) is officially listed as questionable for Sunday's game versus the Lions, David Furones of t",
    "Miami Dolphins|Kevin Coleman Jr.": "Active \u00a6 Coleman caught all three of his targets for 46 yards and a touchdown during Sunday's 24-19 loss to the Patriot",
-   "Miami Dolphins|Malik Herring": "Questionable \u00a6 Herring (neck) was limited in Wednesday's practice.",
+   "Miami Dolphins|Malik Herring": "Questionable \u00a6 Herring (neck) is listed as questionable for Sunday's game against the Lions, David Furones of the South Flori",
    "Miami Dolphins|Malik Washington": "Active \u00a6 Washington caught five of six targets for 40 yards and a touchdown in Sunday's 24-19 loss to New England.",
    "Miami Dolphins|Malik Willis": "Active \u00a6 Willis completed 21 of 32 passes for 211 yards and two touchdowns with one interception in Sunday's 24-19 loss",
    "Miami Dolphins|Marcellas Dial Jr.": "Active",
@@ -3445,7 +3451,7 @@
    "New England Patriots|Efton Chism III": "Active \u00a6 Chism caught all five of his targets for 37 yards during Sunday's 24-19 win over the Dolphins.",
    "New England Patriots|Eli Raridon": "Active \u00a6 Raridon had one reception for five yards on four targets in New England's 24-19 win over the Dolphins on Sunda",
    "New England Patriots|Elliott Davison": "Active",
-   "New England Patriots|Gabe Jacas": "Questionable \u00a6 Jacas (knee) is questionable to return to Sunday's contest against Miami, Doug Kyed of the Boston Herald repor",
+   "New England Patriots|Gabe Jacas": "Active \u00a6 Jacas (knee) does not have a designation for Sunday's contest versus Green Bay.",
    "New England Patriots|Greg Van Roten": "Injured Reserve \u00a6 Van Roten (thigh) was designated to return from injured reserve by New England on Wednesday, Matt Legros of Pa",
    "New England Patriots|Hunter Henry": "Questionable \u00a6 Henry (foot) is listed as questionable for Sunday's game against the Packers, Doug Kyed of the Boston Herald r",
    "New England Patriots|Karon Prunty": "Active",
@@ -3709,7 +3715,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T19:32:37.446599-08:00",
+ "last_run": "2026-11-06T19:35:11.684736-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4307,7 +4313,8 @@
   "50404527",
   "50404531",
   "50404556",
-  "50404565"
+  "50404565",
+  "50404580"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
@@ -4483,6 +4490,7 @@
   "cbb164593",
   "cbb164594",
   "cbb164601",
+  "cbb164609",
   "cfb238565",
   "cfb238566",
   "cfb238567",
@@ -4574,6 +4582,7 @@
   "nba537904",
   "nba537907",
   "nba537908",
+  "nba537909",
   "nfl646200",
   "nfl646201",
   "nfl646202",

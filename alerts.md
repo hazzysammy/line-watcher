@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 19:35 PT · ⛔ Line pulled**  
+CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)  
+DK line came OFF the board — check injury/lineup news.
+
 **2026-11-06 18:20 PT · 🏥 NBA injury update**  
 Sam Merrill (Cleveland Cavaliers): NEW → Out — Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ  
 • Sam Merrill: 🧠 Means: Cavaliers play WITHOUT Sam Merrill. 👉 Do: if the line hasn't moved, look at the OTHER side's spread and the Cavaliers team-total UNDER. His minutes go to teammates, so check their points/assists OVERS before DK adjusts.
