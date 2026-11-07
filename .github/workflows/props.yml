@@ -2,7 +2,9 @@ name: props
 on:
   schedule:
     - cron: "0 15 * * *"
+    - cron: "0 19 * * *"
     - cron: "30 22 * * *"
+    - cron: "30 1 * * *"
   push:
     paths: ["props/run.txt"]
   workflow_dispatch: {}

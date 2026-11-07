@@ -150,6 +150,9 @@ def parse_event(e, lg):
           "ranked": min(rank(h), rank(a)) <= 25,
           "score": f'{a["team"].get("abbreviation","")} {a.get("score","")}-{h.get("score","")} {h["team"].get("abbreviation","")}',
           "odds": None,
+          "period": (e.get("status") or {}).get("period", 0), "clock": (e.get("status") or {}).get("displayClock", ""),
+          "hs": num(h.get("score")), "as": num(a.get("score")),
+          "hid": h["team"].get("id"), "aid": a["team"].get("id"),
           "indoor": (c.get("venue") or {}).get("indoor"),
           "city": ((c.get("venue") or {}).get("address") or {}).get("city", ""),
           "st": ((c.get("venue") or {}).get("address") or {}).get("state", ""),
@@ -271,6 +274,44 @@ def news_meaning(text, player, teams, sport, tl=None):
                 "👉 Do: don't bet his props or this game yet. Final status usually comes 30–60 min before tip/kickoff, and the watcher will ping you the moment it changes.")
     return ""
 
+def add_flag(rec):
+    afp = os.path.join(HERE, "props", "autoflags.json")
+    flags = json.load(open(afp)) if os.path.exists(afp) else []
+    if any(x["key"] == rec["key"] for x in flags): return False
+    flags.append(rec); json.dump(flags, open(afp, "w"), indent=1); return True
+
+def team_trends(ev, state):
+    """Our NBA research (own-stats.md, 2025-26): after a 20+ pt WIN covers 61% (n=217);
+    immediate rematch: winner of game 1 covers 58.5%, loser 43.6%."""
+    day = dt.datetime.now(PT).strftime("%Y-%m-%d")
+    cache = state.setdefault("team_hist", {})
+    out = {}
+    for side, tid, opp in (("home", ev["hid"], ev["aid"]), ("away", ev["aid"], ev["hid"])):
+        k = f"{tid}|{day}"
+        if k not in cache:
+            sc = get(API + "basketball/nba/teams/" + str(tid) + "/schedule") or {}
+            done = []
+            for e in sc.get("events", []):
+                c = e["competitions"][0]
+                if not c.get("status", {}).get("type", {}).get("completed"): continue
+                me = next((x for x in c["competitors"] if x["team"]["id"] == str(tid)), None)
+                ot = next((x for x in c["competitors"] if x["team"]["id"] != str(tid)), None)
+                if not me or not ot: continue
+                sv = lambda x: num((x.get("score") or {}).get("value") if isinstance(x.get("score"), dict) else x.get("score")) or 0
+                done.append({"date": e["date"], "opp": ot["team"]["id"], "margin": sv(me) - sv(ot)})
+            done.sort(key=lambda x: x["date"])
+            cache[k] = done[-5:]
+        last = cache[k]
+        sig = []
+        if last:
+            g = last[-1]
+            if g["margin"] >= 20: sig.append(f'coming off a {g["margin"]:.0f}-pt WIN (our stat: teams cover 61% next game, n=217)')
+            if g["opp"] == str(opp):
+                sig.append("won game 1 of this rematch (our stat: covers 58.5%)" if g["margin"] > 0 else "lost game 1 of this rematch (our stat: only 43.6% cover → fade)")
+        out[side] = sig
+    for k2 in [k2 for k2 in cache if not k2.endswith(day)]: cache.pop(k2)
+    return out
+
 def line_context(teams, team_line):
     """For news about a team: show its current line vs when we first saw it."""
     out = []
@@ -313,6 +354,8 @@ def main():
     weather_games = []
     team_line = {}
     soccer_events = []
+    live_games = []
+    nba_today = []
     triggers = []   # (teams, note) from NBA news -> instant prop re-price
 
     for lg in CFG["leagues"]:
@@ -327,6 +370,10 @@ def main():
         for ev in evs.values():
             start = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
             hrs = (start - dt.datetime.now(dt.timezone.utc)).total_seconds() / 3600
+            if lg["sport"] == "nba" and ev["state"] == "in":
+                live_games.append(ev)
+            if lg["sport"] == "nba" and ev["state"] == "pre" and 0 < hrs < 14:
+                nba_today.append(ev)
             if lg["sport"] == "soccer" and -6 < hrs < 40:
                 soccer_events.append((lg, ev))
             if 0 < hrs < 36 and ev["state"] == "pre":
@@ -721,6 +768,47 @@ def main():
                                + ("\n" + "\n".join(ctx) if ctx else "")))
         inj_prev[sport] = cur
 
+    # ---------- 📈 trend-based spread Alert Picks (our own stats + market agreement) ----------
+    for ev in nba_today:
+        if not ev["odds"] or ev["id"] not in base: continue
+        tr = team_trends(ev, state)
+        o = ev["odds"]; op = base[ev["id"]].get("open", o)
+        sp, so = o.get("spread_home"), op.get("spread_home")
+        if sp is None or so is None: continue
+        for side in ("home", "away"):
+            good = [s for s in tr[side] if "→ fade" not in s]
+            fade_opp = [s for s in tr["away" if side == "home" else "home"] if "→ fade" in s]
+            sigs = good + [f'opponent {s}' for s in fade_opp]
+            moved_our_way = (so - sp >= 1) if side == "home" else (sp - so >= 1)
+            if moved_our_way: sigs.append(f"market moved our way ({fmt(so)} → {fmt(sp)} {ev['hab']})")
+            if len(sigs) >= 2 and (good or fade_opp):
+                team = ev[side]; line = sp if side == "home" else -sp
+                if add_flag({"key": f'{ev["date"][:10]}|SPREAD|{team}', "created": now.strftime("%Y-%m-%d %H:%M PT"), "game": f'{ev["aab"]} @ {ev["hab"]}',
+                             "start": ev["date"], "espn_event": ev["id"], "espn_id": None, "player": team, "stat": "spread", "side": side,
+                             "line": line, "price": -110, "proj": None, "edge": 0, "units": 0.5, "sent": False, "result": None, "trigger": "trend",
+                             "signals": sigs + [f'spreads are your best market ({CFG.get("profile", {}).get("spread", "")})']}):
+                    print("trend flag", team)
+
+    # ---------- 🔴 live Alert Picks: big pregame favorite trailing early ----------
+    lb = state.setdefault("live_budget", {}); dkey = now.strftime("%Y-%m-%d")
+    for ev in live_games:
+        b0 = (base.get(ev["id"]) or {}).get("open") or {}
+        sp0 = b0.get("spread_home")
+        if sp0 is None or ev["hs"] is None or ev["as"] is None: continue
+        fav = "home" if sp0 < 0 else "away"
+        if abs(sp0) < CFG.get("live_fav_spread", 6): continue
+        diff = (ev["hs"] - ev["as"]) if fav == "home" else (ev["as"] - ev["hs"])
+        if ev["period"] in (1, 2) and diff <= -CFG.get("live_deficit", 10) and lb.get(dkey, 0) < CFG.get("live_budget_per_day", 10):
+            team = ev[fav]
+            rec = {"key": f'{ev["date"][:10]}|LIVE|{team}', "created": now.strftime("%Y-%m-%d %H:%M PT"), "game": f'{ev["aab"]} @ {ev["hab"]}',
+                   "start": ev["date"], "espn_event": ev["id"], "espn_id": None, "player": team, "stat": "live_ml", "side": fav,
+                   "line": 0, "price": None, "proj": None, "edge": 0, "units": 0.5, "sent": False, "result": None, "trigger": "live",
+                   "signals": [f'{team.split()[-1]} were {abs(sp0):g}-pt favorites before tip', f'now down {-diff:.0f} in Q{ev["period"]} ({ev["clock"]})',
+                               "live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em"]}
+            if add_flag(rec):
+                lb[dkey] = lb.get(dkey, 0) + 1
+    for k in [k for k in lb if k != dkey]: lb.pop(k)
+
     # ---------- 🔗 Player A -> Player B scorer pairs (>=50%) ----------
     pf = os.path.join(HERE, "pairs", "pairs.json")
     if os.path.exists(pf) and soccer_events:
@@ -789,13 +877,13 @@ def main():
         sent = set(state.setdefault("af_sent", [])); graded = set(state.setdefault("af_graded", []))
         SN = {"points": "points", "rebounds": "rebounds", "assists": "assists", "threePointersMade": "3-pointers", "points+rebounds+assists": "pts+reb+ast"}
         for x in json.load(open(afp)):
-            nm = (f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
+            nm = (f'{x["player"]} LIVE moneyline' if x["stat"] == "live_ml" else f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
                   else f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})')
             if x["key"] not in sent and not x.get("result"):
                 st = dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00"))
-                if st > dt.datetime.now(dt.timezone.utc):
+                if st > dt.datetime.now(dt.timezone.utc) or x.get("trigger") == "live":
                     u = x["units"]
-                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
+                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🔴🤖 LIVE Alert Pick" if x.get("trigger") == "live" else "📈🤖 Trend Alert Pick" if x.get("trigger") == "trend" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
                                    + (f'Model {x["proj"]} vs line {x["line"]:g} (secondary check)\n' if x.get("proj") is not None else "")
                                    + "\n".join("• " + s for s in x["signals"])
                                    + f'\nSize: {u:g}u (${u*10:g}) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.'))

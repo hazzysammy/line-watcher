@@ -261,5 +261,8 @@
     "dog": "36%",
     "long": "24%"
   },
-  "star_ppg": 18
+  "star_ppg": 18,
+  "live_fav_spread": 6,
+  "live_deficit": 10,
+  "live_budget_per_day": 10
 }

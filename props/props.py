@@ -184,7 +184,8 @@ def run(teams=None, note=None):
                 boost_note = f"{', '.join(o for o in outs if players.get(norm(o), {}).get('mpg', 0) >= 15)} out"
             mins = min(mins, 40)
             b2b = team in played_yday
-            if b2b and mins >= 28: mins *= 0.96
+            heavy_last = b2b and gl and gl[0]["min"] >= 38
+            if b2b and mins >= 28 and not heavy_last: mins *= 0.98
             dfac = 1 + 0.5 * ((pa.get(opp, lg_pa) / lg_pa) - 1)
             proj = rate * mins * (dfac if stat != "rebounds" else 1)
             sd = a_sd * proj + b_sd
@@ -203,7 +204,7 @@ def run(teams=None, note=None):
             prev = snap.get(oid)
             unchanged = bool(prev) and prev[0] == line and abs(prob(prev[1]) - prob(po)) < 0.02
             snap[oid] = [line, po, now.strftime("%Y-%m-%dT%H:%M:%SZ")]
-            edges.append({"unchanged": unchanged, "news": note if (teams and team in teams) else None, "game_spread": g["spread"], "starter": mins >= 28,
+            edges.append({"heavy_last": heavy_last, "unchanged": unchanged, "news": note if (teams and team in teams) else None, "game_spread": g["spread"], "starter": mins >= 28,
                           "game": f'{g["aab"]} @ {g["hab"]}', "espn_event": g["id"], "start": g["start"], "player": nm, "espn_id": info["id"],
                           "team": team, "stat": stat, "line": line, "side": side, "price": price, "proj": round(proj, 1),
                           "p_model": round(p_over if side == "over" else 1 - p_over, 3), "p_book": round(nv_over if side == "over" else 1 - nv_over, 3),
@@ -264,8 +265,8 @@ def primary(e):
     if e["moved"] and ((side_over and e["moved"] == "up") or (not side_over and e["moved"] == "down")):
         p.append("market moving our way")
     # 5) situation
-    if not side_over and e.get("b2b") and e.get("starter"):
-        p.append("back-to-back fatigue (under)")
+    if side_over and e.get("heavy_last") and e["stat"] in ("points", "points+rebounds+assists"):
+        p.append("our stat: 38+ min last night → +2.0 pts next night (n=208)")
     if not side_over and e.get("game_spread", 0) >= CFG["blowout_spread"] and e.get("starter"):
         p.append(f'blowout risk: {e["game_spread"]:g}-pt spread, starters sit late (under)')
     return p
@@ -321,6 +322,14 @@ def grade_flags(now):
         if ev not in boxes: boxes[ev] = get(f"{ESPN}/summary?event={ev}")
         s = boxes[ev] or {}
         if (s.get("header", {}).get("competitions", [{}])[0].get("status", {}).get("type", {}).get("state")) != "post": continue
+        if x["stat"] == "live_ml":
+            comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
+            sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}
+            if len(sc) < 2: continue
+            mine, other = (sc["home"], sc["away"]) if x["side"] == "home" else (sc["away"], sc["home"])
+            x["result"] = "Win" if mine > other else "Loss"; x["final"] = f"{int(mine)}-{int(other)}"
+            x["net_units"] = round(x["units"], 2) if x["result"] == "Win" else -x["units"]   # assumes ~even live price
+            continue
         if x["stat"] == "spread":
             comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
             sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}
