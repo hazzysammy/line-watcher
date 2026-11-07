@@ -1453,6 +1453,11 @@
    "at": "2026-11-06 19:35 PT",
    "body": "CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)\nDK line came OFF the board \u2014 check injury/lineup news.",
    "title": "\u26d4 Line pulled"
+  },
+  {
+   "at": "2026-11-06 19:40 PT",
+   "body": "CBB Morehead State Eagles @ Louisville Cardinals (Sat 9:00 AM PT)\nSpread LOU -38.5 \u2192 -36.5\n(first seen: LOU -36.5, O/U 150.5)\n\ud83d\udca1 Money came in on Eagles. If you like Eagles, the value is mostly gone. If you like Cardinals, you now lay 2 fewer points than before.\n\u2705 Spreads are your strongest market (15-4)\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: College lineups aren't official until tip.",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2413,7 +2418,7 @@
     "spread_home": -36.5,
     "total": 150.5
    },
-   "spread_home": -38.5,
+   "spread_home": -36.5,
    "total": 150.5
   },
   "401920423": {
@@ -3660,7 +3665,7 @@
    "Tampa Bay Buccaneers|Sean Tucker": "Active \u00a6 Tucker didn't play any offensive snaps in Sunday's 16-0 win over the Falcons.",
    "Tampa Bay Buccaneers|Ted Hurst III": "Active \u00a6 Hurst failed to catch his lone target in Sunday's 16-0 win over the Falcons.",
    "Tampa Bay Buccaneers|Tez Johnson": "Active \u00a6 Johnson did not garner a target during Sunday's 16-0 win over the Falcons.",
-   "Tampa Bay Buccaneers|Tristan Wirfs": "Active \u00a6 Wirfs (toe) did not practice Thursday.",
+   "Tampa Bay Buccaneers|Tristan Wirfs": "Active \u00a6 Wirfs (toe) does not have any injury designation ahead of Sunday's game against the Bears.",
    "Tampa Bay Buccaneers|Tykee Smith": "Active \u00a6 Smith (ankle) does not carry an official injury designation ahead of Sunday's game against the Bears.",
    "Tampa Bay Buccaneers|Yaya Diaby": "Out \u00a6 Head coach Todd Bowles said that Diaby (knee) has been diagnosed with an MCL sprain and won't be available for",
    "Tennessee Titans|Amani Hooker": "Active \u00a6 Hooker posted five tackles (two solo) during Sunday's 27-24 loss to Cleveland.",
@@ -3715,7 +3720,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T19:35:11.684736-08:00",
+ "last_run": "2026-11-06T19:40:14.894379-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4314,7 +4319,10 @@
   "50404531",
   "50404556",
   "50404565",
-  "50404580"
+  "50404580",
+  "50404591",
+  "50404597",
+  "50404599"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
