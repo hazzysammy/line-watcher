@@ -2769,7 +2769,7 @@
    "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "Cleveland Cavaliers|Jarrett Allen": "Out \u00a6 Allen (knee) is out for Friday's game against the 76ers.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
-   "Cleveland Cavaliers|Sam Merrill": "Out \u00a6 Merrill is in the starting lineup for Friday's game against the 76ers, Serena Winters of FanDuel Sports Networ",
+   "Cleveland Cavaliers|Sam Merrill": "Out \u00a6 Merrill (elbow) won't return to Friday's game against the 76ers, Dave McMenamin of ESPN.com reports.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
    "Dallas Mavericks|Tarik Biberovic": "Out \u00a6 Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -3644,7 +3644,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:20:15.659505-08:00",
+ "last_run": "2026-11-06T18:25:15.254017-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4194,7 +4194,12 @@
   "50403987",
   "50403993",
   "50403994",
-  "50403998"
+  "50403998",
+  "50404028",
+  "50404029",
+  "50404042",
+  "50404045",
+  "50404047"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
