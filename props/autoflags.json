@@ -1249,5 +1249,29 @@
   "result": null,
   "trigger": "model-only",
   "silent": true
+ },
+ {
+  "key": "2026-11-08|SPREAD|New York Knicks",
+  "created": "2026-11-07 03:00 PT",
+  "game": "NY @ CLE",
+  "start": "2026-11-08T01:00Z",
+  "espn_event": "401909940",
+  "espn_id": null,
+  "player": "New York Knicks",
+  "stat": "spread",
+  "side": "away",
+  "line": -4.5,
+  "price": -110,
+  "proj": null,
+  "edge": 0,
+  "units": 0.5,
+  "sent": false,
+  "result": null,
+  "trigger": "trend",
+  "signals": [
+   "coming off a 30-pt WIN (backtest: 55.7% ATS over 567 games, z 2.7)",
+   "market moved our way (+3.5 \u2192 +4.5 CLE)",
+   "spreads are your best market (15-4)"
+  ]
  }
 ]

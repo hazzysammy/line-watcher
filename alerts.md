@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 03:00 PT · 📈🤖 Trend Alert Pick**  
+New York Knicks -4.5 (-110) · NY @ CLE  
+• coming off a 30-pt WIN (backtest: 55.7% ATS over 567 games, z 2.7)  
+• market moved our way (+3.5 → +4.5 CLE)  
+• spreads are your best market (15-4)  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
 **2026-11-07 02:15 PT · 📈 Line move**  
 BUND Eintracht Frankfurt @ SC Paderborn 07 (Sat 6:30 AM PT)  
 ML 07 +195 → +165  
@@ -2086,12 +2093,4 @@ Angeli (undisclosed) is listed as probable for Saturday's clash with Clemson, pe
         Visit RotoWire.com for more analysis on this update.  
 Plays within 36h: Clemson Tigers  
 → Check the line NOW before it moves.
-
-**2026-11-06 17:10 PT · ⚡ NCAAF news (RotoWire)**  
-Isaac Brown: Question mark to play Saturday  
-Brown (undisclosed) has been downgraded to questionable for Saturday's game versus Georgia Tech, per the ACC availability report.  
-  
-        Visit RotoWire.com for more analysis on this update.  
-Plays within 36h: Georgia Bulldogs  
-📊 Bulldogs @ Rebels: MISS +3.5, O/U 56.5 (first seen MISS +3.5, O/U 56.5) → ⏱️ hasn't moved yet. If this player matters, the early window is NOW.
 
