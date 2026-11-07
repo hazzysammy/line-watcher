@@ -1,5 +1,11 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 01:21 PT · 🌦 Weather game**  
+CFB Texas State Bobcats @ Oregon State Beavers (Sat 7:30 PM PT)  
+Reser Stadium — 💨 wind 18 mph (gusts 39), 🌧 heavy rain 0.17 in/hr  
+Total 71.5 · ORST -6  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
 **2026-11-07 01:05 PT · 📈 Line move**  
 LIGA Deportivo @ Espanyol (Sat 7:15 AM PT)  
 ML Espanyol +130 → +150  
@@ -2087,12 +2093,4 @@ Plays within 36h: Georgia Bulldogs
 You: -2.5 -110 · DK then -2.5 -110 (gap +0.0%)  
 DK close -2.5 -115 → ≈ -115 at your book  
 CLV +1.1% ✅ beat the close
-
-**2026-11-06 16:55 PT · ⚡ NCAAF news (RotoWire)**  
-KJ Duff: Won't play in Madison  
-Duff (lower body) won't play in Week 10 at Wisconsin, per Matt Zenitz of CBSSports.com.  
-  
-        Visit RotoWire.com for more analysis on this update.  
-Plays within 36h: Wisconsin Badgers  
-→ Check the line NOW before it moves.
 
