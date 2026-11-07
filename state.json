@@ -3130,7 +3130,7 @@
    "Dallas Cowboys|Ryan Flournoy": "Active \u00a6 Flournoy caught three of four targets for 38 yards and a touchdown in Sunday's 33-30 overtime loss to the Card",
    "Dallas Cowboys|Shavon Revel Jr.": "Active",
    "Dallas Cowboys|Tyler Goodson": "Active \u00a6 Goodson took seven carries for 14 yards and caught both of his two targets for 19 yards during Sunday's 33-30 ",
-   "Dallas Cowboys|Tyler Smith": "Active \u00a6 Smith (ankle) was limited in Thursday's practice, Todd Archer of ESPN.com reports.",
+   "Dallas Cowboys|Tyler Smith": "Active \u00a6 Smith (ankle) does not have any injury designation ahead of Sunday's game against the Colts, Tommy Yarrish of ",
    "Dallas Cowboys|Tyrus Wheat": "Active",
    "Denver Broncos|Alex Singleton": "Active \u00a6 Singleton notched 14 tackles (six solo), including 1.0 sacks, and defensed a pass in Sunday's 28-24 victory ag",
    "Denver Broncos|Bo Nix": "Active \u00a6 Nix completed 20 of 32 passes for 222 yards and two touchdowns in Sunday's 28-24 win over Kansas City. He adde",
@@ -3709,7 +3709,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T19:25:14.082455-08:00",
+ "last_run": "2026-11-06T19:30:15.813402-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4301,7 +4301,11 @@
   "50404444",
   "50404448",
   "50404479",
-  "50404485"
+  "50404485",
+  "50404497",
+  "50404522",
+  "50404527",
+  "50404531"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
