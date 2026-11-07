@@ -1,5 +1,9 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:05 PT · 🏥 NBA injury update**  
+Peyton Watson (Cleveland Cavaliers): Day-To-Day → removed from report (likely available)  
+Kyle Anderson (Toronto Raptors): Day-To-Day → removed from report (likely available)
+
 **2026-11-06 16:00 PT · 🏥 NBA injury update**  
 Peyton Watson (Cleveland Cavaliers): NEW → Day-To-Day — Watson (hamstring) is questionable for Friday's game against the 76ers.  
 Jakob Poeltl (Toronto Raptors): Day-To-Day → removed from report (likely available)

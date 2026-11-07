@@ -639,6 +639,11 @@
    "at": "2026-11-06 16:00 PT",
    "body": "Peyton Watson (Cleveland Cavaliers): NEW \u2192 Day-To-Day \u2014 Watson (hamstring) is questionable for Friday's game against the 76ers.\nJakob Poeltl (Toronto Raptors): Day-To-Day \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 16:05 PT",
+   "body": "Peyton Watson (Cleveland Cavaliers): Day-To-Day \u2192 removed from report (likely available)\nKyle Anderson (Toronto Raptors): Day-To-Day \u2192 removed from report (likely available)",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1911,7 +1916,6 @@
    "Chicago Bulls|Zach Collins": "Day-To-Day \u00a6 Collins didn't practice Friday due to an illness, per K.C. Johnson of Chicago Sports Network.",
    "Cleveland Cavaliers|Jarrett Allen": "Day-To-Day \u00a6 Allen (knee) is questionable for Friday's game against Philadelphia.",
    "Cleveland Cavaliers|Jaylon Tyson": "Out \u00a6 Tyson (ankle) is out for Friday's game against the 76ers.",
-   "Cleveland Cavaliers|Peyton Watson": "Day-To-Day \u00a6 Watson (hamstring) is questionable for Friday's game against the 76ers.",
    "Dallas Mavericks|Dereck Lively II": "Out \u00a6 Lively (foot) is listed as out for Monday's game against the Kings.",
    "Dallas Mavericks|Sergio de Larrea": "Out \u00a6 De Larrea (knee) is out for Friday's game against Utah.",
    "Dallas Mavericks|Tarik Biberovic": "Out \u00a6 Biberovic (heel) is listed as out for Monday's game against Sacramento.",
@@ -1973,7 +1977,6 @@
    "San Antonio Spurs|Tobias Harris": "Out \u00a6 Harris (calf) is listed as out for Saturday's game against Minnesota.",
    "Toronto Raptors|Immanuel Quickley": "Out \u00a6 Quickley (hamstring) won't play Friday in Milwaukee, Michael Grange of Sportsnet.ca reports.",
    "Toronto Raptors|Kawhi Leonard": "Out \u00a6 Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, B",
-   "Toronto Raptors|Kyle Anderson": "Day-To-Day \u00a6 Anderson is questionable for Friday against the Bucks due to illness.",
    "Toronto Raptors|Nate Bittle": "Out \u00a6 Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return.",
    "Toronto Raptors|Scottie Barnes": "Out \u00a6 Barnes (adductor) is listed as out for Friday's game against Milwaukee, Michael Grange of Sportsnet.ca reports",
    "Utah Jazz|Jaren Jackson Jr.": "Out \u00a6 Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams",
@@ -2668,7 +2671,7 @@
    "San Francisco 49ers|Christian McCaffrey": "Active \u00a6 McCaffrey (hamstring) doesn't have a designation for Sunday's game versus the Raiders, Nick Wagoner of ESPN.co",
    "San Francisco 49ers|De'Zhaun Stribling": "Injured Reserve \u00a6 Stribling (ankle) was spotted Monday walking without crutches or a brace on his lower leg, Matt Barrows of The",
    "San Francisco 49ers|Deebo Samuel Sr.": "Out \u00a6 Samuel (hamstring) didn't participate in the early portion of Friday's practice, Nick Wagoner of ESPN.com repo",
-   "San Francisco 49ers|Demarcus Robinson": "Injured Reserve \u00a6 Robinson (ankle) practiced on a limited basis Thursday.",
+   "San Francisco 49ers|Demarcus Robinson": "Injured Reserve \u00a6 Robinson (ankle) is listed as questionable for Sunday's game against the Raiders, with 49ers coach Kyle Shanah",
    "San Francisco 49ers|Dre Greenlaw": "Active \u00a6 Greenlaw posted 12 tackles (four solo) in Sunday's loss to the Falcons.",
    "San Francisco 49ers|Eddy Pineiro": "Active \u00a6 Pineiro did not attempt a field goal while going 2-for-3 on PATs in Sunday's 26-20 loss to the Falcons.",
    "San Francisco 49ers|Fred Warner": "Active \u00a6 Warner recorded 13 tackles (six solo) Sunday in a Week 7 loss to Atlanta.",
@@ -2788,7 +2791,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T16:00:18.560766-08:00",
+ "last_run": "2026-11-06T16:05:13.703643-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3306,12 +3309,13 @@
   "50402657",
   "50402727",
   "50402740",
+  "50402775",
   "50402899",
   "50402905"
  ],
  "props": {
   "T103": {
-   "checked": 1794009054.9675572,
+   "checked": 1794009918.486155,
    "dk_bet_line": -2.5,
    "dk_bet_price": -110.0,
    "line": -2.5,
@@ -3454,7 +3458,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 8
+  "2026-11": 9
  },
  "wx": {
   "401860912:wx": 2,
