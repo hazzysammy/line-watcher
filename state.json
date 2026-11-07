@@ -3351,7 +3351,7 @@
    "Minnesota Vikings|Charles Demmings": "Active",
    "Minnesota Vikings|Christian Darrisaw": "Active",
    "Minnesota Vikings|DeeJay Dallas": "Active \u00a6 Dallas was signed to the Vikings' active roster Wednesday, Craig Peters of the team's official website reports",
-   "Minnesota Vikings|Demond Claiborne": "Questionable \u00a6 questionable",
+   "Minnesota Vikings|Demond Claiborne": "Questionable \u00a6 Claiborne (knee) did not participate in Friday's practice.",
    "Minnesota Vikings|Elijah Williams": "Active",
    "Minnesota Vikings|Eric Wilson": "Active \u00a6 Wilson registered 11 tackles, including 1.0 sacks, in Sunday's loss to Detroit.",
    "Minnesota Vikings|Isaiah Rodgers": "Active",
@@ -3644,7 +3644,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:35:12.271868-08:00",
+ "last_run": "2026-11-06T18:40:13.934928-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4205,7 +4205,13 @@
   "50404082",
   "50404087",
   "50404096",
-  "50404099"
+  "50404099",
+  "50404100",
+  "50404128",
+  "50404134",
+  "50404137",
+  "50404145",
+  "50404149"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
