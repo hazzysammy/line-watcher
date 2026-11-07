@@ -1,14 +1,12 @@
 {
- "season": 2027,
- "lookahead_hours": 30,
- "league_avg_pa": 114.0,
- "min_gp": 3,
- "max_min_boost": 6,
- "max_usage_boost": 1.15,
- "show_edge": 0.03,
- "flag_edge": 0.05,
- "price_min": -200,
- "price_max": 150,
- "model_weight": 0.4,
- "max_flags_per_day": 5
+  "season": 2027,
+  "lookahead_hours": 30,
+  "league_avg_pa": 114.0,
+  "min_gp": 3,
+  "max_min_boost": 6,
+  "max_usage_boost": 1.15,
+  "show_edge": 0.04,
+  "flag_edge": 0.06,
+  "price_min": -200,
+  "price_max": 150
 }
