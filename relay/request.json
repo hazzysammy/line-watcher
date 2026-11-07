@@ -1,13 +1,69 @@
 {
- "id": "r17",
+ "id": "r18",
  "items": [
   {
-   "name": "live_nba",
+   "name": "n_sb",
    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
   },
   {
-   "name": "live_byu",
+   "name": "n_lal",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909294"
+  },
+  {
+   "name": "n_sac",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401909295"
+  },
+  {
+   "name": "c_byu",
    "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401921739"
+  },
+  {
+   "name": "sat_nba",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_cfb",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&dates=20261107&limit=200"
+  },
+  {
+   "name": "sat_cbb",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?groups=50&limit=400&dates=20261107"
+  },
+  {
+   "name": "nba_inj",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
+  },
+  {
+   "name": "sat_nhl",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/hockey/nhl/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_eng.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_esp.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_fra.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_tur.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/tur.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_eng.w.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.w.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_fra.w.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/fra.w.1/scoreboard?dates=20261107"
+  },
+  {
+   "name": "sat_esp.w.1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/soccer/esp.w.1/scoreboard?dates=20261107"
   }
  ]
 }
