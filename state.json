@@ -1492,6 +1492,11 @@
    "at": "2026-11-06 20:45 PT",
    "body": "BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)\nML VFB -155 \u2192 -135\n(first seen: VFB -0.5, O/U 3.5)\n\ud83d\udca1 Stuttgart moneyline -155 \u2192 -135: \u26a0 slight-fav band (-101 to -149): only 47% for you\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: Lineups post ~60 min before kickoff.",
    "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 20:50 PT",
+   "body": "BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)\nML SVW +310 \u2192 +265\n(first seen: VFB -0.5, O/U 3.5)\n\ud83d\udca1 Bremen moneyline +310 \u2192 +265: \u26a0 long-shot band: 24% for you\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: Lineups post ~60 min before kickoff.",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2067,7 +2072,7 @@
   },
   "401884743": {
    "date": "2026-11-07T17:30Z",
-   "ml_away": 310.0,
+   "ml_away": 265.0,
    "ml_draw": 340.0,
    "ml_home": -135.0,
    "open": {
@@ -3639,14 +3644,14 @@
    "San Francisco 49ers|Dre Greenlaw": "Active \u00a6 Greenlaw posted 12 tackles (four solo) in Sunday's loss to the Falcons.",
    "San Francisco 49ers|Eddy Pineiro": "Active \u00a6 Pineiro did not attempt a field goal while going 2-for-3 on PATs in Sunday's 26-20 loss to the Falcons.",
    "San Francisco 49ers|Fred Warner": "Active \u00a6 Warner recorded 13 tackles (six solo) Sunday in a Week 7 loss to Atlanta.",
-   "San Francisco 49ers|Garret Wallow": "Active",
+   "San Francisco 49ers|Garret Wallow": "Active \u00a6 Wallow (hamstring) does not have a designation for Sunday's clash against Las Vegas.",
    "San Francisco 49ers|Jacob Cowing": "Active \u00a6 Cowing caught three of five passes for 38 yards, added a 10-yard carry and returned one kickoff for 28 yards d",
    "San Francisco 49ers|Jordan James": "Active \u00a6 James logged a six-yard carry, turned his lone target into an 11-yard catch and registered 119 yards on four k",
    "San Francisco 49ers|Jordan Watkins": "Active \u00a6 Watkins brought in three of six targets for 56 yards in the 49ers' 29-20 loss to the Falcons on Sunday.",
    "San Francisco 49ers|Kaelon Black": "Active \u00a6 Black rushed 12 times for 63 yards and a touchdown and brought in one of three targets for minus-4 yards in th",
    "San Francisco 49ers|Kurtis Rourke": "Active",
    "San Francisco 49ers|Kyle Juszczyk": "Active \u00a6 Juszczyk caught all three of his targets for 11 yards and a touchdown during Sunday's 29-20 loss to Atlanta.",
-   "San Francisco 49ers|Luke Gifford": "Active",
+   "San Francisco 49ers|Luke Gifford": "Active \u00a6 Gifford (groin) does not have a designation for Sunday's Week 9 tilt against the Raiders.",
    "San Francisco 49ers|Marques Sigle": "Active \u00a6 Sigle (ankle) does not carry an official injury designation ahead of Sunday's game versus the Raiders.",
    "San Francisco 49ers|Mike Evans": "Out \u00a6 Evans (Achilles) has been ruled out for Sunday's game against the Raiders, Nick Wagoner of ESPN reports.",
    "San Francisco 49ers|Nate Hobbs": "Injured Reserve \u00a6 Hobbs (groin) is officially listed as questionable for Sunday's game versus the Raiders.",
@@ -3756,7 +3761,7 @@
   }
  },
  "last_grade": 1794026428.6954005,
- "last_run": "2026-11-06T20:45:15.297402-08:00",
+ "last_run": "2026-11-06T20:50:14.207794-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4405,7 +4410,8 @@
   "50405006",
   "50405014",
   "50405019",
-  "50405045"
+  "50405045",
+  "50405060"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",

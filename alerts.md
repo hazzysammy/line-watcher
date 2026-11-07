@@ -1,5 +1,13 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 20:50 PT · 📈 Line move**  
+BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
+ML SVW +310 → +265  
+(first seen: VFB -0.5, O/U 3.5)  
+💡 Bremen moneyline +310 → +265: ⚠ long-shot band: 24% for you  
+🔎 No news found in the last few hours → possibly sharp money. Check X before following.  
+👀 Next: Lineups post ~60 min before kickoff.
+
 **2026-11-06 20:45 PT · 📈 Line move**  
 BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
 ML VFB -155 → -135  
