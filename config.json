@@ -153,6 +153,60 @@
       "sport": "soccer",
       "path": "soccer/uefa.wchampions",
       "watch": "favorites"
+    },
+    {
+      "key": "por",
+      "sport": "soccer",
+      "path": "soccer/por.1",
+      "watch": "none"
+    },
+    {
+      "key": "ned",
+      "sport": "soccer",
+      "path": "soccer/ned.1",
+      "watch": "none"
+    },
+    {
+      "key": "bel",
+      "sport": "soccer",
+      "path": "soccer/bel.1",
+      "watch": "none"
+    },
+    {
+      "key": "sco",
+      "sport": "soccer",
+      "path": "soccer/sco.1",
+      "watch": "none"
+    },
+    {
+      "key": "mls",
+      "sport": "soccer",
+      "path": "soccer/usa.1",
+      "watch": "none"
+    },
+    {
+      "key": "ksa",
+      "sport": "soccer",
+      "path": "soccer/ksa.1",
+      "watch": "none"
+    },
+    {
+      "key": "mex",
+      "sport": "soccer",
+      "path": "soccer/mex.1",
+      "watch": "none"
+    },
+    {
+      "key": "bra",
+      "sport": "soccer",
+      "path": "soccer/bra.1",
+      "watch": "none"
+    },
+    {
+      "key": "arg",
+      "sport": "soccer",
+      "path": "soccer/arg.1",
+      "watch": "none"
     }
   ],
   "injury_feeds": {

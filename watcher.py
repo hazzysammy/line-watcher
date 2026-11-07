@@ -272,6 +272,7 @@ def main():
     soon_lineups = []
     weather_games = []
     team_line = {}
+    soccer_events = []
     triggers = []   # (teams, note) from NBA news -> instant prop re-price
 
     for lg in CFG["leagues"]:
@@ -286,6 +287,8 @@ def main():
         for ev in evs.values():
             start = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
             hrs = (start - dt.datetime.now(dt.timezone.utc)).total_seconds() / 3600
+            if lg["sport"] == "soccer" and -6 < hrs < 40:
+                soccer_events.append((lg, ev))
             if 0 < hrs < 36 and ev["state"] == "pre":
                 playing_soon.setdefault(lg["sport"], set()).update([ev["home"], ev["away"]])
             if lg["sport"] in ("nfl", "ncaaf") and 0 < hrs <= 30 and ev["indoor"] is False and ev["state"] == "pre" and (ev["odds"] or is_fav(ev["home"]) or is_fav(ev["away"])) and (lg.get("watch") != "ranked" or ev["ranked"] or ev["odds"]):
@@ -640,6 +643,41 @@ def main():
                 alerts.append((4, f"🏥 {sport.upper()} injury update", "\n".join(lines[:15]) + (f"\n+{len(lines)-15} more" if len(lines) > 15 else "")
                                + ("\n" + "\n".join(ctx) if ctx else "")))
         inj_prev[sport] = cur
+
+    # ---------- 🔗 Player A -> Player B scorer pairs (>=50%) ----------
+    pf = os.path.join(HERE, "pairs", "pairs.json")
+    if os.path.exists(pf) and soccer_events:
+        pairs = json.load(open(pf)).get("pairs", [])
+        ps = state.setdefault("pairs_sent", [])
+        bteam = {}
+        for lg, ev in soccer_events:
+            for t in (ev["home"], ev["away"]): bteam.setdefault(t, []).append((lg, ev))
+        utc = dt.datetime.now(dt.timezone.utc)
+        for p in pairs:
+            for la, ea in bteam.get(p["A_team"], []):
+                for lb, eb in bteam.get(p["B_team"], []):
+                    ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00")); kb = dt.datetime.fromisoformat(eb["date"].replace("Z", "+00:00"))
+                    gap = (kb - ka).total_seconds() / 3600
+                    need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
+                    if not (need <= gap <= 36) or eb["state"] != "pre": continue
+                    tag = f'{p["A"]}>{p["B"]}>{ea["id"]}'
+                    txt = (f'{p["B"]} scores after {p["A"]} scores: {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%) · {p["B"]} normally {p["B_base"]*100:.0f}%'
+                           f'\nA: {ea["away"]} @ {ea["home"]} {ka.astimezone(PT):%a %-I:%M %p} · B: {eb["away"]} @ {eb["home"]} {kb.astimezone(PT):%a %-I:%M %p} PT')
+                    if ea["state"] == "pre" and tag + ":pre" not in ps:
+                        alerts.append((3, "🔗 Scorer pair today", txt + "\n→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market)."))
+                        ps.append(tag + ":pre")
+                    if ea["state"] == "post" and tag + ":post" not in ps:
+                        sm = get(API + la["path"] + "/summary?event=" + ea["id"]) or {}
+                        scored = False
+                        for k in sm.get("keyEvents", []) or []:
+                            if "goal" in ((k.get("type") or {}).get("text", "") + " " + (k.get("text") or "")).lower() and "own goal" not in (k.get("text") or "").lower():
+                                for pa in k.get("participants", []) or []:
+                                    nm = ((pa.get("athlete") or {}).get("displayName") or "")
+                                    if nm and norm(nm).split()[-1] == norm(p["A"]).split()[-1]: scored = True
+                        ps.append(tag + ":post")
+                        if scored:
+                            alerts.append((5, f'⚽ {p["A"]} scored → {p["B"]} is live', txt + f'\n✅ Trigger hit. {p["B"]} has scored in {p["rate"]*100:.0f}% of these spots. Check his anytime price before kickoff (0.5u max; weak market for you).'))
+        state["pairs_sent"] = ps[-800:]
 
     # ---------- ⚡ news-triggered prop re-price (instant, budget-capped) ----------
     if triggers and os.environ.get("SGO_API_KEY"):
