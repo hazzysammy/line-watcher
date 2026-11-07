@@ -62,11 +62,6 @@
  "alert_log": [
   {
    "at": "2026-11-06 17:20 PT",
-   "body": "Keldon Johnson OVER 4.5 rebounds (-113) \u00b7 SA @ SAC\nModel 5.5 vs line 4.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 5.6 vs line 4.5\n\u2022 season avg 5.5\n\u2022 market moving our way\n\u2022 model agrees: proj 5.5 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
-   "title": "\ud83e\udd16 Alert Pick (paper)"
-  },
-  {
-   "at": "2026-11-06 17:20 PT",
    "body": "Luka Don\u010di\u0107 OVER 34.5 points (-123) \u00b7 POR @ LAL\nModel 38.9 vs line 34.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 41.0 vs line 34.5\n\u2022 season avg 38.5\n\u2022 market moving our way\n\u2022 model agrees: proj 38.9 (+5% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
    "title": "\ud83e\udd16 Alert Pick (paper)"
   },
@@ -1559,6 +1554,11 @@
    "at": "2026-11-07 05:00 PT",
    "body": "BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)\nML Stuttgart -135 \u2192 -115\nNow: VFB -0.5 \u00b7 O/U 3.5 \u00b7 ML SVW +245 / VFB -115\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 slight-fav band (-101 to -149): only 47% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
    "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-07 05:15 PT",
+   "body": "SERIEA Bologna @ Parma (Sat 9:00 AM PT)\nML Parma +330 \u2192 +400\nNow: PAR +0.5 \u00b7 O/U 2.5 \u00b7 ML BOL -145 / PAR +400\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 long-shot band: 24% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2136,7 +2136,7 @@
    "date": "2026-11-07T17:00Z",
    "ml_away": -140.0,
    "ml_draw": 240.0,
-   "ml_home": 330.0,
+   "ml_home": 400.0,
    "open": {
     "ml_away": -120.0,
     "ml_draw": 240.0,
@@ -4475,7 +4475,7 @@
   }
  },
  "last_grade": 1794056721.3211389,
- "last_run": "2026-11-07T05:10:14.752689-08:00",
+ "last_run": "2026-11-07T05:15:14.682225-08:00",
  "live_budget": {},
  "mo_report": "2026-11-06",
  "news_seen": [

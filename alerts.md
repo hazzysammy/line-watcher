@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:15 PT · 📈 Line move**  
+SERIEA Bologna @ Parma (Sat 9:00 AM PT)  
+ML Parma +330 → +400  
+Now: PAR +0.5 · O/U 2.5 · ML BOL -145 / PAR +400  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ long-shot band: 24% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 05:00 PT · 📈 Line move**  
 BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
 ML Stuttgart -135 → -115  
@@ -2074,15 +2081,5 @@ Model 38.9 vs line 34.5 (secondary check)
 • season avg 38.5  
 • market moving our way  
 • model agrees: proj 38.9 (+5% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Keldon Johnson OVER 4.5 rebounds (-113) · SA @ SAC  
-Model 5.5 vs line 4.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 5.6 vs line 4.5  
-• season avg 5.5  
-• market moving our way  
-• model agrees: proj 5.5 (+5% edge)  
 Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
