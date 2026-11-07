@@ -1,5 +1,13 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:12 PT · ⚡ NCAAB news (RotoWire)**  
+Jack Karasinski: Ruled out Friday  
+Karasinski (concussion) is out for Friday's game against Stony Brook, according to Northwestern's announcement.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Northwestern Wildcats, Stony Brook Seawolves  
+→ Check the line NOW before it moves.
+
 **2026-11-06 16:10 PT · 🏥 NBA injury update**  
 Jarrett Allen (Cleveland Cavaliers): Day-To-Day → Out — Allen (knee) is out for Friday's game against the 76ers.
 
