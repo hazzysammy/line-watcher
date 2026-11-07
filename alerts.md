@@ -1,5 +1,10 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 21:30 PT · 📒 Daily Alert Pick report**  
+Model-only picks (silent) yesterday: 0-0 (+0u) · all-time: 0-2 (-1u)  
+Edge Alert Picks (the ones you get pinged for) all-time: 1-0 (+0.5u)  
+Full list: Sammy's Bet Tracker → Alert Pick track record
+
 **2026-11-06 21:05 PT · 📈 Line move**  
 NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
 Spread POR +2.5 → +4.5  
