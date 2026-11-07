@@ -3195,7 +3195,7 @@
    "Las Vegas Raiders|Cody White": "Active \u00a6 White was signed by the Raiders on Thursday, Ryan McFadden of ESPN.com reports.",
    "Las Vegas Raiders|Dalton Johnson": "Active",
    "Las Vegas Raiders|Darien Porter": "Questionable \u00a6 Porter (groin) is listed as questionable ahead of Sunday's game against the 49ers, Ryan McFadden of ESPN.com r",
-   "Las Vegas Raiders|Dont'e Thornton Jr.": "Active \u00a6 Thornton (back) was a limited participant at the Raiders' practice Thursday, Paul Gutierrez of the team's offi",
+   "Las Vegas Raiders|Dont'e Thornton Jr.": "Active \u00a6 Thornton (back) does not have a designation for Sunday's battle against San Francisco, Paul Gutierrez of the R",
    "Las Vegas Raiders|Fernando Mendoza": "Active \u00a6 Mendoza didn't play in Sunday's 38-33 win over the Jets.",
    "Las Vegas Raiders|Folorunso Fatukasi": "Active",
    "Las Vegas Raiders|Ian Thomas": "Active",
@@ -3413,7 +3413,7 @@
    "New York Jets|Tim Patrick": "Active",
    "New York Jets|Trevin Wallace": "Out \u00a6 Jets head coach Aaron Glenn said Friday that Wallace (Groin) will not play in Sunday's matchup against the Chi",
    "New York Jets|VJ Payne": "Injured Reserve \u00a6 Payne (knee) was designated to return from injured reserve by the Jets on Wednesday, Amanda Vogt of the team's",
-   "Philadelphia Eagles|Britain Covey": "Out \u00a6 out",
+   "Philadelphia Eagles|Britain Covey": "Out \u00a6 Covey (knee) is officially listed as out for Sunday's game versus the Giants.",
    "Philadelphia Eagles|Dallas Goedert": "Active \u00a6 Goedert caught all four of his targets for 30 yards and added a two-yard run in Sunday's 27-10 loss to the Com",
    "Philadelphia Eagles|Darius Cooper": "Active \u00a6 Cooper and Makai Lemon are positioned to start again Sunday against the Giants, with fellow wideouts DeVonta S",
    "Philadelphia Eagles|DeVonta Smith": "Out \u00a6 Smith (hamstring) has been ruled out for Sunday's game against the Giants.",
@@ -3427,7 +3427,7 @@
    "Philadelphia Eagles|Jalen Carter": "Active",
    "Philadelphia Eagles|Jalyx Hunt": "Active",
    "Philadelphia Eagles|Jaydon Blue": "Active \u00a6 Blue caught his lone target for nine yards in Sunday night's 27-10 loss to the Commanders.",
-   "Philadelphia Eagles|Jihaad Campbell": "Out \u00a6 out",
+   "Philadelphia Eagles|Jihaad Campbell": "Out \u00a6 Campbell (hamstring) is officially listed as out for Sunday's game versus the Giants.",
    "Philadelphia Eagles|Joe Milton": "Active \u00a6 Milton is set to be the Eagles' starting quarterback Sunday against the Giants, Mike Garafolo of NFL Network r",
    "Philadelphia Eagles|Jonathan Greenard": "Active",
    "Philadelphia Eagles|Jonathan Jones": "Out \u00a6 out",
@@ -3575,7 +3575,7 @@
    "Washington Commanders|Isaac Yiadom": "Active",
    "Washington Commanders|Javon Kinlaw": "Injured Reserve \u00a6 Kinlaw underwent season-ending surgery Tuesday to repair his MCL, Nicki Jhabvala of The Athletic reports.",
    "Washington Commanders|Jayden Daniels": "Active \u00a6 Daniels completed 16 of 29 passes for 217 yards and a touchdown while rushing twice for 23 yards in Sunday's 2",
-   "Washington Commanders|Jer'Zhan Newton": "Injured Reserve \u00a6 Newton (pectoral) practiced in full Wednesday, Ben Standig of The Team 980 Washington D.C. reports.",
+   "Washington Commanders|Jer'Zhan Newton": "Injured Reserve \u00a6 Newton (pectoral) is listed as questionable for Sunday's game against the Rams, Zach Selby of the Commanders' ",
    "Washington Commanders|Jeremy McNichols": "Injured Reserve \u00a6 McNichols, who suffered a foot injury Sunday against the Eagles that may require surgery, is out for the seaso",
    "Washington Commanders|John Bates": "Active",
    "Washington Commanders|Laremy Tunsil": "Injured Reserve \u00a6 Tunsil (triceps) could potentially return late in the season, Nicki Jhabvala of The Athletic reports.",
@@ -3590,7 +3590,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T17:45:14.007822-08:00",
+ "last_run": "2026-11-06T17:50:17.985202-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4341,6 +4341,8 @@
   "cfb238620",
   "cfb238621",
   "cfb238622",
+  "cfb238628",
+  "cfb238629",
   "nba537807",
   "nba537808",
   "nba537809",
