@@ -104,6 +104,9 @@ def run(teams=None, note=None):
         g = cats.get("general", []); o = cats.get("offensive", [])
         players[norm(ath["displayName"])] = {"id": ath["id"], "name": ath["displayName"], "team": ath.get("teamShortName"),
                                              "gp": g[0] if g else 0, "mpg": g[1] if len(g) > 1 else 0, "ppg": o[0] if o else 0}
+    if len(players) > 100:
+        json.dump({k: {"ppg": v["ppg"], "mpg": v["mpg"], "team": v["team"]} for k, v in players.items() if v.get("gp")},
+                  open(os.path.join(HERE, "players.json"), "w"))
     inj = get(f"{ESPN}/injuries") or {}
     out = {}  # team display name -> list of (name, status)
     for t in inj.get("injuries", []):
@@ -234,20 +237,41 @@ def blowout_risk(e):
     return e.get("game_spread", 0) >= CFG["blowout_spread"] and e.get("starter") and e["side"] == "over"
 
 def is_flag(e):
-    return e["edge"] >= CFG["flag_edge"] and len(signals(e)) >= 2 and e["price"] is not None and not suspicious(e) and not against(e) \
-        and not blowout_risk(e) and CFG["price_min"] <= e["price"] <= CFG["price_max"]
+    """Need 2+ of OUR signals, and the model must at least agree (secondary). Hard guards still apply."""
+    return len(primary(e)) >= 2 and e["edge"] >= CFG["model_confirm_edge"] and e["price"] is not None and not suspicious(e) \
+        and not against(e) and not blowout_risk(e) and CFG["price_min"] <= e["price"] <= CFG["price_max"]
+
+PROFILE = {"prop_record": "24-10"}
+
+def primary(e):
+    """OUR criteria first (Sammy's history, situation, news, market). The model is only the tie-breaker."""
+    p = []
+    side_over = e["side"] == "over"
+    # 1) his history: player stat props are a strong market; price band matters
+    if e["price"] is not None and -200 <= e["price"] <= -110:
+        p.append(f'fits your history: stat props {PROFILE["prop_record"]}, favorite-priced')
+    # 2) news / role change
+    if e.get("news") and e.get("unchanged"):
+        p.append(f'⚡ {e["news"]}, and DK hasn\'t moved this line yet')
+    if e["teammates_out"] and side_over:
+        p.append(f'role up: {e["teammates_out"]}')
+    # 3) recent form clearly past the line
+    if (side_over and e["l5"] >= e["line"] * 1.10) or (not side_over and e["l5"] <= e["line"] * 0.90):
+        p.append(f'last 5 avg {e["l5"]} vs line {e["line"]:g}')
+    if (side_over and e["season_avg"] >= e["line"] * 1.08) or (not side_over and e["season_avg"] <= e["line"] * 0.92):
+        p.append(f'season avg {e["season_avg"]}')
+    # 4) market agreeing (sharp money same side)
+    if e["moved"] and ((side_over and e["moved"] == "up") or (not side_over and e["moved"] == "down")):
+        p.append("market moving our way")
+    # 5) situation
+    if not side_over and e.get("b2b") and e.get("starter"):
+        p.append("back-to-back fatigue (under)")
+    if not side_over and e.get("game_spread", 0) >= CFG["blowout_spread"] and e.get("starter"):
+        p.append(f'blowout risk: {e["game_spread"]:g}-pt spread, starters sit late (under)')
+    return p
 
 def signals(e):
-    s = []
-    if e["edge"] >= CFG["flag_edge"]: s.append(f'model edge +{e["edge"]*100:.0f}% (proj {e["proj"]} vs {e["line"]})')
-    if (e["side"] == "over" and e["l5"] > e["line"]) or (e["side"] == "under" and e["l5"] < e["line"]):
-        s.append(f'last 5 avg {e["l5"]}')
-    if e["teammates_out"] and e["side"] == "over": s.append(e["teammates_out"])
-    if e["moved"] and ((e["side"] == "over" and e["moved"] == "up") or (e["side"] == "under" and e["moved"] == "down")):
-        s.append("market moving our way")
-    if e.get("news") and e.get("unchanged"):
-        s.append(f'⚡ {e["news"]}, and DK hasn\'t moved this line yet')
-    return s
+    return primary(e) + ([f'model agrees: proj {e["proj"]} (+{e["edge"]*100:.0f}% edge)'] if e["edge"] >= CFG["model_confirm_edge"] else [])
 
 STAT_NAME = {"points": "pts", "rebounds": "reb", "assists": "ast", "threePointersMade": "3PM", "points+rebounds+assists": "PRA"}
 
@@ -274,13 +298,10 @@ def make_flags(edges, now):
     for e in edges:
         sig = signals(e)
         if not is_flag(e): continue
-        if sum(1 for x in flags if x["game"] == e["game"] and x["start"] == e["start"]) >= CFG["max_flags_per_game"]: continue
         key = f'{e["start"][:10]}|{e["player"]}|{e["stat"]}|{e["side"]}'
         if key in have: continue
-        if day_count.get(e["start"][:10], 0) >= CFG["max_flags_per_day"] and not e.get("news"): continue
-        if any(x["player"] == e["player"] and x["start"][:10] == e["start"][:10] for x in flags): continue   # one per player per day
         day_count[e["start"][:10]] = day_count.get(e["start"][:10], 0) + 1
-        units = 1.0 if ((e["edge"] >= 0.08 and len(sig) >= 3) or (e.get("news") and e.get("unchanged"))) else 0.5
+        units = 1.0 if (len(primary(e)) >= 3 or (e.get("news") and e.get("unchanged"))) else 0.5
         flags.append({"key": key, "created": now.astimezone(PT).strftime("%Y-%m-%d %H:%M PT"), "game": e["game"], "start": e["start"],
                       "espn_event": e["espn_event"], "espn_id": e["espn_id"], "player": e["player"], "stat": e["stat"],
                       "side": e["side"], "line": e["line"], "price": e["price"], "proj": e["proj"], "edge": e["edge"],
@@ -299,6 +320,15 @@ def grade_flags(now):
         if ev not in boxes: boxes[ev] = get(f"{ESPN}/summary?event={ev}")
         s = boxes[ev] or {}
         if (s.get("header", {}).get("competitions", [{}])[0].get("status", {}).get("type", {}).get("state")) != "post": continue
+        if x["stat"] == "spread":
+            comp = s.get("header", {}).get("competitions", [{}])[0].get("competitors", [])
+            sc = {c.get("homeAway"): float(c.get("score", 0) or 0) for c in comp}
+            if len(sc) < 2: continue
+            mine, other = (sc["home"], sc["away"]) if x["side"] == "home" else (sc["away"], sc["home"])
+            d = mine - other + x["line"]
+            x["result"] = "Win" if d > 0 else "Loss" if d < 0 else "Push"; x["final"] = f"{int(mine)}-{int(other)}"
+            x["net_units"] = round(x["units"] * 100 / 110, 2) if x["result"] == "Win" else (-x["units"] if x["result"] == "Loss" else 0)
+            continue
         val = None; played = False
         for t in s.get("boxscore", {}).get("players", []):
             st = t["statistics"][0]; keys = st.get("keys", [])

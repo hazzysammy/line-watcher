@@ -231,6 +231,46 @@ def explain_move(ev, mv, o, op, sport, log):
     if nxt: out.append("👀 Next: " + nxt)
     return "\n" + "\n".join(out)
 
+PLAYERS = {}
+def load_players():
+    global PLAYERS
+    f = os.path.join(HERE, "props", "players.json")
+    if not PLAYERS and os.path.exists(f):
+        try: PLAYERS = json.load(open(f))
+        except Exception: PLAYERS = {}
+    return PLAYERS
+
+def news_meaning(text, player, teams, sport, tl=None):
+    """Plain-English: what this news means and what to do next."""
+    t = text.lower()
+    info = load_players().get(norm(player)) if sport == "nba" else None
+    team = None
+    if info and tl:
+        for x in list(tl):
+            if x in tl:
+                ev = tl[x][0]; ab = ev["hab"] if x == ev["home"] else ev["aab"]
+                if ab == info.get("team"): team = x
+    if not team: team = teams[0] if len(teams) == 1 else None
+    tn = team.split()[-1] if team else "his team"
+    who = f"{player} ({info['ppg']:.1f} ppg, {info['mpg']:.0f} min)" if info else player
+    big = bool(info and info.get("ppg", 0) >= 18)
+    if any(k in t for k in ("ruled out", "won't play", "will not play", "will miss", "is out", "out for", "sit out", "unavailable", "inactive", "→ out")):
+        m = f"🧠 Means: {tn} play WITHOUT {who}." + (" That's a top scorer. Expect the spread to swing away from them and their team total to drop." if big else "")
+        d = ("👉 Do: if the line hasn't moved, look at the OTHER side's spread and the " + tn + " team-total UNDER. "
+             "His minutes go to teammates, so check their points/assists OVERS before DK adjusts.") if sport in ("nba", "ncaab") else \
+            ("👉 Do: if the line hasn't moved, look at the other side or the " + tn + " team total UNDER. Players who replace him get more volume (their yards/receptions overs).") if sport in ("nfl", "ncaaf") else \
+            "👉 Do: check the lineup ~1 hr before kickoff and whether the price moved."
+        return m + "\n" + d
+    if any(k in t for k in ("will start", "to start", "starting", "good to go", "will play", "available", "probable", "upgraded", "returns", "return", "cleared", "removed from report")):
+        m = f"🧠 Means: {who} PLAYS" + (" or gets a bigger role." if "start" in t else ".")
+        d = "👉 Do: if he was doubtful/questionable, the line may move back toward " + tn + ". His minutes go UP (his overs); the teammates who covered for him go DOWN (their unders)."
+        return m + "\n" + d
+    if any(k in t for k in ("questionable", "game-time", "doubtful", "day-to-day", "limited", "uncertain", "downgraded")):
+        lean = "leans OUT" if "doubtful" in t or "downgraded" in t else "50/50"
+        return (f"🧠 Means: {who} is uncertain ({lean}).\n"
+                "👉 Do: don't bet his props or this game yet. Final status usually comes 30–60 min before tip/kickoff, and the watcher will ping you the moment it changes.")
+    return ""
+
 def line_context(teams, team_line):
     """For news about a team: show its current line vs when we first saw it."""
     out = []
@@ -431,7 +471,7 @@ def main():
             clean = " " + blob.replace(",", " ").replace(".", " ").replace("'", " ").replace(":", " ") + " "
             city = {" ".join(t.split()[:-1]).lower(): t for t in soon if len(t.split()) > 1}
             teams = {t for t in soon if t.lower() in blob} | {nick[n] for n in nick if (" " + n + " ") in clean} \
-                    | {city[c] for c in city if c and (" " + c + " ") in clean}
+                    | ({city[c] for c in city if c and (" " + c + " ") in clean} if sport in ("nba", "nfl") else set())
             pl = title.split(":")[0].strip().lower()
             if pl in player_team.get(sport, {}) and player_team[sport][pl] in soon: teams.add(player_team[sport][pl])
             teams = sorted(teams)
@@ -440,6 +480,13 @@ def main():
                                              "inactive", "will play", "upgraded", "downgraded", "probable", "will start", "to start", "starting lineup", "out vs", "out against", "sit out", "rest"))
             if not teams and not fav and not (strong and sport in ("nba", "nfl")): continue
             ctx = line_context(teams, team_line)
+            pinfo = load_players().get(norm(title.split(":")[0].strip())) if sport == "nba" else None
+            if pinfo:
+                real = [x for x in team_line if (team_line[x][0]["hab"] if x == team_line[x][0]["home"] else team_line[x][0]["aab"]) == pinfo.get("team")]
+                if real: teams = real
+            ctx = line_context(teams, team_line)
+            mean = news_meaning(title + " " + desc, title.split(":")[0].strip(), teams, sport, team_line)
+            if mean: ctx = [mean] + ctx
             if sport == "nba" and teams: triggers.append((teams, title.split(":")[0] + ": " + title.split(":", 1)[-1].strip()[:40]))
             alerts.append((4, f"⚡ {sport.upper()} news (RotoWire)", f'{"🚨⭐ " if fav else ""}{title}\n{desc[:240]}'
                            + (f'\nPlays within 36h: {", ".join(teams)}' if teams else "")
@@ -638,6 +685,36 @@ def main():
                 ctx = line_context(big, team_line)
                 if sport == "nba":
                     for l in lines:
+                        if "→ Out" not in l or "(" not in l: continue
+                        pl = l.replace("🚨⭐ ", "").split(" (")[0]; tm = l.split("(")[1].split(")")[0]
+                        info = load_players().get(norm(pl))
+                        if not info or info.get("ppg", 0) < CFG.get("star_ppg", 18) or tm not in team_line: continue
+                        ev, o, op = team_line[tm]
+                        st = dt.datetime.fromisoformat(ev["date"].replace("Z", "+00:00"))
+                        if not (0 < (st - dt.datetime.now(dt.timezone.utc)).total_seconds() < 14 * 3600): continue
+                        sp, so = o.get("spread_home"), op.get("spread_home")
+                        if sp is None or so is None or abs(sp - so) >= 0.5: continue      # already moved = priced in
+                        opp_home = tm != ev["home"]
+                        opp = ev["home"] if opp_home else ev["away"]
+                        line = sp if opp_home else -sp
+                        afp = os.path.join(HERE, "props", "autoflags.json")
+                        flags = json.load(open(afp)) if os.path.exists(afp) else []
+                        key = f'{ev["date"][:10]}|SPREAD|{opp}'
+                        if any(x["key"] == key for x in flags): continue
+                        flags.append({"key": key, "created": now.strftime("%Y-%m-%d %H:%M PT"), "game": f'{ev["aab"]} @ {ev["hab"]}', "start": ev["date"],
+                                      "espn_event": ev["id"], "espn_id": None, "player": opp, "stat": "spread", "side": "home" if opp_home else "away",
+                                      "line": line, "price": -110, "proj": None, "edge": 0,
+                                      "signals": [f'{pl} ({info["ppg"]:.1f} ppg) ruled OUT for {tm.split()[-1]}', "spread hasn't moved yet",
+                                                  f'spreads are your best market ({CFG.get("profile", {}).get("spread", "")})'],
+                                      "units": 1.0, "sent": False, "result": None, "trigger": "news"})
+                        json.dump(flags, open(afp, "w"), indent=1)
+                for l in lines[:4]:
+                    if "→ Out" in l or "→ Doubtful" in l or "removed from report" in l:
+                        pl = l.replace("🚨⭐ ", "").split(" (")[0]; tm = l.split("(")[1].split(")")[0] if "(" in l else ""
+                        mm = news_meaning(l, pl, [tm] if tm else [], sport)
+                        if mm: ctx = [f"• {pl}: " + mm.replace(chr(10), " ")] + ctx
+                if sport == "nba":
+                    for l in lines:
                         if "(" in l and any(k in l for k in ("→ Out", "→ Doubtful", "→ Questionable", "removed from report")):
                             triggers.append(([l.split("(")[1].split(")")[0]], l.split(" (")[0].replace("🚨⭐ ", "") + " " + l.split("): ")[-1].split(" —")[0]))
                 alerts.append((4, f"🏥 {sport.upper()} injury update", "\n".join(lines[:15]) + (f"\n+{len(lines)-15} more" if len(lines) > 15 else "")
@@ -712,12 +789,14 @@ def main():
         sent = set(state.setdefault("af_sent", [])); graded = set(state.setdefault("af_graded", []))
         SN = {"points": "points", "rebounds": "rebounds", "assists": "assists", "threePointersMade": "3-pointers", "points+rebounds+assists": "pts+reb+ast"}
         for x in json.load(open(afp)):
-            nm = f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})'
+            nm = (f'{x["player"]} {fmt(x["line"])} ({fmt(x["price"])})' if x["stat"] == "spread"
+                  else f'{x["player"]} {x["side"].upper()} {x["line"]:g} {SN.get(x["stat"], x["stat"])} ({fmt(x["price"])})')
             if x["key"] not in sent and not x.get("result"):
                 st = dt.datetime.fromisoformat(x["start"].replace("Z", "+00:00"))
                 if st > dt.datetime.now(dt.timezone.utc):
                     u = x["units"]
-                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\nModel {x["proj"]} vs line {x["line"]:g} · edge +{x["edge"]*100:.0f}%\n'
+                    alerts.append((5 if x.get("trigger") == "news" else 4, "⚡🤖 Alert Pick: NEWS, bet before it moves" if x.get("trigger") == "news" else "🤖 Alert Pick (paper)", f'{nm} · {x["game"]}\n'
+                                   + (f'Model {x["proj"]} vs line {x["line"]:g} (secondary check)\n' if x.get("proj") is not None else "")
                                    + "\n".join("• " + s for s in x["signals"])
                                    + f'\nSize: {u:g}u (${u*10:g}) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.'))
                 sent.add(x["key"])

@@ -10,8 +10,7 @@
  "price_min": -200,
  "price_max": 150,
  "model_weight": 0.4,
- "max_flags_per_day": 6,
  "suspicious_gap": 0.3,
- "max_flags_per_game": 2,
- "blowout_spread": 12
+ "blowout_spread": 12,
+ "model_confirm_edge": 0.02
 }
