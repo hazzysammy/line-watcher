@@ -1,5 +1,19 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:55 PT · 📏 Closing line**  
+76ers -2.5 @ CLE (T103)  
+You: -2.5 -110 · DK then -2.5 -110 (gap +0.0%)  
+DK close -2.5 -115 → ≈ -115 at your book  
+CLV +1.1% ✅ beat the close
+
+**2026-11-06 16:55 PT · ⚡ NCAAF news (RotoWire)**  
+KJ Duff: Won't play in Madison  
+Duff (lower body) won't play in Week 10 at Wisconsin, per Matt Zenitz of CBSSports.com.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Wisconsin Badgers  
+→ Check the line NOW before it moves.
+
 **2026-11-06 16:50 PT · 🏥 NBA injury update**  
 De'Andre Hunter (Sacramento Kings): Day-To-Day → Out — Hunter (illness) is listed as out for Friday's game against San Antonio.
 

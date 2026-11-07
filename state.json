@@ -717,6 +717,16 @@
    "at": "2026-11-06 16:50 PT",
    "body": "De'Andre Hunter (Sacramento Kings): Day-To-Day \u2192 Out \u2014 Hunter (illness) is listed as out for Friday's game against San Antonio.",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 16:55 PT",
+   "body": "KJ Duff: Won't play in Madison\nDuff (lower body) won't play in Week 10 at Wisconsin, per Matt Zenitz of CBSSports.com.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Wisconsin Badgers\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAF news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 16:55 PT",
+   "body": "76ers -2.5 @ CLE (T103)\nYou: -2.5 -110 \u00b7 DK then -2.5 -110 (gap +0.0%)\nDK close -2.5 -115 \u2192 \u2248 -115 at your book\nCLV +1.1% \u2705 beat the close",
+   "title": "\ud83d\udccf Closing line"
   }
  ],
  "base": {
@@ -2273,7 +2283,7 @@
    "Dallas Cowboys|Jake Ferguson": "Questionable \u00a6 Ferguson (ankle) is listed as questionable for Sunday's game against the Colts, Tommy Yarrish of the Cowboys' ",
    "Dallas Cowboys|Jalen Thompson": "Injured Reserve \u00a6 Thompson (hamstring) has not had his 21-day practice window opened yet, Joe Hoyt of The Dallas Morning News re",
    "Dallas Cowboys|Javonte Williams": "Active \u00a6 Williams churned out 56 yards on 24 carries and notched one catch (on two targets) for one yard during Sunday'",
-   "Dallas Cowboys|Joey Porter Jr.": "Questionable \u00a6 questionable",
+   "Dallas Cowboys|Joey Porter Jr.": "Questionable \u00a6 Porter (ankle) is listed as questionable ahead of Sunday's game against the Colts, Tommy Yarrish of the Cowboy",
    "Dallas Cowboys|Jonathan Bullard": "Injured Reserve \u00a6 Bullard (calf) was designated to return from injured reserve by the Cowboys on Thursday.",
    "Dallas Cowboys|KaVontae Turpin": "Out \u00a6 Turpin (ribs) has been ruled out ahead of Sunday's game against the Colts, Tommy Yarrish of the Cowboys' offic",
    "Dallas Cowboys|Kenny Clark": "Active \u00a6 Clark (back) is active for Sunday's game against the Cardinals.",
@@ -2863,7 +2873,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T16:50:15.612424-08:00",
+ "last_run": "2026-11-06T16:55:11.369561-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3387,14 +3397,22 @@
   "50403107",
   "50403192",
   "50403210",
-  "50403255"
+  "50403255",
+  "50403330",
+  "50403347"
  ],
  "props": {
   "T103": {
-   "checked": 1794010822.3397307,
+   "checked": 1794012947.9975486,
+   "closed": true,
+   "clv_pct": 1.11,
    "dk_bet_line": -2.5,
    "dk_bet_price": -110.0,
+   "dk_close_line": -2.5,
+   "dk_close_price": -115.0,
+   "gap_pct": 0.0,
    "line": -2.5,
+   "my_book_close_est": -115,
    "price": -115.0,
    "starts": "2026-11-07T00:30:00.000Z"
   }
@@ -3448,6 +3466,7 @@
   "cfb238594",
   "cfb238595",
   "cfb238599",
+  "cfb238606",
   "nba537807",
   "nba537808",
   "nba537809",
@@ -3539,7 +3558,7 @@
   "NBA|PHILADELPHIA_76ERS_NBA|20261106": "H0E2rMVs0zkvufqe8yjM"
  },
  "sgo_usage": {
-  "2026-11": 10
+  "2026-11": 11
  },
  "wx": {
   "401860912:wx": 2,
@@ -3547,59 +3566,59 @@
   "401862820:wx": 1
  },
  "wx_checked": {
-  "401856738": 1794009025.9795225,
+  "401856738": 1794012919.830734,
   "401856739": 1794010248.2569325,
   "401856740": 1794010220.902519,
-  "401856741": 1794009051.9390972,
-  "401856742": 1794009050.857646,
-  "401856743": 1794009023.2822275,
+  "401856741": 1794012923.0248346,
+  "401856742": 1794012921.9541774,
+  "401856743": 1794012917.9649293,
   "401856744": 1794010219.5556,
   "401856745": 1794010226.0305352,
-  "401856849": 1794009022.583491,
-  "401856850": 1794009049.1030712,
+  "401856849": 1794012917.4487069,
+  "401856850": 1794012921.0903413,
   "401856851": 1794010222.0456095,
-  "401856852": 1794009052.2744095,
-  "401856853": 1794009023.9723105,
-  "401856854": 1794009026.1355903,
-  "401856855": 1794009022.0836282,
+  "401856852": 1794012945.6945095,
+  "401856853": 1794012918.5560076,
+  "401856854": 1794012920.2543612,
+  "401856855": 1794012917.347949,
   "401856856": 1794010248.8910775,
-  "401858286": 1794009025.5247724,
-  "401858287": 1794009052.7945976,
+  "401858286": 1794012918.938118,
+  "401858287": 1794012946.0886161,
   "401858288": 1794009020.4478433,
-  "401858289": 1794009024.5066905,
+  "401858289": 1794012918.6406295,
   "401858290": 1794010221.896234,
-  "401858291": 1794009051.7603195,
-  "401858292": 1794009024.696821,
-  "401858510": 1794009021.2582874,
-  "401858511": 1794009053.3075838,
-  "401858512": 1794009023.8167462,
-  "401858513": 1794009052.0892181,
+  "401858291": 1794012922.939176,
+  "401858292": 1794012918.7209513,
+  "401858510": 1794012916.6454892,
+  "401858511": 1794012946.4725664,
+  "401858512": 1794012918.3497195,
+  "401858513": 1794012945.4364874,
   "401858514": 1794010221.2259312,
-  "401858515": 1794009025.6614764,
+  "401858515": 1794012919.3109589,
   "401858516": 1794010222.5728393,
-  "401858517": 1794009051.0335248,
+  "401858517": 1794012922.0351782,
   "401860911": 1794010225.8458958,
-  "401860912": 1794009053.9763649,
+  "401860912": 1794012947.2788937,
   "401860913": 1794010249.1069732,
   "401862818": 1794009021.12255,
   "401862819": 1794010222.9141872,
   "401862820": 1794010223.4250681,
-  "401862821": 1794009049.2920227,
-  "401862822": 1794009024.870883,
-  "401862823": 1794009053.81968,
+  "401862821": 1794012921.1911442,
+  "401862822": 1794012918.8021283,
+  "401862823": 1794012946.9060068,
   "401864532": 1794010249.5923002,
-  "401864533": 1794009021.7894738,
-  "401864534": 1794009049.452013,
-  "401869927": 1794009026.823331,
+  "401864533": 1794012917.1421692,
+  "401864534": 1794012921.2791097,
+  "401869927": 1794012920.7145567,
   "401869936": 1794010220.076555,
-  "401869945": 1794009026.266902,
+  "401869945": 1794012920.459353,
   "401869951": 1794010223.9493232,
   "401869968": 1794010225.1555417,
   "401870795": 1794010248.4041815,
   "401871073": 1794010220.2575557,
-  "401871074": 1794009050.1317105,
-  "401871075": 1794009051.2158554,
+  "401871074": 1794012921.6643124,
+  "401871075": 1794012922.5653837,
   "401871076": 1794010224.6363244,
-  "401871098": 1794009050.6326559
+  "401871098": 1794012921.8710861
  }
 }
