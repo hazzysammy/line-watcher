@@ -1,41 +1,53 @@
 {
- "id": "r4",
+ "id": "r5",
  "items": [
   {
-   "name": "nba_byath",
-   "url": "https://site.web.api.espn.com/apis/common/v3/sports/basketball/nba/statistics/byathlete?region=us&lang=en&contentorigin=espn&isqualified=false&page=1&limit=600&sort=general.avgMinutes%3Adesc&season=2027&seasontype=2"
+   "name": "cbbro_ala",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/333/roster"
   },
   {
-   "name": "nba_inj",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries"
+   "name": "cbbro_uconn",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/41/roster"
   },
   {
-   "name": "nba_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard?dates=20261106"
+   "name": "cbbro_mich",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/130/roster"
   },
   {
-   "name": "cbb_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?groups=50&limit=400&dates=20261106"
+   "name": "cbbro_isu",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/66/roster"
   },
   {
-   "name": "cfb_sb",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/football/college-football/scoreboard?groups=80&dates=20261106"
+   "name": "cbbro_mia",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2390/roster"
   },
   {
-   "name": "oma_team",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2437"
+   "name": "cbbro_ku",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2305/roster"
   },
   {
-   "name": "oma_sched",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2437/schedule"
+   "name": "cbbro_byu",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/252/roster"
   },
   {
-   "name": "oma_roster",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2437/roster"
+   "name": "cbbro_ucla",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/26/roster"
   },
   {
-   "name": "byu_sched",
-   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/252/schedule"
+   "name": "oma_g1",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/summary?event=401929394"
+  },
+  {
+   "name": "oma_t26",
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2026/types/2/teams/2437/statistics"
+  },
+  {
+   "name": "byu_t26",
+   "url": "https://sports.core.api.espn.com/v2/sports/basketball/leagues/mens-college-basketball/seasons/2026/types/2/teams/252/statistics"
+  },
+  {
+   "name": "oma_sched26",
+   "url": "https://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/teams/2437/schedule?season=2026"
   }
  ]
 }
