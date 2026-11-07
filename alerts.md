@@ -1,5 +1,18 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 21:00 PT · 📈 Line move**  
+NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
+Spread POR +4.5 → +2.5  
+(first seen: POR +4.5, O/U 228.5)  
+💡 Money came in on Blazers. If you like Blazers, the value is mostly gone. If you like Spurs, you now lay 2 fewer points than before.  
+✅ Spreads are your strongest market (15-4)  
+🔎 Likely cause: NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
+👀 Next: NBA statuses finalize ~30–60 min before tip.
+
+**2026-11-06 21:00 PT · ✅ Line back up**  
+NBA San Antonio Spurs @ Portland Trail Blazers (Sat 7:00 PM PT)  
+Reposted: POR +2.5, O/U 228.5, ML SA -149 / POR +126
+
 **2026-11-06 20:50 PT · 📈 Line move**  
 BUND Werder Bremen @ VfB Stuttgart (Sat 9:30 AM PT)  
 ML SVW +310 → +265  
