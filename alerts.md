@@ -1,5 +1,67 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:50 PT · 🏥 NBA injury update**  
+De'Andre Hunter (Sacramento Kings): Day-To-Day → Out — Hunter (illness) is listed as out for Friday's game against San Antonio.
+
+**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
+Julian Champagnie OVER 2.5 3-pointers (+126) · SA @ SAC  
+Model 3.0 vs line 2.5 · edge +6%  
+• model edge +6% (proj 3.0 vs 2.5)  
+• last 5 avg 3.0  
+• market moving our way  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
+Ziaire Williams OVER 1.5 3-pointers (+128) · POR @ LAL  
+Model 1.9 vs line 1.5 · edge +7%  
+• model edge +7% (proj 1.9 vs 1.5)  
+• last 5 avg 2.0  
+• market moving our way  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
+Darius Acuff OVER 34.5 pts+reb+ast (-107) · SA @ SAC  
+Model 41.1 vs line 34.5 · edge +7%  
+• model edge +7% (proj 41.1 vs 34.5)  
+• last 5 avg 40.4  
+• De'Andre Hunter out  
+• market moving our way  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
+Cam Spencer OVER 1.5 3-pointers (+131) · OKC @ MEM  
+Model 2.0 vs line 1.5 · edge +8%  
+• model edge +8% (proj 2.0 vs 1.5)  
+• last 5 avg 1.6  
+• Isaiah Stewart, Scotty Pippen Jr. out  
+• market moving our way  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 16:50 PT · 🤖 Alert Pick (paper)**  
+Cedric Coward OVER 23.5 pts+reb+ast (-114) · OKC @ MEM  
+Model 30.0 vs line 23.5 · edge +9%  
+• model edge +9% (proj 30.0 vs 23.5)  
+• last 5 avg 27.0  
+• Isaiah Stewart, Scotty Pippen Jr. out  
+• market moving our way  
+Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
+
+**2026-11-06 16:50 PT · ⚡ NBA news (RotoWire)**  
+Jamal Shead: Starting Friday  
+Shead will start Friday against the Bucks, Esfandiar Baraheni of The Athletic reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Milwaukee Bucks  
+→ Check the line NOW before it moves.
+
+**2026-11-06 16:50 PT · ⚡ NBA news (RotoWire)**  
+Caleb Martin: Starting Friday  
+Martin is in the starting lineup for Friday's matchup with the Jazz, Christian Clark of The Athletic reports.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Utah Jazz  
+→ Check the line NOW before it moves.
+
 **2026-11-06 16:25 PT · ⚡ NCAAB news (RotoWire)**  
 Rylan Griffen: Good to go Friday  
 Griffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.  

@@ -1,4 +1,12 @@
 {
+ "af_graded": [],
+ "af_sent": [
+  "2026-11-07|Cam Spencer|threePointersMade|over",
+  "2026-11-07|Cedric Coward|points+rebounds+assists|over",
+  "2026-11-07|Darius Acuff|points+rebounds+assists|over",
+  "2026-11-07|Julian Champagnie|threePointersMade|over",
+  "2026-11-07|Ziaire Williams|threePointersMade|over"
+ ],
  "alert_log": [
   {
    "at": "2026-11-05 22:47 PT",
@@ -669,6 +677,46 @@
    "at": "2026-11-06 16:25 PT",
    "body": "Rylan Griffen: Good to go Friday\nGriffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Northern Kentucky Norse\n\u2192 Check the line NOW before it moves.",
    "title": "\u26a1 NCAAB news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Caleb Martin: Starting Friday\nMartin is in the starting lineup for Friday's matchup with the Jazz, Christian Clark of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Utah Jazz\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Jamal Shead: Starting Friday\nShead will start Friday against the Bucks, Esfandiar Baraheni of The Athletic reports.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Milwaukee Bucks\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NBA news (RotoWire)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Cedric Coward OVER 23.5 pts+reb+ast (-114) \u00b7 OKC @ MEM\nModel 30.0 vs line 23.5 \u00b7 edge +9%\n\u2022 model edge +9% (proj 30.0 vs 23.5)\n\u2022 last 5 avg 27.0\n\u2022 Isaiah Stewart, Scotty Pippen Jr. out\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Cam Spencer OVER 1.5 3-pointers (+131) \u00b7 OKC @ MEM\nModel 2.0 vs line 1.5 \u00b7 edge +8%\n\u2022 model edge +8% (proj 2.0 vs 1.5)\n\u2022 last 5 avg 1.6\n\u2022 Isaiah Stewart, Scotty Pippen Jr. out\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Darius Acuff OVER 34.5 pts+reb+ast (-107) \u00b7 SA @ SAC\nModel 41.1 vs line 34.5 \u00b7 edge +7%\n\u2022 model edge +7% (proj 41.1 vs 34.5)\n\u2022 last 5 avg 40.4\n\u2022 De'Andre Hunter out\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Ziaire Williams OVER 1.5 3-pointers (+128) \u00b7 POR @ LAL\nModel 1.9 vs line 1.5 \u00b7 edge +7%\n\u2022 model edge +7% (proj 1.9 vs 1.5)\n\u2022 last 5 avg 2.0\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "Julian Champagnie OVER 2.5 3-pointers (+126) \u00b7 SA @ SAC\nModel 3.0 vs line 2.5 \u00b7 edge +6%\n\u2022 model edge +6% (proj 3.0 vs 2.5)\n\u2022 last 5 avg 3.0\n\u2022 market moving our way\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
+   "title": "\ud83e\udd16 Alert Pick (paper)"
+  },
+  {
+   "at": "2026-11-06 16:50 PT",
+   "body": "De'Andre Hunter (Sacramento Kings): Day-To-Day \u2192 Out \u2014 Hunter (illness) is listed as out for Friday's game against San Antonio.",
+   "title": "\ud83c\udfe5 NBA injury update"
   }
  ],
  "base": {
@@ -1994,7 +2042,7 @@
    "Portland Trail Blazers|Shaedon Sharpe": "Out \u00a6 Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN.",
    "Portland Trail Blazers|Vit Krejci": "Out \u00a6 Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Su",
    "Sacramento Kings|Ben Simmons": "Out \u00a6 Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sa",
-   "Sacramento Kings|De'Andre Hunter": "Day-To-Day \u00a6 Hunter is questionable for Friday against the Spurs due to an illness.",
+   "Sacramento Kings|De'Andre Hunter": "Out \u00a6 Hunter (illness) is listed as out for Friday's game against San Antonio.",
    "Sacramento Kings|Keegan Murray": "Out \u00a6 Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports.",
    "Sacramento Kings|Maxime Raynaud": "Out \u00a6 Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brend",
    "San Antonio Spurs|Jayden Quaintance": "Out \u00a6 Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.",
@@ -2215,10 +2263,10 @@
    "Cleveland Browns|Tylan Wallace": "Active \u00a6 Wallace recorded a three-yard reception on his lone target in Sunday's 27-6 loss to the Steelers.",
    "Dallas Cowboys|Brandon Aubrey": "Active \u00a6 Aubrey made three of his four field-goal attempts and all three PATs in the Cowboys' 33-30 overtime loss to th",
    "Dallas Cowboys|Brevyn Spann-Ford": "Active \u00a6 Spann-Ford caught four of five targets for 31 yards during Sunday's 33-30 overtime loss versus the Cardinals.",
-   "Dallas Cowboys|Caleb Downs": "Active \u00a6 Downs (concussion) was limited during Thursday's practice, Todd Archer of ESPN.com reports.",
+   "Dallas Cowboys|Caleb Downs": "Active \u00a6 Downs (concussion) has no injury designation ahead of Sunday's game against the Colts, Tommy Yarrish of the Co",
    "Dallas Cowboys|CeeDee Lamb": "Active \u00a6 Lamb recorded seven catches (on 11 targets) for 58 yards during Sunday's 33-30 overtime loss to the Cardinals.",
    "Dallas Cowboys|Dak Prescott": "Active \u00a6 Prescott was 19-for-29 passing for 195 yards, one touchdown and no interceptions while rushing seven times for",
-   "Dallas Cowboys|DeMarvion Overshown": "Questionable \u00a6 Overshown (hamstring/back) was limited in Thursday's practice, Todd Archer of ESPN.com reports.",
+   "Dallas Cowboys|DeMarvion Overshown": "Questionable \u00a6 Overshown (hamstring/back) is listed as questionable for Sunday's game against the Colts, Tommy Yarrish of the",
    "Dallas Cowboys|Dee Winters": "Active \u00a6 Winters (calf) was a full participant in practice Thursday, Todd Archer of ESPN.com reports.",
    "Dallas Cowboys|Drew Shelton": "Active \u00a6 Shelton (hamstring) was a full participant in Wednesday's practice, Patrik Walker of the Cowboys' official sit",
    "Dallas Cowboys|George Pickens": "Questionable \u00a6 Pickens (hamstring) is listed as questionable for Sunday's game at Indianapolis, Tommy Yarrish of the Cowboys'",
@@ -2338,11 +2386,11 @@
    "Houston Texans|Tank Dell": "Active \u00a6 Dell caught his only target for 43 yards and added a two-yard rush during Sunday's 27-21 overtime loss to the ",
    "Houston Texans|Woody Marks": "Active \u00a6 With David Montgomery (groin) again ruled out for Week 9, Marks is expected to remain the Texans' clear RB1 fo",
    "Houston Texans|Xavier Hutchinson": "Active \u00a6 Hutchinson caught three of six targets for 17 yards and a touchdown in Sunday's 27-21 overtime loss to the Gia",
-   "Indianapolis Colts|A.J. Haulcy": "Questionable \u00a6 questionable",
+   "Indianapolis Colts|A.J. Haulcy": "Questionable \u00a6 Haulcy (ankle) is officially listed as questionable for Sunday's game versus the Cowboys.",
    "Indianapolis Colts|Adetomiwa Adebawore": "Active \u00a6 Adebawore agreed Tuesday with the Colts on a two-year, $35 million contract extension, Tom Pelissero of Netfli",
    "Indianapolis Colts|Akeem Davis-Gaither": "Out \u00a6 Colts' head coach ruled out Davis-Gauthier for Sunday's matchup against the Cowboys.",
    "Indianapolis Colts|Alec Pierce": "Injured Reserve \u00a6 When asked Wednesday when Pierce (heel) might be able to return to practice, Colts head coach Shane Steichen n",
-   "Indianapolis Colts|Anthony Gould": "Active",
+   "Indianapolis Colts|Anthony Gould": "Active \u00a6 Gould (concussion) does not have a designation for Sunday's matchup versus Dallas.",
    "Indianapolis Colts|Anthony Richardson Sr.": "Active \u00a6 Richardson entered the Colts' 42-7 loss to the Jaguars on Sunday for an ineffective Daniel Jones with 11:45 re",
    "Indianapolis Colts|Bryce Boettcher": "Active \u00a6 Boettcher (groin) was a full participant at the Colts' practice Wednesday.",
    "Indianapolis Colts|Charlie Heck": "Active",
@@ -2640,7 +2688,6 @@
    "New York Jets|VJ Payne": "Injured Reserve \u00a6 Payne (knee) was designated to return from injured reserve by the Jets on Wednesday, Amanda Vogt of the team's",
    "Philadelphia Eagles|Britain Covey": "Out \u00a6 out",
    "Philadelphia Eagles|Dallas Goedert": "Active \u00a6 Goedert caught all four of his targets for 30 yards and added a two-yard run in Sunday's 27-10 loss to the Com",
-   "Philadelphia Eagles|Dameon Pierce": "Questionable \u00a6 questionable",
    "Philadelphia Eagles|Darius Cooper": "Active \u00a6 Cooper and Makai Lemon are positioned to start again Sunday against the Giants, with fellow wideouts DeVonta S",
    "Philadelphia Eagles|DeVonta Smith": "Out \u00a6 Smith (hamstring) has been ruled out for Sunday's game against the Giants.",
    "Philadelphia Eagles|Dontayvion Wicks": "Out \u00a6 Wicks (ankle) is listed as out for Sunday's game against the Giants.",
@@ -2650,6 +2697,7 @@
    "Philadelphia Eagles|Hollywood Brown": "Active \u00a6 Brown finished Sunday's loss to the Commanders with two catches for 17 yards on two targets.",
    "Philadelphia Eagles|Jake Elliott": "Active \u00a6 Elliott (ankle) was a limited participant in Thursday's practice.",
    "Philadelphia Eagles|Jake Majors": "Active",
+   "Philadelphia Eagles|Jalen Carter": "Active",
    "Philadelphia Eagles|Jalyx Hunt": "Active",
    "Philadelphia Eagles|Jaydon Blue": "Active \u00a6 Blue caught his lone target for nine yards in Sunday night's 27-10 loss to the Commanders.",
    "Philadelphia Eagles|Jihaad Campbell": "Out \u00a6 out",
@@ -2815,7 +2863,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T16:40:19.571421-08:00",
+ "last_run": "2026-11-06T16:50:15.612424-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3431,6 +3479,8 @@
   "nba537883",
   "nba537884",
   "nba537885",
+  "nba537893",
+  "nba537897",
   "nfl646200",
   "nfl646201",
   "nfl646202",
