@@ -2443,9 +2443,9 @@
   },
   "401928788": {
    "date": "2026-11-07T22:00Z",
-   "ml_away": 3500.0,
+   "ml_away": 4000.0,
    "ml_draw": null,
-   "ml_home": -20000.0,
+   "ml_home": -50000.0,
    "open": {
     "ml_away": 3500.0,
     "ml_draw": null,
@@ -3097,7 +3097,7 @@
    "Detroit Lions|Amon-Ra St. Brown": "Questionable \u00a6 St. Brown (ribs) is questionable for Sunday's game against the Dolphins, Tim Twentyman of the Lions' official ",
    "Detroit Lions|Brian Branch": "Active \u00a6 Branch (concussion) does not have any injury designation ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|Cade Mays": "Out \u00a6 out",
-   "Detroit Lions|D.J. Reed": "Out \u00a6 out",
+   "Detroit Lions|D.J. Reed": "Out \u00a6 Reed (hip) has been ruled out ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|DJ Wonnum": "Out \u00a6 out",
    "Detroit Lions|Ennis Rakestraw Jr.": "Active \u00a6 Rakestraw (ankle) does not have a game designation for Sunday's Week 8 tilt versus the Vikings.",
    "Detroit Lions|Isaac TeSlaa": "Active \u00a6 TeSlaa caught one of his two targets for 10 yards in the Lions' 20-17 win over the Packers on Sunday.",
@@ -3110,7 +3110,7 @@
    "Detroit Lions|Jameson Williams": "Active \u00a6 Williams brought in four of six targets for 70 yards and a touchdown in the Lions' 19-15 win over the Vikings ",
    "Detroit Lions|Jared Goff": "Active \u00a6 Goff completed 18 of 25 passes for 176 yards with a touchdown and an interception and added three carries for ",
    "Detroit Lions|Jimmy Rolder": "Injured Reserve \u00a6 Rolder (hamstring) was placed on injured reserve Tuesday.",
-   "Detroit Lions|Kerby Joseph": "Out \u00a6 Joseph (knee) remained limited in Thursday's practice, Tim Twentyman of the Lions' official site reports.",
+   "Detroit Lions|Kerby Joseph": "Out \u00a6 Joseph (knee) has been ruled out ahead of Sunday's game against the Dolphins.",
    "Detroit Lions|Mekhi Wingo": "Active",
    "Detroit Lions|Roger McCreary": "Active \u00a6 McCreary (foot) is active for Sunday's game against the Vikings.",
    "Detroit Lions|Sam LaPorta": "Active \u00a6 LaPorta caught three of five targets for 33 yards in Sunday's 19-15 win over the Vikings. He added two rushing",
@@ -3644,7 +3644,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:25:15.254017-08:00",
+ "last_run": "2026-11-06T18:30:17.648219-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4199,7 +4199,11 @@
   "50404029",
   "50404042",
   "50404045",
-  "50404047"
+  "50404047",
+  "50404057",
+  "50404061",
+  "50404082",
+  "50404087"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
