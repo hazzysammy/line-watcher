@@ -101,7 +101,7 @@ def main():
             if not ga: continue
             n = h = 0; j = 0
             for kb, sb, _ in gb:
-                lo, hi = kb - dt.timedelta(hours=36), kb - dt.timedelta(hours=2)
+                lo, hi = kb - dt.timedelta(hours=36), kb - dt.timedelta(hours=2.5)   # Sammy 11/7: A kicks off 2.5h+ before B
                 if any(lo <= ka <= hi for ka, _, _ in ga):
                     n += 1; h += 1 if sb else 0
             if n >= MIN_N and h / n >= MIN_RATE:

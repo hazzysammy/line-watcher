@@ -2,319 +2,319 @@
  "date": "2026-11-07",
  "note": "FC27 daily list players by ESPN event id; watcher pings pair alerts only when A and B are both here",
  "events": {
-  "401841669": [
-   "Leandro Paredes"
-  ],
-  "401841663": [
-   "Ángel Di María"
-  ],
-  "401878758": [
-   "Michael Zetterer",
-   "Anton Stach",
-   "Harry Wilson",
-   "Marcos Senesi",
-   "Pedro Porro",
-   "Jan Paul van Hecke",
-   "Micky van de Ven",
-   "James Maddison",
-   "Sandro Tonali",
-   "Dejan Kulusevski",
-   "Omar Marmoush",
-   "Mathys Tel"
-  ],
-  "401878760": [
-   "David Raya",
-   "Ezri Konsa",
-   "Benjamin White",
-   "William Saliba",
-   "Jurriën Timber",
-   "Piero Hincapié",
-   "Riccardo Calafiori",
-   "Martin Ødegaard",
-   "Mikel Merino",
-   "Bruno Guimarães",
-   "Declan Rice",
-   "Eberechi Eze",
-   "Zubimendi",
-   "Viktor Gyökeres",
-   "Bukayo Saka",
-   "Christos Tzolis"
-  ],
-  "401879241": [
-   "Joachim Andersen",
-   "Lewis Hall",
-   "Fabian Schär",
-   "Sven Botman",
-   "Malick Thiaw",
-   "Joelinton",
-   "Harvey Barnes",
-   "Yoane Wissa"
-  ],
-  "401878757": [
-   "Daniel Muñoz",
-   "Nikola Milenković",
-   "Ousmane Diomande",
-   "Morgan Gibbs-White",
-   "Chris Wood",
-   "Gerónimo Rulli",
-   "Gianluigi Donnarumma",
-   "Rúben Dias",
-   "Marc Guéhi",
-   "Joško Gvardiol",
-   "Nico O'Reilly",
-   "Abdukodir Khusanov",
-   "Mateo Kovačić",
-   "Elliot Anderson",
-   "Phil Foden",
-   "Enzo Fernández",
-   "Rayan Cherki",
-   "Matheus Nunes",
-   "Erling Haaland",
-   "Antoine Semenyo",
-   "Jérémy Doku"
-  ],
-  "401880161": [
-   "Kieran Trippier"
-  ],
-  "401880171": [
-   "Jarrod Bowen"
-  ],
-  "401880165": [
-   "Aaron Ramsdale",
-   "James Ward-Prowse"
-  ],
-  "401902869": [
-   "Hannah Hampton",
-   "Lucy Bronze",
-   "Kadeisha Buchanan",
-   "Katie McCabe",
-   "Ellie Carpenter",
-   "Naomi Girma",
-   "Erin Cuthbert",
-   "Keira Walsh",
-   "Sandy Baltimore",
-   "Sjoeke Nüsken",
-   "Manaka Matsukubo",
-   "Mayra Ramírez",
-   "Lauren James",
-   "Melvine Malard",
-   "Alyssa Thompson",
-   "Hannah Blundell"
-  ],
-  "401902868": [
-   "Ayaka Yamashita",
-   "Alex Greenwood",
-   "Jade Rose",
-   "Kerstin Casparij",
-   "Niamh Charles",
-   "Rebecca Knaak",
-   "Yui Hasegawa",
-   "Laura Blindkilde Brown",
-   "Sam Coffey",
-   "Vivianne Miedema",
-   "Khadija Shaw",
-   "Beth Mead",
-   "Lauren Hemp",
-   "Aoba Fujino",
-   "Saki Kumagai",
-   "Katie Zelem",
-   "Viviane Asseyi"
-  ],
-  "401882812": [
-   "Sergio Canales"
-  ],
-  "401882813": [
-   "Edu Expósito",
-   "José María Giménez",
-   "Pierre-Emerick Aubameyang"
-  ],
-  "401882811": [
-   "Ante Budimir",
-   "Unai Simón",
-   "Aymeric Laporte",
-   "Yeray",
-   "Vivian",
-   "Sancet",
-   "Nico Williams"
-  ],
-  "401882808": [
-   "Thibaut Courtois",
-   "Antonio Rüdiger",
-   "Denzel Dumfries",
-   "Trent Alexander-Arnold",
-   "Éder Militão",
-   "Ibrahima Konaté",
-   "Cucurella",
-   "Dean Huijsen",
-   "Bernardo Silva",
-   "Federico Valverde",
-   "Aurélien Tchouaméni",
-   "Eduardo Camavinga",
-   "Jude Bellingham",
-   "Arda Güler",
-   "Kylian Mbappé",
-   "Rodrygo",
-   "Endrick",
-   "Yan Diomande"
-  ],
-  "401882468": [
-   "Maddi Torre",
-   "Merle Frohms",
-   "María Méndez",
-   "Maëlle Lakrar",
-   "Sara Däbritz",
-   "Sandie Toletti",
-   "Arianna Caruso",
-   "Elisa Senß",
-   "Lineth Beerensteyn",
-   "Signe Bruun",
-   "Linda Caicedo"
-  ],
-  "401882463": [
-   "Ainhoa Moraza",
-   "Nerea Eizagirre"
-  ],
-  "401876407": [
-   "Matvey Safonov",
-   "Marquinhos",
-   "Lucas Hernández",
-   "Achraf Hakimi",
-   "Willian Pacho",
-   "Nuno Mendes",
-   "Illia Zabarnyi",
-   "Lucas Beraldo",
-   "Fabián Ruiz",
-   "Vitinha",
-   "Maghnes Akliouche",
-   "Warren Zaïre-Emery",
-   "João Neves",
-   "Ousmane Dembélé",
-   "Ferran Torres",
-   "Khvicha Kvaratskhelia",
-   "Désiré Doué"
-  ],
-  "401884745": [
-   "Gregor Kobel",
-   "Waldemar Anton",
-   "Nico Schlotterbeck",
-   "Emre Can",
-   "Marcel Sabitzer",
-   "Joey Veerman",
-   "Felix Nmecha",
-   "Jobe Bellingham",
-   "Serhou Guirassy",
-   "Maximilian Beier"
-  ],
-  "401884740": [
-   "Nadiem Amiri",
-   "Kaishū Sano",
-   "Manuel Neuer",
-   "Jonas Urbig",
-   "Hiroki Ito",
-   "Jonathan Tah",
-   "Dayot Upamecano",
-   "Josip Stanišić",
-   "Konrad Laimer",
-   "Joshua Kimmich",
-   "Michael Olise",
-   "Jamal Musiala",
-   "Ismael Saibari",
-   "Tom Bischof",
-   "Aleksandar Pavlović",
-   "Harry Kane",
-   "Serge Gnabry",
-   "Luis Díaz"
-  ],
-  "401884744": [
-   "Maarten Vandevoordt",
-   "Willi Orbán",
-   "David Raum",
-   "Castello Lukeba",
-   "Nicolas Seiwald",
-   "Christopher Nkunku",
-   "Finn Dahmen"
-  ],
-  "401884737": [
-   "Robin Koch",
-   "Mario Götze",
-   "Can Uzun",
-   "Jonathan Burkardt"
-  ],
-  "401884743": [
-   "Maximilian Mittelstädt",
-   "Angelo Stiller",
-   "Ermedin Demirović",
-   "Deniz Undav",
-   "Amos Pieper"
-  ],
-  "401874811": [
-   "Giovanni Simeone",
-   "Ché Adams",
-   "Wladimiro Falcone"
-  ],
-  "401874974": [
-   "Riccardo Orsolini"
-  ],
-  "401874803": [
-   "Mile Svilar",
-   "Gianluca Mancini",
-   "Mario Hermoso",
-   "Evan Ndicka",
-   "Leonardo Balerdi",
-   "Marten de Roon",
-   "Paulo Dybala",
-   "Donyell Malen",
-   "Domenico Berardi"
-  ],
-  "401876906": [
-   "Juan Brunetta"
-  ],
-  "401876905": [
-   "Esteban Andrada"
-  ],
-  "401876904": [
-   "Raphael Veiga"
-  ],
-  "401885395": [
-   "Gonçalo Inácio",
-   "Rodrigo Zalazar"
-  ],
-  "401888371": [
-   "Davinson Sánchez",
-   "İlkay Gündoğan",
-   "Victor Osimhen",
-   "Rafael Leão"
-  ],
-  "761935": [
-   "Robert Lewandowski"
-  ],
-  "761938": [
-   "Casemiro",
-   "Rodrigo De Paul",
-   "Lionel Messi"
-  ],
-  "761940": [
-   "Antoine Griezmann"
-  ],
-  "761946": [
-   "Marco Reus"
-  ],
-  "761947": [
-   "Anders Dreyer"
-  ],
-  "761948": [
-   "Denis Bouanga"
-  ],
-  "401932976": [
-   "Lorena",
-   "Elizabeth Ball",
-   "Kayla Sharples",
-   "Alana Cook",
-   "Lo'eau LaBonta",
-   "Debinha",
-   "Temwa Chawinga",
-   "Hina Sugita",
-   "Sveindís Jane Jónsdóttir"
-  ]
+  "401841669": {
+   "Leandro Paredes": "✅ Started last game"
+  },
+  "401841663": {
+   "Ángel Di María": "✅ Started last game"
+  },
+  "401878758": {
+   "Michael Zetterer": "🔄 Unused sub last game",
+   "Anton Stach": "🔄 Came off the bench last game",
+   "Harry Wilson": "✅ Started last game",
+   "Marcos Senesi": "🔄 Unused sub last game",
+   "Pedro Porro": "🔄 Came off the bench last game",
+   "Jan Paul van Hecke": "✅ Started last game",
+   "Micky van de Ven": "✅ Started last game",
+   "James Maddison": "🔄 Unused sub last game",
+   "Sandro Tonali": "✅ Started last game",
+   "Dejan Kulusevski": "🔄 Came off the bench last game",
+   "Omar Marmoush": "✅ Started last game",
+   "Mathys Tel": "✅ Started last game"
+  },
+  "401878760": {
+   "David Raya": "✅ Started last game",
+   "Ezri Konsa": "✅ Started last game",
+   "Benjamin White": "✅ Started last game",
+   "William Saliba": "🔄 Unused sub last game",
+   "Jurriën Timber": "🔄 Came off the bench last game",
+   "Piero Hincapié": "✅ Started last game",
+   "Riccardo Calafiori": "🔄 Unused sub last game",
+   "Martin Ødegaard": "🔄 Came off the bench last game",
+   "Mikel Merino": "✅ Started last game",
+   "Bruno Guimarães": "🔄 Unused sub last game",
+   "Declan Rice": "✅ Started last game",
+   "Eberechi Eze": "✅ Started last game",
+   "Zubimendi": "✅ Started last game",
+   "Viktor Gyökeres": "✅ Started last game",
+   "Bukayo Saka": "🔄 Not in last matchday squad",
+   "Christos Tzolis": "🔄 Came off the bench last game"
+  },
+  "401879241": {
+   "Joachim Andersen": "🔄 Unused sub last game",
+   "Lewis Hall": "✅ Started last game",
+   "Fabian Schär": "✅ Started last game",
+   "Sven Botman": "🔄 Unused sub last game",
+   "Malick Thiaw": "🔄 Unused sub last game",
+   "Joelinton": "✅ Started last game",
+   "Harvey Barnes": "✅ Started last game",
+   "Yoane Wissa": "🔄 Came off the bench last game"
+  },
+  "401878757": {
+   "Daniel Muñoz": "🔄 Came off the bench last game",
+   "Nikola Milenković": "✅ Started last game",
+   "Ousmane Diomande": "🔄 Unused sub last game",
+   "Morgan Gibbs-White": "✅ Started last game",
+   "Chris Wood": "🔄 Came off the bench last game",
+   "Gerónimo Rulli": "🔄 Unused sub last game",
+   "Gianluigi Donnarumma": "✅ Started last game",
+   "Rúben Dias": "🔄 Came off the bench last game",
+   "Marc Guéhi": "✅ Started last game",
+   "Joško Gvardiol": "🔄 Unused sub last game",
+   "Nico O'Reilly": "✅ Started last game",
+   "Abdukodir Khusanov": "✅ Started last game",
+   "Mateo Kovačić": "🔄 Came off the bench last game",
+   "Elliot Anderson": "✅ Started last game",
+   "Phil Foden": "✅ Started last game",
+   "Enzo Fernández": "✅ Started last game",
+   "Rayan Cherki": "✅ Started last game",
+   "Matheus Nunes": "✅ Started last game",
+   "Erling Haaland": "✅ Started last game",
+   "Antoine Semenyo": "🔄 Not in last matchday squad",
+   "Jérémy Doku": "🔄 Came off the bench last game"
+  },
+  "401880161": {
+   "Kieran Trippier": "✅ Started last game"
+  },
+  "401880171": {
+   "Jarrod Bowen": "✅ Started last game"
+  },
+  "401880165": {
+   "Aaron Ramsdale": "🔄 Not in last matchday squad",
+   "James Ward-Prowse": "✅ Started last game"
+  },
+  "401902869": {
+   "Hannah Hampton": "✅ Started last game",
+   "Lucy Bronze": "🔄 Unused sub last game",
+   "Kadeisha Buchanan": "🔄 Unused sub last game",
+   "Katie McCabe": "✅ Started last game",
+   "Ellie Carpenter": "✅ Started last game",
+   "Naomi Girma": "🔄 Not in last matchday squad",
+   "Erin Cuthbert": "🔄 Came off the bench last game",
+   "Keira Walsh": "✅ Started last game",
+   "Sandy Baltimore": "✅ Started last game",
+   "Sjoeke Nüsken": "✅ Started last game",
+   "Manaka Matsukubo": "✅ Started last game",
+   "Mayra Ramírez": "🔄 Not in last matchday squad",
+   "Lauren James": "✅ Started last game",
+   "Melvine Malard": "✅ Started last game",
+   "Alyssa Thompson": "🔄 Came off the bench last game",
+   "Hannah Blundell": "✅ Started last game"
+  },
+  "401902868": {
+   "Ayaka Yamashita": "✅ Started last game",
+   "Alex Greenwood": "✅ Started last game",
+   "Jade Rose": "✅ Started last game",
+   "Kerstin Casparij": "🔄 Came off the bench last game",
+   "Niamh Charles": "🔄 Not in last matchday squad",
+   "Rebecca Knaak": "✅ Started last game",
+   "Yui Hasegawa": "✅ Started last game",
+   "Laura Blindkilde Brown": "✅ Started last game",
+   "Sam Coffey": "🔄 Came off the bench last game",
+   "Vivianne Miedema": "🔄 Not in last matchday squad",
+   "Khadija Shaw": "✅ Started last game",
+   "Beth Mead": "🔄 Not in last matchday squad",
+   "Lauren Hemp": "✅ Started last game",
+   "Aoba Fujino": "✅ Started last game",
+   "Saki Kumagai": "🔄 Unused sub last game",
+   "Katie Zelem": "✅ Started last game",
+   "Viviane Asseyi": "✅ Started last game"
+  },
+  "401882812": {
+   "Sergio Canales": "✅ Started last game"
+  },
+  "401882813": {
+   "Edu Expósito": "✅ Started last game",
+   "José María Giménez": "✅ Started last game",
+   "Pierre-Emerick Aubameyang": "🔄 Came off the bench last game"
+  },
+  "401882811": {
+   "Ante Budimir": "✅ Started last game",
+   "Unai Simón": "✅ Started last game",
+   "Aymeric Laporte": "✅ Started last game",
+   "Yeray": "🔄 Came off the bench last game",
+   "Vivian": "✅ Started last game",
+   "Sancet": "🔄 Came off the bench last game",
+   "Nico Williams": "✅ Started last game"
+  },
+  "401882808": {
+   "Thibaut Courtois": "✅ Started last game",
+   "Antonio Rüdiger": "✅ Started last game",
+   "Denzel Dumfries": "✅ Started last game",
+   "Trent Alexander-Arnold": "🔄 Unused sub last game",
+   "Éder Militão": "✅ Started last game",
+   "Ibrahima Konaté": "🔄 Unused sub last game",
+   "Cucurella": "✅ Started last game",
+   "Dean Huijsen": "🔄 Unused sub last game",
+   "Bernardo Silva": "✅ Started last game",
+   "Federico Valverde": "🔄 Came off the bench last game",
+   "Aurélien Tchouaméni": "🔄 Not in last matchday squad",
+   "Eduardo Camavinga": "✅ Started last game",
+   "Jude Bellingham": "✅ Started last game",
+   "Arda Güler": "🔄 Not in last matchday squad",
+   "Kylian Mbappé": "✅ Started last game",
+   "Rodrygo": "🔄 Not in last matchday squad",
+   "Endrick": "🔄 Came off the bench last game",
+   "Yan Diomande": "✅ Started last game"
+  },
+  "401882468": {
+   "Maddi Torre": "✅ Started last game",
+   "Merle Frohms": "✅ Started last game",
+   "María Méndez": "✅ Started last game",
+   "Maëlle Lakrar": "🔄 Unused sub last game",
+   "Sara Däbritz": "✅ Started last game",
+   "Sandie Toletti": "🔄 Not in last matchday squad",
+   "Arianna Caruso": "🔄 Came off the bench last game",
+   "Elisa Senß": "🔄 Unused sub last game",
+   "Lineth Beerensteyn": "🔄 Came off the bench last game",
+   "Signe Bruun": "✅ Started last game",
+   "Linda Caicedo": "🔄 Came off the bench last game"
+  },
+  "401882463": {
+   "Ainhoa Moraza": "🔄 Came off the bench last game",
+   "Nerea Eizagirre": "✅ Started last game"
+  },
+  "401876407": {
+   "Matvey Safonov": "✅ Started last game",
+   "Marquinhos": "🔄 Not in last matchday squad",
+   "Lucas Hernández": "✅ Started last game",
+   "Achraf Hakimi": "✅ Started last game",
+   "Willian Pacho": "✅ Started last game",
+   "Nuno Mendes": "🔄 Not in last matchday squad",
+   "Illia Zabarnyi": "✅ Started last game",
+   "Lucas Beraldo": "🔄 Came off the bench last game",
+   "Fabián Ruiz": "✅ Started last game",
+   "Vitinha": "✅ Started last game",
+   "Maghnes Akliouche": "✅ Started last game",
+   "Warren Zaïre-Emery": "🔄 Unused sub last game",
+   "João Neves": "✅ Started last game",
+   "Ousmane Dembélé": "🔄 Not in last matchday squad",
+   "Ferran Torres": "🔄 Came off the bench last game",
+   "Khvicha Kvaratskhelia": "🔄 Not in last matchday squad",
+   "Désiré Doué": "✅ Started last game"
+  },
+  "401884745": {
+   "Gregor Kobel": "✅ Started last game",
+   "Waldemar Anton": "✅ Started last game",
+   "Nico Schlotterbeck": "✅ Started last game",
+   "Emre Can": "🔄 Not in last matchday squad",
+   "Marcel Sabitzer": "🔄 Not in last matchday squad",
+   "Joey Veerman": "✅ Started last game",
+   "Felix Nmecha": "✅ Started last game",
+   "Jobe Bellingham": "✅ Started last game",
+   "Serhou Guirassy": "✅ Started last game",
+   "Maximilian Beier": "🔄 Came off the bench last game"
+  },
+  "401884740": {
+   "Nadiem Amiri": "✅ Started last game",
+   "Kaishū Sano": "✅ Started last game",
+   "Manuel Neuer": "✅ Started last game",
+   "Jonas Urbig": "🔄 Unused sub last game",
+   "Hiroki Ito": "🔄 Unused sub last game",
+   "Jonathan Tah": "✅ Started last game",
+   "Dayot Upamecano": "✅ Started last game",
+   "Josip Stanišić": "✅ Started last game",
+   "Konrad Laimer": "✅ Started last game",
+   "Joshua Kimmich": "✅ Started last game",
+   "Michael Olise": "✅ Started last game",
+   "Jamal Musiala": "🔄 Not in last matchday squad",
+   "Ismael Saibari": "🔄 Not in last matchday squad",
+   "Tom Bischof": "✅ Started last game",
+   "Aleksandar Pavlović": "🔄 Unused sub last game",
+   "Harry Kane": "✅ Started last game",
+   "Serge Gnabry": "🔄 Not in last matchday squad",
+   "Luis Díaz": "🔄 Not in last matchday squad"
+  },
+  "401884744": {
+   "Maarten Vandevoordt": "✅ Started last game",
+   "Willi Orbán": "✅ Started last game",
+   "David Raum": "✅ Started last game",
+   "Castello Lukeba": "✅ Started last game",
+   "Nicolas Seiwald": "🔄 Came off the bench last game",
+   "Christopher Nkunku": "🔄 Came off the bench last game",
+   "Finn Dahmen": "✅ Started last game"
+  },
+  "401884737": {
+   "Robin Koch": "✅ Started last game",
+   "Mario Götze": "🔄 Came off the bench last game",
+   "Can Uzun": "✅ Started last game",
+   "Jonathan Burkardt": "🔄 Came off the bench last game"
+  },
+  "401884743": {
+   "Maximilian Mittelstädt": "✅ Started last game",
+   "Angelo Stiller": "🔄 Not in last matchday squad",
+   "Ermedin Demirović": "✅ Started last game",
+   "Deniz Undav": "✅ Started last game",
+   "Amos Pieper": "✅ Started last game"
+  },
+  "401874811": {
+   "Giovanni Simeone": "✅ Started last game",
+   "Ché Adams": "✅ Started last game",
+   "Wladimiro Falcone": "✅ Started last game"
+  },
+  "401874974": {
+   "Riccardo Orsolini": "🔄 Unused sub last game"
+  },
+  "401874803": {
+   "Mile Svilar": "🔄 Not in last matchday squad",
+   "Gianluca Mancini": "✅ Started last game",
+   "Mario Hermoso": "✅ Started last game",
+   "Evan Ndicka": "🔄 Came off the bench last game",
+   "Leonardo Balerdi": "✅ Started last game",
+   "Marten de Roon": "✅ Started last game",
+   "Paulo Dybala": "🔄 Not in last matchday squad",
+   "Donyell Malen": "✅ Started last game",
+   "Domenico Berardi": "✅ Started last game"
+  },
+  "401876906": {
+   "Juan Brunetta": "✅ Started last game"
+  },
+  "401876905": {
+   "Esteban Andrada": "✅ Started last game"
+  },
+  "401876904": {
+   "Raphael Veiga": "✅ Started last game"
+  },
+  "401885395": {
+   "Gonçalo Inácio": "✅ Started last game",
+   "Rodrigo Zalazar": "🔄 Came off the bench last game"
+  },
+  "401888371": {
+   "Davinson Sánchez": "✅ Started last game",
+   "İlkay Gündoğan": "🔄 Unused sub last game",
+   "Victor Osimhen": "✅ Started last game",
+   "Rafael Leão": "🔄 Came off the bench last game"
+  },
+  "761935": {
+   "Robert Lewandowski": "🔄 Came off the bench last game"
+  },
+  "761938": {
+   "Casemiro": "✅ Started last game",
+   "Rodrigo De Paul": "✅ Started last game",
+   "Lionel Messi": "✅ Started last game"
+  },
+  "761940": {
+   "Antoine Griezmann": "✅ Started last game"
+  },
+  "761946": {
+   "Marco Reus": "✅ Started last game"
+  },
+  "761947": {
+   "Anders Dreyer": "✅ Started last game"
+  },
+  "761948": {
+   "Denis Bouanga": "✅ Started last game"
+  },
+  "401932976": {
+   "Lorena": "✅ Started last game",
+   "Elizabeth Ball": "🔄 Unused sub last game",
+   "Kayla Sharples": "✅ Started last game",
+   "Alana Cook": "🔄 Not in last matchday squad",
+   "Lo'eau LaBonta": "✅ Started last game",
+   "Debinha": "🔄 Came off the bench last game",
+   "Temwa Chawinga": "✅ Started last game",
+   "Hina Sugita": "🔄 Not in last matchday squad",
+   "Sveindís Jane Jónsdóttir": "✅ Started last game"
+  }
  }
 }

@@ -863,8 +863,15 @@ def main():
         # keyed by event id). Everything else is still tracked silently. Women's games never count (pairs are men's players).
         tlf = os.path.join(HERE, "pairs", "today_list.json")
         TL = (json.load(open(tlf)).get("events", {}) if os.path.exists(tlf) else {})
+        def _match(name, x): return norm(name) == norm(x) or (norm(name).split()[-1] == norm(x).split()[-1] and norm(name)[0] == norm(x)[0])
+        def list_status(name, eid):
+            ev = TL.get(str(eid), [])
+            for x in ev:
+                if _match(name, x): return ev[x] if isinstance(ev, dict) else "listed"
+            return None
         def on_list(name, eid):
-            return any(norm(name) == norm(x) or norm(name).split()[-1] == norm(x).split()[-1] and norm(name)[0] == norm(x)[0] for x in TL.get(str(eid), []))
+            st = list_status(name, eid)
+            return st is not None and not str(st).startswith("❌")
         womens = lambda path: any(k in path for k in (".w.", "nwsl", "wchampions", "women", "esp.w", "fra.w", "ger.w", "ita.w"))
         silent_log = state.setdefault("pairs_silent", [])
         for p in pairs:
@@ -872,7 +879,7 @@ def main():
                 for lb, eb in bteam.get(p["B_team"], []):
                     ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00")); kb = dt.datetime.fromisoformat(eb["date"].replace("Z", "+00:00"))
                     gap = (kb - ka).total_seconds() / 3600
-                    need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
+                    need = 2.5   # Sammy 11/7: A kicks off at least 2.5h before B, every competition
                     if not (need <= gap <= 36) or eb["state"] != "pre": continue
                     if womens(la["path"]) or womens(lb["path"]): continue
                     both = on_list(p["A"], ea["id"]) and on_list(p["B"], eb["id"])
@@ -962,35 +969,40 @@ def main():
                 if p["A_team"] in T_past:     # A already played: did he score?
                     la, ea = T_past[p["A_team"]]
                     ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
-                    if 2 <= (kb - ka).total_seconds() / 3600 <= 36 and listed(p["A"], la, ea, p["A_team"]):
+                    if 2.5 <= (kb - ka).total_seconds() / 3600 <= 36 and listed(p["A"], la, ea, p["A_team"]):
                         n_ = norm(p["A"])
                         if any(n_ == x or (n_.split()[-1] == x.split()[-1] and n_[0] == x[:1]) for x in scorers(la, ea)):
                             entries.append({**e0, "kind": "live", "ka": ka})
                 if p["A_team"] in T_now:      # A plays earlier the same day
                     la, ea = T_now[p["A_team"]]
                     ka = dt.datetime.fromisoformat(ea["date"].replace("Z", "+00:00"))
-                    need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
-                    if need <= (kb - ka).total_seconds() / 3600 <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
-                        entries.append({**e0, "kind": "upcoming", "ka": ka})
+                    if 2.5 <= (kb - ka).total_seconds() / 3600 <= 36 and ea["state"] == "pre" and listed(p["A"], la, ea, p["A_team"]):
+                        entries.append({**e0, "kind": "upcoming", "ka": ka, "A_team": p["A_team"],
+                                        "a_warn": "⚠ not in last squad" if "Not in last" in str(list_status(p["A"], ea["id"]) or "") else "",
+                                        "b_warn": "⚠" if "Not in last" in str(list_status(p["B"], eb["id"]) or "") else ""})
             if entries:
                 tm = lambda d: d.astimezone(PT).strftime("%-I:%M%p").lower().replace(":00", "")[:-1]   # 6:30a, 9a, 12p
                 blocks = []
-                for kind, head in (("live", "🟢 A ALREADY SCORED → bet B"), ("upcoming", "⏳ A PLAYS FIRST → bet B only if A scores")):
-                    es = [e for e in entries if e["kind"] == kind]
-                    if not es: continue
-                    blocks.append(head)
-                    byB = {}
-                    for e in es: byB.setdefault(e["B"], []).append(e)
-                    for B, rows in sorted(byB.items(), key=lambda kv: (kv[1][0]["kb"], kv[0])):
+                es = [e for e in entries if e["kind"] == "live"]
+                if es:
+                    blocks.append("🟢 A ALREADY SCORED → bet these Bs today")
+                    byA = {}
+                    for e in es: byA.setdefault(e["A"], []).append(e)
+                    for A, rows in byA.items():
                         rows.sort(key=lambda r: (-r["rate"], -r["n"]))
-                        r0 = rows[0]
-                        lines = [f'⚽ {short(B).upper()} {tm(r0["kb"])} (normally {r0["base"]*100:.0f}%)']
-                        for r in rows:
-                            when = r["ka"].astimezone(PT).strftime("%a") if kind == "live" else tm(r["ka"])
-                            lines.append(f'  {short(r["A"])} {when} · {r["hits"]}/{r["n"]} {r["rate"]*100:.0f}% · {fmt(r["fair"])}')
-                        blocks.append("\n".join(lines))
-                nB = len({e["B"] for e in entries})
-                top = f'{len(entries)} pairs · {nB} Player Bs · both on your FC27 list\nformat: Player A, kickoff · record · B fair price'
+                        blocks.append("\n".join([f'✅ {short(A).upper()} scored ({rows[0]["ka"].astimezone(PT):%a})']
+                                                + [f'  {short(r["B"])} {tm(r["kb"])} · {r["hits"]}/{r["n"]} {r["rate"]*100:.0f}% · {fmt(r["fair"])}' for r in rows]))
+                es = [e for e in entries if e["kind"] == "upcoming"]
+                if es:
+                    blocks.append("⏳ IF PLAYER A SCORES → best Player Bs later today")
+                    byA = {}
+                    for e in es: byA.setdefault(e["A"], []).append(e)
+                    for A, rows in sorted(byA.items(), key=lambda kv: (kv[1][0]["ka"], -max(r["rate"] for r in kv[1]))):
+                        rows.sort(key=lambda r: (-r["rate"], -r["n"]))
+                        head = f'🅰️ {short(A).upper()} {tm(rows[0]["ka"])}' + (f' {rows[0]["a_warn"]}' if rows[0].get("a_warn") else "") + " → if he scores:"
+                        blocks.append("\n".join([head] + [f'  {short(r["B"])}{r.get("b_warn","")} {tm(r["kb"])} · {r["hits"]}/{r["n"]} {r["rate"]*100:.0f}% · {fmt(r["fair"])}' for r in rows]))
+                nB = len({e["A"] for e in entries})
+                top = f'{len(entries)} pairs · {nB} Player As · both on your FC27 list\nformat: Player B, kickoff · record after A scores · B fair price · rules: A kicks off 2.5h+ before B, within 36h'
                 foot = "👉 Bet B only at the fair price or better · 0.5u max · confirm B starts ~1 hr before"
                 body = top + "\n\n" + "\n\n".join(blocks) + "\n\n" + foot
                 ttl = f'🔗 Pair digest {"today" if slot == "am" else "tomorrow"} · {target:%a %b %-d}'
