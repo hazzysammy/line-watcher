@@ -62,11 +62,6 @@
  "alert_log": [
   {
    "at": "2026-11-06 17:20 PT",
-   "body": "Toumani Camara OVER 2.5 3-pointers (-116) \u00b7 POR @ LAL\nModel 3.3 vs line 2.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 3.0 vs line 2.5\n\u2022 season avg 3.4\n\u2022 market moving our way\n\u2022 model agrees: proj 3.3 (+4% edge)\nSize: 1u ($10) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
-   "title": "\ud83e\udd16 Alert Pick (paper)"
-  },
-  {
-   "at": "2026-11-06 17:20 PT",
    "body": "Emanuel Sharp UNDER 5.5 points (-115) \u00b7 SA @ SAC\nModel 4.6 vs line 5.5 (secondary check)\n\u2022 fits your history: stat props 24-10, favorite-priced\n\u2022 last 5 avg 3.8 vs line 5.5\n\u2022 season avg 4.4\n\u2022 market moving our way\n\u2022 model agrees: proj 4.6 (+3% edge)\nSize: 0.5u ($5) \u00b7 Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.",
    "title": "\ud83e\udd16 Alert Pick (paper)"
   },
@@ -1559,6 +1554,11 @@
    "at": "2026-11-07 05:40 PT",
    "body": "CFB Fresno State Bulldogs @ Utah State Aggies (Sat 6:30 PM PT)\nMaverik Stadium \u2014 \ud83d\udca8 wind 14 mph (gusts 35)\nTotal 43.5 \u00b7 USU +1.5\nWind/rain usually push totals and passing props DOWN \u2014 check before the market adjusts.",
    "title": "\ud83c\udf26 Weather game"
+  },
+  {
+   "at": "2026-11-07 05:45 PT",
+   "body": "BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)\nML Mainz +550 \u2192 +750\nNow: M05 +1.5 \u00b7 O/U 3.5 \u00b7 ML MUN -425 / M05 +750\n\ud83e\udde0 \u274c Doesn't meet any of our criteria \u00b7 \u26a0 long-shot band: 24% for you\n\ud83d\udc49 PASS \u2014 just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2646,7 +2646,7 @@
    "date": "2026-11-07T14:30Z",
    "ml_away": -390.0,
    "ml_draw": 500.0,
-   "ml_home": 550.0,
+   "ml_home": 750.0,
    "open": {
     "ml_away": -320.0,
     "ml_draw": 500.0,
@@ -4475,7 +4475,7 @@
   }
  },
  "last_grade": 1794056721.3211389,
- "last_run": "2026-11-07T05:40:15.712663-08:00",
+ "last_run": "2026-11-07T05:45:14.669104-08:00",
  "live_budget": {},
  "mo_report": "2026-11-06",
  "news_seen": [
@@ -5208,7 +5208,8 @@
   "50406666",
   "50406668",
   "50406975",
-  "50407515"
+  "50407515",
+  "50407601"
  ],
  "pair_digest": "2026-11-07-amv5t2",
  "pairs_sent": [

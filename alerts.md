@@ -1,5 +1,12 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:45 PT · 📈 Line move**  
+BUND Bayern Munich @ Mainz (Sat 6:30 AM PT)  
+ML Mainz +550 → +750  
+Now: M05 +1.5 · O/U 3.5 · ML MUN -425 / M05 +750  
+🧠 ❌ Doesn't meet any of our criteria · ⚠ long-shot band: 24% for you  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 05:40 PT · 🌦 Weather game**  
 CFB Fresno State Bulldogs @ Utah State Aggies (Sat 6:30 PM PT)  
 Maverik Stadium — 💨 wind 14 mph (gusts 35)  
@@ -2064,14 +2071,4 @@ Model 4.6 vs line 5.5 (secondary check)
 • market moving our way  
 • model agrees: proj 4.6 (+3% edge)  
 Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Toumani Camara OVER 2.5 3-pointers (-116) · POR @ LAL  
-Model 3.3 vs line 2.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 3.0 vs line 2.5  
-• season avg 3.4  
-• market moving our way  
-• model agrees: proj 3.3 (+4% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
