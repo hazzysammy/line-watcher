@@ -1,6 +1,6 @@
 # Player B scores after Player A scores (50%+, at least 8 cases)
 
-_A scored in a game that kicked off 2-36h before B's game. Base = B's normal scoring rate. Lift = how much better than normal. Many pairs are luck (we tested thousands), so lift and sample size matter more than the raw %._
+_A scored in a game that kicked off 2.5-36h before B's game. Base = B's normal scoring rate. Lift = how much better than normal. Many pairs are luck (we tested thousands), so lift and sample size matter more than the raw %._
 
 | B scores after A | Hit | Rate | B normal | Lift |
 |---|---|---|---|---|
