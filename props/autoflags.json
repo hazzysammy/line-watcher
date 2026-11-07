@@ -497,5 +497,31 @@
    "now down 11 in Q1 (6:31)",
    "live lines overreact to early deficits for strong favorites; check the live ML/spread, and only bet if it's plus money or near pick'em"
   ]
+ },
+ {
+  "key": "2026-11-07|Austin Reaves|threePointersMade|over",
+  "created": "2026-11-06 18:14 PT",
+  "game": "POR @ LAL",
+  "start": "2026-11-07T03:00Z",
+  "espn_event": "401909294",
+  "espn_id": "4066457",
+  "player": "Austin Reaves",
+  "stat": "threePointersMade",
+  "side": "over",
+  "line": 1.5,
+  "price": -199.0,
+  "proj": 2.1,
+  "edge": 0.046,
+  "signals": [
+   "fits your history: stat props 24-10, favorite-priced",
+   "last 5 avg 1.8 vs line 1.5",
+   "season avg 2.3",
+   "market moving our way",
+   "model agrees: proj 2.1 (+5% edge)"
+  ],
+  "units": 1.0,
+  "sent": false,
+  "result": null,
+  "trigger": "model"
  }
 ]
