@@ -1,5 +1,18 @@
 # Watcher alert log (newest first)
 
+**2026-11-07 05:25 PT · 🌦 Weather game**  
+CFB Florida State Seminoles @ Boston College Eagles (Sat 9:00 AM PT)  
+Alumni Stadium (Chestnut Hill, MA) — 💨 wind 15 mph (gusts 22)  
+Total 52.5 · BC +6  
+Wind/rain usually push totals and passing props DOWN — check before the market adjusts.
+
+**2026-11-07 05:25 PT · 📈 Line move**  
+BUND FC Augsburg @ RB Leipzig (Sat 6:30 AM PT)  
+Total 3.5 → 4.5 (over money)  
+Now: RBL -1.5 · O/U 4.5 · ML FCA +475 / RBL -240  
+🧠 ❌ Doesn't meet any of our criteria  
+👉 PASS — just watch lineups ~60 min before kickoff; I'll ping if news makes it a bet
+
 **2026-11-07 05:15 PT · 📈 Line move**  
 SERIEA Bologna @ Parma (Sat 9:00 AM PT)  
 ML Parma +330 → +400  
@@ -2063,23 +2076,4 @@ Model 7.9 vs line 6.5 (secondary check)
 • season avg 8.0  
 • model agrees: proj 7.9 (+4% edge)  
 Size: 0.5u ($5) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Stephon Castle UNDER 5.5 assists (+107) · SA @ SAC  
-Model 5.0 vs line 5.5 (secondary check)  
-• last 5 avg 4.8 vs line 5.5  
-• season avg 4.8  
-• blowout risk: 17.5-pt spread, starters sit late (under)  
-• model agrees: proj 5.0 (+5% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
-
-**2026-11-06 17:20 PT · 🤖 Alert Pick (paper)**  
-Luka Dončić OVER 34.5 points (-123) · POR @ LAL  
-Model 38.9 vs line 34.5 (secondary check)  
-• fits your history: stat props 24-10, favorite-priced  
-• last 5 avg 41.0 vs line 34.5  
-• season avg 38.5  
-• market moving our way  
-• model agrees: proj 38.9 (+5% edge)  
-Size: 1u ($10) · Code-only pick, NOT a Claude Pick. Claude confirms or kills it next scan.
 
