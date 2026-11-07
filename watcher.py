@@ -859,6 +859,14 @@ def main():
         for lg, ev in soccer_events:
             for t in (ev["home"], ev["away"]): bteam.setdefault(t, []).append((lg, ev))
         utc = dt.datetime.now(dt.timezone.utc)
+        # Sammy 11/7: only NOTIFY when both A and B are on that day's FC27 list (pairs/today_list.json, written with each daily list,
+        # keyed by event id). Everything else is still tracked silently. Women's games never count (pairs are men's players).
+        tlf = os.path.join(HERE, "pairs", "today_list.json")
+        TL = (json.load(open(tlf)).get("events", {}) if os.path.exists(tlf) else {})
+        def on_list(name, eid):
+            return any(norm(name) == norm(x) or norm(name).split()[-1] == norm(x).split()[-1] and norm(name)[0] == norm(x)[0] for x in TL.get(str(eid), []))
+        womens = lambda path: any(k in path for k in (".w.", "nwsl", "wchampions", "women", "esp.w", "fra.w", "ger.w", "ita.w"))
+        silent_log = state.setdefault("pairs_silent", [])
         for p in pairs:
             for la, ea in bteam.get(p["A_team"], []):
                 for lb, eb in bteam.get(p["B_team"], []):
@@ -866,9 +874,14 @@ def main():
                     gap = (kb - ka).total_seconds() / 3600
                     need = 2.5 if any(x in la["path"] for x in ("uefa", ".fa", "cup")) else 2.0
                     if not (need <= gap <= 36) or eb["state"] != "pre": continue
+                    if womens(la["path"]) or womens(lb["path"]): continue
+                    both = on_list(p["A"], ea["id"]) and on_list(p["B"], eb["id"])
                     tag = f'{p["A"]}>{p["B"]}>{ea["id"]}'
                     txt = (f'{p["B"]} scores after {p["A"]} scores: {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%) · {p["B"]} normally {p["B_base"]*100:.0f}%'
                            f'\nA: {ea["away"]} @ {ea["home"]} {ka.astimezone(PT):%a %-I:%M %p} · B: {eb["away"]} @ {eb["home"]} {kb.astimezone(PT):%a %-I:%M %p} PT')
+                    if ea["state"] == "pre" and tag + ":pre" not in ps and not both:
+                        silent_log.append({"tag": tag, "day": ka.astimezone(PT).strftime("%Y-%m-%d"), "A": p["A"], "B": p["B"], "note": "not both on today's list: tracked, no ping"})
+                        ps.append(tag + ":pre")
                     if ea["state"] == "pre" and tag + ":pre" not in ps:
                         alerts.append((3, "🔗 Scorer pair today", txt + "\n→ A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market)."))
                         ps.append(tag + ":pre")
@@ -892,9 +905,10 @@ def main():
                                       "fair": fair, "proj": None, "edge": 0, "units": 0.5, "sent": False, "result": None, "trigger": "pair",
                                       "signals": [f'{p["A"]} scored today', f'{p["B"]} scores after {p["A"]} scores: {p["hits"]}/{p["n"]} ({p["rate"]*100:.0f}%) vs his normal {p["B_base"]*100:.0f}%',
                                                   f'our honest estimate (small samples shrunk): {pr*100:.0f}% → TAKE at {fmt(fair)} or better',
-                                                  "⚠ anytime goals are your weak market (7-9): 0.5u max; confirm he's in the XI (~1 hr before)"]})
-                            alerts.append((5, f'⚽ {p["A"]} scored → TAKE {p["B"]} to score', txt + f'\n✅ Trigger hit. Bet {p["B"]} anytime goal at {fmt(fair)} or better (0.5u, $5). Check he\'s in the starting XI first.'))
-        state["pairs_sent"] = ps[-800:]
+                                                  "⚠ anytime goals are your weak market (7-9): 0.5u max; confirm he's in the XI (~1 hr before)"],
+                                      "silent": not both})
+                            if both: alerts.append((5, f'⚽ {p["A"]} scored → TAKE {p["B"]} to score', txt + f'\n✅ Trigger hit. Bet {p["B"]} anytime goal at {fmt(fair)} or better (0.5u, $5). Check he\'s in the starting XI first.'))
+        state["pairs_sent"] = ps[-800:]; state["pairs_silent"] = silent_log[-500:]
 
     # ---------- ⚡ news-triggered prop re-price (instant, budget-capped) ----------
     if triggers and os.environ.get("SGO_API_KEY"):

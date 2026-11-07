@@ -1,0 +1,320 @@
+{
+ "date": "2026-11-07",
+ "note": "FC27 daily list players by ESPN event id; watcher pings pair alerts only when A and B are both here",
+ "events": {
+  "401841669": [
+   "Leandro Paredes"
+  ],
+  "401841663": [
+   "Ángel Di María"
+  ],
+  "401878758": [
+   "Michael Zetterer",
+   "Anton Stach",
+   "Harry Wilson",
+   "Marcos Senesi",
+   "Pedro Porro",
+   "Jan Paul van Hecke",
+   "Micky van de Ven",
+   "James Maddison",
+   "Sandro Tonali",
+   "Dejan Kulusevski",
+   "Omar Marmoush",
+   "Mathys Tel"
+  ],
+  "401878760": [
+   "David Raya",
+   "Ezri Konsa",
+   "Benjamin White",
+   "William Saliba",
+   "Jurriën Timber",
+   "Piero Hincapié",
+   "Riccardo Calafiori",
+   "Martin Ødegaard",
+   "Mikel Merino",
+   "Bruno Guimarães",
+   "Declan Rice",
+   "Eberechi Eze",
+   "Zubimendi",
+   "Viktor Gyökeres",
+   "Bukayo Saka",
+   "Christos Tzolis"
+  ],
+  "401879241": [
+   "Joachim Andersen",
+   "Lewis Hall",
+   "Fabian Schär",
+   "Sven Botman",
+   "Malick Thiaw",
+   "Joelinton",
+   "Harvey Barnes",
+   "Yoane Wissa"
+  ],
+  "401878757": [
+   "Daniel Muñoz",
+   "Nikola Milenković",
+   "Ousmane Diomande",
+   "Morgan Gibbs-White",
+   "Chris Wood",
+   "Gerónimo Rulli",
+   "Gianluigi Donnarumma",
+   "Rúben Dias",
+   "Marc Guéhi",
+   "Joško Gvardiol",
+   "Nico O'Reilly",
+   "Abdukodir Khusanov",
+   "Mateo Kovačić",
+   "Elliot Anderson",
+   "Phil Foden",
+   "Enzo Fernández",
+   "Rayan Cherki",
+   "Matheus Nunes",
+   "Erling Haaland",
+   "Antoine Semenyo",
+   "Jérémy Doku"
+  ],
+  "401880161": [
+   "Kieran Trippier"
+  ],
+  "401880171": [
+   "Jarrod Bowen"
+  ],
+  "401880165": [
+   "Aaron Ramsdale",
+   "James Ward-Prowse"
+  ],
+  "401902869": [
+   "Hannah Hampton",
+   "Lucy Bronze",
+   "Kadeisha Buchanan",
+   "Katie McCabe",
+   "Ellie Carpenter",
+   "Naomi Girma",
+   "Erin Cuthbert",
+   "Keira Walsh",
+   "Sandy Baltimore",
+   "Sjoeke Nüsken",
+   "Manaka Matsukubo",
+   "Mayra Ramírez",
+   "Lauren James",
+   "Melvine Malard",
+   "Alyssa Thompson",
+   "Hannah Blundell"
+  ],
+  "401902868": [
+   "Ayaka Yamashita",
+   "Alex Greenwood",
+   "Jade Rose",
+   "Kerstin Casparij",
+   "Niamh Charles",
+   "Rebecca Knaak",
+   "Yui Hasegawa",
+   "Laura Blindkilde Brown",
+   "Sam Coffey",
+   "Vivianne Miedema",
+   "Khadija Shaw",
+   "Beth Mead",
+   "Lauren Hemp",
+   "Aoba Fujino",
+   "Saki Kumagai",
+   "Katie Zelem",
+   "Viviane Asseyi"
+  ],
+  "401882812": [
+   "Sergio Canales"
+  ],
+  "401882813": [
+   "Edu Expósito",
+   "José María Giménez",
+   "Pierre-Emerick Aubameyang"
+  ],
+  "401882811": [
+   "Ante Budimir",
+   "Unai Simón",
+   "Aymeric Laporte",
+   "Yeray",
+   "Vivian",
+   "Sancet",
+   "Nico Williams"
+  ],
+  "401882808": [
+   "Thibaut Courtois",
+   "Antonio Rüdiger",
+   "Denzel Dumfries",
+   "Trent Alexander-Arnold",
+   "Éder Militão",
+   "Ibrahima Konaté",
+   "Cucurella",
+   "Dean Huijsen",
+   "Bernardo Silva",
+   "Federico Valverde",
+   "Aurélien Tchouaméni",
+   "Eduardo Camavinga",
+   "Jude Bellingham",
+   "Arda Güler",
+   "Kylian Mbappé",
+   "Rodrygo",
+   "Endrick",
+   "Yan Diomande"
+  ],
+  "401882468": [
+   "Maddi Torre",
+   "Merle Frohms",
+   "María Méndez",
+   "Maëlle Lakrar",
+   "Sara Däbritz",
+   "Sandie Toletti",
+   "Arianna Caruso",
+   "Elisa Senß",
+   "Lineth Beerensteyn",
+   "Signe Bruun",
+   "Linda Caicedo"
+  ],
+  "401882463": [
+   "Ainhoa Moraza",
+   "Nerea Eizagirre"
+  ],
+  "401876407": [
+   "Matvey Safonov",
+   "Marquinhos",
+   "Lucas Hernández",
+   "Achraf Hakimi",
+   "Willian Pacho",
+   "Nuno Mendes",
+   "Illia Zabarnyi",
+   "Lucas Beraldo",
+   "Fabián Ruiz",
+   "Vitinha",
+   "Maghnes Akliouche",
+   "Warren Zaïre-Emery",
+   "João Neves",
+   "Ousmane Dembélé",
+   "Ferran Torres",
+   "Khvicha Kvaratskhelia",
+   "Désiré Doué"
+  ],
+  "401884745": [
+   "Gregor Kobel",
+   "Waldemar Anton",
+   "Nico Schlotterbeck",
+   "Emre Can",
+   "Marcel Sabitzer",
+   "Joey Veerman",
+   "Felix Nmecha",
+   "Jobe Bellingham",
+   "Serhou Guirassy",
+   "Maximilian Beier"
+  ],
+  "401884740": [
+   "Nadiem Amiri",
+   "Kaishū Sano",
+   "Manuel Neuer",
+   "Jonas Urbig",
+   "Hiroki Ito",
+   "Jonathan Tah",
+   "Dayot Upamecano",
+   "Josip Stanišić",
+   "Konrad Laimer",
+   "Joshua Kimmich",
+   "Michael Olise",
+   "Jamal Musiala",
+   "Ismael Saibari",
+   "Tom Bischof",
+   "Aleksandar Pavlović",
+   "Harry Kane",
+   "Serge Gnabry",
+   "Luis Díaz"
+  ],
+  "401884744": [
+   "Maarten Vandevoordt",
+   "Willi Orbán",
+   "David Raum",
+   "Castello Lukeba",
+   "Nicolas Seiwald",
+   "Christopher Nkunku",
+   "Finn Dahmen"
+  ],
+  "401884737": [
+   "Robin Koch",
+   "Mario Götze",
+   "Can Uzun",
+   "Jonathan Burkardt"
+  ],
+  "401884743": [
+   "Maximilian Mittelstädt",
+   "Angelo Stiller",
+   "Ermedin Demirović",
+   "Deniz Undav",
+   "Amos Pieper"
+  ],
+  "401874811": [
+   "Giovanni Simeone",
+   "Ché Adams",
+   "Wladimiro Falcone"
+  ],
+  "401874974": [
+   "Riccardo Orsolini"
+  ],
+  "401874803": [
+   "Mile Svilar",
+   "Gianluca Mancini",
+   "Mario Hermoso",
+   "Evan Ndicka",
+   "Leonardo Balerdi",
+   "Marten de Roon",
+   "Paulo Dybala",
+   "Donyell Malen",
+   "Domenico Berardi"
+  ],
+  "401876906": [
+   "Juan Brunetta"
+  ],
+  "401876905": [
+   "Esteban Andrada"
+  ],
+  "401876904": [
+   "Raphael Veiga"
+  ],
+  "401885395": [
+   "Gonçalo Inácio",
+   "Rodrigo Zalazar"
+  ],
+  "401888371": [
+   "Davinson Sánchez",
+   "İlkay Gündoğan",
+   "Victor Osimhen",
+   "Rafael Leão"
+  ],
+  "761935": [
+   "Robert Lewandowski"
+  ],
+  "761938": [
+   "Casemiro",
+   "Rodrigo De Paul",
+   "Lionel Messi"
+  ],
+  "761940": [
+   "Antoine Griezmann"
+  ],
+  "761946": [
+   "Marco Reus"
+  ],
+  "761947": [
+   "Anders Dreyer"
+  ],
+  "761948": [
+   "Denis Bouanga"
+  ],
+  "401932976": [
+   "Lorena",
+   "Elizabeth Ball",
+   "Kayla Sharples",
+   "Alana Cook",
+   "Lo'eau LaBonta",
+   "Debinha",
+   "Temwa Chawinga",
+   "Hina Sugita",
+   "Sveindís Jane Jónsdóttir"
+  ]
+ }
+}
