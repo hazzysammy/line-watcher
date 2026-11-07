@@ -3436,7 +3436,7 @@
    "Minnesota Vikings|Caleb Tiernan": "Active",
    "Minnesota Vikings|Carson Wentz": "Active \u00a6 Wentz is stated to start Monday night's game against the Bills, Ian Rapoport of NFL Network reports.",
    "Minnesota Vikings|Charles Demmings": "Active",
-   "Minnesota Vikings|Christian Darrisaw": "Active",
+   "Minnesota Vikings|Christian Darrisaw": "Active \u00a6 Darrisaw (shoulder) was a full practice participant Friday.",
    "Minnesota Vikings|DeeJay Dallas": "Active \u00a6 Dallas was signed to the Vikings' active roster Wednesday, Craig Peters of the team's official website reports",
    "Minnesota Vikings|Demond Claiborne": "Questionable \u00a6 Claiborne (knee) did not participate in Friday's practice.",
    "Minnesota Vikings|Elijah Williams": "Active",
@@ -3633,7 +3633,7 @@
    "Seattle Seahawks|Anthony Bradford": "Active",
    "Seattle Seahawks|Beau Stephens": "Active",
    "Seattle Seahawks|Brandon Pili": "Out \u00a6 Pili (back) has been ruled out to face Arizona on Sunday, John Boyle of the Seahawks' official site reports.",
-   "Seattle Seahawks|Charles Cross": "Out \u00a6 Cross (ankle) did not participate at the Seahawks' practice Thursday, John Boyle of the team's official site r",
+   "Seattle Seahawks|Charles Cross": "Out \u00a6 Cross (ankle) has been ruled out for Sunday's Week 9 tilt against the Cardinals, John Boyle of the Seahawks' o",
    "Seattle Seahawks|Connor O'Toole": "Questionable \u00a6 questionable",
    "Seattle Seahawks|Cooper Kupp": "Active \u00a6 Kupp caught one of three targets for a seven-yard touchdown Monday in a loss to the Bears.",
    "Seattle Seahawks|Derick Hall": "Active",
@@ -3731,7 +3731,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T20:30:26.865533-08:00",
+ "last_run": "2026-11-06T20:35:12.934287-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4372,7 +4372,9 @@
   "50404949",
   "50404957",
   "50404958",
-  "50404979"
+  "50404979",
+  "50404984",
+  "50404997"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
