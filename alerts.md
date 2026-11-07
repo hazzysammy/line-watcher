@@ -1,5 +1,18 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 16:25 PT · ⚡ NCAAB news (RotoWire)**  
+Rylan Griffen: Good to go Friday  
+Griffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.  
+  
+        Visit RotoWire.com for more analysis on this update.  
+Plays within 36h: Northern Kentucky Norse  
+→ Check the line NOW before it moves.
+
+**2026-11-06 16:25 PT · 📈 Line move**  
+CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)  
+Spread ISU -30.5 → -32.5  
+(first seen: ISU -30.5, O/U 150.5)
+
 **2026-11-06 16:20 PT · 🏥 NBA injury update**  
 Spencer Jones (Denver Nuggets): Out → removed from report (likely available)
 

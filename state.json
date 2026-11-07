@@ -659,6 +659,16 @@
    "at": "2026-11-06 16:20 PT",
    "body": "Spencer Jones (Denver Nuggets): Out \u2192 removed from report (likely available)",
    "title": "\ud83c\udfe5 NBA injury update"
+  },
+  {
+   "at": "2026-11-06 16:25 PT",
+   "body": "CBB Southern Miss Golden Eagles @ Iowa State Cyclones (Fri 5:00 PM PT)\nSpread ISU -30.5 \u2192 -32.5\n(first seen: ISU -30.5, O/U 150.5)",
+   "title": "\ud83d\udcc8 Line move"
+  },
+  {
+   "at": "2026-11-06 16:25 PT",
+   "body": "Rylan Griffen: Good to go Friday\nGriffen (not injury related) is starting for Texas A&amp;M on Friday night against Northern Kentucky.\n\n        Visit RotoWire.com for more analysis on this update.\nPlays within 36h: Northern Kentucky Norse\n\u2192 Check the line NOW before it moves.",
+   "title": "\u26a1 NCAAB news (RotoWire)"
   }
  ],
  "base": {
@@ -1484,7 +1494,7 @@
     "spread_home": -30.5,
     "total": 150.5
    },
-   "spread_home": -30.5,
+   "spread_home": -32.5,
    "total": 145.5
   },
   "401909785": {
@@ -2805,7 +2815,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T16:20:14.641114-08:00",
+ "last_run": "2026-11-06T16:25:11.566830-08:00",
  "news_seen": [
   "29098001",
   "40699880",
@@ -3325,7 +3335,8 @@
   "50402740",
   "50402775",
   "50402899",
-  "50402905"
+  "50402905",
+  "50403107"
  ],
  "props": {
   "T103": {
@@ -3359,6 +3370,7 @@
   "cbb164575",
   "cbb164576",
   "cbb164583",
+  "cbb164585",
   "cfb238565",
   "cfb238566",
   "cfb238567",
