@@ -1,5 +1,14 @@
 # Watcher alert log (newest first)
 
+**2026-11-06 18:05 PT · 📈 Line move**  
+CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)  
+Spread UCLA -34.5 → -32.5  
+(first seen: UCLA -31.5, O/U 155.5)  
+💡 Money came in on Ospreys. If you like Ospreys, the value is mostly gone. If you like Bruins, you now lay 2 fewer points than before.  
+✅ Spreads are your strongest market (15-4)  
+🔎 No news found in the last few hours → possibly sharp money. Check X before following.  
+👀 Next: College lineups aren't official until tip.
+
 **2026-11-06 17:35 PT · 🔗 Scorer pair today**  
 Anders Dreyer scores after Maximilian Beier scores: 4/8 (50%) · Anders Dreyer normally 38%  
 A: SV Elversberg @ Borussia Dortmund Sat 6:30 AM · B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT  

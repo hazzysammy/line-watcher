@@ -1427,6 +1427,11 @@
    "at": "2026-11-06 17:35 PT",
    "body": "Anders Dreyer scores after Maximilian Beier scores: 4/8 (50%) \u00b7 Anders Dreyer normally 38%\nA: SV Elversberg @ Borussia Dortmund Sat 6:30 AM \u00b7 B: Sporting Kansas City @ San Diego FC Sat 4:00 PM PT\n\u2192 A's game ends before B's kicks off. Wait for A to score, then bet B, or parlay both (small stakes: anytime goals are your weak market).",
    "title": "\ud83d\udd17 Scorer pair today"
+  },
+  {
+   "at": "2026-11-06 18:05 PT",
+   "body": "CBB North Florida Ospreys @ UCLA Bruins (Fri 7:30 PM PT)\nSpread UCLA -34.5 \u2192 -32.5\n(first seen: UCLA -31.5, O/U 155.5)\n\ud83d\udca1 Money came in on Ospreys. If you like Ospreys, the value is mostly gone. If you like Bruins, you now lay 2 fewer points than before.\n\u2705 Spreads are your strongest market (15-4)\n\ud83d\udd0e No news found in the last few hours \u2192 possibly sharp money. Check X before following.\n\ud83d\udc40 Next: College lineups aren't official until tip.",
+   "title": "\ud83d\udcc8 Line move"
   }
  ],
  "base": {
@@ -2402,7 +2407,7 @@
     "spread_home": -31.5,
     "total": 155.5
    },
-   "spread_home": -34.5,
+   "spread_home": -32.5,
    "total": 155.5
   },
   "401928788": {
@@ -2907,7 +2912,7 @@
    "Carolina Panthers|AJ Dillon": "Active",
    "Carolina Panthers|Akayleb Evans": "Injured Reserve \u00a6 Evans (triceps) was placed on injured reserve by the Panthers on Thursday, Darin Gantt of the team's official ",
    "Carolina Panthers|Bobby Brown III": "Active \u00a6 Brown (hand) practiced fully Wednesday.",
-   "Carolina Panthers|Bobby Okereke": "Out \u00a6 out",
+   "Carolina Panthers|Bobby Okereke": "Out \u00a6 Okereke (foot) has been ruled out for Sunday's matchup against the Broncos.",
    "Carolina Panthers|Brady Christensen": "Injured Reserve \u00a6 Christensen (hamstring) was a full participant at the Panthers' practice Thursday, Steve Reed of the Associate",
    "Carolina Panthers|Bryce Young": "Active \u00a6 Panthers coach Dave Canales said Friday that Young (ankle) is ready for Sunday's game against Denver after a \"",
    "Carolina Panthers|Brycen Tremayne": "Active \u00a6 Tremayne finished with an 11-yard reception on his lone target in Thursday's 27-19 loss to the Packers.",
@@ -3606,7 +3611,7 @@
    "Washington Commanders|Treylon Burks": "Out \u00a6 Burks (foot) has been ruled out for Sunday's game against the Rams."
   }
  },
- "last_run": "2026-11-06T18:00:22.956383-08:00",
+ "last_run": "2026-11-06T18:05:13.217324-08:00",
  "live_budget": {
   "2026-11-06": 1
  },
@@ -4140,7 +4145,10 @@
   "50403330",
   "50403347",
   "50403494",
-  "50403506"
+  "50403506",
+  "50403870",
+  "50403872",
+  "50403884"
  ],
  "pairs_sent": [
   "Jonathan Burkardt>Luis Javier Su\u00e1rez>401884737:pre",
